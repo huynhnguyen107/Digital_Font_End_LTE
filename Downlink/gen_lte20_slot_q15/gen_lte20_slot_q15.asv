@@ -1,0 +1,174 @@
+clear; clc;
+
+%% LTE 20 MHz parameters
+NFFT       = 2048;
+N_USED     = 1200;%120RB
+N_SYM_SLOT = 7;
+CP_LEN     = [160 144 144 144 144 144 144];
+
+OUT_H   = 'lte20_slot_q15.h';
+OUT_TXT = 'lte20_slot_q15.txt';
+OUT_BIN = 'lte20_slot_q15.bin';
+
+rng(107);
+
+%% Active subcarriers around DC, excluding DC
+% bins: -600 ... -1, +1 ... +600
+active_bins = [-600:-1 1:600];
+
+slot = [];
+
+for sym_idx = 1:N_SYM_SLOT
+
+    % Frequency-domain grid in fftshift order
+    X_shift = zeros(NFFT, 1);
+
+    % Random QPSK symbols
+    data = gen_qpsk(N_USED);
+
+    % Map active subcarriers
+    for k = 1:N_USED
+        bin = active_bins(k);
+        idx = bin + NFFT/2 + 1;   % MATLAB 1-based index
+        X_shift(idx) = data(k);
+    end
+
+    % Convert fftshift order to normal IFFT order
+    X = ifftshift(X_shift);
+
+    % OFDM IFFT
+    x = ifft(X) * sqrt(NFFT);
+
+    % Add cyclic prefix
+    cp = x(end-CP_LEN(sym_idx)+1:end);
+    x_cp = [cp; x];
+
+    slot = [slot; x_cp];
+end
+
+%% Check slot length
+if length(slot) ~= 15360
+    error('Wrong LTE slot length: %d', length(slot));
+end
+
+%% Normalize peak to avoid clipping
+peak_val = max(abs(slot));
+slot = 0.8 * slot / peak_val;
+
+%% Convert to Q1.15
+i_q15 = float_to_q15(real(slot));
+q_q15 = float_to_q15(imag(slot));
+
+%% Pack {Q[15:0], I[15:0]} into uint32
+words = pack_qi(q_q15, i_q15);
+
+%% Write C header
+fid = fopen(OUT_H, 'w');
+
+fprintf(fid, '#ifndef LTE20_SLOT_Q15_H\n');
+fprintf(fid, '#define LTE20_SLOT_Q15_H\n\n');
+fprintf(fid, '#include <stdint.h>\n\n');
+fprintf(fid, '#define LTE20_SLOT_SAMPLES %d\n', length(words));
+fprintf(fid, '#define LTE20_SLOT_BYTES   (LTE20_SLOT_SAMPLES * 4)\n\n');
+
+fprintf(fid, 'static const uint32_t lte20_slot_q15[LTE20_SLOT_SAMPLES] = {\n');
+
+for k = 1:length(words)
+    if mod(k-1, 4) == 0
+        fprintf(fid, '    ');
+    end
+
+    fprintf(fid, '0x%s', upper(dec2hex(words(k), 8)));
+
+    if k ~= length(words)
+        fprintf(fid, ', ');
+    end
+
+    if mod(k, 4) == 0
+        fprintf(fid, '\n');
+    end
+end
+
+if mod(length(words), 4) ~= 0
+    fprintf(fid, '\n');
+end
+
+fprintf(fid, '};\n\n');
+fprintf(fid, '#endif\n');
+
+fclose(fid);
+
+%% Write TXT file
+fid = fopen(OUT_TXT, 'w');
+
+for k = 1:length(words)
+    fprintf(fid, '%s\n', upper(dec2hex(words(k), 8)));
+end
+
+fclose(fid);
+
+%% Write BIN file, little-endian uint32
+fid = fopen(OUT_BIN, 'w');
+fwrite(fid, words, 'uint32', 0, 'ieee-le');
+fclose(fid);
+
+%% Print information
+fprintf('Generated LTE-like 20 MHz slot\n');
+fprintf('Samples : %d\n', length(words));
+fprintf('Bytes   : %d\n', length(words) * 4);
+fprintf('Header  : %s\n', OUT_H);
+fprintf('TXT     : %s\n', OUT_TXT);
+fprintf('BIN     : %s\n', OUT_BIN);
+
+fprintf('\nFirst 16 words:\n');
+for k = 1:16
+    fprintf('%04d: 0x%s\n', k-1, upper(dec2hex(words(k), 8)));
+end
+
+%% Optional simple plot
+figure;
+plot(real(slot(1:1000)));
+hold on;
+plot(imag(slot(1:1000)));
+grid on;
+xlabel('Sample index');
+ylabel('Amplitude');
+legend('I', 'Q');
+title('LTE-like 20 MHz Slot IQ Samples');
+
+
+%% ------------------------------------------------------------------------
+%% Local functions
+%% ------------------------------------------------------------------------
+
+function s = gen_qpsk(n)
+    bits = randi([0 3], n, 1);
+
+    i = ones(n, 1);
+    q = ones(n, 1);
+
+    % Gray-like mapping:
+    % 0 -> +1 + j
+    % 1 -> -1 + j
+    % 2 -> -1 - j
+    % 3 -> +1 - j
+    i(bits == 1 | bits == 2) = -1;
+    q(bits == 2 | bits == 3) = -1;
+
+    s = (i + 1j*q) / sqrt(2);
+end
+
+function y = float_to_q15(x)
+    y = round(x * 32767);
+    y(y > 32767)  = 32767;
+    y(y < -32768) = -32768;
+    y = int16(y);
+end
+
+function words = pack_qi(q_i16, i_i16)
+    % Preserve two's-complement bits for negative values
+    q_u16 = uint16(mod(int32(q_i16), 65536));
+    i_u16 = uint16(mod(int32(i_i16), 65536));
+
+    words = bitor(bitshift(uint32(q_u16), 16), uint32(i_u16));
+end
