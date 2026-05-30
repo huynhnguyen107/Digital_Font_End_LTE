@@ -1,0 +1,471 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="tb_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="tb" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="82.290 ns"></ZoomStartTime>
+      <ZoomEndTime time="139.091 ns"></ZoomEndTime>
+      <Cursor1Time time="106.190 ns"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="280"></NameColumnWidth>
+      <ValueColumnWidth column_width="120"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="84" />
+   <wvobject fp_name="/tb/aclk" type="logic">
+      <obj_property name="ElementShortName">aclk</obj_property>
+      <obj_property name="ObjectShortName">aclk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/aresetn" type="logic">
+      <obj_property name="ElementShortName">aresetn</obj_property>
+      <obj_property name="ObjectShortName">aresetn</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/s_axis_tdata" type="array">
+      <obj_property name="ElementShortName">s_axis_tdata[31:0]</obj_property>
+      <obj_property name="ObjectShortName">s_axis_tdata[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="radix_realType">SIGNEDFIXEDPOINTRADIX</obj_property>
+      <obj_property name="radix_fractionWidth">15</obj_property>
+      <obj_property name="radix_otherWidth">0</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/s_axis_tkeep" type="array">
+      <obj_property name="ElementShortName">s_axis_tkeep[3:0]</obj_property>
+      <obj_property name="ObjectShortName">s_axis_tkeep[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/s_axis_tvalid" type="logic">
+      <obj_property name="ElementShortName">s_axis_tvalid</obj_property>
+      <obj_property name="ObjectShortName">s_axis_tvalid</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/s_axis_tready" type="logic">
+      <obj_property name="ElementShortName">s_axis_tready</obj_property>
+      <obj_property name="ObjectShortName">s_axis_tready</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/s_axis_tlast" type="logic">
+      <obj_property name="ElementShortName">s_axis_tlast</obj_property>
+      <obj_property name="ObjectShortName">s_axis_tlast</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/m_fifo_axis_tdata" type="array">
+      <obj_property name="ElementShortName">m_fifo_axis_tdata[31:0]</obj_property>
+      <obj_property name="ObjectShortName">m_fifo_axis_tdata[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="radix_realType">SIGNEDFIXEDPOINTRADIX</obj_property>
+      <obj_property name="radix_fractionWidth">15</obj_property>
+      <obj_property name="radix_otherWidth">0</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/m_fifo_axis_tkeep" type="array">
+      <obj_property name="ElementShortName">m_fifo_axis_tkeep[3:0]</obj_property>
+      <obj_property name="ObjectShortName">m_fifo_axis_tkeep[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/m_fifo_axis_tvalid" type="logic">
+      <obj_property name="ElementShortName">m_fifo_axis_tvalid</obj_property>
+      <obj_property name="ObjectShortName">m_fifo_axis_tvalid</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/m_fifo_axis_tready" type="logic">
+      <obj_property name="ElementShortName">m_fifo_axis_tready</obj_property>
+      <obj_property name="ObjectShortName">m_fifo_axis_tready</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/m_fifo_axis_tlast" type="logic">
+      <obj_property name="ElementShortName">m_fifo_axis_tlast</obj_property>
+      <obj_property name="ObjectShortName">m_fifo_axis_tlast</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/m_upsample1_axis_tdata" type="array">
+      <obj_property name="ElementShortName">m_upsample1_axis_tdata[31:0]</obj_property>
+      <obj_property name="ObjectShortName">m_upsample1_axis_tdata[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="radix_realType">SIGNEDFIXEDPOINTRADIX</obj_property>
+      <obj_property name="radix_fractionWidth">15</obj_property>
+      <obj_property name="radix_otherWidth">0</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/m_upsample1_axis_tkeep" type="array">
+      <obj_property name="ElementShortName">m_upsample1_axis_tkeep[3:0]</obj_property>
+      <obj_property name="ObjectShortName">m_upsample1_axis_tkeep[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/m_upsample1_axis_tvalid" type="logic">
+      <obj_property name="ElementShortName">m_upsample1_axis_tvalid</obj_property>
+      <obj_property name="ObjectShortName">m_upsample1_axis_tvalid</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/m_upsample1_axis_tready" type="logic">
+      <obj_property name="ElementShortName">m_upsample1_axis_tready</obj_property>
+      <obj_property name="ObjectShortName">m_upsample1_axis_tready</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/m_upsample1_axis_tlast" type="logic">
+      <obj_property name="ElementShortName">m_upsample1_axis_tlast</obj_property>
+      <obj_property name="ObjectShortName">m_upsample1_axis_tlast</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/m_fir1_axis_tdata" type="array">
+      <obj_property name="ElementShortName">m_fir1_axis_tdata[31:0]</obj_property>
+      <obj_property name="ObjectShortName">m_fir1_axis_tdata[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="radix_realType">SIGNEDFIXEDPOINTRADIX</obj_property>
+      <obj_property name="radix_fractionWidth">15</obj_property>
+      <obj_property name="radix_otherWidth">0</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/m_fir1_axis_tkeep" type="array">
+      <obj_property name="ElementShortName">m_fir1_axis_tkeep[3:0]</obj_property>
+      <obj_property name="ObjectShortName">m_fir1_axis_tkeep[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/m_fir1_axis_tvalid" type="logic">
+      <obj_property name="ElementShortName">m_fir1_axis_tvalid</obj_property>
+      <obj_property name="ObjectShortName">m_fir1_axis_tvalid</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/m_fir1_axis_tready" type="logic">
+      <obj_property name="ElementShortName">m_fir1_axis_tready</obj_property>
+      <obj_property name="ObjectShortName">m_fir1_axis_tready</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/m_fir1_axis_tlast" type="logic">
+      <obj_property name="ElementShortName">m_fir1_axis_tlast</obj_property>
+      <obj_property name="ObjectShortName">m_fir1_axis_tlast</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/m_upsample2_axis_tdata" type="array">
+      <obj_property name="ElementShortName">m_upsample2_axis_tdata[31:0]</obj_property>
+      <obj_property name="ObjectShortName">m_upsample2_axis_tdata[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="radix_realType">SIGNEDFIXEDPOINTRADIX</obj_property>
+      <obj_property name="radix_fractionWidth">15</obj_property>
+      <obj_property name="radix_otherWidth">0</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/m_upsample2_axis_tkeep" type="array">
+      <obj_property name="ElementShortName">m_upsample2_axis_tkeep[3:0]</obj_property>
+      <obj_property name="ObjectShortName">m_upsample2_axis_tkeep[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/m_upsample2_axis_tvalid" type="logic">
+      <obj_property name="ElementShortName">m_upsample2_axis_tvalid</obj_property>
+      <obj_property name="ObjectShortName">m_upsample2_axis_tvalid</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/m_upsample2_axis_tready" type="logic">
+      <obj_property name="ElementShortName">m_upsample2_axis_tready</obj_property>
+      <obj_property name="ObjectShortName">m_upsample2_axis_tready</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/m_upsample2_axis_tlast" type="logic">
+      <obj_property name="ElementShortName">m_upsample2_axis_tlast</obj_property>
+      <obj_property name="ObjectShortName">m_upsample2_axis_tlast</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/m_axis_tdata" type="array">
+      <obj_property name="ElementShortName">m_axis_tdata[31:0]</obj_property>
+      <obj_property name="ObjectShortName">m_axis_tdata[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="radix_realType">SIGNEDFIXEDPOINTRADIX</obj_property>
+      <obj_property name="radix_fractionWidth">15</obj_property>
+      <obj_property name="radix_otherWidth">0</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/m_axis_tkeep" type="array">
+      <obj_property name="ElementShortName">m_axis_tkeep[3:0]</obj_property>
+      <obj_property name="ObjectShortName">m_axis_tkeep[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/m_axis_tvalid" type="logic">
+      <obj_property name="ElementShortName">m_axis_tvalid</obj_property>
+      <obj_property name="ObjectShortName">m_axis_tvalid</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/m_axis_tready" type="logic">
+      <obj_property name="ElementShortName">m_axis_tready</obj_property>
+      <obj_property name="ObjectShortName">m_axis_tready</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/m_axis_tlast" type="logic">
+      <obj_property name="ElementShortName">m_axis_tlast</obj_property>
+      <obj_property name="ObjectShortName">m_axis_tlast</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/i" type="array">
+      <obj_property name="ElementShortName">i[31:0]</obj_property>
+      <obj_property name="ObjectShortName">i[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/halfband_fir_1/aclk" type="logic">
+      <obj_property name="ElementShortName">aclk</obj_property>
+      <obj_property name="ObjectShortName">aclk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/halfband_fir_1/aresetn" type="logic">
+      <obj_property name="ElementShortName">aresetn</obj_property>
+      <obj_property name="ObjectShortName">aresetn</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/halfband_fir_1/s_axis_tdata" type="array">
+      <obj_property name="ElementShortName">s_axis_tdata[31:0]</obj_property>
+      <obj_property name="ObjectShortName">s_axis_tdata[31:0]</obj_property>
+      <obj_property name="Radix">REALRADIX</obj_property>
+      <obj_property name="radix_realType">SIGNEDFIXEDPOINTRADIX</obj_property>
+      <obj_property name="radix_fractionWidth">15</obj_property>
+      <obj_property name="radix_otherWidth">0</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/halfband_fir_1/s_axis_tkeep" type="array">
+      <obj_property name="ElementShortName">s_axis_tkeep[3:0]</obj_property>
+      <obj_property name="ObjectShortName">s_axis_tkeep[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/halfband_fir_1/s_axis_tvalid" type="logic">
+      <obj_property name="ElementShortName">s_axis_tvalid</obj_property>
+      <obj_property name="ObjectShortName">s_axis_tvalid</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/halfband_fir_1/s_axis_tready" type="logic">
+      <obj_property name="ElementShortName">s_axis_tready</obj_property>
+      <obj_property name="ObjectShortName">s_axis_tready</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/halfband_fir_1/s_axis_tlast" type="logic">
+      <obj_property name="ElementShortName">s_axis_tlast</obj_property>
+      <obj_property name="ObjectShortName">s_axis_tlast</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/halfband_fir_1/m_axis_tdata" type="array">
+      <obj_property name="ElementShortName">m_axis_tdata[31:0]</obj_property>
+      <obj_property name="ObjectShortName">m_axis_tdata[31:0]</obj_property>
+      <obj_property name="Radix">REALRADIX</obj_property>
+      <obj_property name="radix_realType">SIGNEDFIXEDPOINTRADIX</obj_property>
+      <obj_property name="radix_fractionWidth">15</obj_property>
+      <obj_property name="radix_otherWidth">0</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/halfband_fir_1/m_axis_tkeep" type="array">
+      <obj_property name="ElementShortName">m_axis_tkeep[3:0]</obj_property>
+      <obj_property name="ObjectShortName">m_axis_tkeep[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/halfband_fir_1/m_axis_tvalid" type="logic">
+      <obj_property name="ElementShortName">m_axis_tvalid</obj_property>
+      <obj_property name="ObjectShortName">m_axis_tvalid</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/halfband_fir_1/m_axis_tready" type="logic">
+      <obj_property name="ElementShortName">m_axis_tready</obj_property>
+      <obj_property name="ObjectShortName">m_axis_tready</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/halfband_fir_1/m_axis_tlast" type="logic">
+      <obj_property name="ElementShortName">m_axis_tlast</obj_property>
+      <obj_property name="ObjectShortName">m_axis_tlast</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/halfband_fir_1/I0" type="array">
+      <obj_property name="ElementShortName">I0[15:0]</obj_property>
+      <obj_property name="ObjectShortName">I0[15:0]</obj_property>
+      <obj_property name="Radix">REALRADIX</obj_property>
+      <obj_property name="radix_realType">SIGNEDFIXEDPOINTRADIX</obj_property>
+      <obj_property name="radix_fractionWidth">15</obj_property>
+      <obj_property name="radix_otherWidth">0</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/halfband_fir_1/Q0" type="array">
+      <obj_property name="ElementShortName">Q0[15:0]</obj_property>
+      <obj_property name="ObjectShortName">Q0[15:0]</obj_property>
+      <obj_property name="Radix">REALRADIX</obj_property>
+      <obj_property name="radix_realType">SIGNEDFIXEDPOINTRADIX</obj_property>
+      <obj_property name="radix_fractionWidth">15</obj_property>
+      <obj_property name="radix_otherWidth">0</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/halfband_fir_1/I1" type="array">
+      <obj_property name="ElementShortName">I1[15:0]</obj_property>
+      <obj_property name="ObjectShortName">I1[15:0]</obj_property>
+      <obj_property name="Radix">REALRADIX</obj_property>
+      <obj_property name="radix_realType">SIGNEDFIXEDPOINTRADIX</obj_property>
+      <obj_property name="radix_fractionWidth">15</obj_property>
+      <obj_property name="radix_otherWidth">0</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/halfband_fir_1/Q1" type="array">
+      <obj_property name="ElementShortName">Q1[15:0]</obj_property>
+      <obj_property name="ObjectShortName">Q1[15:0]</obj_property>
+      <obj_property name="Radix">REALRADIX</obj_property>
+      <obj_property name="radix_realType">SIGNEDFIXEDPOINTRADIX</obj_property>
+      <obj_property name="radix_fractionWidth">15</obj_property>
+      <obj_property name="radix_otherWidth">0</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/halfband_fir_1/I2" type="array">
+      <obj_property name="ElementShortName">I2[15:0]</obj_property>
+      <obj_property name="ObjectShortName">I2[15:0]</obj_property>
+      <obj_property name="Radix">REALRADIX</obj_property>
+      <obj_property name="radix_realType">SIGNEDFIXEDPOINTRADIX</obj_property>
+      <obj_property name="radix_fractionWidth">15</obj_property>
+      <obj_property name="radix_otherWidth">0</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/halfband_fir_1/Q2" type="array">
+      <obj_property name="ElementShortName">Q2[15:0]</obj_property>
+      <obj_property name="ObjectShortName">Q2[15:0]</obj_property>
+      <obj_property name="Radix">REALRADIX</obj_property>
+      <obj_property name="radix_realType">SIGNEDFIXEDPOINTRADIX</obj_property>
+      <obj_property name="radix_fractionWidth">15</obj_property>
+      <obj_property name="radix_otherWidth">0</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/halfband_fir_1/I3" type="array">
+      <obj_property name="ElementShortName">I3[15:0]</obj_property>
+      <obj_property name="ObjectShortName">I3[15:0]</obj_property>
+      <obj_property name="Radix">REALRADIX</obj_property>
+      <obj_property name="radix_realType">SIGNEDFIXEDPOINTRADIX</obj_property>
+      <obj_property name="radix_fractionWidth">15</obj_property>
+      <obj_property name="radix_otherWidth">0</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/halfband_fir_1/Q3" type="array">
+      <obj_property name="ElementShortName">Q3[15:0]</obj_property>
+      <obj_property name="ObjectShortName">Q3[15:0]</obj_property>
+      <obj_property name="Radix">REALRADIX</obj_property>
+      <obj_property name="radix_realType">SIGNEDFIXEDPOINTRADIX</obj_property>
+      <obj_property name="radix_fractionWidth">15</obj_property>
+      <obj_property name="radix_otherWidth">0</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/halfband_fir_1/I4" type="array">
+      <obj_property name="ElementShortName">I4[15:0]</obj_property>
+      <obj_property name="ObjectShortName">I4[15:0]</obj_property>
+      <obj_property name="Radix">REALRADIX</obj_property>
+      <obj_property name="radix_realType">SIGNEDFIXEDPOINTRADIX</obj_property>
+      <obj_property name="radix_fractionWidth">15</obj_property>
+      <obj_property name="radix_otherWidth">0</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/halfband_fir_1/Q4" type="array">
+      <obj_property name="ElementShortName">Q4[15:0]</obj_property>
+      <obj_property name="ObjectShortName">Q4[15:0]</obj_property>
+      <obj_property name="Radix">REALRADIX</obj_property>
+      <obj_property name="radix_realType">SIGNEDFIXEDPOINTRADIX</obj_property>
+      <obj_property name="radix_fractionWidth">15</obj_property>
+      <obj_property name="radix_otherWidth">0</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/halfband_fir_1/I5" type="array">
+      <obj_property name="ElementShortName">I5[15:0]</obj_property>
+      <obj_property name="ObjectShortName">I5[15:0]</obj_property>
+      <obj_property name="Radix">REALRADIX</obj_property>
+      <obj_property name="radix_realType">SIGNEDFIXEDPOINTRADIX</obj_property>
+      <obj_property name="radix_fractionWidth">15</obj_property>
+      <obj_property name="radix_otherWidth">0</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/halfband_fir_1/Q5" type="array">
+      <obj_property name="ElementShortName">Q5[15:0]</obj_property>
+      <obj_property name="ObjectShortName">Q5[15:0]</obj_property>
+      <obj_property name="Radix">REALRADIX</obj_property>
+      <obj_property name="radix_realType">SIGNEDFIXEDPOINTRADIX</obj_property>
+      <obj_property name="radix_fractionWidth">15</obj_property>
+      <obj_property name="radix_otherWidth">0</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/halfband_fir_1/I6" type="array">
+      <obj_property name="ElementShortName">I6[15:0]</obj_property>
+      <obj_property name="ObjectShortName">I6[15:0]</obj_property>
+      <obj_property name="Radix">REALRADIX</obj_property>
+      <obj_property name="radix_realType">SIGNEDFIXEDPOINTRADIX</obj_property>
+      <obj_property name="radix_fractionWidth">15</obj_property>
+      <obj_property name="radix_otherWidth">0</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/halfband_fir_1/Q6" type="array">
+      <obj_property name="ElementShortName">Q6[15:0]</obj_property>
+      <obj_property name="ObjectShortName">Q6[15:0]</obj_property>
+      <obj_property name="Radix">REALRADIX</obj_property>
+      <obj_property name="radix_realType">SIGNEDFIXEDPOINTRADIX</obj_property>
+      <obj_property name="radix_fractionWidth">15</obj_property>
+      <obj_property name="radix_otherWidth">0</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/halfband_fir_1/total_I" type="array">
+      <obj_property name="ElementShortName">total_I[31:0]</obj_property>
+      <obj_property name="ObjectShortName">total_I[31:0]</obj_property>
+      <obj_property name="Radix">REALRADIX</obj_property>
+      <obj_property name="radix_realType">SIGNEDFIXEDPOINTRADIX</obj_property>
+      <obj_property name="radix_fractionWidth">15</obj_property>
+      <obj_property name="radix_otherWidth">0</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/halfband_fir_1/total_Q" type="array">
+      <obj_property name="ElementShortName">total_Q[31:0]</obj_property>
+      <obj_property name="ObjectShortName">total_Q[31:0]</obj_property>
+      <obj_property name="Radix">REALRADIX</obj_property>
+      <obj_property name="radix_realType">SIGNEDFIXEDPOINTRADIX</obj_property>
+      <obj_property name="radix_fractionWidth">15</obj_property>
+      <obj_property name="radix_otherWidth">0</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/halfband_fir_1/div_I" type="array">
+      <obj_property name="ElementShortName">div_I[31:0]</obj_property>
+      <obj_property name="ObjectShortName">div_I[31:0]</obj_property>
+      <obj_property name="Radix">REALRADIX</obj_property>
+      <obj_property name="radix_realType">SIGNEDFIXEDPOINTRADIX</obj_property>
+      <obj_property name="radix_fractionWidth">15</obj_property>
+      <obj_property name="radix_otherWidth">0</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/halfband_fir_1/div_Q" type="array">
+      <obj_property name="ElementShortName">div_Q[31:0]</obj_property>
+      <obj_property name="ObjectShortName">div_Q[31:0]</obj_property>
+      <obj_property name="Radix">REALRADIX</obj_property>
+      <obj_property name="radix_realType">SIGNEDFIXEDPOINTRADIX</obj_property>
+      <obj_property name="radix_fractionWidth">15</obj_property>
+      <obj_property name="radix_otherWidth">0</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/halfband_fir_1/nor_I" type="array">
+      <obj_property name="ElementShortName">nor_I[15:0]</obj_property>
+      <obj_property name="ObjectShortName">nor_I[15:0]</obj_property>
+      <obj_property name="Radix">REALRADIX</obj_property>
+      <obj_property name="radix_realType">SIGNEDFIXEDPOINTRADIX</obj_property>
+      <obj_property name="radix_fractionWidth">15</obj_property>
+      <obj_property name="radix_otherWidth">0</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/halfband_fir_1/nor_Q" type="array">
+      <obj_property name="ElementShortName">nor_Q[15:0]</obj_property>
+      <obj_property name="ObjectShortName">nor_Q[15:0]</obj_property>
+      <obj_property name="Radix">REALRADIX</obj_property>
+      <obj_property name="radix_realType">SIGNEDFIXEDPOINTRADIX</obj_property>
+      <obj_property name="radix_fractionWidth">15</obj_property>
+      <obj_property name="radix_otherWidth">0</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/halfband_fir_1/WIDTH" type="array">
+      <obj_property name="ElementShortName">WIDTH[31:0]</obj_property>
+      <obj_property name="ObjectShortName">WIDTH[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/axis_upsample_1/aclk" type="logic">
+      <obj_property name="ElementShortName">aclk</obj_property>
+      <obj_property name="ObjectShortName">aclk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/axis_upsample_1/aresetn" type="logic">
+      <obj_property name="ElementShortName">aresetn</obj_property>
+      <obj_property name="ObjectShortName">aresetn</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/axis_upsample_1/s_axis_tdata" type="array">
+      <obj_property name="ElementShortName">s_axis_tdata[31:0]</obj_property>
+      <obj_property name="ObjectShortName">s_axis_tdata[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/axis_upsample_1/s_axis_tkeep" type="array">
+      <obj_property name="ElementShortName">s_axis_tkeep[3:0]</obj_property>
+      <obj_property name="ObjectShortName">s_axis_tkeep[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/axis_upsample_1/s_axis_tvalid" type="logic">
+      <obj_property name="ElementShortName">s_axis_tvalid</obj_property>
+      <obj_property name="ObjectShortName">s_axis_tvalid</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/axis_upsample_1/s_axis_tready" type="logic">
+      <obj_property name="ElementShortName">s_axis_tready</obj_property>
+      <obj_property name="ObjectShortName">s_axis_tready</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/axis_upsample_1/s_axis_tlast" type="logic">
+      <obj_property name="ElementShortName">s_axis_tlast</obj_property>
+      <obj_property name="ObjectShortName">s_axis_tlast</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/axis_upsample_1/m_axis_tdata" type="array">
+      <obj_property name="ElementShortName">m_axis_tdata[31:0]</obj_property>
+      <obj_property name="ObjectShortName">m_axis_tdata[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/axis_upsample_1/m_axis_tkeep" type="array">
+      <obj_property name="ElementShortName">m_axis_tkeep[3:0]</obj_property>
+      <obj_property name="ObjectShortName">m_axis_tkeep[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/axis_upsample_1/m_axis_tvalid" type="logic">
+      <obj_property name="ElementShortName">m_axis_tvalid</obj_property>
+      <obj_property name="ObjectShortName">m_axis_tvalid</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/axis_upsample_1/m_axis_tready" type="logic">
+      <obj_property name="ElementShortName">m_axis_tready</obj_property>
+      <obj_property name="ObjectShortName">m_axis_tready</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/axis_upsample_1/m_axis_tlast" type="logic">
+      <obj_property name="ElementShortName">m_axis_tlast</obj_property>
+      <obj_property name="ObjectShortName">m_axis_tlast</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/axis_upsample_1/state" type="logic">
+      <obj_property name="ElementShortName">state</obj_property>
+      <obj_property name="ObjectShortName">state</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/axis_upsample_1/next_state" type="logic">
+      <obj_property name="ElementShortName">next_state</obj_property>
+      <obj_property name="ObjectShortName">next_state</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/axis_upsample_1/hold_tlast" type="logic">
+      <obj_property name="ElementShortName">hold_tlast</obj_property>
+      <obj_property name="ObjectShortName">hold_tlast</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/axis_upsample_1/WIDTH" type="array">
+      <obj_property name="ElementShortName">WIDTH[31:0]</obj_property>
+      <obj_property name="ObjectShortName">WIDTH[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/axis_upsample_1/PASS" type="logic">
+      <obj_property name="ElementShortName">PASS</obj_property>
+      <obj_property name="ObjectShortName">PASS</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/axis_upsample_1/INSERT" type="logic">
+      <obj_property name="ElementShortName">INSERT</obj_property>
+      <obj_property name="ObjectShortName">INSERT</obj_property>
+   </wvobject>
+</wave_config>

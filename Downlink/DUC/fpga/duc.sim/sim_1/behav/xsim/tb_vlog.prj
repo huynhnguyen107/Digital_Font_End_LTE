@@ -1,0 +1,12 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  --include "../../../../duc.gen/sources_1/bd/duc/ipshared/ec67/hdl" --include "../../../../duc.gen/sources_1/bd/duc/ipshared/abef/hdl" --include "../../../../duc.gen/sources_1/bd/duc/ipshared/f0b6/hdl/verilog" --include "../../../../duc.gen/sources_1/bd/duc/ipshared/66be/hdl/verilog" --include "../../../../duc.ip_user_files/ipstatic/hdl" --include "D:/Xilinx/Vivado/2022.2/data/xilinx_vip/include" \
+"../../../../duc.gen/sources_1/ip/tb_axis_data_fifo_0/sim/tb_axis_data_fifo_0.v" \
+"../../../../duc.srcs/sources_1/new/axis_upsample.v" \
+"../../../../duc.srcs/sources_1/new/halfband_fir.v" \
+"../../../../duc.srcs/sim_1/new/tb.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort
