@@ -1,0 +1,21 @@
+AXI-DMA-Based LTE 20 MHz DUC+CFR PAPR Report
+============================================
+
+CFR threshold        : 0x4CCC
+CFR threshold Q1.15  : 0.599976
+Input samples        : 15360
+Output samples       : 61440
+Sampling rate out    : 122.88 Msps
+
+Peak before CFR      : 0.799988
+RMS before CFR       : 0.267552
+PAPR before CFR      : 9.51 dB
+
+Peak after CFR       : 0.600000
+RMS after CFR        : 0.266661
+PAPR after CFR       : 7.04 dB
+
+PAPR reduction       : 2.47 dB
+I clip count         : 431
+Q clip count         : 431
+IQ sample clip count : 431

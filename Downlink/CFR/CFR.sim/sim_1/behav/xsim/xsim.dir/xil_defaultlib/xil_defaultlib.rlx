@@ -1,0 +1,14 @@
+0.7
+2020.2
+Oct 14 2022
+05:20:55
+D:/FPGA/Vivaldo Project/Digital_Font_End_LTE/Downlink/CFR/CFR.gen/sources_1/ip/cfr_ii/sim/cfr_ii.vhd,1780520279,vhdl,,,,cfr_ii,,,,,,,,
+D:/FPGA/Vivaldo Project/Digital_Font_End_LTE/Downlink/CFR/CFR.gen/sources_1/ip/cfr_qq/sim/cfr_qq.vhd,1780520416,vhdl,,,,cfr_qq,,,,,,,,
+D:/FPGA/Vivaldo Project/Digital_Font_End_LTE/Downlink/CFR/CFR.gen/sources_1/ip/cordic_0/sim/cordic_0.vhd,1780521991,vhdl,,,,cordic_0,,,,,,,,
+D:/FPGA/Vivaldo Project/Digital_Font_End_LTE/Downlink/CFR/CFR.gen/sources_1/ip/div_gen_0/sim/div_gen_0.vhd,1780522088,vhdl,,,,div_gen_0,,,,,,,,
+D:/FPGA/Vivaldo Project/Digital_Font_End_LTE/Downlink/CFR/CFR.gen/sources_1/ip/fifo_generator_0/sim/fifo_generator_0.v,1780497205,verilog,,D:/FPGA/Vivaldo Project/Digital_Font_End_LTE/Downlink/CFR/CFR.srcs/sources_1/new/cfr.v,,fifo_generator_0,,axi_vip_v1_1_13;smartconnect_v1_0;xilinx_vip;zynq_ultra_ps_e_vip_v1_0_13,../../../../CFR.gen/sources_1/bd/duc_cfr/ipshared/66be/hdl/verilog;../../../../CFR.gen/sources_1/bd/duc_cfr/ipshared/abef/hdl;../../../../CFR.gen/sources_1/bd/duc_cfr/ipshared/ec67/hdl;../../../../CFR.gen/sources_1/bd/duc_cfr/ipshared/f0b6/hdl/verilog;D:/Xilinx/Vivado/2022.2/data/xilinx_vip/include,,,,,
+D:/FPGA/Vivaldo Project/Digital_Font_End_LTE/Downlink/CFR/CFR.gen/sources_1/ip/i_scale/sim/i_scale.vhd,1780522150,vhdl,,,,i_scale,,,,,,,,
+D:/FPGA/Vivaldo Project/Digital_Font_End_LTE/Downlink/CFR/CFR.gen/sources_1/ip/q_scale/sim/q_scale.vhd,1780522183,vhdl,,,,q_scale,,,,,,,,
+D:/FPGA/Vivaldo Project/Digital_Font_End_LTE/Downlink/CFR/CFR.sim/sim_1/behav/xsim/glbl.v,1665704903,verilog,,,,glbl,,axi_vip_v1_1_13;smartconnect_v1_0;xilinx_vip;zynq_ultra_ps_e_vip_v1_0_13,,,,,,
+D:/FPGA/Vivaldo Project/Digital_Font_End_LTE/Downlink/CFR/CFR.srcs/sim_1/new/tb.v,1780521038,verilog,,,,tb,,axi_vip_v1_1_13;smartconnect_v1_0;xilinx_vip;zynq_ultra_ps_e_vip_v1_0_13,../../../../CFR.gen/sources_1/bd/duc_cfr/ipshared/66be/hdl/verilog;../../../../CFR.gen/sources_1/bd/duc_cfr/ipshared/abef/hdl;../../../../CFR.gen/sources_1/bd/duc_cfr/ipshared/ec67/hdl;../../../../CFR.gen/sources_1/bd/duc_cfr/ipshared/f0b6/hdl/verilog;D:/Xilinx/Vivado/2022.2/data/xilinx_vip/include,,,,,
+D:/FPGA/Vivaldo Project/Digital_Font_End_LTE/Downlink/CFR/CFR.srcs/sources_1/new/cfr.v,1780524695,verilog,,D:/FPGA/Vivaldo Project/Digital_Font_End_LTE/Downlink/CFR/CFR.srcs/sim_1/new/tb.v,,cfr,,axi_vip_v1_1_13;smartconnect_v1_0;xilinx_vip;zynq_ultra_ps_e_vip_v1_0_13,../../../../CFR.gen/sources_1/bd/duc_cfr/ipshared/66be/hdl/verilog;../../../../CFR.gen/sources_1/bd/duc_cfr/ipshared/abef/hdl;../../../../CFR.gen/sources_1/bd/duc_cfr/ipshared/ec67/hdl;../../../../CFR.gen/sources_1/bd/duc_cfr/ipshared/f0b6/hdl/verilog;D:/Xilinx/Vivado/2022.2/data/xilinx_vip/include,,,,,

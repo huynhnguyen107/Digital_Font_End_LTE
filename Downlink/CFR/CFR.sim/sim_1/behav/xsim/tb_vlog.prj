@@ -1,0 +1,11 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  --include "../../../../CFR.gen/sources_1/bd/duc_cfr/ipshared/f0b6/hdl/verilog" --include "../../../../CFR.gen/sources_1/bd/duc_cfr/ipshared/66be/hdl/verilog" --include "../../../../CFR.gen/sources_1/bd/duc_cfr/ipshared/ec67/hdl" --include "../../../../CFR.gen/sources_1/bd/duc_cfr/ipshared/abef/hdl" --include "D:/Xilinx/Vivado/2022.2/data/xilinx_vip/include" \
+"../../../../CFR.gen/sources_1/ip/fifo_generator_0/sim/fifo_generator_0.v" \
+"../../../../CFR.srcs/sources_1/new/cfr.v" \
+"../../../../CFR.srcs/sim_1/new/tb.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort
