@@ -1,0 +1,4 @@
+INFO: [VRFC 10-163] Analyzing VHDL file "D:/FPGA/Vivaldo Project/Digital_Font_End_LTE/Downlink/CFR/CFR.gen/sources_1/ip/q_scale/sim/q_scale.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'q_scale'
+INFO: [VRFC 10-163] Analyzing VHDL file "D:/FPGA/Vivaldo Project/Digital_Font_End_LTE/Downlink/CFR/CFR.gen/sources_1/ip/i_scale/sim/i_scale.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'i_scale'

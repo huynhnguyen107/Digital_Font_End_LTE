@@ -11,11 +11,11 @@ Peak before CFR      : 0.799988
 RMS before CFR       : 0.267552
 PAPR before CFR      : 9.51 dB
 
-Peak after CFR       : 0.600000
+Peak after CFR       : 0.600064
 RMS after CFR        : 0.266661
 PAPR after CFR       : 7.04 dB
 
 PAPR reduction       : 2.47 dB
-I clip count         : 431
+I clip count         : 427
 Q clip count         : 431
 IQ sample clip count : 431

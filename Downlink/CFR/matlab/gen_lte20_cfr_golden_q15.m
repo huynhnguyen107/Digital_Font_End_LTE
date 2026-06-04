@@ -44,10 +44,10 @@ end
 
 % Stage 2: 61.44 -> 122.88 Msps
 [i_duc, q_duc] = interp2_hb7_q15(i_stage1, q_stage1);
-
+duc = pack_qi(q_duc, i_duc);
 %% CFR clipping after DUC
 [i_out, q_out, iq_clip_count] = cfr_mag_clip_q15(i_duc, q_duc, CFR_THRESHOLD);
-
+%[i_out, q_out, iq_clip_count] = cfr_mag_clip_hw_q15(i_duc, q_duc, CFR_THRESHOLD);
 i_clip_count = sum(i_duc ~= i_out);
 q_clip_count = sum(q_duc ~= q_out);
 
@@ -236,27 +236,31 @@ function [i_out, q_out] = interp2_hb7_q15(i_in, q_in)
 end
 
 function [i_out, q_out, clip_count] = cfr_mag_clip_q15(i_in, q_in, threshold)
-    % Magnitude clipping:
+    % Magnitude clipping ideal model:
     % mag = sqrt(I^2 + Q^2)
     % if mag > threshold:
-    %   I_out = I * threshold / mag
-    %   Q_out = Q * threshold / mag
+    %   scale = threshold / mag
+    %   I_out = I * scale
+    %   Q_out = Q * scale
 
     id = double(i_in);
     qd = double(q_in);
-
-    mag = floor(sqrt(id.^2 + qd.^2));
-
-    i_out_d = id;
-    q_out_d = qd;
+    power_i=floor(id.^2/2^15)*2^15;
+    power_q=floor(qd.^2/2^15)*2^15;
+    power_sum=floor(power_i+power_q);
+    %mag = sqrt(id.^2 + qd.^2);
+    mag = floor(sqrt(power_sum));
+    scale = ones(size(mag));
 
     clip_idx = (mag > threshold) & (mag > 0);
 
-    i_out_d(clip_idx) = fix(id(clip_idx) * threshold ./ mag(clip_idx));
-    q_out_d(clip_idx) = fix(qd(clip_idx) * threshold ./ mag(clip_idx));
+    scale(clip_idx) = threshold ./ mag(clip_idx);
+    scale_215= floor(scale*2^15)/2^15;
+    i_out_d = id .* scale_215;
+    q_out_d = qd .* scale_215;
 
-    i_out = int16(i_out_d);
-    q_out = int16(q_out_d);
+    i_out = int16(floor(i_out_d));
+    q_out = int16(floor(q_out_d));
 
     clip_count = sum(clip_idx);
 end
