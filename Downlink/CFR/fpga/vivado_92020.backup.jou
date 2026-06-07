@@ -1,0 +1,16 @@
+#-----------------------------------------------------------
+# Vivado v2022.2 (64-bit)
+# SW Build 3671981 on Fri Oct 14 05:00:03 MDT 2022
+# IP Build 3669848 on Fri Oct 14 08:30:02 MDT 2022
+# Start of session at: Fri Jun  5 10:56:32 2026
+# Process ID: 92020
+# Current directory: D:/FPGA/Vivaldo Project/Digital_Font_End_LTE/Downlink/CFR/fpga
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent85096 D:\FPGA\Vivaldo Project\Digital_Font_End_LTE\Downlink\CFR\fpga\CFR.xpr
+# Log file: D:/FPGA/Vivaldo Project/Digital_Font_End_LTE/Downlink/CFR/fpga/vivado.log
+# Journal file: D:/FPGA/Vivaldo Project/Digital_Font_End_LTE/Downlink/CFR/fpga\vivado.jou
+# Running On: LAPTOP-CHCSI1R5, OS: Windows, CPU Frequency: 3194 MHz, CPU Physical cores: 16, Host memory: 21319 MB
+#-----------------------------------------------------------
+start_gui
+open_project {D:/FPGA/Vivaldo Project/Digital_Font_End_LTE/Downlink/CFR/fpga/CFR.xpr}
+update_compile_order -fileset sources_1
+open_bd_design {D:/FPGA/Vivaldo Project/Digital_Font_End_LTE/Downlink/CFR/fpga/CFR.srcs/sources_1/bd/duc_cfr/duc_cfr.bd}

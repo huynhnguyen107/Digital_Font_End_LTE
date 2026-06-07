@@ -3,7 +3,7 @@
 <!--                                                         -->
 <!-- Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.   -->
 
-<Project Version="7" Minor="61" Path="D:/FPGA/Vivaldo Project/Digital_Font_End_LTE/Downlink/CFR/CFR.xpr">
+<Project Version="7" Minor="61" Path="D:/FPGA/Vivaldo Project/Digital_Font_End_LTE/Downlink/CFR/fpga/CFR.xpr">
   <DefaultLaunch Dir="$PRUNDIR"/>
   <Configuration>
     <Option Name="Id" Val="8aa737bf38494f50a55664d02dc4f9fb"/>
@@ -89,14 +89,14 @@
   <FileSets Version="1" Minor="31">
     <FileSet Name="sources_1" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1" RelGenDir="$PGENDIR/sources_1">
       <Filter Type="Srcs"/>
-      <File Path="$PPRDIR/../DUC/fpga/duc.srcs/sources_1/new/axis_upsample.v">
+      <File Path="$PPRDIR/../../DUC/fpga/duc.srcs/sources_1/new/axis_upsample.v">
         <FileInfo>
           <Attr Name="UsedIn" Val="synthesis"/>
           <Attr Name="UsedIn" Val="implementation"/>
           <Attr Name="UsedIn" Val="simulation"/>
         </FileInfo>
       </File>
-      <File Path="$PPRDIR/../DUC/fpga/duc.srcs/sources_1/new/halfband_fir.v">
+      <File Path="$PPRDIR/../../DUC/fpga/duc.srcs/sources_1/new/halfband_fir.v">
         <FileInfo>
           <Attr Name="UsedIn" Val="synthesis"/>
           <Attr Name="UsedIn" Val="implementation"/>

@@ -1,24 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <GenRun Id="synth_1" LaunchPart="xck26-sfvc784-2LV-c" LaunchTime="1780594870" LaunchIncrCheckpoint="$PSRCDIR/utils_1/imports/synth_1/duc_cfr_wrapper.dcp">
   <File Type="PA-TCL" Name="duc_cfr_wrapper.tcl"/>
-  <File Type="RDS-PROPCONSTRS" Name="duc_cfr_wrapper_drc_synth.rpt"/>
   <File Type="REPORTS-TCL" Name="duc_cfr_wrapper_reports.tcl"/>
   <File Type="RDS-RDS" Name="duc_cfr_wrapper.vds"/>
   <File Type="RDS-UTIL" Name="duc_cfr_wrapper_utilization_synth.rpt"/>
   <File Type="RDS-UTIL-PB" Name="duc_cfr_wrapper_utilization_synth.pb"/>
   <File Type="RDS-DCP" Name="duc_cfr_wrapper.dcp"/>
-  <File Type="VDS-TIMINGSUMMARY" Name="duc_cfr_wrapper_timing_summary_synth.rpt"/>
-  <File Type="VDS-TIMING-PB" Name="duc_cfr_wrapper_timing_summary_synth.pb"/>
   <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1" RelGenDir="$PGENDIR/sources_1">
     <Filter Type="Srcs"/>
-    <File Path="$PPRDIR/../DUC/fpga/duc.srcs/sources_1/new/axis_upsample.v">
+    <File Path="$PPRDIR/../../DUC/fpga/duc.srcs/sources_1/new/axis_upsample.v">
       <FileInfo>
         <Attr Name="UsedIn" Val="synthesis"/>
         <Attr Name="UsedIn" Val="implementation"/>
         <Attr Name="UsedIn" Val="simulation"/>
       </FileInfo>
     </File>
-    <File Path="$PPRDIR/../DUC/fpga/duc.srcs/sources_1/new/halfband_fir.v">
+    <File Path="$PPRDIR/../../DUC/fpga/duc.srcs/sources_1/new/halfband_fir.v">
       <FileInfo>
         <Attr Name="UsedIn" Val="synthesis"/>
         <Attr Name="UsedIn" Val="implementation"/>

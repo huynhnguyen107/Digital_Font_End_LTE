@@ -1,0 +1,27 @@
+AXI-DMA-Based LTE 20 MHz DUC+CFR+GMP-DPD Report
+================================================
+
+CFR threshold          : 0x4CCC
+CFR threshold Q1.15    : 0.599976
+Input samples          : 15360
+Output samples         : 61440
+Sampling rate out      : 122.88 Msps
+
+Peak before CFR        : 0.799988
+RMS before CFR         : 0.267552
+PAPR before CFR        : 9.51 dB
+
+Peak after CFR         : 0.600064
+RMS after CFR          : 0.266661
+PAPR after CFR         : 7.04 dB
+
+Peak after GMP-DPD     : 0.626381
+RMS after GMP-DPD      : 0.272563
+PAPR after GMP-DPD     : 7.23 dB
+
+PAPR reduction by CFR  : 2.47 dB
+PAPR change by GMP-DPD : 0.18 dB
+I clip count           : 427
+Q clip count           : 431
+IQ sample clip count   : 431
+DPD saturation count   : 0

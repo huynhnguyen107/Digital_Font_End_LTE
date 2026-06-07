@@ -1,0 +1,182 @@
+#-----------------------------------------------------------
+# Vivado v2022.2 (64-bit)
+# SW Build 3671981 on Fri Oct 14 05:00:03 MDT 2022
+# IP Build 3669848 on Fri Oct 14 08:30:02 MDT 2022
+# Start of session at: Fri Jun  5 11:13:07 2026
+# Process ID: 43932
+# Current directory: D:/FPGA/Vivaldo Project/Digital_Font_End_LTE/Downlink/DPD/fpga
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent76324 D:\FPGA\Vivaldo Project\Digital_Font_End_LTE\Downlink\DPD\fpga\dpd.xpr
+# Log file: D:/FPGA/Vivaldo Project/Digital_Font_End_LTE/Downlink/DPD/fpga/vivado.log
+# Journal file: D:/FPGA/Vivaldo Project/Digital_Font_End_LTE/Downlink/DPD/fpga\vivado.jou
+# Running On: LAPTOP-CHCSI1R5, OS: Windows, CPU Frequency: 3194 MHz, CPU Physical cores: 16, Host memory: 21319 MB
+#-----------------------------------------------------------
+start_gui
+open_project {D:/FPGA/Vivaldo Project/Digital_Font_End_LTE/Downlink/DPD/fpga/dpd.xpr}
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:ac701:part0:1.4 available at D:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/ac701/1.4/board.xml as part xc7a200tfbg676-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:kc705:part0:1.6 available at D:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/kc705/1.6/board.xml as part xc7k325tffg900-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:kcu105:part0:1.6 available at D:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/kcu105/1.6/board.xml as part xcku040-ffva1156-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:kcu105:part0:1.7 available at D:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/kcu105/1.7/board.xml as part xcku040-ffva1156-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:kcu116:part0:1.4 available at D:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/kcu116/1.4/board.xml as part xcku5p-ffvb676-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:kcu116:part0:1.5 available at D:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/kcu116/1.5/board.xml as part xcku5p-ffvb676-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:kcu1500:part0:1.2 available at D:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/kcu1500/1.2/board.xml as part xcku115-flvb2104-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:sp701:part0:1.0 available at D:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/sp701/1.0/board.xml as part xc7s100fgga676-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:sp701:part0:1.1 available at D:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/sp701/1.1/board.xml as part xc7s100fgga676-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vc707:part0:1.4 available at D:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vc707/1.4/board.xml as part xc7vx485tffg1761-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vc709:part0:1.8 available at D:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vc709/1.8/board.xml as part xc7vx690tffg1761-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190:part0:2.2 available at D:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vck190/production/2.2/board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190:part0:3.0 available at D:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vck190/production/3.0/board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190:part0:3.1 available at D:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vck190/production/3.1/board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190_newl:part0:1.0 available at D:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vck190_newl/production/1.0/board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu108:part0:1.6 available at D:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu108/1.6/board.xml as part xcvu095-ffva2104-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu108:part0:1.7 available at D:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu108/1.7/board.xml as part xcvu095-ffva2104-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu110:part0:1.4 available at D:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu110/1.4/board.xml as part xcvu190-flgc2104-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu118:part0:2.0 available at D:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu118/2.0/board.xml as part xcvu9p-flga2104-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu118:part0:2.3 available at D:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu118/2.3/board.xml as part xcvu9p-flga2104-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu118:part0:2.4 available at D:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu118/2.4/board.xml as part xcvu9p-flga2104-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu128:part0:1.0 available at D:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu128/production/1.0/board.xml as part xcvu37p-fsvh2892-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu129:part0:1.0 available at D:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu129/production/1.0/board.xml as part xcvu29p-fsga2577-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu1525:part0:1.3 available at D:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu1525/1.3/board.xml as part xcvu9p-fsgd2104-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280_es:part0:1.0 available at D:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek280/es/1.0/board.xml as part xcve2802-vsvh1760-2lp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vermeo_t1_rfsoc:part0:1.0 available at D:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vermeo_t1_rfsoc/1.0/board.xml as part xczu21dr-ffvd1156-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vhk158_es:part0:1.0 available at D:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vhk158/es/1.0/board.xml as part xcvh1582-vsva3697-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vmk180:part0:2.2 available at D:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vmk180/production/2.2/board.xml as part xcvm1802-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vmk180:part0:3.0 available at D:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vmk180/production/3.0/board.xml as part xcvm1802-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vmk180:part0:3.1 available at D:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vmk180/production/3.1/board.xml as part xcvm1802-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vmk180_newl:part0:1.0 available at D:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vmk180_newl/production/1.0/board.xml as part xcvm1802-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk120:part0:1.0 available at D:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk120/production/1.0/board.xml as part xcvp1202-vsva2785-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk120_es:part0:1.2 available at D:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk120/es/1.2/board.xml as part xcvp1202-vsva2785-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk120_es_revb:part0:1.0 available at D:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk120_revb/es/1.0/board.xml as part xcvp1202-vsva2785-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk180_es:part0:1.0 available at D:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk180/es/1.0/board.xml as part xcvp1802-lsvc4072-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zc702:part0:1.4 available at D:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zc702/1.4/board.xml as part xc7z020clg484-1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zc706:part0:1.4 available at D:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zc706/1.4/board.xml as part xc7z045ffg900-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu111:part0:1.2 available at D:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu111/1.2/board.xml as part xczu28dr-ffvg1517-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu111:part0:1.3 available at D:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu111/1.3/board.xml as part xczu28dr-ffvg1517-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu111:part0:1.4 available at D:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu111/1.4/board.xml as part xczu28dr-ffvg1517-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu1275:part0:1.0 available at D:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu1275/1.0/board.xml as part xczu29dr-ffvf1760-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu1285:part0:1.0 available at D:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu1285/1.0/board.xml as part xczu39dr-ffvf1760-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu208:part0:2.0 available at D:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu208/production/2.0/board.xml as part xczu48dr-fsvg1517-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu208ld:part0:2.0 available at D:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu208ld/production/2.0/board.xml as part xczu58dr-fsvg1517-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu216:part0:2.0 available at D:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu216/production/2.0/board.xml as part xczu49dr-ffvf1760-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu216ld:part0:2.0 available at D:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu216ld/production/2.0/board.xml as part xczu59dr-ffvf1760-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu670:part0:2.0 available at D:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu670/2.0/board.xml as part xczu67dr-fsve1156-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu670ld:part0:1.0 available at D:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu670ld/1.0/board.xml as part xczu57dr-fsve1156-2-i specified in board_part file is either invalid or not available
+INFO: [Project 1-313] Project file moved from 'D:/FPGA/Vivaldo Project/Digital_Font_End_LTE/Downlink/CFR/fpga' since last save.
+INFO: [filemgmt 56-3] Default IP Output Path : Could not find the directory 'D:/FPGA/Vivaldo Project/Digital_Font_End_LTE/Downlink/DPD/fpga/dpd.gen/sources_1'.
+WARNING: [filemgmt 56-3] IPUserFilesDir: Could not find the directory 'D:/FPGA/Vivaldo Project/Digital_Font_End_LTE/Downlink/DPD/fpga/dpd.ip_user_files'.
+WARNING: [Project 1-312] File not found as 'D:/FPGA/Vivaldo Project/Digital_Font_End_LTE/Downlink/DPD/fpga/dpd.srcs/sources_1/ip/q_scale/q_scale.xci'; using path 'D:/FPGA/Vivaldo Project/Digital_Font_End_LTE/Downlink/CFR/fpga/CFR.srcs/sources_1/ip/q_scale/q_scale.xci' instead.
+WARNING: [Project 1-312] File not found as 'D:/FPGA/Vivaldo Project/Digital_Font_End_LTE/Downlink/DPD/fpga/dpd.srcs/sources_1/ip/i_scale/i_scale.xci'; using path 'D:/FPGA/Vivaldo Project/Digital_Font_End_LTE/Downlink/CFR/fpga/CFR.srcs/sources_1/ip/i_scale/i_scale.xci' instead.
+WARNING: [Project 1-312] File not found as 'D:/FPGA/Vivaldo Project/Digital_Font_End_LTE/Downlink/DPD/fpga/dpd.srcs/sources_1/ip/div_gen_0/div_gen_0.xci'; using path 'D:/FPGA/Vivaldo Project/Digital_Font_End_LTE/Downlink/CFR/fpga/CFR.srcs/sources_1/ip/div_gen_0/div_gen_0.xci' instead.
+WARNING: [Project 1-312] File not found as 'D:/FPGA/Vivaldo Project/Digital_Font_End_LTE/Downlink/DPD/fpga/dpd.srcs/sources_1/ip/cordic_0/cordic_0.xci'; using path 'D:/FPGA/Vivaldo Project/Digital_Font_End_LTE/Downlink/CFR/fpga/CFR.srcs/sources_1/ip/cordic_0/cordic_0.xci' instead.
+WARNING: [Project 1-312] File not found as 'D:/FPGA/Vivaldo Project/Digital_Font_End_LTE/Downlink/DPD/fpga/dpd.srcs/sources_1/ip/cfr_qq/cfr_qq.xci'; using path 'D:/FPGA/Vivaldo Project/Digital_Font_End_LTE/Downlink/CFR/fpga/CFR.srcs/sources_1/ip/cfr_qq/cfr_qq.xci' instead.
+WARNING: [Project 1-312] File not found as 'D:/FPGA/Vivaldo Project/Digital_Font_End_LTE/Downlink/DPD/fpga/dpd.srcs/sources_1/ip/cfr_ii/cfr_ii.xci'; using path 'D:/FPGA/Vivaldo Project/Digital_Font_End_LTE/Downlink/CFR/fpga/CFR.srcs/sources_1/ip/cfr_ii/cfr_ii.xci' instead.
+WARNING: [Project 1-312] File not found as 'D:/FPGA/Vivaldo Project/Digital_Font_End_LTE/Downlink/DPD/fpga/dpd.srcs/sources_1/new/cfr.v'; using path 'D:/FPGA/Vivaldo Project/Digital_Font_End_LTE/Downlink/CFR/fpga/CFR.srcs/sources_1/new/cfr.v' instead.
+WARNING: [Project 1-312] File not found as 'D:/FPGA/Vivaldo Project/Digital_Font_End_LTE/Downlink/DPD/fpga/dpd.srcs/sources_1/bd/duc_cfr/duc_cfr.bd'; using path 'D:/FPGA/Vivaldo Project/Digital_Font_End_LTE/Downlink/CFR/fpga/CFR.srcs/sources_1/bd/duc_cfr/duc_cfr.bd' instead.
+WARNING: [Project 1-312] File not found as 'D:/FPGA/Vivaldo Project/Digital_Font_End_LTE/Downlink/DPD/fpga/dpd.srcs/sources_1/ip/fifo_generator_0/fifo_generator_0.xci'; using path 'D:/FPGA/Vivaldo Project/Digital_Font_End_LTE/Downlink/CFR/fpga/CFR.srcs/sources_1/ip/fifo_generator_0/fifo_generator_0.xci' instead.
+WARNING: [Project 1-312] File not found as 'D:/FPGA/Vivaldo Project/Digital_Font_End_LTE/Downlink/DPD/fpga/dpd.srcs/sim_1/new/tb.v'; using path 'D:/FPGA/Vivaldo Project/Digital_Font_End_LTE/Downlink/CFR/fpga/CFR.srcs/sim_1/new/tb.v' instead.
+WARNING: [Project 1-312] File not found as 'D:/FPGA/Vivaldo Project/Digital_Font_End_LTE/Downlink/DPD/fpga/tb_behav.wcfg'; using path 'D:/FPGA/Vivaldo Project/Digital_Font_End_LTE/Downlink/CFR/fpga/tb_behav.wcfg' instead.
+WARNING: [Project 1-312] File not found as 'D:/FPGA/Vivaldo Project/Digital_Font_End_LTE/Downlink/DPD/fpga/dpd.srcs/utils_1/imports/synth_1/duc_cfr_wrapper.dcp'; using path 'D:/FPGA/Vivaldo Project/Digital_Font_End_LTE/Downlink/CFR/fpga/CFR.srcs/utils_1/imports/synth_1/duc_cfr_wrapper.dcp' instead.
+Scanning sources...
+Finished scanning sources
+WARNING: [Project 1-509] GeneratedRun file for 'synth_1' not found
+WARNING: [Project 1-509] GeneratedRun file for 'impl_1' not found
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/Xilinx/Vivado/2022.2/data/ip'.
+open_project: Time (s): cpu = 00:00:31 ; elapsed = 00:00:16 . Memory (MB): peak = 1177.359 ; gain = 243.949
+INFO: [IP_Flow 19-5107] Inferred bus interface 'm_axis' of definition 'xilinx.com:interface:axis:1.0' (from Xilinx Repository).
+INFO: [IP_Flow 19-5107] Inferred bus interface 's_axis' of definition 'xilinx.com:interface:axis:1.0' (from Xilinx Repository).
+INFO: [IP_Flow 19-5107] Inferred bus interface 'aresetn' of definition 'xilinx.com:signal:reset:1.0' (from Xilinx Repository).
+INFO: [IP_Flow 19-5107] Inferred bus interface 'aclk' of definition 'xilinx.com:signal:clock:1.0' (from Xilinx Repository).
+INFO: [IP_Flow 19-4728] Bus Interface 'aresetn': Added interface parameter 'POLARITY' with value 'ACTIVE_LOW'.
+INFO: [IP_Flow 19-4728] Bus Interface 'aclk': Added interface parameter 'ASSOCIATED_BUSIF' with value 'm_axis'.
+INFO: [IP_Flow 19-4728] Bus Interface 'aclk': Added interface parameter 'ASSOCIATED_RESET' with value 'aresetn'.
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-5107] Inferred bus interface 'm_axis' of definition 'xilinx.com:interface:axis:1.0' (from Xilinx Repository).
+INFO: [IP_Flow 19-5107] Inferred bus interface 's_axis' of definition 'xilinx.com:interface:axis:1.0' (from Xilinx Repository).
+INFO: [IP_Flow 19-5107] Inferred bus interface 'aresetn' of definition 'xilinx.com:signal:reset:1.0' (from Xilinx Repository).
+INFO: [IP_Flow 19-5107] Inferred bus interface 'aclk' of definition 'xilinx.com:signal:clock:1.0' (from Xilinx Repository).
+INFO: [IP_Flow 19-4728] Bus Interface 'aresetn': Added interface parameter 'POLARITY' with value 'ACTIVE_LOW'.
+INFO: [IP_Flow 19-4728] Bus Interface 'aclk': Added interface parameter 'ASSOCIATED_BUSIF' with value 'm_axis'.
+INFO: [IP_Flow 19-4728] Bus Interface 'aclk': Added interface parameter 'ASSOCIATED_RESET' with value 'aresetn'.
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+WARNING: [IP_Flow 19-587] [HDL Parser] HDL port or parameter 'pipe_tdata' has a dependency on the module local parameter or undefined parameter 'DELAY_TOTAL'.
+WARNING: [IP_Flow 19-587] [HDL Parser] HDL port or parameter 'pipe_tkeep' has a dependency on the module local parameter or undefined parameter 'DELAY_TOTAL'.
+WARNING: [IP_Flow 19-587] [HDL Parser] HDL port or parameter 'pipe_tvalid' has a dependency on the module local parameter or undefined parameter 'DELAY_TOTAL'.
+WARNING: [IP_Flow 19-587] [HDL Parser] HDL port or parameter 'pipe_tlast' has a dependency on the module local parameter or undefined parameter 'DELAY_TOTAL'.
+WARNING: [IP_Flow 19-587] [HDL Parser] HDL port or parameter 'q_power' has a dependency on the module local parameter or undefined parameter 'IW'.
+WARNING: [IP_Flow 19-587] [HDL Parser] HDL port or parameter 'i_power' has a dependency on the module local parameter or undefined parameter 'IW'.
+WARNING: [IP_Flow 19-587] [HDL Parser] HDL port or parameter 'power_sum' has a dependency on the module local parameter or undefined parameter 'IW'.
+WARNING: [IP_Flow 19-587] [HDL Parser] HDL port or parameter 'sqrt_24' has a dependency on the module local parameter or undefined parameter 'IW'.
+WARNING: [IP_Flow 19-587] [HDL Parser] HDL port or parameter 'sqrt' has a dependency on the module local parameter or undefined parameter 'IW'.
+WARNING: [IP_Flow 19-587] [HDL Parser] HDL port or parameter 'r_sqrt' has a dependency on the module local parameter or undefined parameter 'DELAY_CORDIC'.
+WARNING: [IP_Flow 19-587] [HDL Parser] HDL port or parameter 'r_sqrt' has a dependency on the module local parameter or undefined parameter 'DELAY_TOTAL'.
+WARNING: [IP_Flow 19-587] [HDL Parser] HDL port or parameter 'gain' has a dependency on the module local parameter or undefined parameter 'IW'.
+WARNING: [IP_Flow 19-587] [HDL Parser] HDL port or parameter 'i_scale' has a dependency on the module local parameter or undefined parameter 'IW'.
+WARNING: [IP_Flow 19-587] [HDL Parser] HDL port or parameter 'q_scale' has a dependency on the module local parameter or undefined parameter 'IW'.
+INFO: [IP_Flow 19-5107] Inferred bus interface 'm_axis' of definition 'xilinx.com:interface:axis:1.0' (from Xilinx Repository).
+INFO: [IP_Flow 19-5107] Inferred bus interface 's_axis' of definition 'xilinx.com:interface:axis:1.0' (from Xilinx Repository).
+INFO: [IP_Flow 19-5107] Inferred bus interface 'aresetn' of definition 'xilinx.com:signal:reset:1.0' (from Xilinx Repository).
+INFO: [IP_Flow 19-5107] Inferred bus interface 'aclk' of definition 'xilinx.com:signal:clock:1.0' (from Xilinx Repository).
+INFO: [IP_Flow 19-4728] Bus Interface 'aresetn': Added interface parameter 'POLARITY' with value 'ACTIVE_LOW'.
+INFO: [IP_Flow 19-4728] Bus Interface 'aclk': Added interface parameter 'ASSOCIATED_BUSIF' with value 'm_axis'.
+INFO: [IP_Flow 19-4728] Bus Interface 'aclk': Added interface parameter 'ASSOCIATED_RESET' with value 'aresetn'.
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+open_bd_design {D:/FPGA/Vivaldo Project/Digital_Font_End_LTE/Downlink/CFR/fpga/CFR.srcs/sources_1/bd/duc_cfr/duc_cfr.bd}
+Reading block design file <D:/FPGA/Vivaldo Project/Digital_Font_End_LTE/Downlink/CFR/fpga/CFR.srcs/sources_1/bd/duc_cfr/duc_cfr.bd>...
+Adding component instance block -- xilinx.com:ip:axi_bram_ctrl:4.1 - axi_bram_ctrl_0
+Adding component instance block -- xilinx.com:ip:axi_dma:7.1 - axi_dma_0
+Adding component instance block -- xilinx.com:ip:blk_mem_gen:8.4 - blk_mem_gen_0
+Adding component instance block -- xilinx.com:ip:proc_sys_reset:5.0 - proc_sys_reset_0
+Adding component instance block -- xilinx.com:ip:smartconnect:1.0 - smartconnect_0
+Adding component instance block -- xilinx.com:ip:zynq_ultra_ps_e:3.4 - zynq_ultra_ps_e_0
+Adding component instance block -- xilinx.com:module_ref:axis_upsample:1.0 - axis_upsample_0
+Adding component instance block -- xilinx.com:module_ref:halfband_fir:1.0 - halfband_fir_0
+Adding component instance block -- xilinx.com:module_ref:halfband_fir:1.0 - halfband_fir_1
+Adding component instance block -- xilinx.com:module_ref:axis_upsample:1.0 - axis_upsample_1
+Adding component instance block -- xilinx.com:module_ref:cfr:1.0 - cfr_0
+Excluding slave segment /axi_dma_0/S_AXI_LITE/Reg from address space /axi_dma_0/Data_MM2S.
+Excluding slave segment /axi_dma_0/S_AXI_LITE/Reg from address space /axi_dma_0/Data_S2MM.
+Successfully read diagram <duc_cfr> from block design file <D:/FPGA/Vivaldo Project/Digital_Font_End_LTE/Downlink/CFR/fpga/CFR.srcs/sources_1/bd/duc_cfr/duc_cfr.bd>
+open_bd_design: Time (s): cpu = 00:00:07 ; elapsed = 00:00:05 . Memory (MB): peak = 1309.254 ; gain = 85.090
+create_bd_design "duc_cfr_dpd"
+Wrote  : <D:\FPGA\Vivaldo Project\Digital_Font_End_LTE\Downlink\DPD\fpga\dpd.srcs\sources_1\bd\duc_cfr_dpd\duc_cfr_dpd.bd> 
+open_bd_design {D:/FPGA/Vivaldo Project/Digital_Font_End_LTE/Downlink/CFR/fpga/CFR.srcs/sources_1/bd/duc_cfr/duc_cfr.bd}
+update_compile_order -fileset sources_1
+open_bd_design {D:/FPGA/Vivaldo Project/Digital_Font_End_LTE/Downlink/DPD/fpga/dpd.srcs/sources_1/bd/duc_cfr_dpd/duc_cfr_dpd.bd}
+current_bd_design duc_cfr
+set tmpCopyObjs [concat  [get_bd_cells {axi_bram_ctrl_0 axi_dma_0 smartconnect_0 zynq_ultra_ps_e_0 axis_upsample_0 axis_upsample_1 cfr_0 proc_sys_reset_0 blk_mem_gen_0 halfband_fir_0 halfband_fir_1}] [get_bd_intf_nets {cfr_0_m_axis axis_upsample_0_m_axis smartconnect_0_M01_AXI axi_dma_0_M_AXI_MM2S axi_bram_ctrl_0_BRAM_PORTA axi_dma_0_M_AXI_S2MM halfband_fir_0_m_axis smartconnect_0_M00_AXI halfband_fir_1_m_axis axis_upsample_1_m_axis zynq_ultra_ps_e_0_M_AXI_HPM0_FPD axi_dma_0_M_AXIS_MM2S}] [get_bd_nets {zynq_ultra_ps_e_0_pl_resetn0 proc_sys_reset_0_peripheral_aresetn zynq_ultra_ps_e_0_pl_clk0}]]
+current_bd_design duc_cfr_dpd
+copy_bd_objs -from_design duc_cfr / $tmpCopyObjs
+INFO: [xilinx.com:ip:axi_bram_ctrl:4.1-2] duc_cfr_dpd_axi_bram_ctrl_0_0: In IP Integrator, please note that memory depth value gets calculated based on the Data Width of the IP and Address range selected in the Address Editor.Incase a validation error occured on the range of this parameter, please check if the selected Data width and the Address Range are valid. For valid Data width and memory depth values, please refer to the AXI BRAM Controller Product Guide.
+INFO: [xilinx.com:ip:axi_bram_ctrl:4.1-1] duc_cfr_dpd_axi_bram_ctrl_0_0: In IP Integrator, The Maximum address range supported is 2G. Selecting the address range more than 2G in the address editor may resets the value of Memory depth to default value (1024). please refer to the AXI BRAM Controller Product Guide.
+WARNING: [BD 41-1282] Ignoring parameter HAS_BURST
+WARNING: [BD 41-1281] Parameter HAS_BURST is not defined on /axi_dma_0/M_AXIS_MM2S. Setting parameter on /axi_dma_0/M_AXIS_MM2S failed
+INFO: [Ipptcl 7-1463] No Compatible Board Interface found. Board Tab not created in customize GUI
+INFO: [PSU-0] Address Range of DDR (0x7ff00000 to 0x7fffffff) is reserved by PMU for internal purpose.
+Slave segment '/axi_bram_ctrl_0/S_AXI/Mem0' is being assigned into address space '/axi_dma_0/Data_MM2S' at <0xA000_0000 [ 512K ]>.
+Slave segment '/axi_bram_ctrl_0/S_AXI/Mem0' is being assigned into address space '/axi_dma_0/Data_S2MM' at <0xA000_0000 [ 512K ]>.
+Slave segment '/axi_bram_ctrl_0/S_AXI/Mem0' is being assigned into address space '/zynq_ultra_ps_e_0/Data' at <0xA000_0000 [ 512K ]>.
+Slave segment '/axi_dma_0/S_AXI_LITE/Reg' is being assigned into address space '/zynq_ultra_ps_e_0/Data' at <0xA008_0000 [ 64K ]>.
+Excluding slave segment /axi_dma_0/S_AXI_LITE/Reg from address space /axi_dma_0/Data_MM2S.
+Slave segment '/axi_dma_0/S_AXI_LITE/Reg' is being assigned into address space '/axi_dma_0/Data_MM2S' at <0xA008_0000 [ 64K ]>.
+Excluding slave segment /axi_dma_0/S_AXI_LITE/Reg from address space /axi_dma_0/Data_S2MM.
+Slave segment '/axi_dma_0/S_AXI_LITE/Reg' is being assigned into address space '/axi_dma_0/Data_S2MM' at <0xA008_0000 [ 64K ]>.
+copy_bd_objs: Time (s): cpu = 00:00:22 ; elapsed = 00:00:30 . Memory (MB): peak = 1647.809 ; gain = 162.320
+export_ip_user_files -of_objects  [get_files {{D:/FPGA/Vivaldo Project/Digital_Font_End_LTE/Downlink/CFR/fpga/CFR.srcs/sources_1/bd/duc_cfr/duc_cfr.bd}}] -no_script -reset -force -quiet
+remove_files  {{D:/FPGA/Vivaldo Project/Digital_Font_End_LTE/Downlink/CFR/fpga/CFR.srcs/sources_1/bd/duc_cfr/duc_cfr.bd}}
+Wrote  : <D:/FPGA/Vivaldo Project/Digital_Font_End_LTE/Downlink/CFR/fpga/CFR.srcs/sources_1/bd/duc_cfr/ui/bd_10a8a3a2.ui> 
+file mkdir D:/FPGA/Vivaldo Project/Digital_Font_End_LTE/Downlink/DPD/fpga/dpd.srcs/sources_1/new
+file mkdir D:/FPGA/Vivaldo Project/Digital_Font_End_LTE/Downlink/DPD/fpga/dpd.srcs/sources_1/new
+file mkdir D:/FPGA/Vivaldo Project/Digital_Font_End_LTE/Downlink/DPD/fpga/dpd.srcs/sources_1/new
+file mkdir D:/FPGA/Vivaldo Project/Digital_Font_End_LTE/Downlink/DPD/fpga/dpd.srcs/sources_1/new
+file mkdir D:/FPGA/Vivaldo Project/Digital_Font_End_LTE/Downlink/DPD/fpga/dpd.srcs/sources_1/new
+file mkdir D:/FPGA/Vivaldo Project/Digital_Font_End_LTE/Downlink/DPD/fpga/dpd.srcs/sources_1/new
+file mkdir {D:/FPGA/Vivaldo Project/Digital_Font_End_LTE/Downlink/DPD/fpga/dpd.srcs/sources_1/new}
+close [ open {D:/FPGA/Vivaldo Project/Digital_Font_End_LTE/Downlink/DPD/fpga/dpd.srcs/sources_1/new/dpd.v} w ]
+add_files {{D:/FPGA/Vivaldo Project/Digital_Font_End_LTE/Downlink/DPD/fpga/dpd.srcs/sources_1/new/dpd.v}}
+update_compile_order -fileset sources_1

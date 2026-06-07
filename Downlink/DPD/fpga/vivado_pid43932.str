@@ -1,0 +1,425 @@
+/*
+
+Xilinx Vivado v2022.2 (64-bit) [Major: 2022, Minor: 2]
+SW Build: 3671981 on Fri Oct 14 05:00:03 MDT 2022
+IP Build: 3669848 on Fri Oct 14 08:30:02 MDT 2022
+
+Process ID (PID): 43932
+License: Customer
+Mode: GUI Mode
+
+Current time: 	Fri Jun 05 11:13:20 EDT 2026
+Time zone: 	Eastern Standard Time (America/New_York)
+
+OS: Windows 10
+OS Version: 10.0
+OS Architecture: amd64
+Available processors (cores): 16
+
+Screen size: 1920x1080
+Screen resolution (DPI): 125
+Available screens: 2
+Default font: family=Segoe UI,name=Segoe UI,style=plain,size=15
+Scale size: 19
+
+Java version: 	11.0.11 64-bit
+Java home: 	D:/Xilinx/Vivado/2022.2/tps/win64/jre11.0.11_9
+Java executable: 	D:/Xilinx/Vivado/2022.2/tps/win64/jre11.0.11_9/bin/java.exe
+Java arguments: 	[-Dsun.java2d.pmoffscreen=false, -Dhttps.protocols=TLSv1,TLSv1.1,TLSv1.2, -Dsun.java2d.xrender=false, -Dsun.java2d.d3d=false, -Dsun.awt.nopixfmt=true, -Dsun.java2d.dpiaware=true, -Dsun.java2d.uiScale.enabled=false, -Xverify:none, -Dswing.aatext=true, -XX:-UsePerfData, -Djdk.map.althashing.threshold=512, -XX:StringTableSize=4072, --add-opens=java.desktop/com.sun.awt=ALL-UNNAMED, --add-opens=java.desktop/javax.swing.plaf.synth=ALL-UNNAMED, --add-opens=java.base/java.nio=ALL-UNNAMED, --add-opens=java.desktop/sun.swing=ALL-UNNAMED, --add-opens=java.desktop/javax.swing=ALL-UNNAMED, --add-opens=java.desktop/javax.swing.tree=ALL-UNNAMED, --add-opens=java.desktop/javax.swing.plaf.basic=ALL-UNNAMED, --add-opens=java.desktop/javax.swing.plaf.synth=ALL-UNNAMED, --add-opens=java.desktop/javax.swing.plaf.basic=ALL-UNNAMED, --add-opens=java.desktop/javax.swing=ALL-UNNAMED, --add-opens=java.desktop/javax.swing.tree=ALL-UNNAMED, --add-opens=java.desktop/java.awt.event=ALL-UNNAMED, --add-exports=java.desktop/javax.swing.plaf.synth=ALL-UNNAMED, --add-exports=java.base/java.nio=ALL-UNNAMED, --add-exports=java.desktop/sun.swing=ALL-UNNAMED, --add-exports=java.desktop/javax.swing=ALL-UNNAMED, --add-exports=java.desktop/javax.swing.tree=ALL-UNNAMED, --add-exports=java.desktop/javax.swing.plaf.basic=ALL-UNNAMED, --add-exports=java.desktop/sun.swing=ALL-UNNAMED, --add-exports=java.desktop/sun.swing.table=ALL-UNNAMED, --add-exports=java.desktop/sun.swing.plaf.synth=ALL-UNNAMED, --add-exports=java.desktop/sun.awt.shell=ALL-UNNAMED, --add-exports=java.base/sun.security.action=ALL-UNNAMED, --add-exports=java.desktop/sun.font=ALL-UNNAMED, -XX:NewSize=60m, -XX:MaxNewSize=60m, -Xms256m, -Xmx3072m, -Xss5m]
+Java initial memory (-Xms): 	256 MB
+Java maximum memory (-Xmx):	 3 GB
+
+
+User name: 	ADMIN
+User home directory: C:/Users/ADMIN
+User working directory: D:/FPGA/Vivaldo Project/Digital_Font_End_LTE/Downlink/DPD/fpga
+User country: 	US
+User language: 	en
+User locale: 	en_US
+
+RDI_BASEROOT: D:/Xilinx/Vivado
+HDI_APPROOT: D:/Xilinx/Vivado/2022.2
+RDI_DATADIR: D:/Xilinx/Vivado/2022.2/data
+RDI_BINDIR: D:/Xilinx/Vivado/2022.2/bin
+
+Vivado preferences file: C:/Users/ADMIN/AppData/Roaming/Xilinx/Vivado/2022.2/vivado.xml
+Vivado preferences directory: C:/Users/ADMIN/AppData/Roaming/Xilinx/Vivado/2022.2/
+Vivado layouts directory: C:/Users/ADMIN/AppData/Roaming/Xilinx/Vivado/2022.2/data/layouts
+PlanAhead jar file: 	D:/Xilinx/Vivado/2022.2/lib/classes/planAhead.jar
+Vivado log file: 	D:/FPGA/Vivaldo Project/Digital_Font_End_LTE/Downlink/DPD/fpga/vivado.log
+Vivado journal file: 	D:/FPGA/Vivaldo Project/Digital_Font_End_LTE/Downlink/DPD/fpga/vivado.jou
+Engine tmp dir: 	D:/FPGA/Vivaldo Project/Digital_Font_End_LTE/Downlink/DPD/fpga/.Xil/Vivado-43932-LAPTOP-CHCSI1R5
+
+Xilinx Environment Variables
+----------------------------
+RDI_APPROOT: D:/Xilinx/Vivado/2022.2
+RDI_ARGS:  -gui_launcher_event rodinguilauncherevent76324 "D:\FPGA\Vivaldo Project\Digital_Font_End_LTE\Downlink\DPD\fpga\dpd.xpr"
+RDI_ARGS_FUNCTION: RDI_EXEC_DEFAULT
+RDI_BASEROOT: D:/Xilinx/Vivado
+RDI_BINDIR: D:/Xilinx/Vivado/2022.2/bin
+RDI_BINROOT: D:/Xilinx/Vivado/2022.2/bin
+RDI_BUILD: yes
+RDI_CHECK_PROG: True
+RDI_DATADIR: D:/Xilinx/Vivado/2022.2/data
+RDI_INSTALLROOT: D:/Xilinx
+RDI_INSTALLVER: 2022.2
+RDI_INSTALLVERSION: 2022.2
+RDI_JAVACEFROOT: D:/Xilinx/Vivado/2022.2/tps/win64/java-cef-95.0.4638.69
+RDI_JAVAFXROOT: D:/Xilinx/Vivado/2022.2/tps/win64/javafx-sdk-11.0.2
+RDI_JAVAROOT: D:/Xilinx/Vivado/2022.2/tps/win64/jre11.0.11_9
+RDI_JAVA_VERSION: 11.0.11_9
+RDI_LIBDIR: D:/Xilinx/Vivado/2022.2/lib/win64.o
+RDI_MINGW_LIB: D:/Xilinx/Vivado/2022.2\tps\mingw\6.2.0\win64.o\nt\bin;D:/Xilinx/Vivado/2022.2\tps\mingw\6.2.0\win64.o\nt\libexec\gcc\x86_64-w64-mingw32\6.2.0
+RDI_OPT_EXT: .o
+RDI_PLATFORM: win64
+RDI_PREPEND_PATH: D:/Xilinx/Vitis/2022.2/bin
+RDI_PROG: D:/Xilinx/Vivado/2022.2/bin/unwrapped/win64.o/vivado.exe
+RDI_PROGNAME: vivado.exe
+RDI_PYTHON3: D:/Xilinx/Vivado/2022.2\tps\win64\python-3.8.3
+RDI_PYTHON3_VERSION: 3.8.3
+RDI_PYTHONHOME: D:/Xilinx/Vivado/2022.2\tps\win64\python-3.8.3
+RDI_PYTHONPATH: D:/Xilinx/Vivado/2022.2\tps\win64\python-3.8.3;D:/Xilinx/Vivado/2022.2\tps\win64\python-3.8.3\bin;D:/Xilinx/Vivado/2022.2\tps\win64\python-3.8.3\lib;D:/Xilinx/Vivado/2022.2\tps\win64\python-3.8.3\lib\site-packages
+RDI_PYTHON_LD_LIBPATH: D:/Xilinx/Vivado/2022.2\tps\win64\python-3.8.3\lib
+RDI_TPS_ROOT: D:/Xilinx/Vivado/2022.2/tps/win64
+RDI_USE_JDK11: True
+RDI_VERBOSE: False
+XILINX_HLS: D:/Xilinx/Vitis_HLS/2022.2
+XILINX_PLANAHEAD: D:/Xilinx/Vivado/2022.2
+XILINX_SDK: D:/Xilinx/Vitis/2022.2
+XILINX_VITIS: D:/Xilinx/Vitis/2022.2
+XILINX_VIVADO: D:/Xilinx/Vivado/2022.2
+XILINX_VIVADO_HLS: D:/Xilinx/Vivado/2022.2
+_RDI_BINROOT: D:\Xilinx\Vivado\2022.2\bin
+_RDI_CWD: D:\FPGA\Vivaldo Project\Digital_Font_End_LTE\Downlink\DPD\fpga
+
+
+GUI allocated memory:	348 MB
+GUI max memory:		3,072 MB
+Engine allocated memory: 824 MB
+
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+
+*/
+
+// TclEventType: START_GUI
+// Tcl Message: start_gui 
+// TclEventType: PROJECT_OPEN_DIALOG
+// Opening Vivado Project: D:\FPGA\Vivaldo Project\Digital_Font_End_LTE\Downlink\DPD\fpga\dpd.xpr. Version: Vivado v2022.2 
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// TclEventType: FLOW_ADDED
+// Tcl Message: open_project {D:/FPGA/Vivaldo Project/Digital_Font_End_LTE/Downlink/DPD/fpga/dpd.xpr} 
+// HMemoryUtils.trashcanNow. Engine heap size: 873 MB. GUI used memory: 59 MB. Current time: 6/5/26, 11:13:21 AM EDT
+// TclEventType: MSGMGR_MOVEMSG
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: FILE_SET_NEW
+// TclEventType: RUN_CURRENT
+// TclEventType: PROJECT_DASHBOARD_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: IP_LOCK_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: IP_LOCK_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: IP_LOCK_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: IP_LOCK_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: IP_LOCK_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: PROJECT_NEW
+// [GUI Memory]: 75 MB (+75945kb) [00:00:21]
+// [Engine Memory]: 988 MB (+884013kb) [00:00:21]
+// [GUI Memory]: 81 MB (+3009kb) [00:00:22]
+// WARNING: HEventQueue.dispatchEvent() is taking  2654 ms.
+// Tcl Message: open_project {D:/FPGA/Vivaldo Project/Digital_Font_End_LTE/Downlink/DPD/fpga/dpd.xpr} 
+// Tcl Message: INFO: [Project 1-313] Project file moved from 'D:/FPGA/Vivaldo Project/Digital_Font_End_LTE/Downlink/CFR/fpga' since last save. INFO: [filemgmt 56-3] Default IP Output Path : Could not find the directory 'D:/FPGA/Vivaldo Project/Digital_Font_End_LTE/Downlink/DPD/fpga/dpd.gen/sources_1'. 
+// Tcl Message: Scanning sources... Finished scanning sources 
+// Tcl Message: INFO: [IP_Flow 19-234] Refreshing IP repositories INFO: [IP_Flow 19-1704] No user IP repositories specified INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/Xilinx/Vivado/2022.2/data/ip'. 
+// [GUI Memory]: 122 MB (+37760kb) [00:00:23]
+// [Engine Memory]: 1,044 MB (+7456kb) [00:00:23]
+// Tcl Message: open_project: Time (s): cpu = 00:00:31 ; elapsed = 00:00:16 . Memory (MB): peak = 1177.359 ; gain = 243.949 
+// Project name: dpd; location: D:/FPGA/Vivaldo Project/Digital_Font_End_LTE/Downlink/DPD/fpga; part: xck26-sfvc784-2LV-c
+dismissDialog("Open Project"); // bq
+// HMemoryUtils.trashcanNow. Engine heap size: 1,085 MB. GUI used memory: 68 MB. Current time: 6/5/26, 11:13:36 AM EDT
+// TclEventType: PACKAGER_OBJECT_ADD
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: IP_LOCK_CHANGE
+// TclEventType: BDCELL_LOCK_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_OBJECT_ADD
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: IP_LOCK_CHANGE
+// TclEventType: BDCELL_LOCK_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_OBJECT_ADD
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: IP_LOCK_CHANGE
+// TclEventType: BDCELL_LOCK_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: update_compile_order -fileset sources_1 
+// Elapsed time: 37 seconds
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+dismissDialog("Invalid Top Module"); // s
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources]", 0); // D
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: update_compile_order -fileset sources_1 
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Non-module Files]", 1); // D
+collapseTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Non-module Files]", 1); // D
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, duc_cfr (duc_cfr.bd)]", 3, true); // D - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, duc_cfr (duc_cfr.bd)]", 3, true, false, false, false, true, false); // D - Popup Trigger - Node
+selectMenu(PAResourceCommand.PACommandNames_AUTO_UPDATE_HIER, "Hierarchy Update"); // al
+selectMenu(PAResourceQtoS.SrcMenu_IP_HIERARCHY, "IP Hierarchy"); // al
+selectMenu(PAResourceQtoS.SrcMenu_IP_HIERARCHY, "IP Hierarchy"); // al
+selectMenu(PAResourceCommand.PACommandNames_AUTO_UPDATE_HIER, "Hierarchy Update"); // al
+selectMenu(PAResourceQtoS.SrcMenu_IP_HIERARCHY, "IP Hierarchy"); // al
+selectMenu(PAResourceQtoS.SrcMenu_IP_HIERARCHY, "IP Hierarchy"); // al
+selectMenu(PAResourceCommand.PACommandNames_AUTO_UPDATE_HIER, "Hierarchy Update"); // al
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, duc_cfr (duc_cfr.bd)]", 3, true); // D - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, duc_cfr (duc_cfr.bd)]", 3, true, false, false, false, true, false); // D - Popup Trigger - Node
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, IP Integrator, Open Block Design]", 7, false); // f
+// Run Command: PAResourceCommand.PACommandNames_OPEN_BLOCK_DESIGN
+// TclEventType: LOAD_FEATURE
+// TclEventType: RSB_SCRIPT_TASK
+// Tcl Message: open_bd_design {D:/FPGA/Vivaldo Project/Digital_Font_End_LTE/Downlink/CFR/fpga/CFR.srcs/sources_1/bd/duc_cfr/duc_cfr.bd} 
+// Tcl Message: Reading block design file <D:/FPGA/Vivaldo Project/Digital_Font_End_LTE/Downlink/CFR/fpga/CFR.srcs/sources_1/bd/duc_cfr/duc_cfr.bd>... 
+// TclEventType: RSB_CHANGE_CURRENT_DIAGRAM
+// TclEventType: RSB_PROPERTY_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_LOCK_CHANGE
+// TclEventType: RSB_CHANGE_CURRENT_DIAGRAM
+// TclEventType: LOAD_FEATURE
+// TclEventType: RSB_LOCK_CHANGE
+// TclEventType: RSB_CHANGE_CURRENT_DIAGRAM
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: RSB_OPEN_DIAGRAM
+// HMemoryUtils.trashcanNow. Engine heap size: 1,131 MB. GUI used memory: 70 MB. Current time: 6/5/26, 11:14:36 AM EDT
+// TclEventType: RSB_OPEN_DIAGRAM
+// [Engine Memory]: 1,190 MB (+98205kb) [00:01:29]
+// [GUI Memory]: 128 MB (+673kb) [00:01:29]
+closeView(PAResourceOtoP.PAViews_PROJECT_SUMMARY, "Project Summary"); // t
+// Tcl Message: open_bd_design: Time (s): cpu = 00:00:07 ; elapsed = 00:00:05 . Memory (MB): peak = 1309.254 ; gain = 85.090 
+// 'bF' command handler elapsed time: 5 seconds
+dismissDialog("Open Block Design"); // bq
+// JavaFX intialization before: 1780672480040
+// JavaFX initialization after: 1780672480348
+// WARNING: HTimer (Open addressing views timer) is taking 377ms to process. Increasing delay to 1300 ms.
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, IP Integrator, Create Block Design]", 6, false); // f
+// Run Command: PAResourceCommand.PACommandNames_CREATE_NEW_DIAGRAM
+// [Engine Memory]: 1,275 MB (+26946kb) [00:01:30]
+setText(PAResourceAtoD.CreateNewDiagramDialog_DESIGN_NAME, "duc_cfr_dpd"); // Q
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a
+// 'O' command handler elapsed time: 9 seconds
+// TclEventType: RSB_SAVE_DIAGRAM
+dismissDialog("Create Block Design"); // au
+// TclEventType: RSB_LOCK_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_LOCK_CHANGE
+// TclEventType: RSB_SAVE_DIAGRAM
+// TclEventType: RSB_OPEN_DIAGRAM
+// TclEventType: RSB_CHANGE_CURRENT_DIAGRAM
+// Tcl Message: create_bd_design "duc_cfr_dpd" 
+// Tcl Message: Wrote  : <D:\FPGA\Vivaldo Project\Digital_Font_End_LTE\Downlink\DPD\fpga\dpd.srcs\sources_1\bd\duc_cfr_dpd\duc_cfr_dpd.bd>  
+// [Engine Memory]: 1,351 MB (+13110kb) [00:01:41]
+dismissDialog("Create Block Design"); // bq
+// HMemoryUtils.trashcanNow. Engine heap size: 1,351 MB. GUI used memory: 83 MB. Current time: 6/5/26, 11:14:51 AM EDT
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, IP Integrator, Open Block Design]", 7, false); // f
+// Run Command: PAResourceCommand.PACommandNames_OPEN_BLOCK_DESIGN
+selectMenuItem((HResource) null, "duc_cfr.bd"); // ao
+// TclEventType: RSB_CHANGE_CURRENT_DIAGRAM
+// TclEventType: RSB_OPEN_DIAGRAM
+// Tcl Message: open_bd_design {D:/FPGA/Vivaldo Project/Digital_Font_End_LTE/Downlink/CFR/fpga/CFR.srcs/sources_1/bd/duc_cfr/duc_cfr.bd} 
+dismissDialog("Open Block Design"); // bq
+// Run Command: RDIResourceCommand.RDICommands_COPY
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: update_compile_order -fileset sources_1 
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, IP Integrator, Open Block Design]", 7, false); // f
+// Run Command: PAResourceCommand.PACommandNames_OPEN_BLOCK_DESIGN
+selectMenuItem((HResource) null, "duc_cfr_dpd.bd"); // ao
+// TclEventType: RSB_CHANGE_CURRENT_DIAGRAM
+// TclEventType: RSB_OPEN_DIAGRAM
+// [GUI Memory]: 135 MB (+243kb) [00:01:50]
+// Tcl Message: open_bd_design {D:/FPGA/Vivaldo Project/Digital_Font_End_LTE/Downlink/DPD/fpga/dpd.srcs/sources_1/bd/duc_cfr_dpd/duc_cfr_dpd.bd} 
+dismissDialog("Open Block Design"); // bq
+// TclEventType: RSB_CHANGE_CURRENT_DIAGRAM
+// Tcl Message: current_bd_design duc_cfr 
+// Tcl Message: set tmpCopyObjs [concat  [get_bd_cells {axi_bram_ctrl_0 axi_dma_0 smartconnect_0 zynq_ultra_ps_e_0 axis_upsample_0 axis_upsample_1 cfr_0 proc_sys_reset_0 blk_mem_gen_0 halfband_fir_0 halfband_fir_1}] [get_bd_intf_nets {cfr_0_m_axis axis_upsample_0_m_axis smartconnect_0_M01_AXI axi_dma_0_M_AXI_MM2S axi_bram_ctrl_0_BRAM_PORTA axi_dma_0_M_AXI_S2MM halfband_fir_0_m_axis smartconnect_0_M00_AXI halfband_fir_1_m_axis axis_upsample_1_m_axis zynq_ultra_ps_e_0_M_AXI_HPM0_FPD axi_dma_0_M_AXIS_MM2S}] [get_bd_nets {zynq_ultra_ps_e_0_pl_resetn0 proc_sys_reset_0_peripheral_aresetn zynq_ultra_ps_e_0_pl_clk0}]] 
+// TclEventType: RSB_CHANGE_CURRENT_DIAGRAM
+// Tcl Message: current_bd_design duc_cfr_dpd 
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: copy_bd_objs -from_design duc_cfr / $tmpCopyObjs 
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: REPORT_IP_STATUS_STALE
+// HMemoryUtils.trashcanNow. Engine heap size: 1,380 MB. GUI used memory: 85 MB. Current time: 6/5/26, 11:15:11 AM EDT
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: REPORT_IP_STATUS_STALE
+// Tcl Message: INFO: [Ipptcl 7-1463] No Compatible Board Interface found. Board Tab not created in customize GUI 
+// TclEventType: REPORT_IP_STATUS_STALE
+// Tcl Message: INFO: [PSU-0] Address Range of DDR (0x7ff00000 to 0x7fffffff) is reserved by PMU for internal purpose. 
+// [Engine Memory]: 1,538 MB (+124884kb) [00:02:14]
+// TclEventType: FILE_SET_CHANGE
+// HMemoryUtils.trashcanNow. Engine heap size: 1,538 MB. GUI used memory: 84 MB. Current time: 6/5/26, 11:15:31 AM EDT
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: RSB_COPY_OBJECT
+// TclEventType: RSB_SCRIPT_TASK
+// Tcl Message: copy_bd_objs: Time (s): cpu = 00:00:22 ; elapsed = 00:00:30 . Memory (MB): peak = 1647.809 ; gain = 162.320 
+// Elapsed time: 31 seconds
+dismissDialog("Paste"); // bq
+selectTree(PAResourceQtoS.SystemTreeView_SYSTEM_TREE, "[duc_cfr_dpd, Nets, zynq_ultra_ps_e_0_pl_clk0]", 16, false); // a
+// Elapsed time: 11 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, duc_cfr_dpd (duc_cfr_dpd.bd)]", 4, false); // D
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, duc_cfr (duc_cfr.bd)]", 3, true); // D - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, duc_cfr (duc_cfr.bd)]", 3, true, false, false, false, true, false); // D - Popup Trigger - Node
+selectMenuItem(RDIResourceCommand.RDICommands_DELETE, "Remove File from Project..."); // ao
+// Run Command: RDIResourceCommand.RDICommands_DELETE
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a
+dismissDialog("Remove Sources"); // U
+// Tcl Message: export_ip_user_files -of_objects  [get_files {{D:/FPGA/Vivaldo Project/Digital_Font_End_LTE/Downlink/CFR/fpga/CFR.srcs/sources_1/bd/duc_cfr/duc_cfr.bd}}] -no_script -reset -force -quiet 
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_CLOSE_DIAGRAM
+// TclEventType: RSB_SCRIPT_TASK
+// Tcl Message: remove_files  {{D:/FPGA/Vivaldo Project/Digital_Font_End_LTE/Downlink/CFR/fpga/CFR.srcs/sources_1/bd/duc_cfr/duc_cfr.bd}} 
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: RSB_REMOVE_ADDRNETWORK
+// TclEventType: RSB_CHANGE_CURRENT_DIAGRAM
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_CLOSE_DIAGRAM
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: PROJ_DESIGN_MODE_SET
+// Tcl Message: Wrote  : <D:/FPGA/Vivaldo Project/Digital_Font_End_LTE/Downlink/CFR/fpga/CFR.srcs/sources_1/bd/duc_cfr/ui/bd_10a8a3a2.ui>  
+dismissDialog("Remove Sources"); // bq
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// [GUI Memory]: 146 MB (+4184kb) [00:02:58]
+// Elapsed time: 20 seconds
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Project Manager, Add Sources]", 2, false); // f
+// Run Command: PAResourceCommand.PACommandNames_ADD_SOURCES
+selectButton("NEXT", "Next >"); // JButton
+selectButton(PAResourceQtoS.SrcChooserPanel_CREATE_FILE, "Create File"); // a
+setText(PAResourceAtoD.CreateSrcFileDialog_FILE_NAME, "dpd"); // Q
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a
+// Tcl Command: 'file mkdir D:/FPGA/Vivaldo Project/Digital_Font_End_LTE/Downlink/DPD/fpga/dpd.srcs/sources_1/new'
+dismissDialog("Create Source File"); // m
+// Tcl Message: file mkdir D:/FPGA/Vivaldo Project/Digital_Font_End_LTE/Downlink/DPD/fpga/dpd.srcs/sources_1/new 
+// Tcl Command: 'file mkdir D:/FPGA/Vivaldo Project/Digital_Font_End_LTE/Downlink/DPD/fpga/dpd.srcs/sources_1/new'
+// Tcl Message: file mkdir D:/FPGA/Vivaldo Project/Digital_Font_End_LTE/Downlink/DPD/fpga/dpd.srcs/sources_1/new 
+// Tcl Command: 'file mkdir D:/FPGA/Vivaldo Project/Digital_Font_End_LTE/Downlink/DPD/fpga/dpd.srcs/sources_1/new'
+// Tcl Command: 'file mkdir D:/FPGA/Vivaldo Project/Digital_Font_End_LTE/Downlink/DPD/fpga/dpd.srcs/sources_1/new'
+selectButton("FINISH", "Finish"); // JButton
+// 'f' command handler elapsed time: 11 seconds
+// Tcl Message: file mkdir D:/FPGA/Vivaldo Project/Digital_Font_End_LTE/Downlink/DPD/fpga/dpd.srcs/sources_1/new 
+// Tcl Message: file mkdir D:/FPGA/Vivaldo Project/Digital_Font_End_LTE/Downlink/DPD/fpga/dpd.srcs/sources_1/new 
+// Tcl Command: 'file mkdir D:/FPGA/Vivaldo Project/Digital_Font_End_LTE/Downlink/DPD/fpga/dpd.srcs/sources_1/new'
+dismissDialog("Add Sources"); // c
+// Tcl Command: 'file mkdir D:/FPGA/Vivaldo Project/Digital_Font_End_LTE/Downlink/DPD/fpga/dpd.srcs/sources_1/new'
+// Tcl Message: file mkdir D:/FPGA/Vivaldo Project/Digital_Font_End_LTE/Downlink/DPD/fpga/dpd.srcs/sources_1/new 
+// Tcl Message: file mkdir D:/FPGA/Vivaldo Project/Digital_Font_End_LTE/Downlink/DPD/fpga/dpd.srcs/sources_1/new 
+// Tcl Message: file mkdir {D:/FPGA/Vivaldo Project/Digital_Font_End_LTE/Downlink/DPD/fpga/dpd.srcs/sources_1/new} 
+// Tcl Message: close [ open {D:/FPGA/Vivaldo Project/Digital_Font_End_LTE/Downlink/DPD/fpga/dpd.srcs/sources_1/new/dpd.v} w ] 
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: add_files {{D:/FPGA/Vivaldo Project/Digital_Font_End_LTE/Downlink/DPD/fpga/dpd.srcs/sources_1/new/dpd.v}} 
+dismissDialog("Add Sources"); // bq
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a
+// TclEventType: FILE_SET_CHANGE
+selectButton("OptionPane.button", "Yes"); // JButton
+dismissDialog("Define Module"); // p
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, cfr (cfr.v)]", 2, true); // D - Node
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: update_compile_order -fileset sources_1 
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, cfr (cfr.v)]", 2, true); // D - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, cfr (cfr.v), cfr_qq : cfr_qq (cfr_qq.xci)]", 4, false, false, false, false, false, true); // D - Double Click
+setText("PAResourceAtoD.AbstractFileView_READ_ONLY", "D:/FPGA/Vivaldo Project/Digital_Font_End_LTE/Downlink/CFR/fpga/CFR.srcs/sources_1/new/cfr.v"); // d
+// Elapsed time: 11 seconds
+setText("PAResourceAtoD.AbstractFileView_READ_ONLY", "D:/FPGA/Vivaldo Project/Digital_Font_End_LTE/Downlink/CFR/fpga/CFR.srcs/sources_1/new/cfr.v"); // d
+// Elapsed time: 10 seconds
+collapseTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, cfr (cfr.v)]", 2); // D
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, dpd (dpd.v)]", 5, false); // D
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, dpd (dpd.v)]", 5, false, false, false, false, false, true); // D - Double Click
+setText("PAResourceAtoD.AbstractFileView_READ_ONLY", "D:/FPGA/Vivaldo Project/Digital_Font_End_LTE/Downlink/DPD/fpga/dpd.srcs/sources_1/new/dpd.v"); // d
+// HMemoryUtils.trashcanNow. Engine heap size: 1,538 MB. GUI used memory: 87 MB. Current time: 6/5/26, 11:45:34 AM EDT
+// WARNING: HSwingWorker (Refresh Filesets Swing Worker) is taking 10797103 ms. Increasing delay to 32391309 ms.
+// HMemoryUtils.trashcanNow. Engine heap size: 1,538 MB. GUI used memory: 87 MB. Current time: 6/5/26, 2:52:53 PM EDT
+// WARNING: HTimer (ActiveMsgMonitor Process Messages Timer) is taking 11183589ms to process. Increasing delay to 2000 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  11183589 ms.
+// HMemoryUtils.trashcanNow. Engine heap size: 1,538 MB. GUI used memory: 73 MB. Current time: 6/5/26, 5:59:30 PM EDT
+// WARNING: HEventQueue.dispatchEvent() is taking  2053 ms.
+// HMemoryUtils.trashcanNow. Engine heap size: 1,538 MB. GUI used memory: 72 MB. Current time: 6/5/26, 6:29:30 PM EDT
+// HMemoryUtils.trashcanNow. Engine heap size: 1,538 MB. GUI used memory: 72 MB. Current time: 6/5/26, 6:59:32 PM EDT
+// HMemoryUtils.trashcanNow. Engine heap size: 1,538 MB. GUI used memory: 72 MB. Current time: 6/5/26, 7:29:35 PM EDT
+// HMemoryUtils.trashcanNow. Engine heap size: 1,538 MB. GUI used memory: 72 MB. Current time: 6/5/26, 7:59:38 PM EDT
+// HMemoryUtils.trashcanNow. Engine heap size: 1,538 MB. GUI used memory: 72 MB. Current time: 6/5/26, 8:29:40 PM EDT
+// HMemoryUtils.trashcanNow. Engine heap size: 1,538 MB. GUI used memory: 72 MB. Current time: 6/5/26, 8:59:43 PM EDT
+// HMemoryUtils.trashcanNow. Engine heap size: 1,538 MB. GUI used memory: 72 MB. Current time: 6/5/26, 9:29:46 PM EDT
+// HMemoryUtils.trashcanNow. Engine heap size: 1,538 MB. GUI used memory: 72 MB. Current time: 6/5/26, 9:59:49 PM EDT
+// HMemoryUtils.trashcanNow. Engine heap size: 1,538 MB. GUI used memory: 72 MB. Current time: 6/5/26, 10:29:51 PM EDT
+// WARNING: HEventQueue.dispatchEvent() is taking  10797313 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  1004 ms.
+// HMemoryUtils.trashcanNow. Engine heap size: 1,538 MB. GUI used memory: 72 MB. Current time: 6/6/26, 1:34:40 AM EDT
+// WARNING: HEventQueue.dispatchEvent() is taking  21016567 ms.
+// HMemoryUtils.trashcanNow. Engine heap size: 1,538 MB. GUI used memory: 72 MB. Current time: 6/6/26, 7:25:11 AM EDT
+// WARNING: HEventQueue.dispatchEvent() is taking  1667 ms.
+// HMemoryUtils.trashcanNow. Engine heap size: 1,538 MB. GUI used memory: 72 MB. Current time: 6/6/26, 7:55:14 AM EDT
+// HMemoryUtils.trashcanNow. Engine heap size: 1,538 MB. GUI used memory: 72 MB. Current time: 6/6/26, 11:11:06 AM EDT
+// WARNING: HEventQueue.dispatchEvent() is taking  1744 ms.
+// HMemoryUtils.trashcanNow. Engine heap size: 1,538 MB. GUI used memory: 72 MB. Current time: 6/6/26, 12:45:24 PM EDT
+// WARNING: HEventQueue.dispatchEvent() is taking  3599505 ms.
+// HMemoryUtils.trashcanNow. Engine heap size: 1,538 MB. GUI used memory: 72 MB. Current time: 6/6/26, 2:11:07 PM EDT
+// HMemoryUtils.trashcanNow. Engine heap size: 1,538 MB. GUI used memory: 73 MB. Current time: 6/6/26, 2:41:09 PM EDT
+// HMemoryUtils.trashcanNow. Engine heap size: 1,538 MB. GUI used memory: 72 MB. Current time: 6/6/26, 3:11:12 PM EDT
