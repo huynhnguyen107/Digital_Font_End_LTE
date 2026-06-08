@@ -30,11 +30,11 @@ module dpd #(parameter WIDTH=32)(
 	output 				s_axis_tready,
 	input 				s_axis_tlast,
 	//MASTER
-	output [WIDTH-1:0]   m_axis_tdata,
-	output [WIDTH/8-1:0] m_axis_tkeep,
-	output 				m_axis_tvalid,
+	output reg [WIDTH-1:0]   m_axis_tdata,
+	output reg [WIDTH/8-1:0] m_axis_tkeep,
+	output reg			m_axis_tvalid,
 	input 				m_axis_tready,
-	output 				m_axis_tlast
+	output reg 			m_axis_tlast
     );
 	//AXI Stream staWIDTH/2;ll control
 	localparam TW= WIDTH/2;
@@ -48,17 +48,38 @@ module dpd #(parameter WIDTH=32)(
 	wire [TW:0] power_2 [0:4];
 	//square x[n-m]^4=(i^2+q^2)^2
 	wire [TW+1:0] power_4 [0:4];
+	integer i;
 	genvar gp;
+	genvar gp3;
 	//calib delay
-	wire  [TW-1:0] d_i_nm [4:0];
-	wire  [TW-1:0] d_q_nm [4:0];
-	wire  [TW:0] d_power_2 [4:0];
+	wire  [TW*5-1:0] i_nm_bus;
+	wire  [TW*5-1:0] q_nm_bus;
+	wire  [TW*5:0] power_2_bus;
+	wire  [TW*5-1:0] d_i_nm_bus;
+	wire  [TW*5-1:0] d_q_nm_bus;
+	wire  [TW*5:0] d_power_2_bus;
+	//extract after delay
+	reg  [TW-1:0] d_i_nm [4:0];
+	reg  [TW-1:0] d_q_nm [4:0];
+	reg  [TW:0] d_power_2 [4:0];
 	//x * envelope  or xnm*x^2 orxnm*x^4
-	wire  [TW+1:0] basic [23:0];
+	wire  [TW+1:0] i_basic [23:0];
+	wire  [TW+1:0] q_basic [23:0];
+	wire [TW+1:0] env [0:23];
 	//term=basic*coeffient
-	wire  [TW+1:0] term [23:0];
+	wire  [TW-1:0] i_coe [23:0];
+	wire  [TW-1:0] q_coe [23:0];
+	wire  [TW+1:0] i_term [23:0];
+	wire  [TW+1:0] q_term [23:0];
 	//total=total(term)
-	wire  [TW+1+5:0] total ;
+	reg  [TW+1+3:0] i_total1, i_total2, i_total3, i_total4, i_total5, i_total6;
+	reg  [TW+1+3:0] q_total1, q_total2, q_total3, q_total4, q_total5, q_total6;
+	reg  [TW+1+5:0] i_total_o, q_total_o ;
+	wire  d_s_axis_tvalid ;
+	
+	
+	
+	//----START-----
 	//stall control
 	assign pipe_en = m_axis_tready || (!m_axis_tvalid);
 	assign s_axis_tready = pipe_en;
@@ -76,7 +97,7 @@ module dpd #(parameter WIDTH=32)(
 		else if (pipe_en) begin
 			if (s_axis_tvalid&s_axis_tready)
 				i_nm[0] <= i_in;
-				q_nm[0] <= i_in;
+				q_nm[0] <= q_in;
 				for (i=1;i<5;i=i+1) begin
 					i_nm[i] <=i_nm[i-1];
 					q_nm[i] <=q_nm[i-1];
@@ -84,34 +105,125 @@ module dpd #(parameter WIDTH=32)(
 		end
 	end
 	//x[n-m]^2=i^2+q^2
+	//
 	generate
 		for(gp=0;gp<5;gp=gp+1) begin: gen_power_2
-			power2 power2 (aclk, aresetn, pipe_en, i_nm[gp], q_nm[gp], power_2[gp]);
+			power2 #(TW) power2 (aclk, aresetn, pipe_en, i_nm[gp], q_nm[gp], power_2[gp]);
 		end
 	endgenerate
 	//x[n-m]^4=(x[n-m]^2)^2
 	generate
 		for(gp=0;gp<5;gp=gp+1) begin: gen_power_4
-			power4 power4 (aclk, aresetn, pipe_en, power_2[gp], power_4[gp]);
+			power4 #(TW+1) power4 (aclk, aresetn, pipe_en, power_2[gp], power_4[gp]);
 		end
 	endgenerate
 	//calib delay
-	delay #(16,1,4) delay1 (aclk, aresetn, pipe_en, i_nm, d_i_nm);
-	delay #(16,1,4) delay2 (aclk, aresetn, pipe_en, q_nm, d_q_nm);
-	delay #(17,1,4) delay3 (aclk, aresetn, pipe_en, power_2, d_power_2);
+	assign i_nm_bus= {i_nm[0], i_nm[1], i_nm[2], i_nm[3], i_nm[4]};
+	assign q_nm_bus= {q_nm[0], q_nm[1], q_nm[2], q_nm[3], q_nm[4]};
+	assign power_2_bus= {power_2[0], power_2[1], power_2[2], power_2[3], power_2[4]};
+	delay #(TW*5,2) delay1 (aclk, aresetn, pipe_en, i_nm_bus, d_i_nm_bus);
+	delay #(TW*5,2) delay2 (aclk, aresetn, pipe_en, q_nm_bus, d_q_nm_bus);
+	delay #(TW*5+5,1) delay3 (aclk, aresetn, pipe_en, power_2_bus, d_power_2_bus);
+	//extract to d_i_nm, d_q_nm, d_power_2
+	always @(*) begin
+		for (i=0;i<5;i=i+1) begin
+			d_i_nm[i] = d_i_nm_bus>>(16*i);
+			d_q_nm[i] = d_q_nm_bus>>(16*i);
+			d_power_2[i] = d_power_2_bus>>(17*i);
+		end
+	end
+	//envelop selection
+	//a1
+	assign env[0] = 17'd1; //1*x[n-0]
+	assign env[1] = 17'd1; //1*x[n-1]
+	assign env[2] = 17'd1; //1*x[n-2]
+	assign env[3] = 17'd1; //1*x[n-3]
+	//a3
+	assign env[4] = d_power_2[0]; //x[n-0]*x[n-0]^2
+	assign env[5] = d_power_2[1]; //x[n-1]*x[n-1]^2
+	assign env[6] = d_power_2[2]; //x[n-2]*x[n-2]^2
+	assign env[7] = d_power_2[3]; //x[n-3]*x[n-3]^2
+	//a5
+	assign env[8] =  power_4[0]; //x[n-0]*x[n-0]^4
+	assign env[9] =  power_4[1]; //x[n-1]*x[n-1]^4
+	assign env[10] = power_4[2]; //x[n-2]*x[n-2]^4
+	assign env[11] = power_4[3]; //x[n-3]*x[n-3]^4
+	//b3
+	assign env[12] = d_power_2[1]; //x[n-0]*x[n-1]^2
+	assign env[13] = d_power_2[2]; //x[n-1]*x[n-2]^2
+	assign env[14] = d_power_2[2]; //x[n-2]*x[n-2]^2
+	assign env[15] = d_power_2[3]; //x[n-3]*x[n-3]^2
+	assign env[16] = d_power_2[3]; //x[n-3]*x[n-3]^2
+	assign env[17] = d_power_2[4]; //x[n-3]*x[n-4]^2
+	//a5
+	assign env[18] =  power_4[1]; //x[n-0]*x[n-1]^2
+	assign env[19] =  power_4[2]; //x[n-1]*x[n-2]^2
+	assign env[20] =  power_4[2]; //x[n-2]*x[n-2]^2
+	assign env[21] =  power_4[3]; //x[n-3]*x[n-3]^2
+	assign env[22] =  power_4[3]; //x[n-3]*x[n-3]^2
+	assign env[23] =  power_4[4]; //x[n-3]*x[n-4]^2
 	//basic=x * envelope  or xnm*x^2 orxnm*x^4
 	generate
 		for(gp=0;gp<24;gp=gp+1) begin: gen_basic_data
-			gen_basic gen_basic_i (aclk, aresetn, pipe_en, d_i_nm[gp], env_i[gp], basic_i[gp]);
-			gen_basic gen_basic_q (aclk, aresetn, pipe_en, d_q_nm[gp], env_q[gp], basic_q[gp]);
+			localparam gp3 = (gp < 9) ? (gp % 4) : ((gp - 9) % 3);	
+			gen_basic #(TW) gen_basic_i (aclk, aresetn, pipe_en, d_i_nm[gp3], env[gp], i_basic[gp]);
+			gen_basic #(TW) gen_basic_q (aclk, aresetn, pipe_en, d_q_nm[gp3], env[gp], q_basic[gp]);
+			
 		end
 	endgenerate
 	//term=basic*coeffient
+	//call instance coe
 	generate
-		for(gp=0;gp<24;gp=gp+1) begin: gen_basic_data
-			gen_term gen_term_1 (aclk, aresetn, pipe_en, basic[gp], coe[gp], term[gp]);
+		for(gp=0;gp<24;gp=gp+1) begin: gen_term
+			gen_term gen_term_1 (aclk, aresetn, pipe_en, i_basic[gp], q_basic[gp], i_coe[gp], q_coe[gp], i_term[gp], q_term[gp]);
 		end
 	endgenerate
+	//concat term
 	//total 
-	total total (aclk, aresetn, pipe_en, term, total);
+	always @(posedge aclk) begin
+		if (!aresetn) begin
+			i_total1 <=0 ;
+			i_total2 <=0 ;
+			i_total3 <=0 ;
+			i_total4 <=0 ;
+			i_total_o <=0 ;
+			q_total1 <=0 ;
+			q_total2 <=0 ;
+			q_total3 <=0 ;
+			q_total4 <=0 ;
+			q_total_o <=0 ;
+		end
+		else if (pipe_en) begin
+			i_total1 <= i_term[0] + i_term[4]+ i_term[8] +  i_term[12]+ i_term[16] + i_term[20];
+			i_total2 <= i_term[1] + i_term[5]+ i_term[9] +  i_term[13]+ i_term[17] + i_term[21];
+			i_total3 <= i_term[2] + i_term[6]+ i_term[10] + i_term[14]+ i_term[18] + i_term[22];
+			i_total4 <= i_term[3] + i_term[7]+ i_term[11] + i_term[15]+ i_term[19] + i_term[23];
+			
+			q_total1 <= q_term[0] + q_term[4]+ q_term[8] +  q_term[12]+ q_term[16] + q_term[20];
+			q_total2 <= q_term[1] + q_term[5]+ q_term[9] +  q_term[13]+ q_term[17] + q_term[21];
+			q_total3 <= q_term[2] + q_term[6]+ q_term[10] + q_term[14]+ q_term[18] + q_term[22];
+			q_total4 <= q_term[3] + q_term[7]+ q_term[11] + q_term[15]+ q_term[19] + q_term[23];
+			i_total_o <= i_total1+ i_total2+ i_total3+ i_total4;
+			q_total_o <= q_total1+ q_total2+ q_total3+ q_total4;
+		end
+	end
+	delay #(1,8) delay_valid (aclk, aresetn, pipe_en, s_axis_tvalid&s_axis_tready, d_s_axis_tvalid);
+	//output
+	always @(posedge aclk) begin
+		if (aresetn) begin
+			m_axis_tdata <=0;
+			m_axis_tkeep <=0;
+			m_axis_tvalid <=0;
+			m_axis_tlast <=0;
+		end
+		else if (pipe_en) begin
+			m_axis_tdata[TW-1:0] <=  ((!i_total_o[TW+1+5])&(i_total_o[TW+1+5]>32767)) ? 16'd32767 : 
+									(i_total_o[TW+1+5]&(i_total_o[TW+1+5]>4161536) ? 16'd32768: i_total_o[15:0]);
+			m_axis_tdata[WIDTH-1:TW] <=  ((!q_total_o[TW+1+5]&(q_total_o[TW+1+5]>32767))) ? 16'd32767 : 
+									(q_total_o[TW+1+5]&(q_total_o[TW+1+5]>4161536) ? 16'd32768: q_total_o[15:0]);
+			m_axis_tkeep <= s_axis_tkeep; 
+			m_axis_tvalid <= d_s_axis_tvalid; 
+			m_axis_tlast <= s_axis_tlast; 
+		end
+	end
 endmodule

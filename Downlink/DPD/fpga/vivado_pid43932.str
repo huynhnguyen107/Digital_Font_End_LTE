@@ -423,3 +423,23 @@ setText("PAResourceAtoD.AbstractFileView_READ_ONLY", "D:/FPGA/Vivaldo Project/Di
 // HMemoryUtils.trashcanNow. Engine heap size: 1,538 MB. GUI used memory: 72 MB. Current time: 6/6/26, 2:11:07 PM EDT
 // HMemoryUtils.trashcanNow. Engine heap size: 1,538 MB. GUI used memory: 73 MB. Current time: 6/6/26, 2:41:09 PM EDT
 // HMemoryUtils.trashcanNow. Engine heap size: 1,538 MB. GUI used memory: 72 MB. Current time: 6/6/26, 3:11:12 PM EDT
+// HMemoryUtils.trashcanNow. Engine heap size: 1,538 MB. GUI used memory: 72 MB. Current time: 6/6/26, 3:41:15 PM EDT
+// HMemoryUtils.trashcanNow. Engine heap size: 1,538 MB. GUI used memory: 73 MB. Current time: 6/6/26, 4:11:17 PM EDT
+// HMemoryUtils.trashcanNow. Engine heap size: 1,538 MB. GUI used memory: 72 MB. Current time: 6/6/26, 4:41:20 PM EDT
+// Elapsed time: 107258 seconds
+selectButton(PAResourceAtoD.AbstractFileView_RELOAD, "Reload"); // g
+selectCodeEditor("dpd.v", 220, 129); // ac
+// HMemoryUtils.trashcanNow. Engine heap size: 1,538 MB. GUI used memory: 73 MB. Current time: 6/6/26, 5:11:23 PM EDT
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// WARNING: HSwingWorker (Refresh Filesets Swing Worker) is taking 126 ms. Decreasing delay to 2126 ms.
+// HMemoryUtils.trashcanNow. Engine heap size: 1,538 MB. GUI used memory: 73 MB. Current time: 6/6/26, 5:41:26 PM EDT
+// HMemoryUtils.trashcanNow. Engine heap size: 1,538 MB. GUI used memory: 73 MB. Current time: 6/6/26, 6:11:28 PM EDT
+// HMemoryUtils.trashcanNow. Engine heap size: 1,538 MB. GUI used memory: 72 MB. Current time: 6/6/26, 6:41:31 PM EDT
+// HMemoryUtils.trashcanNow. Engine heap size: 1,538 MB. GUI used memory: 72 MB. Current time: 6/6/26, 7:11:34 PM EDT
+// HMemoryUtils.trashcanNow. Engine heap size: 1,538 MB. GUI used memory: 72 MB. Current time: 6/6/26, 7:41:36 PM EDT
+// HMemoryUtils.trashcanNow. Engine heap size: 1,538 MB. GUI used memory: 72 MB. Current time: 6/6/26, 8:11:39 PM EDT
+// HMemoryUtils.trashcanNow. Engine heap size: 1,538 MB. GUI used memory: 72 MB. Current time: 6/6/26, 8:41:42 PM EDT
+// HMemoryUtils.trashcanNow. Engine heap size: 1,538 MB. GUI used memory: 72 MB. Current time: 6/6/26, 9:11:44 PM EDT
+// HMemoryUtils.trashcanNow. Engine heap size: 1,538 MB. GUI used memory: 72 MB. Current time: 6/6/26, 9:41:47 PM EDT
+// HMemoryUtils.trashcanNow. Engine heap size: 1,538 MB. GUI used memory: 72 MB. Current time: 6/6/26, 10:11:50 PM EDT
