@@ -30,7 +30,7 @@ module delay #(WIDTH=16, DELAY=1)(
 	integer i;
 	reg [WIDTH-1:0] mem [DELAY-1:0];
 	always @(posedge aclk) begin
-		if (aresetn) begin
+		if (!aresetn) begin
 			for (i=0; i<DELAY; i=i+1) begin
 				mem[i] <= 0;
 			end
@@ -42,5 +42,5 @@ module delay #(WIDTH=16, DELAY=1)(
 			end
 		end
 	end
-	assign out = mem;
+	assign out = mem[DELAY-1];
 endmodule

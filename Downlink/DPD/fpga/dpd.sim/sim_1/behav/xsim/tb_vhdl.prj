@@ -1,0 +1,16 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  \
+"../../../../../../CFR/fpga/CFR.gen/sources_1/ip/q_scale/sim/q_scale.vhd" \
+"../../../../../../CFR/fpga/CFR.gen/sources_1/ip/i_scale/sim/i_scale.vhd" \
+"../../../../../../CFR/fpga/CFR.gen/sources_1/ip/div_gen_0/sim/div_gen_0.vhd" \
+"../../../../../../CFR/fpga/CFR.gen/sources_1/ip/cordic_0/sim/cordic_0.vhd" \
+"../../../../../../CFR/fpga/CFR.gen/sources_1/ip/cfr_qq/sim/cfr_qq.vhd" \
+"../../../../../../CFR/fpga/CFR.gen/sources_1/ip/cfr_ii/sim/cfr_ii.vhd" \
+"../../../../dpd.gen/sources_1/ip/term_cmpy_0/sim/term_cmpy_0.vhd" \
+"../../../../dpd.gen/sources_1/ip/basic_mult/sim/basic_mult.vhd" \
+"../../../../dpd.gen/sources_1/ip/power4_mult/sim/power4_mult.vhd" \
+"../../../../dpd.gen/sources_1/ip/power_mult1/sim/power_mult1.vhd" \
+"../../../../dpd.gen/sources_1/ip/power_mult/sim/power_mult.vhd" \
+
+# Do not sort compile order
+nosort

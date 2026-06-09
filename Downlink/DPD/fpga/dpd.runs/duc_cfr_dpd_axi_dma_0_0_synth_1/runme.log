@@ -1,0 +1,13 @@
+
+*** Running vivado
+    with args -log duc_cfr_dpd_axi_dma_0_0.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source duc_cfr_dpd_axi_dma_0_0.tcl
+
+
+
+****** Vivado v2022.2 (64-bit)
+  **** SW Build 3671981 on Fri Oct 14 05:00:03 MDT 2022
+  **** IP Build 3669848 on Fri Oct 14 08:30:02 MDT 2022
+    ** Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+
+source duc_cfr_dpd_axi_dma_0_0.tcl -notrace
+INFO: [IP_Flow 19-6924] IPCACHE: Running cache check for IP inst: duc_cfr_dpd_axi_dma_0_0

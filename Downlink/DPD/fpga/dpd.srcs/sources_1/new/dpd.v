@@ -54,27 +54,27 @@ module dpd #(parameter WIDTH=32)(
 	//calib delay
 	wire  [TW*5-1:0] i_nm_bus;
 	wire  [TW*5-1:0] q_nm_bus;
-	wire  [TW*5:0] power_2_bus;
+	wire  [TW*5+5-1:0] power_2_bus;
 	wire  [TW*5-1:0] d_i_nm_bus;
 	wire  [TW*5-1:0] d_q_nm_bus;
-	wire  [TW*5:0] d_power_2_bus;
+	wire  [TW*5+5-1:0] d_power_2_bus;
 	//extract after delay
 	reg  [TW-1:0] d_i_nm [4:0];
 	reg  [TW-1:0] d_q_nm [4:0];
 	reg  [TW:0] d_power_2 [4:0];
 	//x * envelope  or xnm*x^2 orxnm*x^4
-	wire  [TW+1:0] i_basic [23:0];
-	wire  [TW+1:0] q_basic [23:0];
+	wire  [TW:0] i_basic [23:0];
+	wire  [TW:0] q_basic [23:0];
 	wire [TW+1:0] env [0:23];
 	//term=basic*coeffient
-	wire  [TW-1:0] i_coe [23:0];
-	wire  [TW-1:0] q_coe [23:0];
-	wire  [TW+1:0] i_term [23:0];
-	wire  [TW+1:0] q_term [23:0];
+	wire  [TW:0] i_coe [23:0];
+	wire  [TW:0] q_coe [23:0];
+	wire  [TW:0] i_term [23:0];
+	wire  [TW:0] q_term [23:0];
 	//total=total(term)
-	reg  [TW+1+3:0] i_total1, i_total2, i_total3, i_total4, i_total5, i_total6;
-	reg  [TW+1+3:0] q_total1, q_total2, q_total3, q_total4, q_total5, q_total6;
-	reg  [TW+1+5:0] i_total_o, q_total_o ;
+	reg  [TW+3:0] i_total1, i_total2, i_total3, i_total4;
+	reg  [TW+3:0] q_total1, q_total2, q_total3, q_total4;
+	reg  [TW+5:0] i_total_o, q_total_o ;
 	wire  d_s_axis_tvalid ;
 	
 	
@@ -118,9 +118,9 @@ module dpd #(parameter WIDTH=32)(
 		end
 	endgenerate
 	//calib delay
-	assign i_nm_bus= {i_nm[0], i_nm[1], i_nm[2], i_nm[3], i_nm[4]};
-	assign q_nm_bus= {q_nm[0], q_nm[1], q_nm[2], q_nm[3], q_nm[4]};
-	assign power_2_bus= {power_2[0], power_2[1], power_2[2], power_2[3], power_2[4]};
+	assign i_nm_bus= {i_nm[4], i_nm[3], i_nm[2], i_nm[1], i_nm[0]};
+	assign q_nm_bus= {q_nm[4], q_nm[3], q_nm[2], q_nm[1], q_nm[0]};
+	assign power_2_bus= {power_2[4], power_2[3], power_2[2], power_2[1], power_2[0]};
 	delay #(TW*5,2) delay1 (aclk, aresetn, pipe_en, i_nm_bus, d_i_nm_bus);
 	delay #(TW*5,2) delay2 (aclk, aresetn, pipe_en, q_nm_bus, d_q_nm_bus);
 	delay #(TW*5+5,1) delay3 (aclk, aresetn, pipe_en, power_2_bus, d_power_2_bus);
@@ -134,10 +134,10 @@ module dpd #(parameter WIDTH=32)(
 	end
 	//envelop selection
 	//a1
-	assign env[0] = 17'd1; //1*x[n-0]
-	assign env[1] = 17'd1; //1*x[n-1]
-	assign env[2] = 17'd1; //1*x[n-2]
-	assign env[3] = 17'd1; //1*x[n-3]
+	assign env[0] = 17'd32768; //1*x[n-0]
+	assign env[1] = 17'd32768; //1*x[n-1]
+	assign env[2] = 17'd32768; //1*x[n-2]
+	assign env[3] = 17'd32768; //1*x[n-3]
 	//a3
 	assign env[4] = d_power_2[0]; //x[n-0]*x[n-0]^2
 	assign env[5] = d_power_2[1]; //x[n-1]*x[n-1]^2
@@ -173,9 +173,39 @@ module dpd #(parameter WIDTH=32)(
 	endgenerate
 	//term=basic*coeffient
 	//call instance coe
+	assign i_coe[0] =  17'd32768;      assign q_coe[0] =  17'd0;
+	assign i_coe[1] =  17'd393;         assign q_coe[1] =  17'd65;
+	assign i_coe[2] =  17'd130875;      assign q_coe[2] =  17'd131039;
+	assign i_coe[3] =  17'd98;          assign q_coe[3] =  17'd16;
+	
+	assign i_coe[4] =  17'd2621;      assign q_coe[4] =  17'd196;
+	assign i_coe[5] =  17'd655;      assign q_coe[5] =  17'd130973;
+	assign i_coe[6] =  17'd130678;      assign q_coe[6] =  17'd49;
+	assign i_coe[7] =  17'd196;      assign q_coe[7] =  17'd0;
+	
+	assign i_coe[8] =  17'd130252;      assign q_coe[8] =  17'd131006;
+	assign i_coe[9] =  17'd130809;      assign q_coe[9] =  17'd32;
+	assign i_coe[10] = 17'd131;      assign q_coe[10] = 17'd0;
+	assign i_coe[11] = 17'd131006;      assign q_coe[11] = 17'd0;
+	
+	
+	assign i_coe[12] = 17'd491;      assign q_coe[12] = 17'd65;
+	assign i_coe[13] = 17'd130744;      assign q_coe[13] = 17'd131022;
+	assign i_coe[14] = 17'd262;      assign q_coe[14] = 17'd32;
+	assign i_coe[15] = 17'd130940;      assign q_coe[15] = 17'd0;
+	assign i_coe[16] = 17'd98;      assign q_coe[16] = 17'd131055;
+	assign i_coe[17] = 17'd131006;      assign q_coe[17] = 17'd0;
+	
+	
+	assign i_coe[18] = 17'd130875;      assign q_coe[18] = 17'd131039;
+	assign i_coe[19] = 17'd131;      assign q_coe[19] = 17'd16;
+	assign i_coe[20] = 17'd130973;      assign q_coe[20] = 17'd0;
+	assign i_coe[21] = 17'd65;      assign q_coe[21] = 17'd0;
+	assign i_coe[22] = 17'd131022;      assign q_coe[22] = 17'd0;
+	assign i_coe[23] = 17'd32;      assign q_coe[23] = 17'd0;
 	generate
 		for(gp=0;gp<24;gp=gp+1) begin: gen_term
-			gen_term gen_term_1 (aclk, aresetn, pipe_en, i_basic[gp], q_basic[gp], i_coe[gp], q_coe[gp], i_term[gp], q_term[gp]);
+			gen_term #(TW+1) gen_term_1 (aclk, aresetn, pipe_en, i_basic[gp], q_basic[gp], i_coe[gp], q_coe[gp], i_term[gp], q_term[gp]);
 		end
 	endgenerate
 	//concat term
@@ -207,20 +237,20 @@ module dpd #(parameter WIDTH=32)(
 			q_total_o <= q_total1+ q_total2+ q_total3+ q_total4;
 		end
 	end
-	delay #(1,8) delay_valid (aclk, aresetn, pipe_en, s_axis_tvalid&s_axis_tready, d_s_axis_tvalid);
+	delay #(1,12) delay_valid (aclk, aresetn, pipe_en, s_axis_tvalid&s_axis_tready, d_s_axis_tvalid);
 	//output
 	always @(posedge aclk) begin
-		if (aresetn) begin
+		if (!aresetn) begin
 			m_axis_tdata <=0;
 			m_axis_tkeep <=0;
 			m_axis_tvalid <=0;
 			m_axis_tlast <=0;
 		end
 		else if (pipe_en) begin
-			m_axis_tdata[TW-1:0] <=  ((!i_total_o[TW+1+5])&(i_total_o[TW+1+5]>32767)) ? 16'd32767 : 
-									(i_total_o[TW+1+5]&(i_total_o[TW+1+5]>4161536) ? 16'd32768: i_total_o[15:0]);
-			m_axis_tdata[WIDTH-1:TW] <=  ((!q_total_o[TW+1+5]&(q_total_o[TW+1+5]>32767))) ? 16'd32767 : 
-									(q_total_o[TW+1+5]&(q_total_o[TW+1+5]>4161536) ? 16'd32768: q_total_o[15:0]);
+			m_axis_tdata[TW-1:0] <=  ((!i_total_o[TW+5])&(i_total_o[TW+5]>32767)) ? 16'd32767 : 
+									(i_total_o[TW+5]&(i_total_o[TW+5]>4161536) ? 16'd32768: i_total_o[15:0]);
+			m_axis_tdata[WIDTH-1:TW] <=  ((!q_total_o[TW+5]&(q_total_o[TW+5]>32767))) ? 16'd32767 : 
+									(q_total_o[TW+5]&(q_total_o[TW+5]>4161536) ? 16'd32768: q_total_o[15:0]);
 			m_axis_tkeep <= s_axis_tkeep; 
 			m_axis_tvalid <= d_s_axis_tvalid; 
 			m_axis_tlast <= s_axis_tlast; 

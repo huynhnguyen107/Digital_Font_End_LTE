@@ -1,0 +1,17 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  --include "../../../../dpd.ip_user_files/ipstatic/hdl" \
+"../../../../../../CFR/fpga/CFR.gen/sources_1/ip/fifo_generator_0/sim/fifo_generator_0.v" \
+"../../../../../../CFR/fpga/CFR.srcs/sources_1/new/cfr.v" \
+"../../../../dpd.srcs/sources_1/new/delay.v" \
+"../../../../dpd.srcs/sources_1/new/dpd.v" \
+"../../../../dpd.srcs/sources_1/new/gen_basic.v" \
+"../../../../dpd.srcs/sources_1/new/gen_term.v" \
+"../../../../dpd.srcs/sources_1/new/power2.v" \
+"../../../../dpd.srcs/sources_1/new/power4.v" \
+"../../../../dpd.srcs/sim_1/new/tb.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

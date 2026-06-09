@@ -443,3 +443,1083 @@ selectCodeEditor("dpd.v", 220, 129); // ac
 // HMemoryUtils.trashcanNow. Engine heap size: 1,538 MB. GUI used memory: 72 MB. Current time: 6/6/26, 9:11:44 PM EDT
 // HMemoryUtils.trashcanNow. Engine heap size: 1,538 MB. GUI used memory: 72 MB. Current time: 6/6/26, 9:41:47 PM EDT
 // HMemoryUtils.trashcanNow. Engine heap size: 1,538 MB. GUI used memory: 72 MB. Current time: 6/6/26, 10:11:50 PM EDT
+// WARNING: HEventQueue.dispatchEvent() is taking  10796764 ms.
+// WARNING: HSwingWorker (Refresh Filesets Swing Worker) is taking 10797946 ms. Increasing delay to 32393838 ms.
+// HMemoryUtils.trashcanNow. Engine heap size: 1,538 MB. GUI used memory: 72 MB. Current time: 6/7/26, 1:36:20 AM EDT
+// HMemoryUtils.trashcanNow. Engine heap size: 1,538 MB. GUI used memory: 72 MB. Current time: 6/7/26, 7:11:36 AM EDT
+// HMemoryUtils.trashcanNow. Engine heap size: 1,538 MB. GUI used memory: 65 MB. Current time: 6/7/26, 7:41:36 AM EDT
+// HMemoryUtils.trashcanNow. Engine heap size: 1,538 MB. GUI used memory: 64 MB. Current time: 6/7/26, 11:08:06 AM EDT
+// WARNING: HEventQueue.dispatchEvent() is taking  5552667 ms.
+// HMemoryUtils.trashcanNow. Engine heap size: 1,538 MB. GUI used memory: 64 MB. Current time: 6/7/26, 12:40:48 PM EDT
+// HMemoryUtils.trashcanNow. Engine heap size: 1,538 MB. GUI used memory: 65 MB. Current time: 6/7/26, 1:10:50 PM EDT
+// HMemoryUtils.trashcanNow. Engine heap size: 1,538 MB. GUI used memory: 64 MB. Current time: 6/7/26, 1:40:52 PM EDT
+// HMemoryUtils.trashcanNow. Engine heap size: 1,538 MB. GUI used memory: 64 MB. Current time: 6/7/26, 2:10:55 PM EDT
+// HMemoryUtils.trashcanNow. Engine heap size: 1,538 MB. GUI used memory: 64 MB. Current time: 6/7/26, 2:40:58 PM EDT
+// HMemoryUtils.trashcanNow. Engine heap size: 1,538 MB. GUI used memory: 64 MB. Current time: 6/7/26, 3:11:01 PM EDT
+// HMemoryUtils.trashcanNow. Engine heap size: 1,538 MB. GUI used memory: 64 MB. Current time: 6/7/26, 3:41:03 PM EDT
+// HMemoryUtils.trashcanNow. Engine heap size: 1,538 MB. GUI used memory: 64 MB. Current time: 6/7/26, 4:11:06 PM EDT
+// HMemoryUtils.trashcanNow. Engine heap size: 1,538 MB. GUI used memory: 64 MB. Current time: 6/7/26, 4:41:09 PM EDT
+// HMemoryUtils.trashcanNow. Engine heap size: 1,538 MB. GUI used memory: 64 MB. Current time: 6/7/26, 5:11:11 PM EDT
+// HMemoryUtils.trashcanNow. Engine heap size: 1,538 MB. GUI used memory: 64 MB. Current time: 6/7/26, 5:41:14 PM EDT
+// HMemoryUtils.trashcanNow. Engine heap size: 1,538 MB. GUI used memory: 64 MB. Current time: 6/7/26, 6:11:17 PM EDT
+// HMemoryUtils.trashcanNow. Engine heap size: 1,538 MB. GUI used memory: 64 MB. Current time: 6/7/26, 6:41:19 PM EDT
+// HMemoryUtils.trashcanNow. Engine heap size: 1,538 MB. GUI used memory: 64 MB. Current time: 6/7/26, 7:11:22 PM EDT
+// HMemoryUtils.trashcanNow. Engine heap size: 1,538 MB. GUI used memory: 64 MB. Current time: 6/7/26, 7:41:25 PM EDT
+// HMemoryUtils.trashcanNow. Engine heap size: 1,538 MB. GUI used memory: 64 MB. Current time: 6/7/26, 8:11:28 PM EDT
+// HMemoryUtils.trashcanNow. Engine heap size: 1,538 MB. GUI used memory: 64 MB. Current time: 6/7/26, 8:41:31 PM EDT
+// WARNING: HSwingWorker (Refresh Filesets Swing Worker) is taking 45 ms. Decreasing delay to 2045 ms.
+// HMemoryUtils.trashcanNow. Engine heap size: 1,538 MB. GUI used memory: 64 MB. Current time: 6/7/26, 9:11:33 PM EDT
+// HMemoryUtils.trashcanNow. Engine heap size: 1,538 MB. GUI used memory: 64 MB. Current time: 6/7/26, 9:41:36 PM EDT
+// HMemoryUtils.trashcanNow. Engine heap size: 1,538 MB. GUI used memory: 65 MB. Current time: 6/8/26, 12:59:47 AM EDT
+// HMemoryUtils.trashcanNow. Engine heap size: 1,538 MB. GUI used memory: 64 MB. Current time: 6/8/26, 6:06:10 AM EDT
+// WARNING: HEventQueue.dispatchEvent() is taking  1484 ms.
+// WARNING: HSwingWorker (Update Runs Swing Worker) is taking 1582 ms. Increasing delay to 3000 ms.
+// HMemoryUtils.trashcanNow. Engine heap size: 1,538 MB. GUI used memory: 64 MB. Current time: 6/8/26, 6:36:11 AM EDT
+// HMemoryUtils.trashcanNow. Engine heap size: 1,538 MB. GUI used memory: 64 MB. Current time: 6/8/26, 7:06:14 AM EDT
+// HMemoryUtils.trashcanNow. Engine heap size: 1,538 MB. GUI used memory: 65 MB. Current time: 6/8/26, 7:36:17 AM EDT
+// HMemoryUtils.trashcanNow. Engine heap size: 1,538 MB. GUI used memory: 64 MB. Current time: 6/8/26, 8:06:19 AM EDT
+// HMemoryUtils.trashcanNow. Engine heap size: 1,538 MB. GUI used memory: 64 MB. Current time: 6/8/26, 8:36:22 AM EDT
+// HMemoryUtils.trashcanNow. Engine heap size: 1,538 MB. GUI used memory: 64 MB. Current time: 6/8/26, 9:06:25 AM EDT
+// HMemoryUtils.trashcanNow. Engine heap size: 1,538 MB. GUI used memory: 64 MB. Current time: 6/8/26, 11:54:30 AM EDT
+// Elapsed time: 155574 seconds
+selectCodeEditor("dpd.v", 279, 117); // ac
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed time: 107 seconds
+selectButton(PAResourceAtoD.AbstractFileView_RELOAD, "Reload"); // g
+selectCodeEditor("dpd.v", 497, 142); // ac
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed time: 97 seconds
+selectButton(PAResourceAtoD.AbstractFileView_RELOAD, "Reload"); // g
+// Elapsed time: 131 seconds
+selectCodeEditor("dpd.v", 645, 78); // ac
+selectCodeEditor("dpd.v", 62, 58); // ac
+// HMemoryUtils.trashcanNow. Engine heap size: 1,538 MB. GUI used memory: 73 MB. Current time: 6/8/26, 12:24:32 PM EDT
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed time: 563 seconds
+selectCodeEditor("dpd.v", 309, 105); // ac
+selectButton(PAResourceAtoD.AbstractFileView_RELOAD, "Reload"); // g
+selectCodeEditor("dpd.v", 243, 144); // ac
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed time: 284 seconds
+selectButton(PAResourceAtoD.AbstractFileView_RELOAD, "Reload"); // g
+selectCodeEditor("dpd.v", 399, 167); // ac
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed time: 210 seconds
+selectButton(PAResourceAtoD.AbstractFileView_RELOAD, "Reload"); // g
+selectCodeEditor("dpd.v", 280, 142); // ac
+selectCodeEditor("dpd.v", 168, 143); // ac
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed time: 40 seconds
+selectButton(PAResourceAtoD.AbstractFileView_RELOAD, "Reload"); // g
+selectCodeEditor("dpd.v", 411, 109); // ac
+selectButton(PAResourceAtoD.AbstractFileView_RELOAD, "Reload"); // g
+selectCodeEditor("dpd.v", 538, 178); // ac
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed time: 92 seconds
+selectButton(PAResourceAtoD.AbstractFileView_RELOAD, "Reload"); // g
+selectCodeEditor("dpd.v", 365, 110); // ac
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed time: 28 seconds
+selectButton(PAResourceAtoD.AbstractFileView_RELOAD, "Reload"); // g
+selectCodeEditor("dpd.v", 439, 164); // ac
+selectCodeEditor("dpd.v", 157, 222); // ac
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed time: 26 seconds
+selectButton(PAResourceAtoD.AbstractFileView_RELOAD, "Reload"); // g
+selectCodeEditor("dpd.v", 374, 163); // ac
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed time: 61 seconds
+selectButton(PAResourceAtoD.AbstractFileView_RELOAD, "Reload"); // g
+selectCodeEditor("dpd.v", 244, 129); // ac
+selectCodeEditor("dpd.v", 237, 180); // ac
+selectCodeEditor("dpd.v", 237, 180); // ac
+// Elapsed time: 203 seconds
+selectCodeEditor("dpd.v", 137, 98); // ac
+// Elapsed time: 44 seconds
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Project Manager, Add Sources]", 2, false); // f
+// Run Command: PAResourceCommand.PACommandNames_ADD_SOURCES
+selectButton("NEXT", "Next >"); // JButton
+selectButton(PAResourceQtoS.SrcChooserPanel_CREATE_FILE, "Create File"); // a
+setText(PAResourceAtoD.CreateSrcFileDialog_FILE_NAME, (String) null); // Q
+setText(PAResourceAtoD.CreateSrcFileDialog_FILE_NAME, "power2"); // Q
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a
+dismissDialog("Create Source File"); // m
+selectButton("FINISH", "Finish"); // JButton
+// 'f' command handler elapsed time: 10 seconds
+dismissDialog("Add Sources"); // c
+// Tcl Message: close [ open {D:/FPGA/Vivaldo Project/Digital_Font_End_LTE/Downlink/DPD/fpga/dpd.srcs/sources_1/new/power2.v} w ] 
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: add_files {{D:/FPGA/Vivaldo Project/Digital_Font_End_LTE/Downlink/DPD/fpga/dpd.srcs/sources_1/new/power2.v}} 
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a
+// TclEventType: FILE_SET_CHANGE
+selectButton("OptionPane.button", "Yes"); // JButton
+dismissDialog("Define Module"); // p
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: update_compile_order -fileset sources_1 
+// Elapsed time: 23 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, axis_upsample (axis_upsample.v)]", 5, false); // D
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Non-module Files]", 1); // D
+selectButton(RDIResource.AbstractSearchablePanel_SHOW_SEARCH, "Sources_search"); // v: TRUE
+setText("PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE_SEARCH_FIELD", "power2"); // OverlayTextField
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, dpd (dpd.v), gen_power_2[0].power2 : power2 (power2.v)]", 2, false); // D
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, dpd (dpd.v), gen_power_2[0].power2 : power2 (power2.v)]", 2, false, false, false, false, false, true); // D - Double Click
+setText("PAResourceAtoD.AbstractFileView_READ_ONLY", "D:/FPGA/Vivaldo Project/Digital_Font_End_LTE/Downlink/DPD/fpga/dpd.srcs/sources_1/new/power2.v"); // d
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, dpd (dpd.v), gen_power_2[1].power2 : power2 (power2.v)]", 3, false); // D
+// HMemoryUtils.trashcanNow. Engine heap size: 1,538 MB. GUI used memory: 74 MB. Current time: 6/8/26, 12:54:33 PM EDT
+// Elapsed time: 569 seconds
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Project Manager, IP Catalog]", 4, false); // f
+// Run Command: PAResourceCommand.PACommandNames_CORE_GEN
+dismissDialog("Open IP Catalog"); // bq
+// Elapsed time: 23 seconds
+setText("PAResourceAtoD.CoreTreeTablePanel_CORE_TREE_TABLE_SEARCH_FIELD", "multi"); // OverlayTextField
+selectTreeTable(PAResourceAtoD.CoreTreeTablePanel_CORE_TREE_TABLE, "Multiplier ;  ; Production ; Included ; xilinx.com:ip:mult_gen:12.0", 18, "Multiplier", 0, false); // z
+expandTreeTable(PAResourceAtoD.CoreTreeTablePanel_CORE_TREE_TABLE, "Multiplier ;  ; Production ; Included ; xilinx.com:ip:mult_gen:12.0", 18); // z
+selectTreeTable(PAResourceAtoD.CoreTreeTablePanel_CORE_TREE_TABLE, "Multiplier ;  ; Production ; Included ; xilinx.com:ip:mult_gen:12.0", 18, "Multiplier", 0, false, false, false, false, false, true); // z - Double Click
+// Run Command: PAResourceCommand.PACommandNames_CUSTOMIZE_CORE
+// 'f' command handler elapsed time: 3 seconds
+selectButton("OptionPane.button", "Add IP to Block Design"); // JButton
+// Tcl Message: create_bd_cell -type ip -vlnv xilinx.com:ip:mult_gen:12.0 mult_gen_0 
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_REMOVE_ADDRNETWORK
+// TclEventType: RSB_INSERT_ADDRNETWORK
+// TclEventType: RSB_PROPERTY_CHANGE
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: RSB_REMOVE_ADDRNETWORK
+// TclEventType: RSB_INSERT_ADDRNETWORK
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: RSB_ADD_OBJECT
+dismissDialog("Add IP"); // bq
+// JavaFX intialization before: 1780938047169
+// JavaFX initialization after: 1780938047169
+// Run Command: RDIResourceCommand.RDICommands_DELETE
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_REMOVE_ADDRNETWORK
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: REPORT_IP_STATUS_STALE
+// Tcl Message: delete_bd_objs [get_bd_cells mult_gen_0] 
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "IP Catalog", 4); // o
+selectTreeTable(PAResourceAtoD.CoreTreeTablePanel_CORE_TREE_TABLE, "Multiplier ;  ; Production ; Included ; xilinx.com:ip:mult_gen:12.0", 18, "Multiplier", 0, false); // z
+selectTreeTable(PAResourceAtoD.CoreTreeTablePanel_CORE_TREE_TABLE, "Multiplier ;  ; Production ; Included ; xilinx.com:ip:mult_gen:12.0", 18, "Multiplier", 0, false, false, false, false, false, true); // z - Double Click
+// Run Command: PAResourceCommand.PACommandNames_CUSTOMIZE_CORE
+// 'f' command handler elapsed time: 3 seconds
+selectButton("OptionPane.button", "Customize IP"); // JButton
+// Elapsed time: 26 seconds
+setText("Width", "16"); // v
+setText("Width", "16"); // v
+selectTab(PAResourceEtoH.HACGCTabbedPane_TABBED_PANE, (HResource) null, "Output and Control", 1); // ba
+selectTab(PAResourceEtoH.HACGCTabbedPane_TABBED_PANE, (HResource) null, "Basic", 0); // ba
+selectTab(PAResourceEtoH.HACGCTabbedPane_TABBED_PANE, (HResource) null, "Output and Control", 1); // ba
+selectCheckBox((HResource) null, "Use Custom Output Width", true); // f: TRUE
+selectTab(PAResourceEtoH.HACGCTabbedPane_TABBED_PANE, (HResource) null, "Basic", 0); // ba
+selectTab(PAResourceEtoH.HACGCTabbedPane_TABBED_PANE, (HResource) null, "Output and Control", 1); // ba
+// Elapsed time: 10 seconds
+setText("Output MSB", "30"); // v
+setText("Output LSB", "15"); // v
+// Elapsed time: 17 seconds
+setText("Component Name", "power_mult"); // v
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a
+dismissDialog("Customize IP"); // m
+// TclEventType: CREATE_IP_CORE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: create_ip -name mult_gen -vendor xilinx.com -library ip -version 12.0 -module_name power_mult 
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: FILESET_UPDATE_IP
+// Tcl Message: set_property -dict [list \   CONFIG.Component_Name {power_mult} \   CONFIG.OutputWidthHigh {30} \   CONFIG.OutputWidthLow {15} \   CONFIG.PortAWidth {16} \   CONFIG.PortBWidth {16} \   CONFIG.Use_Custom_Output_Width {true} \ ] [get_ips power_mult] 
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: generate_target {instantiation_template} [get_files {{d:/FPGA/Vivaldo Project/Digital_Font_End_LTE/Downlink/DPD/fpga/dpd.srcs/sources_1/ip/power_mult/power_mult.xci}}] 
+// Tcl Message: INFO: [IP_Flow 19-1686] Generating 'Instantiation Template' target for IP 'power_mult'... 
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: update_compile_order -fileset sources_1 
+selectRadioButton(PAResourceQtoS.SimpleOutputProductDialog_SYNTHESIZE_DESIGN_GLOBALLY, "Global"); // a
+selectButton(PAResourceQtoS.SimpleOutputProductDialog_GENERATE_OUTPUT_PRODUCTS_IMMEDIATELY, "Generate"); // a
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: FILESET_UPDATE_IP
+// TclEventType: PROJ_DESIGN_MODE_SET
+// Tcl Message: set_property generate_synth_checkpoint false [get_files  {{d:/FPGA/Vivaldo Project/Digital_Font_End_LTE/Downlink/DPD/fpga/dpd.srcs/sources_1/ip/power_mult/power_mult.xci}}] 
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: generate_target all [get_files  {{d:/FPGA/Vivaldo Project/Digital_Font_End_LTE/Downlink/DPD/fpga/dpd.srcs/sources_1/ip/power_mult/power_mult.xci}}] 
+// Tcl Message: INFO: [IP_Flow 19-1686] Generating 'Instantiation Template' target for IP 'power_mult'... INFO: [IP_Flow 19-1686] Generating 'Synthesis' target for IP 'power_mult'... INFO: [IP_Flow 19-1686] Generating 'Simulation' target for IP 'power_mult'... INFO: [IP_Flow 19-1686] Generating 'Change Log' target for IP 'power_mult'... 
+// Tcl Message: export_ip_user_files -of_objects [get_files {{d:/FPGA/Vivaldo Project/Digital_Font_End_LTE/Downlink/DPD/fpga/dpd.srcs/sources_1/ip/power_mult/power_mult.xci}}] -no_script -sync -force -quiet 
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: PROJECT_CHANGE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed time: 43 seconds
+selectButton("OptionPane.button", "OK"); // JButton
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Non-module Files]", 1, true); // D - Node
+collapseTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, dpd (dpd.v)]", 4); // D
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, dpd (dpd.v)]", 4); // D
+collapseTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, dpd (dpd.v)]", 4); // D
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, power_mult (power_mult.xci)]", 9, false); // D
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, power_mult (power_mult.xci)]", 9, false, false, false, false, false, true); // D - Double Click
+// Run Command: PAResourceCommand.PACommandNames_RECUSTOMIZE_CORE
+selectTab(PAResourceEtoH.HACGCTabbedPane_TABBED_PANE, (HResource) null, "Output and Control", 1); // ba
+selectCheckBox((HResource) null, "Clock Enable", true); // f: TRUE
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a
+dismissDialog("Re-customize IP"); // m
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: FILESET_UPDATE_IP
+// Tcl Message: set_property CONFIG.ClockEnable {true} [get_ips power_mult] 
+// TclEventType: FILE_SET_CHANGE
+selectButton(PAResourceQtoS.SimpleOutputProductDialog_GENERATE_OUTPUT_PRODUCTS_IMMEDIATELY, "Generate"); // a
+// HOptionPane Warning: 'A background task is running. Please wait until it completes and try again. (Background Task)'
+selectButton("OptionPane.button", "OK"); // JButton
+selectButton(PAResourceQtoS.SimpleOutputProductDialog_GENERATE_OUTPUT_PRODUCTS_IMMEDIATELY, "Generate"); // a
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: generate_target all [get_files  {{d:/FPGA/Vivaldo Project/Digital_Font_End_LTE/Downlink/DPD/fpga/dpd.srcs/sources_1/ip/power_mult/power_mult.xci}}] 
+// Tcl Message: INFO: [IP_Flow 19-1686] Generating 'Instantiation Template' target for IP 'power_mult'... INFO: [IP_Flow 19-1686] Generating 'Synthesis' target for IP 'power_mult'... INFO: [IP_Flow 19-1686] Generating 'Simulation' target for IP 'power_mult'... INFO: [IP_Flow 19-1686] Generating 'Change Log' target for IP 'power_mult'... 
+// Tcl Message: export_ip_user_files -of_objects [get_files {{d:/FPGA/Vivaldo Project/Digital_Font_End_LTE/Downlink/DPD/fpga/dpd.srcs/sources_1/ip/power_mult/power_mult.xci}}] -no_script -sync -force -quiet 
+// TclEventType: PROJECT_CHANGE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// Elapsed time: 18 seconds
+selectButton("OptionPane.button", "OK"); // JButton
+selectTab(PAResourceEtoH.FileSetView_TABBED_PANE, (HResource) null, "IP Sources", 1); // g
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, IP, cordic_0]", 3, true); // D - Node
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, IP, power_mult]", 7); // D
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, IP, power_mult, Instantiation Template]", 8); // D
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, IP, power_mult, Instantiation Template, power_mult.veo]", 10, false); // D
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, IP, power_mult, Instantiation Template, power_mult.veo]", 10, false, false, false, false, false, true); // D - Double Click
+selectCodeEditor("power_mult.veo", 309, 143); // F
+selectCodeEditor("power_mult.veo", 77, 246); // F
+typeControlKey((HResource) null, "power_mult.veo", 'c'); // F
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed time: 68 seconds
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Project Manager, IP Catalog]", 4, false); // f
+// Run Command: PAResourceCommand.PACommandNames_CORE_GEN
+setText("PAResourceAtoD.CoreTreeTablePanel_CORE_TREE_TABLE_SEARCH_FIELD", "multiplier"); // OverlayTextField
+selectTreeTable(PAResourceAtoD.CoreTreeTablePanel_CORE_TREE_TABLE, "Multiplier ;  ; Production ; Included ; xilinx.com:ip:mult_gen:12.0", 7, "Multiplier", 0, false); // z
+expandTreeTable(PAResourceAtoD.CoreTreeTablePanel_CORE_TREE_TABLE, "Multiplier ;  ; Production ; Included ; xilinx.com:ip:mult_gen:12.0", 7); // z
+selectTreeTable(PAResourceAtoD.CoreTreeTablePanel_CORE_TREE_TABLE, "Multiplier ;  ; Production ; Included ; xilinx.com:ip:mult_gen:12.0", 7, "Multiplier", 0, false, false, false, false, false, true); // z - Double Click
+// Run Command: PAResourceCommand.PACommandNames_CUSTOMIZE_CORE
+selectButton("OptionPane.button", "Customize IP"); // JButton
+setText("Width", "16"); // v
+setText("Width", "16"); // v
+selectTab(PAResourceEtoH.HACGCTabbedPane_TABBED_PANE, (HResource) null, "Output and Control", 1); // ba
+// [GUI Memory]: 161 MB (+8061kb) [73:52:26]
+setText("Component Name", "power_mult1"); // v
+selectCheckBox((HResource) null, "Use Custom Output Width", true); // f: TRUE
+selectCheckBox((HResource) null, "Clock Enable", true); // f: TRUE
+setText("Output MSB", "30"); // v
+setText("Output LSB", "15"); // v
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a
+dismissDialog("Customize IP"); // m
+// TclEventType: CREATE_IP_CORE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: create_ip -name mult_gen -vendor xilinx.com -library ip -version 12.0 -module_name power_mult1 
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: FILESET_UPDATE_IP
+// Tcl Message: set_property -dict [list \   CONFIG.ClockEnable {true} \   CONFIG.Component_Name {power_mult1} \   CONFIG.OutputWidthHigh {30} \   CONFIG.OutputWidthLow {15} \   CONFIG.PortAWidth {16} \   CONFIG.PortBWidth {16} \   CONFIG.Use_Custom_Output_Width {true} \ ] [get_ips power_mult1] 
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: generate_target {instantiation_template} [get_files {{d:/FPGA/Vivaldo Project/Digital_Font_End_LTE/Downlink/DPD/fpga/dpd.srcs/sources_1/ip/power_mult1/power_mult1.xci}}] 
+// Tcl Message: INFO: [IP_Flow 19-1686] Generating 'Instantiation Template' target for IP 'power_mult1'... 
+// TclEventType: FILE_SET_CHANGE
+selectRadioButton(PAResourceQtoS.SimpleOutputProductDialog_SYNTHESIZE_DESIGN_GLOBALLY, "Global"); // a
+selectButton(PAResourceQtoS.SimpleOutputProductDialog_GENERATE_OUTPUT_PRODUCTS_IMMEDIATELY, "Generate"); // a
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: FILESET_UPDATE_IP
+// TclEventType: PROJ_DESIGN_MODE_SET
+// Tcl Message: set_property generate_synth_checkpoint false [get_files  {{d:/FPGA/Vivaldo Project/Digital_Font_End_LTE/Downlink/DPD/fpga/dpd.srcs/sources_1/ip/power_mult1/power_mult1.xci}}] 
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: generate_target all [get_files  {{d:/FPGA/Vivaldo Project/Digital_Font_End_LTE/Downlink/DPD/fpga/dpd.srcs/sources_1/ip/power_mult1/power_mult1.xci}}] 
+// Tcl Message: INFO: [IP_Flow 19-1686] Generating 'Instantiation Template' target for IP 'power_mult1'... INFO: [IP_Flow 19-1686] Generating 'Synthesis' target for IP 'power_mult1'... INFO: [IP_Flow 19-1686] Generating 'Simulation' target for IP 'power_mult1'... INFO: [IP_Flow 19-1686] Generating 'Change Log' target for IP 'power_mult1'... 
+// Tcl Message: export_ip_user_files -of_objects [get_files {{d:/FPGA/Vivaldo Project/Digital_Font_End_LTE/Downlink/DPD/fpga/dpd.srcs/sources_1/ip/power_mult1/power_mult1.xci}}] -no_script -sync -force -quiet 
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: PROJECT_CHANGE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed time: 13 seconds
+selectButton("OptionPane.button", "OK"); // JButton
+collapseTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, IP, power_mult]", 7); // D
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: update_compile_order -fileset sources_1 
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed time: 91 seconds
+selectTab(PAResourceEtoH.FileSetView_TABBED_PANE, (HResource) null, "Hierarchy", 0); // g
+setText("PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE_SEARCH_FIELD", (String) null); // OverlayTextField
+applyEscape(PAResourceAtoD.CoreTreeTablePanel_CORE_TREE_TABLE, (String) null); // z
+selectButton(PAResourceEtoH.FileSetPanel_MESSAGES, "2"); // g
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Analysis Results, sources_1, [HDL 9-1206] Syntax error near 'wire' [D:/FPGA/Vivaldo Project/Digital_Font_End_LTE/Downlink/DPD/fpga/dpd.srcs/sources_1/new/power2.v:33]. ]", 2, false); // u.d
+messagesViewCrossProbe(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "src;-;D:\FPGA\Vivaldo Project\Digital_Font_End_LTE\Downlink\DPD\fpga\dpd.srcs\sources_1\new\power2.v;-;;-;16;-;line;-;33;-;;-;16;-;"); // u.d
+selectButton(PAResourceAtoD.AbstractFileView_RELOAD, "Reload"); // g
+selectCodeEditor("power2.v", 126, 176); // ac
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed time: 49 seconds
+selectButton(PAResourceAtoD.AbstractFileView_RELOAD, "Reload"); // g
+selectCodeEditor("power2.v", 410, 135); // ac
+// Elapsed time: 29 seconds
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, dpd (dpd.v)]", 4); // D
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, dpd (dpd.v), gen_power_2[0].power2 : power2 (power2.v)]", 9); // D
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, dpd (dpd.v), gen_power_2[1].power2 : power2 (power2.v)]", 12); // D
+// Elapsed time: 48 seconds
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Project Manager, Add Sources]", 2, false); // f
+// Run Command: PAResourceCommand.PACommandNames_ADD_SOURCES
+selectButton("NEXT", "Next >"); // JButton
+selectButton(PAResourceQtoS.SrcChooserPanel_CREATE_FILE, "Create File"); // a
+setText(PAResourceAtoD.CreateSrcFileDialog_FILE_NAME, "power"); // Q
+setText(PAResourceAtoD.CreateSrcFileDialog_FILE_NAME, "power4"); // Q
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a
+dismissDialog("Create Source File"); // m
+selectButton("FINISH", "Finish"); // JButton
+// 'f' command handler elapsed time: 13 seconds
+dismissDialog("Add Sources"); // c
+// Tcl Message: close [ open {D:/FPGA/Vivaldo Project/Digital_Font_End_LTE/Downlink/DPD/fpga/dpd.srcs/sources_1/new/power4.v} w ] 
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: add_files {{D:/FPGA/Vivaldo Project/Digital_Font_End_LTE/Downlink/DPD/fpga/dpd.srcs/sources_1/new/power4.v}} 
+// Elapsed time: 15 seconds
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a
+// TclEventType: FILE_SET_CHANGE
+selectButton("OptionPane.button", "Yes"); // JButton
+dismissDialog("Define Module"); // p
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: update_compile_order -fileset sources_1 
+// Elapsed time: 120 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, dpd (dpd.v), delay1 : xil_defaultlib.delay]", 5, false); // D
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, dpd (dpd.v), gen_power_4[0].power4 : power4 (power4.v)]", 18, false); // D
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, dpd (dpd.v), gen_power_4[0].power4 : power4 (power4.v)]", 18, false, false, false, false, false, true); // D - Double Click
+setText("PAResourceAtoD.AbstractFileView_READ_ONLY", "D:/FPGA/Vivaldo Project/Digital_Font_End_LTE/Downlink/DPD/fpga/dpd.srcs/sources_1/new/power4.v"); // d
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed time: 285 seconds
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Project Manager, IP Catalog]", 4, false); // f
+// Run Command: PAResourceCommand.PACommandNames_CORE_GEN
+// Elapsed time: 10 seconds
+setText("PAResourceAtoD.CoreTreeTablePanel_CORE_TREE_TABLE_SEARCH_FIELD", "multiplier"); // OverlayTextField
+selectTreeTable(PAResourceAtoD.CoreTreeTablePanel_CORE_TREE_TABLE, "Multiplier ;  ; Production ; Included ; xilinx.com:ip:mult_gen:12.0", 7, "Multiplier", 0, false); // z
+expandTreeTable(PAResourceAtoD.CoreTreeTablePanel_CORE_TREE_TABLE, "Multiplier ;  ; Production ; Included ; xilinx.com:ip:mult_gen:12.0", 7); // z
+selectTreeTable(PAResourceAtoD.CoreTreeTablePanel_CORE_TREE_TABLE, "Multiplier ;  ; Production ; Included ; xilinx.com:ip:mult_gen:12.0", 7, "Multiplier", 0, false, false, false, false, false, true); // z - Double Click
+// Run Command: PAResourceCommand.PACommandNames_CUSTOMIZE_CORE
+// [GUI Memory]: 170 MB (+1319kb) [74:04:32]
+selectButton("OptionPane.button", "Customize IP"); // JButton
+selectComboBox("Data Type (PortAType)", "Unsigned", 1); // D
+selectComboBox("Data Type: (PortBType)", "Unsigned", 1); // D
+setText("Width", "16"); // v
+setText("Width", "16"); // v
+// Elapsed time: 15 seconds
+setText("Component Name", "power4_mult"); // v
+selectTab(PAResourceEtoH.HACGCTabbedPane_TABBED_PANE, (HResource) null, "Output and Control", 1); // ba
+selectCheckBox((HResource) null, "Clock Enable", true); // f: TRUE
+selectCheckBox((HResource) null, "Use Custom Output Width", true); // f: TRUE
+// Elapsed time: 13 seconds
+setText("Output MSB", "30"); // v
+setText("Output LSB", "15"); // v
+// Elapsed time: 75 seconds
+selectTab(PAResourceEtoH.HACGCTabbedPane_TABBED_PANE, (HResource) null, "Basic", 0); // ba
+setText("Width", "17"); // v
+setText("Width", "17"); // v
+selectTab(PAResourceEtoH.HACGCTabbedPane_TABBED_PANE, (HResource) null, "Output and Control", 1); // ba
+selectCheckBox((HResource) null, "Use Custom Output Width", false); // f: FALSE
+selectTab(PAResourceEtoH.HACGCTabbedPane_TABBED_PANE, (HResource) null, "Basic", 0); // ba
+selectTab(PAResourceEtoH.HACGCTabbedPane_TABBED_PANE, (HResource) null, "Output and Control", 1); // ba
+// Elapsed time: 142 seconds
+selectCheckBox((HResource) null, "Use Custom Output Width", true); // f: TRUE
+setText("Output MSB", "32"); // v
+// Elapsed time: 11 seconds
+setText("Output LSB", "16"); // v
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a
+dismissDialog("Customize IP"); // m
+// TclEventType: CREATE_IP_CORE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: create_ip -name mult_gen -vendor xilinx.com -library ip -version 12.0 -module_name power4_mult 
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: FILESET_UPDATE_IP
+// Tcl Message: set_property -dict [list \   CONFIG.ClockEnable {true} \   CONFIG.Component_Name {power4_mult} \   CONFIG.OutputWidthHigh {32} \   CONFIG.OutputWidthLow {16} \   CONFIG.PortAType {Unsigned} \   CONFIG.PortAWidth {17} \   CONFIG.PortBType {Unsigned} \   CONFIG.PortBWidth {17} \   CONFIG.Use_Custom_Output_Width {true} \ ] [get_ips power4_mult] 
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: generate_target {instantiation_template} [get_files {{d:/FPGA/Vivaldo Project/Digital_Font_End_LTE/Downlink/DPD/fpga/dpd.srcs/sources_1/ip/power4_mult/power4_mult.xci}}] 
+// Tcl Message: INFO: [IP_Flow 19-1686] Generating 'Instantiation Template' target for IP 'power4_mult'... 
+selectRadioButton(PAResourceQtoS.SimpleOutputProductDialog_SYNTHESIZE_DESIGN_GLOBALLY, "Global"); // a
+selectButton(PAResourceQtoS.SimpleOutputProductDialog_GENERATE_OUTPUT_PRODUCTS_IMMEDIATELY, "Generate"); // a
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: FILESET_UPDATE_IP
+// TclEventType: PROJ_DESIGN_MODE_SET
+// Tcl Message: set_property generate_synth_checkpoint false [get_files  {{d:/FPGA/Vivaldo Project/Digital_Font_End_LTE/Downlink/DPD/fpga/dpd.srcs/sources_1/ip/power4_mult/power4_mult.xci}}] 
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: generate_target all [get_files  {{d:/FPGA/Vivaldo Project/Digital_Font_End_LTE/Downlink/DPD/fpga/dpd.srcs/sources_1/ip/power4_mult/power4_mult.xci}}] 
+// Tcl Message: INFO: [IP_Flow 19-1686] Generating 'Instantiation Template' target for IP 'power4_mult'... INFO: [IP_Flow 19-1686] Generating 'Synthesis' target for IP 'power4_mult'... INFO: [IP_Flow 19-1686] Generating 'Simulation' target for IP 'power4_mult'... INFO: [IP_Flow 19-1686] Generating 'Change Log' target for IP 'power4_mult'... 
+// Tcl Message: export_ip_user_files -of_objects [get_files {{d:/FPGA/Vivaldo Project/Digital_Font_End_LTE/Downlink/DPD/fpga/dpd.srcs/sources_1/ip/power4_mult/power4_mult.xci}}] -no_script -sync -force -quiet 
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: PROJECT_CHANGE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed time: 43 seconds
+selectButton("OptionPane.button", "OK"); // JButton
+selectTab(PAResourceEtoH.FileSetView_TABBED_PANE, (HResource) null, "IP Sources", 1); // g
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: update_compile_order -fileset sources_1 
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, IP, power4_mult]", 7); // D
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, IP, power4_mult, Instantiation Template]", 8); // D
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, IP, power4_mult, Instantiation Template, power4_mult.veo]", 10, false); // D
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, IP, power4_mult, Instantiation Template, power4_mult.veo]", 10, false, false, false, false, false, true); // D - Double Click
+selectCodeEditor("power4_mult.veo", 43, 240); // F
+typeControlKey((HResource) null, "power4_mult.veo", 'c'); // F
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed time: 37 seconds
+selectTab(PAResourceEtoH.FileSetView_TABBED_PANE, (HResource) null, "Hierarchy", 0); // g
+// HMemoryUtils.trashcanNow. Engine heap size: 1,538 MB. GUI used memory: 97 MB. Current time: 6/8/26, 1:24:34 PM EDT
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, dpd (dpd.v), gen_power_4[0].power4 : power4 (power4.v)]", 18); // D
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, dpd (dpd.v), gen_power_4[0].power4 : power4 (power4.v), power4_mult : power4_mult (power4_mult.xci)]", 19, false); // D
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, dpd (dpd.v), gen_power_4[0].power4 : power4 (power4.v), power4_mult : power4_mult (power4_mult.xci)]", 19, false, false, false, false, false, true); // D - Double Click
+// Run Command: PAResourceCommand.PACommandNames_RECUSTOMIZE_CORE
+// Elapsed time: 34 seconds
+selectTab(PAResourceEtoH.HACGCTabbedPane_TABBED_PANE, (HResource) null, "Output and Control", 1); // ba
+// Elapsed time: 14 seconds
+setText("Output LSB", "15"); // v
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a
+dismissDialog("Re-customize IP"); // m
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: FILESET_UPDATE_IP
+// Tcl Message: set_property CONFIG.OutputWidthLow {15} [get_ips power4_mult] 
+// TclEventType: FILE_SET_CHANGE
+selectButton(PAResourceQtoS.SimpleOutputProductDialog_GENERATE_OUTPUT_PRODUCTS_IMMEDIATELY, "Generate"); // a
+// Tcl Message: generate_target all [get_files  {{d:/FPGA/Vivaldo Project/Digital_Font_End_LTE/Downlink/DPD/fpga/dpd.srcs/sources_1/ip/power4_mult/power4_mult.xci}}] 
+// Tcl Message: INFO: [IP_Flow 19-1686] Generating 'Instantiation Template' target for IP 'power4_mult'... INFO: [IP_Flow 19-1686] Generating 'Synthesis' target for IP 'power4_mult'... INFO: [IP_Flow 19-1686] Generating 'Simulation' target for IP 'power4_mult'... INFO: [IP_Flow 19-1686] Generating 'Change Log' target for IP 'power4_mult'... 
+// Tcl Message: export_ip_user_files -of_objects [get_files {{d:/FPGA/Vivaldo Project/Digital_Font_End_LTE/Downlink/DPD/fpga/dpd.srcs/sources_1/ip/power4_mult/power4_mult.xci}}] -no_script -sync -force -quiet 
+// TclEventType: PROJECT_CHANGE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+selectButton("OptionPane.button", "OK"); // JButton
+selectButton(PAResourceAtoD.AbstractFileView_RELOAD, "Reload"); // g
+selectCodeEditor("power4_mult.veo", 430, 153); // F
+selectCodeEditor("power4_mult.veo", 71, 169); // F
+selectCodeEditor("power4_mult.veo", 14, 116); // F
+selectCodeEditor("power4_mult.veo", 20, 157); // F
+typeControlKey((HResource) null, "power4_mult.veo", 'c'); // F
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed time: 1601 seconds
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Project Manager, Add Sources]", 2, false); // f
+// Run Command: PAResourceCommand.PACommandNames_ADD_SOURCES
+selectButton("NEXT", "Next >"); // JButton
+selectButton(PAResourceQtoS.SrcChooserPanel_CREATE_FILE, "Create File"); // a
+setText(PAResourceAtoD.CreateSrcFileDialog_FILE_NAME, "delay"); // Q
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a
+dismissDialog("Create Source File"); // m
+// Elapsed time: 43 seconds
+selectButton("FINISH", "Finish"); // JButton
+// 'f' command handler elapsed time: 52 seconds
+dismissDialog("Add Sources"); // c
+// Tcl Message: close [ open {D:/FPGA/Vivaldo Project/Digital_Font_End_LTE/Downlink/DPD/fpga/dpd.srcs/sources_1/new/delay.v} w ] 
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: add_files {{D:/FPGA/Vivaldo Project/Digital_Font_End_LTE/Downlink/DPD/fpga/dpd.srcs/sources_1/new/delay.v}} 
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a
+selectButton("OptionPane.button", "Yes"); // JButton
+// TclEventType: FILE_SET_CHANGE
+dismissDialog("Define Module"); // p
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: update_compile_order -fileset sources_1 
+// Elapsed time: 25 seconds
+setText("PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE_SEARCH_FIELD", "de"); // OverlayTextField
+// HMemoryUtils.trashcanNow. Engine heap size: 1,538 MB. GUI used memory: 98 MB. Current time: 6/8/26, 1:54:34 PM EDT
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// HMemoryUtils.trashcanNow. Engine heap size: 1,538 MB. GUI used memory: 97 MB. Current time: 6/8/26, 2:24:37 PM EDT
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// HMemoryUtils.trashcanNow. Engine heap size: 1,538 MB. GUI used memory: 97 MB. Current time: 6/8/26, 2:54:40 PM EDT
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed time: 4787 seconds
+selectButton(PAResourceEtoH.FileSetPanel_MESSAGES, "4"); // g
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Analysis Results, sources_1, [HDL 9-1206] Syntax error near ')' [D:/FPGA/Vivaldo Project/Digital_Font_End_LTE/Downlink/DPD/fpga/dpd.srcs/sources_1/new/delay.v:29]. ]", 2, true); // u.d - Node
+messagesViewCrossProbe(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "src;-;D:\FPGA\Vivaldo Project\Digital_Font_End_LTE\Downlink\DPD\fpga\dpd.srcs\sources_1\new\delay.v;-;;-;16;-;line;-;29;-;;-;16;-;"); // u.d
+selectCodeEditor("delay.v", 536, 98); // ac
+selectCodeEditor("delay.v", 212, 147); // ac
+selectCodeEditor("delay.v", 241, 140); // ac
+selectCodeEditor("delay.v", 412, 193); // ac
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Syntax Error Files, dpd.v]", 3, false); // D
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Non-module Files]", 3, true, false, false, false, false, true); // D - Double Click - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Syntax Error Files, dpd.v]", 2, false); // D
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Syntax Error Files, dpd.v]", 2, false, false, false, false, false, true); // D - Double Click
+selectCodeEditor("dpd.v", 481, 99); // ac
+selectButton(PAResourceAtoD.AbstractFileView_RELOAD, "Reload"); // g
+selectCodeEditor("dpd.v", 397, 129); // ac
+// Elapsed time: 144 seconds
+selectCodeEditor("dpd.v", 598, 97); // ac
+selectCodeEditor("dpd.v", 432, 136); // ac
+selectCodeEditor("dpd.v", 428, 205); // ac
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed time: 241 seconds
+selectButton(PAResourceAtoD.AbstractFileView_RELOAD, "Reload"); // g
+selectCodeEditor("dpd.v", 297, 137); // ac
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed time: 201 seconds
+selectButton(PAResourceAtoD.AbstractFileView_RELOAD, "Reload"); // g
+selectCodeEditor("dpd.v", 338, 129); // ac
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// HMemoryUtils.trashcanNow. Engine heap size: 1,538 MB. GUI used memory: 98 MB. Current time: 6/8/26, 3:24:42 PM EDT
+// Elapsed time: 71 seconds
+selectButton(PAResourceAtoD.AbstractFileView_RELOAD, "Reload"); // g
+selectCodeEditor("dpd.v", 253, 136); // ac
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed time: 190 seconds
+selectButton(PAResourceAtoD.AbstractFileView_RELOAD, "Reload"); // g
+selectCodeEditor("dpd.v", 334, 101); // ac
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed time: 49 seconds
+selectButton(PAResourceAtoD.AbstractFileView_RELOAD, "Reload"); // g
+selectCodeEditor("dpd.v", 233, 124); // ac
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed time: 24 seconds
+selectButton(PAResourceAtoD.AbstractFileView_RELOAD, "Reload"); // g
+selectCodeEditor("dpd.v", 251, 135); // ac
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed time: 123 seconds
+selectButton(PAResourceAtoD.AbstractFileView_RELOAD, "Reload"); // g
+selectCodeEditor("dpd.v", 294, 154); // ac
+// Elapsed time: 43 seconds
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Project Manager, Add Sources]", 2, false); // f
+// Run Command: PAResourceCommand.PACommandNames_ADD_SOURCES
+selectButton("NEXT", "Next >"); // JButton
+selectButton(PAResourceQtoS.SrcChooserPanel_CREATE_FILE, "Create File"); // a
+setText(PAResourceAtoD.CreateSrcFileDialog_FILE_NAME, "gen_basic"); // Q
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a
+dismissDialog("Create Source File"); // m
+selectButton("FINISH", "Finish"); // JButton
+// 'f' command handler elapsed time: 3 seconds
+dismissDialog("Add Sources"); // c
+// Tcl Message: close [ open {D:/FPGA/Vivaldo Project/Digital_Font_End_LTE/Downlink/DPD/fpga/dpd.srcs/sources_1/new/gen_basic.v} w ] 
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: add_files {{D:/FPGA/Vivaldo Project/Digital_Font_End_LTE/Downlink/DPD/fpga/dpd.srcs/sources_1/new/gen_basic.v}} 
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a
+selectButton("OptionPane.button", "Yes"); // JButton
+// TclEventType: FILE_SET_CHANGE
+dismissDialog("Define Module"); // p
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: update_compile_order -fileset sources_1 
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed time: 301 seconds
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Project Manager, IP Catalog]", 4, false); // f
+// Run Command: PAResourceCommand.PACommandNames_CORE_GEN
+// Elapsed time: 39 seconds
+setText("PAResourceAtoD.CoreTreeTablePanel_CORE_TREE_TABLE_SEARCH_FIELD", "multiplier"); // OverlayTextField
+selectTreeTable(PAResourceAtoD.CoreTreeTablePanel_CORE_TREE_TABLE, "Multiplier ;  ; Production ; Included ; xilinx.com:ip:mult_gen:12.0", 7, "Multiplier", 0, false); // z
+expandTreeTable(PAResourceAtoD.CoreTreeTablePanel_CORE_TREE_TABLE, "Multiplier ;  ; Production ; Included ; xilinx.com:ip:mult_gen:12.0", 7); // z
+selectTreeTable(PAResourceAtoD.CoreTreeTablePanel_CORE_TREE_TABLE, "Multiplier ;  ; Production ; Included ; xilinx.com:ip:mult_gen:12.0", 7, "Multiplier", 0, false, false, false, false, false, true); // z - Double Click
+// Run Command: PAResourceCommand.PACommandNames_CUSTOMIZE_CORE
+selectButton("OptionPane.button", "Customize IP"); // JButton
+setText("Width", "16"); // v
+selectComboBox("Data Type: (PortBType)", "Unsigned", 1); // D
+setText("Width", "17"); // v
+selectTab(PAResourceEtoH.HACGCTabbedPane_TABBED_PANE, (HResource) null, "Output and Control", 1); // ba
+// Elapsed time: 25 seconds
+setText("Component Name", "basic_mult_gen_0"); // v
+// Elapsed time: 31 seconds
+selectCheckBox((HResource) null, "Use Custom Output Width", true); // f: TRUE
+setText("Component Name", "basic_mult"); // v
+selectTab(PAResourceEtoH.HACGCTabbedPane_TABBED_PANE, (HResource) null, "Basic", 0); // ba
+selectTab(PAResourceEtoH.HACGCTabbedPane_TABBED_PANE, (HResource) null, "Output and Control", 1); // ba
+selectCheckBox((HResource) null, "Use Custom Output Width", false); // f: FALSE
+selectCheckBox((HResource) null, "Use Custom Output Width", true); // f: TRUE
+setText("Output MSB", "31"); // v
+// Elapsed time: 11 seconds
+setText("Output LSB", "15"); // v
+selectCheckBox((HResource) null, "Clock Enable", true); // f: TRUE
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a
+dismissDialog("Customize IP"); // m
+// TclEventType: CREATE_IP_CORE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: create_ip -name mult_gen -vendor xilinx.com -library ip -version 12.0 -module_name basic_mult 
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: FILESET_UPDATE_IP
+// Tcl Message: set_property -dict [list \   CONFIG.ClockEnable {true} \   CONFIG.Component_Name {basic_mult} \   CONFIG.OutputWidthHigh {31} \   CONFIG.OutputWidthLow {15} \   CONFIG.PortAWidth {16} \   CONFIG.PortBType {Unsigned} \   CONFIG.PortBWidth {17} \   CONFIG.Use_Custom_Output_Width {true} \ ] [get_ips basic_mult] 
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: generate_target {instantiation_template} [get_files {{d:/FPGA/Vivaldo Project/Digital_Font_End_LTE/Downlink/DPD/fpga/dpd.srcs/sources_1/ip/basic_mult/basic_mult.xci}}] 
+// Tcl Message: INFO: [IP_Flow 19-1686] Generating 'Instantiation Template' target for IP 'basic_mult'... 
+selectRadioButton(PAResourceQtoS.SimpleOutputProductDialog_SYNTHESIZE_DESIGN_GLOBALLY, "Global"); // a
+selectButton(PAResourceQtoS.SimpleOutputProductDialog_GENERATE_OUTPUT_PRODUCTS_IMMEDIATELY, "Generate"); // a
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: FILESET_UPDATE_IP
+// TclEventType: PROJ_DESIGN_MODE_SET
+// Tcl Message: set_property generate_synth_checkpoint false [get_files  {{d:/FPGA/Vivaldo Project/Digital_Font_End_LTE/Downlink/DPD/fpga/dpd.srcs/sources_1/ip/basic_mult/basic_mult.xci}}] 
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: generate_target all [get_files  {{d:/FPGA/Vivaldo Project/Digital_Font_End_LTE/Downlink/DPD/fpga/dpd.srcs/sources_1/ip/basic_mult/basic_mult.xci}}] 
+// Tcl Message: INFO: [IP_Flow 19-1686] Generating 'Instantiation Template' target for IP 'basic_mult'... INFO: [IP_Flow 19-1686] Generating 'Synthesis' target for IP 'basic_mult'... INFO: [IP_Flow 19-1686] Generating 'Simulation' target for IP 'basic_mult'... INFO: [IP_Flow 19-1686] Generating 'Change Log' target for IP 'basic_mult'... 
+// Tcl Message: export_ip_user_files -of_objects [get_files {{d:/FPGA/Vivaldo Project/Digital_Font_End_LTE/Downlink/DPD/fpga/dpd.srcs/sources_1/ip/basic_mult/basic_mult.xci}}] -no_script -sync -force -quiet 
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: PROJECT_CHANGE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed time: 17 seconds
+selectButton("OptionPane.button", "OK"); // JButton
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: update_compile_order -fileset sources_1 
+selectTab(PAResourceEtoH.FileSetView_TABBED_PANE, (HResource) null, "IP Sources", 1); // g
+collapseTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, IP, power4_mult]", 8); // D
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, IP, basic_mult]", 1); // D
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, IP, basic_mult, Instantiation Template]", 2); // D
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, IP, basic_mult, Instantiation Template, basic_mult.veo]", 4, false); // D
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, IP, basic_mult, Instantiation Template, basic_mult.veo]", 4, false, false, false, false, false, true); // D - Double Click
+selectCodeEditor("basic_mult.veo", 55, 122); // F
+typeControlKey((HResource) null, "basic_mult.veo", 'c'); // F
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed time: 181 seconds
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Project Manager, IP Catalog]", 4, false); // f
+// Run Command: PAResourceCommand.PACommandNames_CORE_GEN
+setText("PAResourceAtoD.CoreTreeTablePanel_CORE_TREE_TABLE_SEARCH_FIELD", "complex"); // OverlayTextField
+selectTreeTable(PAResourceAtoD.CoreTreeTablePanel_CORE_TREE_TABLE, "Complex Multiplier ; AXI4-Stream ; Production ; Included ; xilinx.com:ip:cmpy:6.0", 3, "Complex Multiplier", 0, false); // z
+expandTreeTable(PAResourceAtoD.CoreTreeTablePanel_CORE_TREE_TABLE, "Complex Multiplier ; AXI4-Stream ; Production ; Included ; xilinx.com:ip:cmpy:6.0", 3); // z
+selectTreeTable(PAResourceAtoD.CoreTreeTablePanel_CORE_TREE_TABLE, "Complex Multiplier ; AXI4-Stream ; Production ; Included ; xilinx.com:ip:cmpy:6.0", 3, "Complex Multiplier", 0, false, false, false, false, false, true); // z - Double Click
+// Run Command: PAResourceCommand.PACommandNames_CUSTOMIZE_CORE
+selectButton("OptionPane.button", "Customize IP"); // JButton
+dismissDialog("Customize IP"); // i
+// Elapsed time: 11 seconds
+setText("Component Name", "term_cmpy_0"); // v
+// Elapsed time: 26 seconds
+setText("AR/AI Operand Width", "17"); // v
+// Elapsed time: 44 seconds
+selectTab(PAResourceTtoZ.XPG_TabbedPane_TABBED_PANE, (HResource) null, "Configuration and Output", 1); // cH
+// Elapsed time: 28 seconds
+selectCheckBox((HResource) null, "ACLKEN", true); // f: TRUE
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a
+dismissDialog("Customize IP"); // m
+// TclEventType: CREATE_IP_CORE
+// Tcl Message: create_ip -name cmpy -vendor xilinx.com -library ip -version 6.0 -module_name term_cmpy_0 
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: FILESET_UPDATE_IP
+// Tcl Message: set_property -dict [list \   CONFIG.ACLKEN {true} \   CONFIG.APortWidth {17} \   CONFIG.Component_Name {term_cmpy_0} \   CONFIG.OutputWidth {33} \ ] [get_ips term_cmpy_0] 
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: generate_target {instantiation_template} [get_files {{d:/FPGA/Vivaldo Project/Digital_Font_End_LTE/Downlink/DPD/fpga/dpd.srcs/sources_1/ip/term_cmpy_0/term_cmpy_0.xci}}] 
+// Tcl Message: INFO: [IP_Flow 19-1686] Generating 'Instantiation Template' target for IP 'term_cmpy_0'... 
+dismissDialog("Customize IP"); // bq
+selectRadioButton(PAResourceQtoS.SimpleOutputProductDialog_SYNTHESIZE_DESIGN_GLOBALLY, "Global"); // a
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: update_compile_order -fileset sources_1 
+selectButton(PAResourceQtoS.SimpleOutputProductDialog_GENERATE_OUTPUT_PRODUCTS_IMMEDIATELY, "Generate"); // a
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: FILESET_UPDATE_IP
+// TclEventType: PROJ_DESIGN_MODE_SET
+// Tcl Message: set_property generate_synth_checkpoint false [get_files  {{d:/FPGA/Vivaldo Project/Digital_Font_End_LTE/Downlink/DPD/fpga/dpd.srcs/sources_1/ip/term_cmpy_0/term_cmpy_0.xci}}] 
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: generate_target all [get_files  {{d:/FPGA/Vivaldo Project/Digital_Font_End_LTE/Downlink/DPD/fpga/dpd.srcs/sources_1/ip/term_cmpy_0/term_cmpy_0.xci}}] 
+// Tcl Message: INFO: [IP_Flow 19-1686] Generating 'Instantiation Template' target for IP 'term_cmpy_0'... INFO: [IP_Flow 19-1686] Generating 'Synthesis' target for IP 'term_cmpy_0'... INFO: [IP_Flow 19-1686] Generating 'Simulation' target for IP 'term_cmpy_0'... INFO: [IP_Flow 19-1686] Generating 'C Simulation' target for IP 'term_cmpy_0'... INFO: [IP_Flow 19-1686] Generating 'Test Bench' target for IP 'term_cmpy_0'... INFO: [IP_Flow 19-1686] Generating 'Change Log' target for IP 'term_cmpy_0'... 
+// Tcl Message: export_ip_user_files -of_objects [get_files {{d:/FPGA/Vivaldo Project/Digital_Font_End_LTE/Downlink/DPD/fpga/dpd.srcs/sources_1/ip/term_cmpy_0/term_cmpy_0.xci}}] -no_script -sync -force -quiet 
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: PROJECT_CHANGE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: FILE_SET_CHANGE
+selectButton("OptionPane.button", "OK"); // JButton
+// Elapsed time: 14 seconds
+selectTab(PAResourceEtoH.FileSetView_TABBED_PANE, (HResource) null, "Hierarchy", 0); // g
+selectTab(PAResourceEtoH.FileSetView_TABBED_PANE, (HResource) null, "IP Sources", 1); // g
+collapseTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, IP, basic_mult]", 1); // D
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, IP, term_cmpy_0]", 12); // D
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, IP, term_cmpy_0, Instantiation Template]", 13); // D
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, IP, term_cmpy_0, Instantiation Template, term_cmpy_0.veo]", 15, false); // D
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, IP, term_cmpy_0, Instantiation Template, term_cmpy_0.veo]", 15, false, false, false, false, false, true); // D - Double Click
+selectCodeEditor("term_cmpy_0.veo", 33, 236); // F
+typeControlKey((HResource) null, "term_cmpy_0.veo", 'c'); // F
+// Elapsed time: 14 seconds
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Project Manager, Add Sources]", 2, false); // f
+// Run Command: PAResourceCommand.PACommandNames_ADD_SOURCES
+selectButton("NEXT", "Next >"); // JButton
+selectButton(PAResourceQtoS.SrcChooserPanel_CREATE_FILE, "Create File"); // a
+setText(PAResourceAtoD.CreateSrcFileDialog_FILE_NAME, "gen_term"); // Q
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a
+dismissDialog("Create Source File"); // m
+selectButton("FINISH", "Finish"); // JButton
+// 'f' command handler elapsed time: 6 seconds
+dismissDialog("Add Sources"); // c
+// Tcl Message: close [ open {D:/FPGA/Vivaldo Project/Digital_Font_End_LTE/Downlink/DPD/fpga/dpd.srcs/sources_1/new/gen_term.v} w ] 
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: add_files {{D:/FPGA/Vivaldo Project/Digital_Font_End_LTE/Downlink/DPD/fpga/dpd.srcs/sources_1/new/gen_term.v}} 
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a
+selectButton("OptionPane.button", "Yes"); // JButton
+// TclEventType: FILE_SET_CHANGE
+dismissDialog("Define Module"); // p
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: update_compile_order -fileset sources_1 
+// Elapsed time: 64 seconds
+selectTab(PAResourceEtoH.FileSetView_TABBED_PANE, (HResource) null, "Hierarchy", 0); // g
+setText("PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE_SEARCH_FIELD", "ter"); // OverlayTextField
+// Elapsed time: 282 seconds
+selectCodeEditor("term_cmpy_0.veo", 78, 244); // F
+selectCodeEditor("term_cmpy_0.veo", 78, 244, false, false, false, false, true); // F - Double Click
+selectCodeEditor("term_cmpy_0.veo", 47, 244); // F
+selectCodeEditor("term_cmpy_0.veo", 41, 243); // F
+typeControlKey((HResource) null, "term_cmpy_0.veo", 'c'); // F
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// HMemoryUtils.trashcanNow. Engine heap size: 1,538 MB. GUI used memory: 109 MB. Current time: 6/8/26, 3:54:42 PM EDT
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed time: 378 seconds
+selectCodeEditor("term_cmpy_0.veo", 339, 222); // F
+selectButton(PAResourceEtoH.FileSetPanel_MESSAGES, "4"); // g
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Analysis Results, sim_1, [HDL 9-1206] Syntax error near 'd0' [D:/FPGA/Vivaldo Project/Digital_Font_End_LTE/Downlink/DPD/fpga/dpd.srcs/sources_1/new/gen_term.v:37]. ]", 2, true); // u.d - Node
+messagesViewCrossProbe(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "src;-;D:\FPGA\Vivaldo Project\Digital_Font_End_LTE\Downlink\DPD\fpga\dpd.srcs\sources_1\new\gen_term.v;-;;-;16;-;line;-;37;-;;-;16;-;"); // u.d
+selectCodeEditor("gen_term.v", 316, 167); // ac
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed time: 14 seconds
+selectButton(PAResourceAtoD.AbstractFileView_RELOAD, "Reload"); // g
+selectCodeEditor("gen_term.v", 169, 130); // ac
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Analysis Results, sources_1, [HDL 9-1206] Syntax error near ',' [D:/FPGA/Vivaldo Project/Digital_Font_End_LTE/Downlink/DPD/fpga/dpd.srcs/sources_1/new/gen_term.v:38]. ]", 2, false); // u.d
+messagesViewCrossProbe(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "src;-;D:\FPGA\Vivaldo Project\Digital_Font_End_LTE\Downlink\DPD\fpga\dpd.srcs\sources_1\new\gen_term.v;-;;-;16;-;line;-;38;-;;-;16;-;"); // u.d
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Analysis Results, sources_1, [HDL 9-1206] Syntax error near ',' [D:/FPGA/Vivaldo Project/Digital_Font_End_LTE/Downlink/DPD/fpga/dpd.srcs/sources_1/new/gen_term.v:38]. ]", 2, false); // u.d
+messagesViewCrossProbe(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "src;-;D:\FPGA\Vivaldo Project\Digital_Font_End_LTE\Downlink\DPD\fpga\dpd.srcs\sources_1\new\gen_term.v;-;;-;16;-;line;-;38;-;;-;16;-;"); // u.d
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Analysis Results, sources_1, [HDL 9-1206] Syntax error near ',' [D:/FPGA/Vivaldo Project/Digital_Font_End_LTE/Downlink/DPD/fpga/dpd.srcs/sources_1/new/gen_term.v:38]. ]", 2, false, false, false, false, false, true); // u.d - Double Click
+// Elapsed time: 129 seconds
+selectCodeEditor("gen_term.v", 454, 153); // ac
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed time: 21 seconds
+selectButton(PAResourceAtoD.AbstractFileView_RELOAD, "Reload"); // g
+selectCodeEditor("gen_term.v", 181, 130); // ac
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// HMemoryUtils.trashcanNow. Engine heap size: 1,538 MB. GUI used memory: 109 MB. Current time: 6/8/26, 4:24:42 PM EDT
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed time: 2380 seconds
+selectButton(PAResourceEtoH.FileSetPanel_MESSAGES, "8"); // g
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Analysis Results, sources_1, [HDL 9-1206] Syntax error near ';' [D:/FPGA/Vivaldo Project/Digital_Font_End_LTE/Downlink/DPD/fpga/dpd.srcs/sources_1/new/dpd.v:198]. ]", 2, true); // u.d - Node
+messagesViewCrossProbe(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "src;-;D:\FPGA\Vivaldo Project\Digital_Font_End_LTE\Downlink\DPD\fpga\dpd.srcs\sources_1\new\dpd.v;-;;-;16;-;line;-;198;-;;-;16;-;"); // u.d
+selectButton(PAResourceAtoD.AbstractFileView_RELOAD, "Reload"); // g
+selectCodeEditor("dpd.v", 385, 175); // ac
+selectCodeEditor("dpd.v", 121, 134); // ac
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed time: 164 seconds
+selectButton(PAResourceAtoD.AbstractFileView_RELOAD, "Reload"); // g
+selectCodeEditor("dpd.v", 348, 153); // ac
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed time: 34 seconds
+selectButton(PAResourceAtoD.AbstractFileView_RELOAD, "Reload"); // g
+selectCodeEditor("dpd.v", 255, 153); // ac
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed time: 29 seconds
+selectButton(PAResourceAtoD.AbstractFileView_RELOAD, "Reload"); // g
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed time: 21 seconds
+selectCodeEditor("dpd.v", 391, 61); // ac
+selectCodeEditor("dpd.v", 347, 111); // ac
+selectButton(PAResourceAtoD.AbstractFileView_RELOAD, "Reload"); // g
+selectCodeEditor("dpd.v", 427, 116); // ac
+selectCodeEditor("dpd.v", 421, 179); // ac
+selectCodeEditor("dpd.v", 352, 256); // ac
+selectCodeEditor("dpd.v", 380, 129); // ac
+selectCodeEditor("dpd.v", 349, 114); // ac
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed time: 11 seconds
+selectCodeEditor("dpd.v", 302, 104); // ac
+selectButton(PAResourceAtoD.AbstractFileView_RELOAD, "Reload"); // g
+selectCodeEditor("dpd.v", 368, 126); // ac
+selectCodeEditor("dpd.v", 372, 230); // ac
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed time: 116 seconds
+selectButton(PAResourceAtoD.AbstractFileView_RELOAD, "Reload"); // g
+selectCodeEditor("dpd.v", 452, 151); // ac
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed time: 29 seconds
+selectButton(PAResourceAtoD.AbstractFileView_RELOAD, "Reload"); // g
+selectCodeEditor("dpd.v", 378, 132); // ac
+selectCodeEditor("dpd.v", 324, 148); // ac
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+selectButton(PAResourceAtoD.AbstractFileView_RELOAD, "Reload"); // g
+selectCodeEditor("dpd.v", 328, 55); // ac
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed time: 117 seconds
+selectButton(PAResourceAtoD.AbstractFileView_RELOAD, "Reload"); // g
+selectCodeEditor("dpd.v", 536, 146); // ac
