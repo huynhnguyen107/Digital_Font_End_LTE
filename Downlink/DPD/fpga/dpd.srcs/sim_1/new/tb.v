@@ -44,6 +44,20 @@ module tb(
 	wire        fifo_axis_tready;
 	wire        fifo_axis_tlast;
 	integer i=0;
+	//data_in
+	reg [31:0] data_in [9:0];
+	initial begin
+		data_in[0]= 32'hfff8ffdd;
+		data_in[1]= 32'h00000000;
+		data_in[2]= 32'h00430139;
+		data_in[3]= 32'h0078022e;
+		data_in[4]= 32'h0083026a;
+		data_in[5]= 32'h00000000;
+		data_in[6]= 32'hfe2ef756;
+		data_in[7]= 32'hfbfbecf8;
+		data_in[8]= 32'hfa01e350;
+		data_in[9]= 32'hf874dd1f;
+	end
 	//call instace
 	fifo_generator_0 fifo_generator_0 (
 	  .s_aclk(aclk),                // input wire s_aclk
@@ -96,37 +110,33 @@ module tb(
 			s_axis_tlast  <=0;
 			m_axis_tready <=1;
 		end
-		@(posedge aclk) begin
-			s_axis_tdata  <=32'h0000_1000;
-			s_axis_tkeep  <=4'hf;
-			s_axis_tvalid <=1;
-			s_axis_tlast  <=0;
-			m_axis_tready <=1;
+		for (i=0;i<5;i=i+1) begin
+			@(posedge aclk) begin
+				s_axis_tdata  <=data_in[i];
+				s_axis_tkeep  <=4'hf;
+				s_axis_tvalid <=1;
+				s_axis_tlast  <= i==9;
+				m_axis_tready <=1;
+			end
+		end
+		for (i=0;i<5;i=i+1) begin
+			@(posedge aclk) begin
+				s_axis_tvalid <=0;
+				m_axis_tready <=0;
+			end
+		end
+		for (i=5;i<10;i=i+1) begin
+			@(posedge aclk) begin
+				s_axis_tdata  <=data_in[i];
+				s_axis_tkeep  <=4'hf;
+				s_axis_tvalid <=1;
+				s_axis_tlast  <= i==9;
+				m_axis_tready <=1;
+			end
 		end
 		@(posedge aclk) begin
-			s_axis_tdata  <=32'h0000_2000;
-			s_axis_tkeep  <=4'hf;
-			s_axis_tvalid <=1;
-			s_axis_tlast  <=0;
-			m_axis_tready <=1;
-		end
-		@(posedge aclk) begin
-			s_axis_tdata  <=32'h0000_3000;
-			s_axis_tkeep  <=4'hf;
-			s_axis_tvalid <=1;
-			s_axis_tlast  <=0;
-			m_axis_tready <=1;
-		end
-		@(posedge aclk) begin
-			s_axis_tdata  <=32'h0000_4000;
-			s_axis_tkeep  <=4'hf;
-			s_axis_tvalid <=1;
-			s_axis_tlast  <=1;
-			m_axis_tready <=1;
-		end
-		@(posedge aclk) begin
-			s_axis_tdata  <=32'h0000_0000;
-			s_axis_tkeep  <=4'd0;
+			s_axis_tdata  <=0;
+			s_axis_tkeep  <=0;
 			s_axis_tvalid <=0;
 			s_axis_tlast  <=0;
 			m_axis_tready <=1;

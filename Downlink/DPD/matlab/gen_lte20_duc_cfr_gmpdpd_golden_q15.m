@@ -575,7 +575,7 @@ function [br, bi] = gmp_basis_q15(xi, xq, ei, eq, p)
     end
 
     % basis = x * env
-    % x is Q1.15, env is Q?.30, output back to Q1.15
+    % x is Q1.15, env is Q2.30, output back to Q1.15
     br_i64 = floor_div_s64(xi_i64 * env, int64(2^30));
     bi_i64 = floor_div_s64(xq_i64 * env, int64(2^30));
 

@@ -59,10 +59,10 @@ USE mult_gen_v12_0_18.mult_gen_v12_0_18;
 ENTITY power4_mult IS
   PORT (
     CLK : IN STD_LOGIC;
-    A : IN STD_LOGIC_VECTOR(16 DOWNTO 0);
-    B : IN STD_LOGIC_VECTOR(16 DOWNTO 0);
+    A : IN STD_LOGIC_VECTOR(31 DOWNTO 0);
+    B : IN STD_LOGIC_VECTOR(31 DOWNTO 0);
     CE : IN STD_LOGIC;
-    P : OUT STD_LOGIC_VECTOR(17 DOWNTO 0)
+    P : OUT STD_LOGIC_VECTOR(31 DOWNTO 0)
   );
 END power4_mult;
 
@@ -94,11 +94,11 @@ ARCHITECTURE power4_mult_arch OF power4_mult IS
     );
     PORT (
       CLK : IN STD_LOGIC;
-      A : IN STD_LOGIC_VECTOR(16 DOWNTO 0);
-      B : IN STD_LOGIC_VECTOR(16 DOWNTO 0);
+      A : IN STD_LOGIC_VECTOR(31 DOWNTO 0);
+      B : IN STD_LOGIC_VECTOR(31 DOWNTO 0);
       CE : IN STD_LOGIC;
       SCLR : IN STD_LOGIC;
-      P : OUT STD_LOGIC_VECTOR(17 DOWNTO 0)
+      P : OUT STD_LOGIC_VECTOR(31 DOWNTO 0)
     );
   END COMPONENT mult_gen_v12_0_18;
   ATTRIBUTE X_INTERFACE_INFO : STRING;
@@ -123,12 +123,12 @@ BEGIN
       C_HAS_CE => 1,
       C_HAS_SCLR => 0,
       C_LATENCY => 1,
-      C_A_WIDTH => 17,
+      C_A_WIDTH => 32,
       C_A_TYPE => 1,
-      C_B_WIDTH => 17,
+      C_B_WIDTH => 32,
       C_B_TYPE => 1,
-      C_OUT_HIGH => 32,
-      C_OUT_LOW => 15,
+      C_OUT_HIGH => 61,
+      C_OUT_LOW => 30,
       C_MULT_TYPE => 0,
       C_CE_OVERRIDES_SCLR => 0,
       C_CCM_IMP => 0,

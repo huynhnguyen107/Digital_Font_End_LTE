@@ -57,9 +57,9 @@
 basic_mult your_instance_name (
   .CLK(CLK),  // input wire CLK
   .A(A),      // input wire [15 : 0] A
-  .B(B),      // input wire [16 : 0] B
+  .B(B),      // input wire [31 : 0] B
   .CE(CE),    // input wire CE
-  .P(P)      // output wire [16 : 0] P
+  .P(P)      // output wire [15 : 0] P
 );
 // INST_TAG_END ------ End INSTANTIATION Template ---------
 

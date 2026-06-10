@@ -59,7 +59,7 @@ power_mult your_instance_name (
   .A(A),      // input wire [15 : 0] A
   .B(B),      // input wire [15 : 0] B
   .CE(CE),    // input wire CE
-  .P(P)      // output wire [15 : 0] P
+  .P(P)      // output wire [31 : 0] P
 );
 // INST_TAG_END ------ End INSTANTIATION Template ---------
 

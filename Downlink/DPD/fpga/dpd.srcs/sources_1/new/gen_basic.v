@@ -25,15 +25,15 @@ module gen_basic #(WIDTH=16) (
 	input aresetn,
 	input CE,
 	input [WIDTH-1: 0] a,
-	input [WIDTH: 0] b,
-	output [WIDTH: 0] c
+	input [2*WIDTH-1: 0] b,
+	output [WIDTH-1: 0] c
     );
 	//call instace multiplier
 	basic_mult basic_mult (
 	  .CLK(aclk),  // input wire CLK
 	  .A(a),      // input wire [15 : 0] A
-	  .B(b),      // input wire [16 : 0] B
+	  .B(b),      // input wire [31 : 0] B
 	  .CE(CE),    // input wire CE
-	  .P(c)      // output wire [16 : 0] P
+	  .P(c)      // output wire [15 : 0] P
 	);
 endmodule

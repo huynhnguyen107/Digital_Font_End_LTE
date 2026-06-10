@@ -95,11 +95,11 @@ architecture tb of tb_term_cmpy_0 is
 
   -- Slave channel A inputs
   signal s_axis_a_tvalid    : std_logic := '0';  -- TVALID for channel A
-  signal s_axis_a_tdata     : std_logic_vector(47 downto 0) := (others => '0');  -- TDATA for channel A
+  signal s_axis_a_tdata     : std_logic_vector(31 downto 0) := (others => '0');  -- TDATA for channel A
 
   -- Slave channel B inputs
   signal s_axis_b_tvalid    : std_logic := '0';  -- TVALID for channel B
-  signal s_axis_b_tdata     : std_logic_vector(47 downto 0) := (others => '0');  -- TDATA for channel B
+  signal s_axis_b_tdata     : std_logic_vector(31 downto 0) := (others => '0');  -- TDATA for channel B
 
   -----------------------------------------------------------------------
   -- DUT output signals
@@ -115,10 +115,10 @@ architecture tb of tb_term_cmpy_0 is
   -- If using ModelSim or Questa, add "-voptargs=+acc=n" to the vsim command
   -- to prevent the simulator optimizing away these signals.
   -----------------------------------------------------------------------
-  signal s_axis_a_tdata_real     : std_logic_vector(16 downto 0) := (others => '0');
-  signal s_axis_a_tdata_imag     : std_logic_vector(16 downto 0) := (others => '0');
-  signal s_axis_b_tdata_real     : std_logic_vector(16 downto 0) := (others => '0');
-  signal s_axis_b_tdata_imag     : std_logic_vector(16 downto 0) := (others => '0');
+  signal s_axis_a_tdata_real     : std_logic_vector(15 downto 0) := (others => '0');
+  signal s_axis_a_tdata_imag     : std_logic_vector(15 downto 0) := (others => '0');
+  signal s_axis_b_tdata_real     : std_logic_vector(15 downto 0) := (others => '0');
+  signal s_axis_b_tdata_imag     : std_logic_vector(15 downto 0) := (others => '0');
   signal m_axis_dout_tdata_real  : std_logic_vector(32 downto 0) := (others => '0');
   signal m_axis_dout_tdata_imag  : std_logic_vector(32 downto 0) := (others => '0');
 
@@ -139,10 +139,10 @@ architecture tb of tb_term_cmpy_0 is
   -----------------------------------------------------------------------
 
   constant IP_A_DEPTH : integer := 30;
-  constant IP_A_WIDTH : integer := 17;
+  constant IP_A_WIDTH : integer := 16;
   constant IP_A_SHIFT : integer := 3;  -- bit shift for amplitude
   constant IP_B_DEPTH : integer := 32;
-  constant IP_B_WIDTH : integer := 17;
+  constant IP_B_WIDTH : integer := 16;
   constant IP_B_SHIFT : integer := 0;  -- no bit shift, max amplitude
   type T_IP_INT_ENTRY is record
     re : integer;
@@ -329,11 +329,9 @@ begin
       if a_tvalid_nxt /= '1' then
         s_axis_a_tdata <= (others => '0');
       else
-        -- TDATA: Real and imaginary components are each 17 bits wide and byte-aligned at their LSBs
-        s_axis_a_tdata(16 downto 0) <= IP_A_DATA(ip_a_index).re;
-        s_axis_a_tdata(23 downto 17) <= (others => IP_A_DATA(ip_a_index).re(16));  -- sign-extend;
-        s_axis_a_tdata(40 downto 24) <= IP_A_DATA(ip_a_index).im;
-        s_axis_a_tdata(47 downto 41) <= (others => IP_A_DATA(ip_a_index).im(16));  -- sign-extend;
+        -- TDATA: Real and imaginary components are each 16 bits wide and byte-aligned at their LSBs
+        s_axis_a_tdata(15 downto 0) <= IP_A_DATA(ip_a_index).re;
+        s_axis_a_tdata(31 downto 16) <= IP_A_DATA(ip_a_index).im;
       end if;
 
       -- Drive AXI slave channel B payload
@@ -341,11 +339,9 @@ begin
       if b_tvalid_nxt /= '1' then
         s_axis_b_tdata <= (others => '0');
       else
-        -- TDATA: Real and imaginary components are each 17 bits wide and byte-aligned at their LSBs
-        s_axis_b_tdata(16 downto 0) <= IP_B_DATA(ip_b_index).re;
-        s_axis_b_tdata(23 downto 17) <= (others => IP_B_DATA(ip_b_index).re(16));  -- sign-extend
-        s_axis_b_tdata(40 downto 24) <= IP_B_DATA(ip_b_index).im;
-        s_axis_b_tdata(47 downto 41) <= (others => IP_B_DATA(ip_b_index).im(16));  -- sign-extend
+        -- TDATA: Real and imaginary components are each 16 bits wide and byte-aligned at their LSBs
+        s_axis_b_tdata(15 downto 0) <= IP_B_DATA(ip_b_index).re;
+        s_axis_b_tdata(31 downto 16) <= IP_B_DATA(ip_b_index).im;
       end if;
 
       -- Increment input data indices
@@ -400,10 +396,10 @@ begin
   -- Assign TDATA fields to aliases, for easy simulator waveform viewing
   -----------------------------------------------------------------------
 
-  s_axis_a_tdata_real     <= s_axis_a_tdata(16 downto 0);
-  s_axis_a_tdata_imag     <= s_axis_a_tdata(40 downto 24);
-  s_axis_b_tdata_real     <= s_axis_b_tdata(16 downto 0);
-  s_axis_b_tdata_imag     <= s_axis_b_tdata(40 downto 24);
+  s_axis_a_tdata_real     <= s_axis_a_tdata(15 downto 0);
+  s_axis_a_tdata_imag     <= s_axis_a_tdata(31 downto 16);
+  s_axis_b_tdata_real     <= s_axis_b_tdata(15 downto 0);
+  s_axis_b_tdata_imag     <= s_axis_b_tdata(31 downto 16);
   m_axis_dout_tdata_real  <= m_axis_dout_tdata(32 downto 0);
   m_axis_dout_tdata_imag  <= m_axis_dout_tdata(72 downto 40);
 

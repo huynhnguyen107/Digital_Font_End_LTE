@@ -20,19 +20,19 @@
 //////////////////////////////////////////////////////////////////////////////////
 
 
-module power4 #(parameter WIDTH=17)(
+module power4 #(parameter WIDTH=32)(
 	input aclk,
 	input aresetn,
 	input CE,
 	input [WIDTH-1:0] in,
-	output [WIDTH:0] out
+	output [WIDTH-1:0] out
     );
 	//call instance
 	power4_mult power4_mult (
 	  .CLK(aclk),  // input wire CLK
-	  .A(in),      // input wire [16 : 0] A
-	  .B(in),      // input wire [16 : 0] B
+	  .A(in),      // input wire [32 : 0] A
+	  .B(in),      // input wire [32 : 0] B
 	  .CE(CE),    // input wire CE
-	  .P(out )      // output wire [17 : 0] P
+	  .P(out )      // output wire [32 : 0] P
 	);
 endmodule

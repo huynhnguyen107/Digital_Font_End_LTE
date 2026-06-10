@@ -56,9 +56,9 @@ COMPONENT term_cmpy_0
     aclk : IN STD_LOGIC;
     aclken : IN STD_LOGIC;
     s_axis_a_tvalid : IN STD_LOGIC;
-    s_axis_a_tdata : IN STD_LOGIC_VECTOR(47 DOWNTO 0);
+    s_axis_a_tdata : IN STD_LOGIC_VECTOR(31 DOWNTO 0);
     s_axis_b_tvalid : IN STD_LOGIC;
-    s_axis_b_tdata : IN STD_LOGIC_VECTOR(47 DOWNTO 0);
+    s_axis_b_tdata : IN STD_LOGIC_VECTOR(31 DOWNTO 0);
     m_axis_dout_tvalid : OUT STD_LOGIC;
     m_axis_dout_tdata : OUT STD_LOGIC_VECTOR(79 DOWNTO 0) 
   );

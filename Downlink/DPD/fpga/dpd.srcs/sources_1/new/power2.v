@@ -24,27 +24,27 @@ module power2 #(parameter WIDTH=16)(
 	input aclk,
 	input aresetn,
 	input CE,
-	input [WIDTH-1:0] I,
-	input [WIDTH-1:0] Q,
-	input [WIDTH:0] power
+	input [WIDTH-1:0] I,//unsigned 2.30
+	input [WIDTH-1:0] Q,//unsigned 2.30
+	input [2*WIDTH-1:0] power//unsigned 2.30
     );
 	//signals
-	wire [WIDTH-1:0] I2;
-	wire [WIDTH-1:0] Q2;
+	wire [2*WIDTH-1:0] I2;
+	wire [2*WIDTH-1:0] Q2;
 	//multiplier
 	power_mult power_mult_0 (
 	  .CLK(aclk),  // input wire CLK
 	  .A(I),      // input wire [15 : 0] A
 	  .B(I),      // input wire [15 : 0] B
 	  .CE(CE),    // input wire CE
-	  .P(I2)      // output wire [15 : 0] P
+	  .P(I2)      // output wire [31 : 0] P
 	);
 	power_mult1 power_mult1_0 (
 	  .CLK(aclk),  // input wire CLK
 	  .A(Q),      // input wire [15 : 0] A
 	  .B(Q),      // input wire [15 : 0] B
 	  .CE(CE),    // input wire CE
-	  .P(Q2)      // output wire [15 : 0] P
+	  .P(Q2)      // output wire [31 : 0] P
 	);
 	//output
 	assign power = I2 +Q2;
