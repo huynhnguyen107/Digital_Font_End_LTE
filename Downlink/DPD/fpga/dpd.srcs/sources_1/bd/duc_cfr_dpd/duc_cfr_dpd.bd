@@ -7,7 +7,8 @@
       "name": "duc_cfr_dpd",
       "rev_ctrl_bd_flag": "RevCtrlBdOff",
       "synth_flow_mode": "Hierarchical",
-      "tool_version": "2022.2"
+      "tool_version": "2022.2",
+      "validated": "true"
     },
     "design_tree": {
       "axi_bram_ctrl_0": "",
@@ -22,7 +23,8 @@
       "smartconnect_0": "",
       "zynq_ultra_ps_e_0": "",
       "ila_0": "",
-      "ila_1": "",
+      "ila_2": "",
+      "system_ila_0": "",
       "dpd_0": ""
     },
     "components": {
@@ -4080,17 +4082,56 @@
           }
         }
       },
-      "ila_1": {
+      "ila_2": {
         "vlnv": "xilinx.com:ip:ila:6.2",
-        "xci_name": "duc_cfr_dpd_ila_0_1",
-        "xci_path": "ip\\duc_cfr_dpd_ila_0_1\\duc_cfr_dpd_ila_0_1.xci",
-        "inst_hier_path": "ila_1",
+        "xci_name": "duc_cfr_dpd_ila_0_2",
+        "xci_path": "ip\\duc_cfr_dpd_ila_0_2\\duc_cfr_dpd_ila_0_2.xci",
+        "inst_hier_path": "ila_2",
         "parameters": {
           "C_MONITOR_TYPE": {
             "value": "AXI"
           },
           "C_SLOT_0_AXI_PROTOCOL": {
             "value": "AXI4S"
+          }
+        }
+      },
+      "system_ila_0": {
+        "vlnv": "xilinx.com:ip:system_ila:1.1",
+        "xci_name": "duc_cfr_dpd_system_ila_0_0",
+        "xci_path": "ip\\duc_cfr_dpd_system_ila_0_0\\duc_cfr_dpd_system_ila_0_0.xci",
+        "inst_hier_path": "system_ila_0",
+        "parameters": {
+          "C_MON_TYPE": {
+            "value": "INTERFACE"
+          },
+          "C_NUM_MONITOR_SLOTS": {
+            "value": "1"
+          },
+          "C_NUM_OF_PROBES": {
+            "value": "1"
+          },
+          "C_PROBE0_TYPE": {
+            "value": "0"
+          },
+          "C_PROBE1_TYPE": {
+            "value": "0"
+          },
+          "C_PROBE_WIDTH_PROPAGATION": {
+            "value": "AUTO"
+          },
+          "C_SLOT_0_APC_EN": {
+            "value": "0"
+          },
+          "C_SLOT_0_INTF_TYPE": {
+            "value": "xilinx.com:interface:axis_rtl:1.0"
+          }
+        },
+        "interface_ports": {
+          "SLOT_0_AXIS": {
+            "mode": "Monitor",
+            "vlnv_bus_definition": "xilinx.com:interface:axis:1.0",
+            "vlnv": "xilinx.com:interface:axis_rtl:1.0"
           }
         }
       },
@@ -4141,6 +4182,14 @@
               "HAS_TLAST": {
                 "value": "1",
                 "value_src": "constant"
+              },
+              "FREQ_HZ": {
+                "value": "96968727",
+                "value_src": "user_prop"
+              },
+              "CLK_DOMAIN": {
+                "value": "duc_cfr_dpd_zynq_ultra_ps_e_0_0_pl_clk0",
+                "value_src": "default_prop"
               }
             },
             "port_maps": {
@@ -4206,6 +4255,14 @@
               "HAS_TLAST": {
                 "value": "1",
                 "value_src": "constant"
+              },
+              "FREQ_HZ": {
+                "value": "96968727",
+                "value_src": "user_prop"
+              },
+              "CLK_DOMAIN": {
+                "value": "duc_cfr_dpd_zynq_ultra_ps_e_0_0_pl_clk0",
+                "value_src": "default_prop"
               }
             },
             "port_maps": {
@@ -4248,6 +4305,14 @@
               "ASSOCIATED_RESET": {
                 "value": "aresetn",
                 "value_src": "constant"
+              },
+              "FREQ_HZ": {
+                "value": "96968727",
+                "value_src": "user_prop"
+              },
+              "CLK_DOMAIN": {
+                "value": "duc_cfr_dpd_zynq_ultra_ps_e_0_0_pl_clk0",
+                "value_src": "default_prop"
               }
             }
           },
@@ -4274,7 +4339,8 @@
       "axi_dma_0_M_AXIS_MM2S": {
         "interface_ports": [
           "axi_dma_0/M_AXIS_MM2S",
-          "axis_upsample_0/s_axis"
+          "axis_upsample_0/s_axis",
+          "ila_2/SLOT_0_AXIS"
         ]
       },
       "axi_dma_0_M_AXI_MM2S": {
@@ -4312,7 +4378,7 @@
         "interface_ports": [
           "dpd_0/m_axis",
           "axi_dma_0/S_AXIS_S2MM",
-          "ila_1/SLOT_0_AXIS"
+          "system_ila_0/SLOT_0_AXIS"
         ]
       },
       "halfband_fir_0_m_axis": {
@@ -4358,6 +4424,7 @@
           "halfband_fir_1/aresetn",
           "axis_upsample_1/aresetn",
           "cfr_0/aresetn",
+          "system_ila_0/resetn",
           "dpd_0/aresetn"
         ]
       },
@@ -4377,7 +4444,8 @@
           "axis_upsample_1/aclk",
           "cfr_0/aclk",
           "ila_0/clk",
-          "ila_1/clk",
+          "ila_2/clk",
+          "system_ila_0/clk",
           "dpd_0/aclk"
         ]
       },

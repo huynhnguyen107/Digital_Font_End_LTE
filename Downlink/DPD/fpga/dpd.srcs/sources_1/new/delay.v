@@ -25,7 +25,7 @@ module delay #(WIDTH=16, DELAY=1)(
 	input aresetn,
 	input CE,
 	input [WIDTH-1:0] in,
-	input [WIDTH-1:0] out
+	output [WIDTH-1:0] out
     );
 	integer i;
 	reg [WIDTH-1:0] mem [DELAY-1:0];

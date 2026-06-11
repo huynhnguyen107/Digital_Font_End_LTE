@@ -37,7 +37,7 @@ module dpd #(parameter WIDTH=32)(
 	output reg 			m_axis_tlast
     );
 	//AXI Stream staWIDTH/2;ll control
-	localparam TW= WIDTH/2;
+	localparam TW=WIDTH/2;
 	wire pipe_en;
 	//delay input 
 	wire [TW-1:0] i_in;
@@ -180,36 +180,36 @@ module dpd #(parameter WIDTH=32)(
 	//term=basic*coeffient
 	// main p = 1
 	assign i_coe[0]  = 16'd16384;      assign q_coe[0]  = 16'd0;
-	assign i_coe[1]  = 16'd197;        assign q_coe[1]  = 16'd33;
-	assign i_coe[2]  = 16'd130974;     assign q_coe[2]  = 16'd131056;
+	assign i_coe[1]  = 16'd196;        assign q_coe[1]  = 16'd32;
+	assign i_coe[2]  = 16'd65437;     assign q_coe[2]  = 16'd65519;
 	assign i_coe[3]  = 16'd49;         assign q_coe[3]  = 16'd8;
 
 	// main p = 3
-	assign i_coe[4]  = 16'd1311;       assign q_coe[4]  = 16'd98;
-	assign i_coe[5]  = 16'd328;        assign q_coe[5]  = 16'd131023;
-	assign i_coe[6]  = 16'd130875;     assign q_coe[6]  = 16'd25;
+	assign i_coe[4]  = 16'd1310;       assign q_coe[4]  = 16'd98;
+	assign i_coe[5]  = 16'd327;        assign q_coe[5]  = 16'd65486;
+	assign i_coe[6]  = 16'd65339;     assign q_coe[6]  = 16'd24;
 	assign i_coe[7]  = 16'd98;         assign q_coe[7]  = 16'd0;
 
 	// main p = 5
-	assign i_coe[8]  = 16'd130662;     assign q_coe[8]  = 16'd131039;
-	assign i_coe[9]  = 16'd130941;     assign q_coe[9]  = 16'd16;
-	assign i_coe[10] = 16'd66;         assign q_coe[10] = 16'd0;
-	assign i_coe[11] = 16'd131039;     assign q_coe[11] = 16'd0;
+	assign i_coe[8]  = 16'd65126;     assign q_coe[8]  = 16'd65503;
+	assign i_coe[9]  = 16'd65404;     assign q_coe[9]  = 16'd16;
+	assign i_coe[10] = 16'd65;         assign q_coe[10] = 16'd0;
+	assign i_coe[11] = 16'd65503;     assign q_coe[11] = 16'd0;
 
 	// cross p = 3
-	assign i_coe[12] = 16'd246;        assign q_coe[12] = 16'd33;
-	assign i_coe[13] = 16'd130908;     assign q_coe[13] = 16'd131047;
+	assign i_coe[12] = 16'd245;        assign q_coe[12] = 16'd32;
+	assign i_coe[13] = 16'd65372;     assign q_coe[13] = 16'd65511;
 	assign i_coe[14] = 16'd131;        assign q_coe[14] = 16'd16;
-	assign i_coe[15] = 16'd131006;     assign q_coe[15] = 16'd0;
-	assign i_coe[16] = 16'd49;         assign q_coe[16] = 16'd131064;
-	assign i_coe[17] = 16'd131039;     assign q_coe[17] = 16'd0;
+	assign i_coe[15] = 16'd65470;     assign q_coe[15] = 16'd0;
+	assign i_coe[16] = 16'd49;         assign q_coe[16] = 16'd65527;
+	assign i_coe[17] = 16'd65503;     assign q_coe[17] = 16'd0;
 
 	// cross p = 5
-	assign i_coe[18] = 16'd130974;     assign q_coe[18] = 16'd131056;
-	assign i_coe[19] = 16'd66;         assign q_coe[19] = 16'd8;
-	assign i_coe[20] = 16'd131023;     assign q_coe[20] = 16'd0;
-	assign i_coe[21] = 16'd33;         assign q_coe[21] = 16'd0;
-	assign i_coe[22] = 16'd131047;     assign q_coe[22] = 16'd0;
+	assign i_coe[18] = 16'd65437;     assign q_coe[18] = 16'd65519;
+	assign i_coe[19] = 16'd65;         assign q_coe[19] = 16'd8;
+	assign i_coe[20] = 16'd65486;     assign q_coe[20] = 16'd0;
+	assign i_coe[21] = 16'd32;         assign q_coe[21] = 16'd0;
+	assign i_coe[22] = 16'd65511;     assign q_coe[22] = 16'd0;
 	assign i_coe[23] = 16'd16;         assign q_coe[23] = 16'd0;
 	generate
 		for(gp=0;gp<24;gp=gp+1) begin: gen_term
@@ -249,8 +249,10 @@ module dpd #(parameter WIDTH=32)(
 						+  {{3{q_term[14][TW-1]}},q_term[14]}+ {{3{q_term[18][TW-1]}},q_term[18]} + {{3{q_term[22][TW-1]}},q_term[22]};
 			q_total4 <= {{3{q_term[3][TW-1]}},q_term[3]} + {{3{q_term[7][TW-1]}},q_term[7]}+ {{3{q_term[11][TW-1]}},q_term[11]}
 						+  {{3{q_term[15][TW-1]}},q_term[15]}+ {{3{q_term[19][TW-1]}},q_term[19]} + {{3{q_term[23][TW-1]}},q_term[23]};
-			i_total_o <= i_total1+ i_total2+ i_total3+ i_total4;
-			q_total_o <= q_total1+ q_total2+ q_total3+ q_total4;
+			i_total_o <= {i_total1[TW+2], i_total1[TW+2], i_total1}+ {i_total2[TW+2], i_total2[TW+2], i_total2} 
+						 + {i_total3[TW+2], i_total3[TW+2], i_total3}+ {i_total4[TW+2], i_total4[TW+2], i_total4};
+			q_total_o <= {q_total1[TW+2], q_total1[TW+2], q_total1}+ {q_total2[TW+2], q_total2[TW+2], q_total2} 
+						 + {q_total3[TW+2], q_total3[TW+2], q_total3}+ {q_total4[TW+2], q_total4[TW+2], q_total4};
 		end
 	end
 	//delay input
@@ -266,10 +268,10 @@ module dpd #(parameter WIDTH=32)(
 			m_axis_tlast <=0;
 		end
 		else if (pipe_en) begin
-			m_axis_tdata[TW-1:0] <=  ((!i_total_o[TW+4])&(i_total_o[TW+4]>32767)) ? 16'd32767 : 
-									(i_total_o[TW+4]&(i_total_o[TW+4]>2064384) ? 16'd32768: i_total_o[15:0]);
-			m_axis_tdata[WIDTH-1:TW] <=  ((!q_total_o[TW+4]&(q_total_o[TW+4]>32767))) ? 16'd32767 : 
-									(q_total_o[TW+4]&(q_total_o[TW+4]>2064384) ? 16'd32768: q_total_o[15:0]);
+			m_axis_tdata[TW-1:0] <=  ((!i_total_o[TW+4])&(i_total_o>32767)) ? 16'd32767 : 
+									(i_total_o[TW+4]&(i_total_o<2064384) ? 16'd32768: i_total_o[15:0]);
+			m_axis_tdata[WIDTH-1:TW] <=  ((!q_total_o[TW+4]&(q_total_o>32767))) ? 16'd32767 : 
+									(q_total_o[TW+4]&(q_total_o<2064384) ? 16'd32768: q_total_o[15:0]);
 			m_axis_tkeep <= d_s_axis_tkeep; 
 			m_axis_tvalid <= d_s_axis_tvalid; 
 			m_axis_tlast <= d_s_axis_tlast; 

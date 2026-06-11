@@ -25,6 +25,7 @@
   </ObjectList>
   <ObjectList object_type="hw_probe" gui_info="">
     <Object name="duc_cfr_dpd_i/cfr_0_m_axis_TVALID" gui_info="Trigger Setup=0"/>
+    <Object name="duc_cfr_dpd_i/dpd_0_m_axis_TDATA[31:0]" gui_info=""/>
     <Object name="duc_cfr_dpd_i/dpd_0_m_axis_TVALID" gui_info="Trigger Setup=0"/>
   </ObjectList>
   <probeset name="hw project" active="false">

@@ -10,82 +10,20 @@
    </db_ref_list>
    <zoom_setting>
       <ZoomStartTime time="0"></ZoomStartTime>
-      <ZoomEndTime time="10"></ZoomEndTime>
+      <ZoomEndTime time="1,552"></ZoomEndTime>
       <Cursor1Time time="0"></Cursor1Time>
    </zoom_setting>
    <column_width_setting>
-      <NameColumnWidth column_width="73"></NameColumnWidth>
-      <ValueColumnWidth column_width="72"></ValueColumnWidth>
+      <NameColumnWidth column_width="197"></NameColumnWidth>
+      <ValueColumnWidth column_width="84"></ValueColumnWidth>
    </column_width_setting>
-   <WVObjectSize size="12" />
-   <wvobject fp_name="duc_cfr_dpd_i/dpd_0_m_axis_TREADY" type="logic">
-      <obj_property name="DisplayName">FullPathName</obj_property>
-      <obj_property name="ElementShortName">duc_cfr_dpd_i/dpd_0_m_axis_TREADY</obj_property>
-      <obj_property name="ObjectShortName">dpd_0_m_axis_TREADY</obj_property>
-      <obj_property name="Radix">HEXRADIX</obj_property>
-      <obj_property name="LABELRADIX">true</obj_property>
-      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
-   </wvobject>
+   <WVObjectSize size="5" />
+   <wave_markers>
+   </wave_markers>
    <wvobject fp_name="duc_cfr_dpd_i/dpd_0_m_axis_TDATA" type="array">
       <obj_property name="DisplayName">FullPathName</obj_property>
       <obj_property name="ElementShortName">duc_cfr_dpd_i/dpd_0_m_axis_TDATA[31:0]</obj_property>
       <obj_property name="ObjectShortName">dpd_0_m_axis_TDATA[31:0]</obj_property>
-      <obj_property name="Radix">HEXRADIX</obj_property>
-      <obj_property name="LABELRADIX">true</obj_property>
-      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
-   </wvobject>
-   <wvobject fp_name="duc_cfr_dpd_i/&lt;const1&gt;_5" type="logic">
-      <obj_property name="DisplayName">FullPathName</obj_property>
-      <obj_property name="ElementShortName">duc_cfr_dpd_i/&lt;const1&gt;_5</obj_property>
-      <obj_property name="ObjectShortName">&lt;const1&gt;_5</obj_property>
-      <obj_property name="Radix">HEXRADIX</obj_property>
-      <obj_property name="LABELRADIX">true</obj_property>
-      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
-   </wvobject>
-   <wvobject fp_name="duc_cfr_dpd_i/&lt;const1&gt;_6" type="logic">
-      <obj_property name="DisplayName">FullPathName</obj_property>
-      <obj_property name="ElementShortName">duc_cfr_dpd_i/&lt;const1&gt;_6</obj_property>
-      <obj_property name="ObjectShortName">&lt;const1&gt;_6</obj_property>
-      <obj_property name="Radix">HEXRADIX</obj_property>
-      <obj_property name="LABELRADIX">true</obj_property>
-      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
-   </wvobject>
-   <wvobject fp_name="duc_cfr_dpd_i/&lt;const1&gt;_7" type="logic">
-      <obj_property name="DisplayName">FullPathName</obj_property>
-      <obj_property name="ElementShortName">duc_cfr_dpd_i/&lt;const1&gt;_7</obj_property>
-      <obj_property name="ObjectShortName">&lt;const1&gt;_7</obj_property>
-      <obj_property name="Radix">HEXRADIX</obj_property>
-      <obj_property name="LABELRADIX">true</obj_property>
-      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
-   </wvobject>
-   <wvobject fp_name="duc_cfr_dpd_i/&lt;const1&gt;" type="logic">
-      <obj_property name="DisplayName">FullPathName</obj_property>
-      <obj_property name="ElementShortName">duc_cfr_dpd_i/&lt;const1&gt;</obj_property>
-      <obj_property name="ObjectShortName">&lt;const1&gt;</obj_property>
-      <obj_property name="Radix">HEXRADIX</obj_property>
-      <obj_property name="LABELRADIX">true</obj_property>
-      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
-   </wvobject>
-   <wvobject fp_name="duc_cfr_dpd_i/dpd_0_m_axis_TVALID" type="logic">
-      <obj_property name="DisplayName">FullPathName</obj_property>
-      <obj_property name="ElementShortName">duc_cfr_dpd_i/dpd_0_m_axis_TVALID</obj_property>
-      <obj_property name="ObjectShortName">dpd_0_m_axis_TVALID</obj_property>
-      <obj_property name="Radix">HEXRADIX</obj_property>
-      <obj_property name="LABELRADIX">true</obj_property>
-      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
-   </wvobject>
-   <wvobject fp_name="duc_cfr_dpd_i/dpd_0_m_axis_TLAST" type="logic">
-      <obj_property name="DisplayName">FullPathName</obj_property>
-      <obj_property name="ElementShortName">duc_cfr_dpd_i/dpd_0_m_axis_TLAST</obj_property>
-      <obj_property name="ObjectShortName">dpd_0_m_axis_TLAST</obj_property>
-      <obj_property name="Radix">HEXRADIX</obj_property>
-      <obj_property name="LABELRADIX">true</obj_property>
-      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
-   </wvobject>
-   <wvobject fp_name="duc_cfr_dpd_i/&lt;const0&gt;_4" type="logic">
-      <obj_property name="DisplayName">FullPathName</obj_property>
-      <obj_property name="ElementShortName">duc_cfr_dpd_i/&lt;const0&gt;_4</obj_property>
-      <obj_property name="ObjectShortName">&lt;const0&gt;_4</obj_property>
       <obj_property name="Radix">HEXRADIX</obj_property>
       <obj_property name="LABELRADIX">true</obj_property>
       <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
@@ -98,19 +36,24 @@
       <obj_property name="LABELRADIX">true</obj_property>
       <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
    </wvobject>
-   <wvobject fp_name="duc_cfr_dpd_i/&lt;const0&gt;_5" type="logic">
+   <wvobject fp_name="duc_cfr_dpd_i/dpd_0_m_axis_TLAST" type="logic">
       <obj_property name="DisplayName">FullPathName</obj_property>
-      <obj_property name="ElementShortName">duc_cfr_dpd_i/&lt;const0&gt;_5</obj_property>
-      <obj_property name="ObjectShortName">&lt;const0&gt;_5</obj_property>
-      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="ElementShortName">duc_cfr_dpd_i/dpd_0_m_axis_TLAST</obj_property>
+      <obj_property name="ObjectShortName">dpd_0_m_axis_TLAST</obj_property>
       <obj_property name="LABELRADIX">true</obj_property>
       <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
    </wvobject>
-   <wvobject fp_name="duc_cfr_dpd_i/&lt;const0&gt;" type="logic">
+   <wvobject fp_name="duc_cfr_dpd_i/dpd_0_m_axis_TREADY" type="logic">
       <obj_property name="DisplayName">FullPathName</obj_property>
-      <obj_property name="ElementShortName">duc_cfr_dpd_i/&lt;const0&gt;</obj_property>
-      <obj_property name="ObjectShortName">&lt;const0&gt;</obj_property>
-      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="ElementShortName">duc_cfr_dpd_i/dpd_0_m_axis_TREADY</obj_property>
+      <obj_property name="ObjectShortName">dpd_0_m_axis_TREADY</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject fp_name="duc_cfr_dpd_i/dpd_0_m_axis_TVALID" type="logic">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">duc_cfr_dpd_i/dpd_0_m_axis_TVALID</obj_property>
+      <obj_property name="ObjectShortName">dpd_0_m_axis_TVALID</obj_property>
       <obj_property name="LABELRADIX">true</obj_property>
       <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
    </wvobject>

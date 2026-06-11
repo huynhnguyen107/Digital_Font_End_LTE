@@ -12,15 +12,15 @@
       </db_ref>
    </db_ref_list>
    <zoom_setting>
-      <ZoomStartTime time="994,762 ps"></ZoomStartTime>
-      <ZoomEndTime time="1,001,048 ps"></ZoomEndTime>
-      <Cursor1Time time="1,000,000 ps"></Cursor1Time>
+      <ZoomStartTime time="4,107.280 ns"></ZoomStartTime>
+      <ZoomEndTime time="4,132.621 ns"></ZoomEndTime>
+      <Cursor1Time time="4,115.500 ns"></Cursor1Time>
    </zoom_setting>
    <column_width_setting>
-      <NameColumnWidth column_width="199"></NameColumnWidth>
-      <ValueColumnWidth column_width="80"></ValueColumnWidth>
+      <NameColumnWidth column_width="197"></NameColumnWidth>
+      <ValueColumnWidth column_width="72"></ValueColumnWidth>
    </column_width_setting>
-   <WVObjectSize size="138" />
+   <WVObjectSize size="178" />
    <wvobject fp_name="/tb/aclk" type="logic">
       <obj_property name="ElementShortName">aclk</obj_property>
       <obj_property name="ObjectShortName">aclk</obj_property>
@@ -69,26 +69,6 @@
       <obj_property name="ElementShortName">m_axis_tlast</obj_property>
       <obj_property name="ObjectShortName">m_axis_tlast</obj_property>
    </wvobject>
-   <wvobject fp_name="/tb/fifo_axis_tdata" type="array">
-      <obj_property name="ElementShortName">fifo_axis_tdata[31:0]</obj_property>
-      <obj_property name="ObjectShortName">fifo_axis_tdata[31:0]</obj_property>
-   </wvobject>
-   <wvobject fp_name="/tb/fifo_axis_tkeep" type="array">
-      <obj_property name="ElementShortName">fifo_axis_tkeep[3:0]</obj_property>
-      <obj_property name="ObjectShortName">fifo_axis_tkeep[3:0]</obj_property>
-   </wvobject>
-   <wvobject fp_name="/tb/fifo_axis_tvalid" type="logic">
-      <obj_property name="ElementShortName">fifo_axis_tvalid</obj_property>
-      <obj_property name="ObjectShortName">fifo_axis_tvalid</obj_property>
-   </wvobject>
-   <wvobject fp_name="/tb/fifo_axis_tready" type="logic">
-      <obj_property name="ElementShortName">fifo_axis_tready</obj_property>
-      <obj_property name="ObjectShortName">fifo_axis_tready</obj_property>
-   </wvobject>
-   <wvobject fp_name="/tb/fifo_axis_tlast" type="logic">
-      <obj_property name="ElementShortName">fifo_axis_tlast</obj_property>
-      <obj_property name="ObjectShortName">fifo_axis_tlast</obj_property>
-   </wvobject>
    <wvobject fp_name="/tb/i" type="array">
       <obj_property name="ElementShortName">i[31:0]</obj_property>
       <obj_property name="ObjectShortName">i[31:0]</obj_property>
@@ -124,6 +104,145 @@
    <wvobject fp_name="/tb/dpd_0/m_axis_tdata" type="array">
       <obj_property name="ElementShortName">m_axis_tdata[31:0]</obj_property>
       <obj_property name="ObjectShortName">m_axis_tdata[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="vbus344" type="vbus">
+      <obj_property name="label">I</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      <wvobject fp_name="/tb/dpd_0/m_axis_tdata[15]" type="logic">
+         <obj_property name="ElementShortName">[15]</obj_property>
+         <obj_property name="ObjectShortName">[15]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb/dpd_0/m_axis_tdata[14]" type="logic">
+         <obj_property name="ElementShortName">[14]</obj_property>
+         <obj_property name="ObjectShortName">[14]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb/dpd_0/m_axis_tdata[13]" type="logic">
+         <obj_property name="ElementShortName">[13]</obj_property>
+         <obj_property name="ObjectShortName">[13]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb/dpd_0/m_axis_tdata[12]" type="logic">
+         <obj_property name="ElementShortName">[12]</obj_property>
+         <obj_property name="ObjectShortName">[12]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb/dpd_0/m_axis_tdata[11]" type="logic">
+         <obj_property name="ElementShortName">[11]</obj_property>
+         <obj_property name="ObjectShortName">[11]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb/dpd_0/m_axis_tdata[10]" type="logic">
+         <obj_property name="ElementShortName">[10]</obj_property>
+         <obj_property name="ObjectShortName">[10]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb/dpd_0/m_axis_tdata[9]" type="logic">
+         <obj_property name="ElementShortName">[9]</obj_property>
+         <obj_property name="ObjectShortName">[9]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb/dpd_0/m_axis_tdata[8]" type="logic">
+         <obj_property name="ElementShortName">[8]</obj_property>
+         <obj_property name="ObjectShortName">[8]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb/dpd_0/m_axis_tdata[7]" type="logic">
+         <obj_property name="ElementShortName">[7]</obj_property>
+         <obj_property name="ObjectShortName">[7]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb/dpd_0/m_axis_tdata[6]" type="logic">
+         <obj_property name="ElementShortName">[6]</obj_property>
+         <obj_property name="ObjectShortName">[6]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb/dpd_0/m_axis_tdata[5]" type="logic">
+         <obj_property name="ElementShortName">[5]</obj_property>
+         <obj_property name="ObjectShortName">[5]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb/dpd_0/m_axis_tdata[4]" type="logic">
+         <obj_property name="ElementShortName">[4]</obj_property>
+         <obj_property name="ObjectShortName">[4]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb/dpd_0/m_axis_tdata[3]" type="logic">
+         <obj_property name="ElementShortName">[3]</obj_property>
+         <obj_property name="ObjectShortName">[3]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb/dpd_0/m_axis_tdata[2]" type="logic">
+         <obj_property name="ElementShortName">[2]</obj_property>
+         <obj_property name="ObjectShortName">[2]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb/dpd_0/m_axis_tdata[1]" type="logic">
+         <obj_property name="ElementShortName">[1]</obj_property>
+         <obj_property name="ObjectShortName">[1]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb/dpd_0/m_axis_tdata[0]" type="logic">
+         <obj_property name="ElementShortName">[0]</obj_property>
+         <obj_property name="ObjectShortName">[0]</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="vbus327" type="vbus">
+      <obj_property name="label">Q</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      <wvobject fp_name="/tb/dpd_0/m_axis_tdata[31]" type="logic">
+         <obj_property name="ElementShortName">[31]</obj_property>
+         <obj_property name="ObjectShortName">[31]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb/dpd_0/m_axis_tdata[30]" type="logic">
+         <obj_property name="ElementShortName">[30]</obj_property>
+         <obj_property name="ObjectShortName">[30]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb/dpd_0/m_axis_tdata[29]" type="logic">
+         <obj_property name="ElementShortName">[29]</obj_property>
+         <obj_property name="ObjectShortName">[29]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb/dpd_0/m_axis_tdata[28]" type="logic">
+         <obj_property name="ElementShortName">[28]</obj_property>
+         <obj_property name="ObjectShortName">[28]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb/dpd_0/m_axis_tdata[27]" type="logic">
+         <obj_property name="ElementShortName">[27]</obj_property>
+         <obj_property name="ObjectShortName">[27]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb/dpd_0/m_axis_tdata[26]" type="logic">
+         <obj_property name="ElementShortName">[26]</obj_property>
+         <obj_property name="ObjectShortName">[26]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb/dpd_0/m_axis_tdata[25]" type="logic">
+         <obj_property name="ElementShortName">[25]</obj_property>
+         <obj_property name="ObjectShortName">[25]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb/dpd_0/m_axis_tdata[24]" type="logic">
+         <obj_property name="ElementShortName">[24]</obj_property>
+         <obj_property name="ObjectShortName">[24]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb/dpd_0/m_axis_tdata[23]" type="logic">
+         <obj_property name="ElementShortName">[23]</obj_property>
+         <obj_property name="ObjectShortName">[23]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb/dpd_0/m_axis_tdata[22]" type="logic">
+         <obj_property name="ElementShortName">[22]</obj_property>
+         <obj_property name="ObjectShortName">[22]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb/dpd_0/m_axis_tdata[21]" type="logic">
+         <obj_property name="ElementShortName">[21]</obj_property>
+         <obj_property name="ObjectShortName">[21]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb/dpd_0/m_axis_tdata[20]" type="logic">
+         <obj_property name="ElementShortName">[20]</obj_property>
+         <obj_property name="ObjectShortName">[20]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb/dpd_0/m_axis_tdata[19]" type="logic">
+         <obj_property name="ElementShortName">[19]</obj_property>
+         <obj_property name="ObjectShortName">[19]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb/dpd_0/m_axis_tdata[18]" type="logic">
+         <obj_property name="ElementShortName">[18]</obj_property>
+         <obj_property name="ObjectShortName">[18]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb/dpd_0/m_axis_tdata[17]" type="logic">
+         <obj_property name="ElementShortName">[17]</obj_property>
+         <obj_property name="ObjectShortName">[17]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb/dpd_0/m_axis_tdata[16]" type="logic">
+         <obj_property name="ElementShortName">[16]</obj_property>
+         <obj_property name="ObjectShortName">[16]</obj_property>
+      </wvobject>
    </wvobject>
    <wvobject fp_name="/tb/dpd_0/m_axis_tkeep" type="array">
       <obj_property name="ElementShortName">m_axis_tkeep[3:0]</obj_property>
@@ -166,31 +285,6 @@
       <obj_property name="ElementShortName">power_2[0:4][31:0]</obj_property>
       <obj_property name="ObjectShortName">power_2[0:4][31:0]</obj_property>
       <obj_property name="isExpanded"></obj_property>
-      <wvobject fp_name="/tb/dpd_0/power_2[0]" type="array">
-         <obj_property name="ElementShortName">[0][31:0]</obj_property>
-         <obj_property name="ObjectShortName">[0][31:0]</obj_property>
-         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
-      </wvobject>
-      <wvobject fp_name="/tb/dpd_0/power_2[1]" type="array">
-         <obj_property name="ElementShortName">[1][31:0]</obj_property>
-         <obj_property name="ObjectShortName">[1][31:0]</obj_property>
-         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
-      </wvobject>
-      <wvobject fp_name="/tb/dpd_0/power_2[2]" type="array">
-         <obj_property name="ElementShortName">[2][31:0]</obj_property>
-         <obj_property name="ObjectShortName">[2][31:0]</obj_property>
-         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
-      </wvobject>
-      <wvobject fp_name="/tb/dpd_0/power_2[3]" type="array">
-         <obj_property name="ElementShortName">[3][31:0]</obj_property>
-         <obj_property name="ObjectShortName">[3][31:0]</obj_property>
-         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
-      </wvobject>
-      <wvobject fp_name="/tb/dpd_0/power_2[4]" type="array">
-         <obj_property name="ElementShortName">[4][31:0]</obj_property>
-         <obj_property name="ObjectShortName">[4][31:0]</obj_property>
-         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
-      </wvobject>
    </wvobject>
    <wvobject fp_name="/tb/dpd_0/power_4" type="array">
       <obj_property name="ElementShortName">power_4[0:4][31:0]</obj_property>
@@ -229,56 +323,11 @@
       <obj_property name="ElementShortName">d_i_nm[4:0][15:0]</obj_property>
       <obj_property name="ObjectShortName">d_i_nm[4:0][15:0]</obj_property>
       <obj_property name="isExpanded"></obj_property>
-      <wvobject fp_name="/tb/dpd_0/d_i_nm[4]" type="array">
-         <obj_property name="ElementShortName">[4][15:0]</obj_property>
-         <obj_property name="ObjectShortName">[4][15:0]</obj_property>
-      </wvobject>
-      <wvobject fp_name="/tb/dpd_0/d_i_nm[3]" type="array">
-         <obj_property name="ElementShortName">[3][15:0]</obj_property>
-         <obj_property name="ObjectShortName">[3][15:0]</obj_property>
-      </wvobject>
-      <wvobject fp_name="/tb/dpd_0/d_i_nm[2]" type="array">
-         <obj_property name="ElementShortName">[2][15:0]</obj_property>
-         <obj_property name="ObjectShortName">[2][15:0]</obj_property>
-      </wvobject>
-      <wvobject fp_name="/tb/dpd_0/d_i_nm[1]" type="array">
-         <obj_property name="ElementShortName">[1][15:0]</obj_property>
-         <obj_property name="ObjectShortName">[1][15:0]</obj_property>
-      </wvobject>
-      <wvobject fp_name="/tb/dpd_0/d_i_nm[0]" type="array">
-         <obj_property name="ElementShortName">[0][15:0]</obj_property>
-         <obj_property name="ObjectShortName">[0][15:0]</obj_property>
-         <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
-         <obj_property name="radix_realType">SIGNEDFIXEDPOINTRADIX</obj_property>
-         <obj_property name="radix_fractionWidth">15</obj_property>
-         <obj_property name="radix_otherWidth">0</obj_property>
-      </wvobject>
    </wvobject>
    <wvobject fp_name="/tb/dpd_0/d_q_nm" type="array">
       <obj_property name="ElementShortName">d_q_nm[4:0][15:0]</obj_property>
       <obj_property name="ObjectShortName">d_q_nm[4:0][15:0]</obj_property>
       <obj_property name="isExpanded"></obj_property>
-      <wvobject fp_name="/tb/dpd_0/d_q_nm[4]" type="array">
-         <obj_property name="ElementShortName">[4][15:0]</obj_property>
-         <obj_property name="ObjectShortName">[4][15:0]</obj_property>
-      </wvobject>
-      <wvobject fp_name="/tb/dpd_0/d_q_nm[3]" type="array">
-         <obj_property name="ElementShortName">[3][15:0]</obj_property>
-         <obj_property name="ObjectShortName">[3][15:0]</obj_property>
-      </wvobject>
-      <wvobject fp_name="/tb/dpd_0/d_q_nm[2]" type="array">
-         <obj_property name="ElementShortName">[2][15:0]</obj_property>
-         <obj_property name="ObjectShortName">[2][15:0]</obj_property>
-      </wvobject>
-      <wvobject fp_name="/tb/dpd_0/d_q_nm[1]" type="array">
-         <obj_property name="ElementShortName">[1][15:0]</obj_property>
-         <obj_property name="ObjectShortName">[1][15:0]</obj_property>
-      </wvobject>
-      <wvobject fp_name="/tb/dpd_0/d_q_nm[0]" type="array">
-         <obj_property name="ElementShortName">[0][15:0]</obj_property>
-         <obj_property name="ObjectShortName">[0][15:0]</obj_property>
-         <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
-      </wvobject>
    </wvobject>
    <wvobject fp_name="/tb/dpd_0/d_power_2" type="array">
       <obj_property name="ElementShortName">d_power_2[4:0][31:0]</obj_property>
@@ -310,126 +359,6 @@
       <obj_property name="ElementShortName">i_term[23:0][15:0]</obj_property>
       <obj_property name="ObjectShortName">i_term[23:0][15:0]</obj_property>
       <obj_property name="isExpanded"></obj_property>
-      <wvobject fp_name="/tb/dpd_0/i_term[23]" type="array">
-         <obj_property name="ElementShortName">[23][15:0]</obj_property>
-         <obj_property name="ObjectShortName">[23][15:0]</obj_property>
-         <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
-      </wvobject>
-      <wvobject fp_name="/tb/dpd_0/i_term[22]" type="array">
-         <obj_property name="ElementShortName">[22][15:0]</obj_property>
-         <obj_property name="ObjectShortName">[22][15:0]</obj_property>
-         <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
-      </wvobject>
-      <wvobject fp_name="/tb/dpd_0/i_term[21]" type="array">
-         <obj_property name="ElementShortName">[21][15:0]</obj_property>
-         <obj_property name="ObjectShortName">[21][15:0]</obj_property>
-         <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
-      </wvobject>
-      <wvobject fp_name="/tb/dpd_0/i_term[20]" type="array">
-         <obj_property name="ElementShortName">[20][15:0]</obj_property>
-         <obj_property name="ObjectShortName">[20][15:0]</obj_property>
-         <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
-      </wvobject>
-      <wvobject fp_name="/tb/dpd_0/i_term[19]" type="array">
-         <obj_property name="ElementShortName">[19][15:0]</obj_property>
-         <obj_property name="ObjectShortName">[19][15:0]</obj_property>
-         <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
-      </wvobject>
-      <wvobject fp_name="/tb/dpd_0/i_term[18]" type="array">
-         <obj_property name="ElementShortName">[18][15:0]</obj_property>
-         <obj_property name="ObjectShortName">[18][15:0]</obj_property>
-         <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
-      </wvobject>
-      <wvobject fp_name="/tb/dpd_0/i_term[17]" type="array">
-         <obj_property name="ElementShortName">[17][15:0]</obj_property>
-         <obj_property name="ObjectShortName">[17][15:0]</obj_property>
-         <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
-      </wvobject>
-      <wvobject fp_name="/tb/dpd_0/i_term[16]" type="array">
-         <obj_property name="ElementShortName">[16][15:0]</obj_property>
-         <obj_property name="ObjectShortName">[16][15:0]</obj_property>
-         <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
-      </wvobject>
-      <wvobject fp_name="/tb/dpd_0/i_term[15]" type="array">
-         <obj_property name="ElementShortName">[15][15:0]</obj_property>
-         <obj_property name="ObjectShortName">[15][15:0]</obj_property>
-         <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
-      </wvobject>
-      <wvobject fp_name="/tb/dpd_0/i_term[14]" type="array">
-         <obj_property name="ElementShortName">[14][15:0]</obj_property>
-         <obj_property name="ObjectShortName">[14][15:0]</obj_property>
-         <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
-      </wvobject>
-      <wvobject fp_name="/tb/dpd_0/i_term[13]" type="array">
-         <obj_property name="ElementShortName">[13][15:0]</obj_property>
-         <obj_property name="ObjectShortName">[13][15:0]</obj_property>
-         <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
-      </wvobject>
-      <wvobject fp_name="/tb/dpd_0/i_term[12]" type="array">
-         <obj_property name="ElementShortName">[12][15:0]</obj_property>
-         <obj_property name="ObjectShortName">[12][15:0]</obj_property>
-         <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
-      </wvobject>
-      <wvobject fp_name="/tb/dpd_0/i_term[11]" type="array">
-         <obj_property name="ElementShortName">[11][15:0]</obj_property>
-         <obj_property name="ObjectShortName">[11][15:0]</obj_property>
-         <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
-      </wvobject>
-      <wvobject fp_name="/tb/dpd_0/i_term[10]" type="array">
-         <obj_property name="ElementShortName">[10][15:0]</obj_property>
-         <obj_property name="ObjectShortName">[10][15:0]</obj_property>
-         <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
-      </wvobject>
-      <wvobject fp_name="/tb/dpd_0/i_term[9]" type="array">
-         <obj_property name="ElementShortName">[9][15:0]</obj_property>
-         <obj_property name="ObjectShortName">[9][15:0]</obj_property>
-         <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
-      </wvobject>
-      <wvobject fp_name="/tb/dpd_0/i_term[8]" type="array">
-         <obj_property name="ElementShortName">[8][15:0]</obj_property>
-         <obj_property name="ObjectShortName">[8][15:0]</obj_property>
-         <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
-      </wvobject>
-      <wvobject fp_name="/tb/dpd_0/i_term[7]" type="array">
-         <obj_property name="ElementShortName">[7][15:0]</obj_property>
-         <obj_property name="ObjectShortName">[7][15:0]</obj_property>
-         <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
-      </wvobject>
-      <wvobject fp_name="/tb/dpd_0/i_term[6]" type="array">
-         <obj_property name="ElementShortName">[6][15:0]</obj_property>
-         <obj_property name="ObjectShortName">[6][15:0]</obj_property>
-         <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
-      </wvobject>
-      <wvobject fp_name="/tb/dpd_0/i_term[5]" type="array">
-         <obj_property name="ElementShortName">[5][15:0]</obj_property>
-         <obj_property name="ObjectShortName">[5][15:0]</obj_property>
-         <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
-      </wvobject>
-      <wvobject fp_name="/tb/dpd_0/i_term[4]" type="array">
-         <obj_property name="ElementShortName">[4][15:0]</obj_property>
-         <obj_property name="ObjectShortName">[4][15:0]</obj_property>
-         <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
-      </wvobject>
-      <wvobject fp_name="/tb/dpd_0/i_term[3]" type="array">
-         <obj_property name="ElementShortName">[3][15:0]</obj_property>
-         <obj_property name="ObjectShortName">[3][15:0]</obj_property>
-         <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
-      </wvobject>
-      <wvobject fp_name="/tb/dpd_0/i_term[2]" type="array">
-         <obj_property name="ElementShortName">[2][15:0]</obj_property>
-         <obj_property name="ObjectShortName">[2][15:0]</obj_property>
-         <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
-      </wvobject>
-      <wvobject fp_name="/tb/dpd_0/i_term[1]" type="array">
-         <obj_property name="ElementShortName">[1][15:0]</obj_property>
-         <obj_property name="ObjectShortName">[1][15:0]</obj_property>
-         <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
-      </wvobject>
-      <wvobject fp_name="/tb/dpd_0/i_term[0]" type="array">
-         <obj_property name="ElementShortName">[0][15:0]</obj_property>
-         <obj_property name="ObjectShortName">[0][15:0]</obj_property>
-         <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
-      </wvobject>
    </wvobject>
    <wvobject fp_name="/tb/dpd_0/q_term" type="array">
       <obj_property name="ElementShortName">q_term[23:0][15:0]</obj_property>
@@ -502,18 +431,294 @@
    <wvobject fp_name="/tb/dpd_0/i_total_o" type="array">
       <obj_property name="ElementShortName">i_total_o[20:0]</obj_property>
       <obj_property name="ObjectShortName">i_total_o[20:0]</obj_property>
-      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
       <obj_property name="radix_realType">SIGNEDFIXEDPOINTRADIX</obj_property>
       <obj_property name="radix_fractionWidth">15</obj_property>
       <obj_property name="radix_otherWidth">0</obj_property>
    </wvobject>
+   <wvobject fp_name="vbus382" type="vbus">
+      <obj_property name="label">I</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <wvobject fp_name="/tb/dpd_0/i_total_o[15]" type="logic">
+         <obj_property name="ElementShortName">[15]</obj_property>
+         <obj_property name="ObjectShortName">[15]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb/dpd_0/i_total_o[14]" type="logic">
+         <obj_property name="ElementShortName">[14]</obj_property>
+         <obj_property name="ObjectShortName">[14]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb/dpd_0/i_total_o[13]" type="logic">
+         <obj_property name="ElementShortName">[13]</obj_property>
+         <obj_property name="ObjectShortName">[13]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb/dpd_0/i_total_o[12]" type="logic">
+         <obj_property name="ElementShortName">[12]</obj_property>
+         <obj_property name="ObjectShortName">[12]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb/dpd_0/i_total_o[11]" type="logic">
+         <obj_property name="ElementShortName">[11]</obj_property>
+         <obj_property name="ObjectShortName">[11]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb/dpd_0/i_total_o[10]" type="logic">
+         <obj_property name="ElementShortName">[10]</obj_property>
+         <obj_property name="ObjectShortName">[10]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb/dpd_0/i_total_o[9]" type="logic">
+         <obj_property name="ElementShortName">[9]</obj_property>
+         <obj_property name="ObjectShortName">[9]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb/dpd_0/i_total_o[8]" type="logic">
+         <obj_property name="ElementShortName">[8]</obj_property>
+         <obj_property name="ObjectShortName">[8]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb/dpd_0/i_total_o[7]" type="logic">
+         <obj_property name="ElementShortName">[7]</obj_property>
+         <obj_property name="ObjectShortName">[7]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb/dpd_0/i_total_o[6]" type="logic">
+         <obj_property name="ElementShortName">[6]</obj_property>
+         <obj_property name="ObjectShortName">[6]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb/dpd_0/i_total_o[5]" type="logic">
+         <obj_property name="ElementShortName">[5]</obj_property>
+         <obj_property name="ObjectShortName">[5]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb/dpd_0/i_total_o[4]" type="logic">
+         <obj_property name="ElementShortName">[4]</obj_property>
+         <obj_property name="ObjectShortName">[4]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb/dpd_0/i_total_o[3]" type="logic">
+         <obj_property name="ElementShortName">[3]</obj_property>
+         <obj_property name="ObjectShortName">[3]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb/dpd_0/i_total_o[2]" type="logic">
+         <obj_property name="ElementShortName">[2]</obj_property>
+         <obj_property name="ObjectShortName">[2]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb/dpd_0/i_total_o[1]" type="logic">
+         <obj_property name="ElementShortName">[1]</obj_property>
+         <obj_property name="ObjectShortName">[1]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb/dpd_0/i_total_o[0]" type="logic">
+         <obj_property name="ElementShortName">[0]</obj_property>
+         <obj_property name="ObjectShortName">[0]</obj_property>
+      </wvobject>
+   </wvobject>
    <wvobject fp_name="/tb/dpd_0/q_total_o" type="array">
       <obj_property name="ElementShortName">q_total_o[20:0]</obj_property>
       <obj_property name="ObjectShortName">q_total_o[20:0]</obj_property>
-      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
       <obj_property name="radix_realType">SIGNEDFIXEDPOINTRADIX</obj_property>
       <obj_property name="radix_fractionWidth">15</obj_property>
       <obj_property name="radix_otherWidth">0</obj_property>
+   </wvobject>
+   <wvobject fp_name="vbus420" type="vbus">
+      <obj_property name="label">Q</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <wvobject fp_name="/tb/dpd_0/q_total_o[15]" type="logic">
+         <obj_property name="ElementShortName">[15]</obj_property>
+         <obj_property name="ObjectShortName">[15]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb/dpd_0/q_total_o[14]" type="logic">
+         <obj_property name="ElementShortName">[14]</obj_property>
+         <obj_property name="ObjectShortName">[14]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb/dpd_0/q_total_o[13]" type="logic">
+         <obj_property name="ElementShortName">[13]</obj_property>
+         <obj_property name="ObjectShortName">[13]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb/dpd_0/q_total_o[12]" type="logic">
+         <obj_property name="ElementShortName">[12]</obj_property>
+         <obj_property name="ObjectShortName">[12]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb/dpd_0/q_total_o[11]" type="logic">
+         <obj_property name="ElementShortName">[11]</obj_property>
+         <obj_property name="ObjectShortName">[11]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb/dpd_0/q_total_o[10]" type="logic">
+         <obj_property name="ElementShortName">[10]</obj_property>
+         <obj_property name="ObjectShortName">[10]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb/dpd_0/q_total_o[9]" type="logic">
+         <obj_property name="ElementShortName">[9]</obj_property>
+         <obj_property name="ObjectShortName">[9]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb/dpd_0/q_total_o[8]" type="logic">
+         <obj_property name="ElementShortName">[8]</obj_property>
+         <obj_property name="ObjectShortName">[8]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb/dpd_0/q_total_o[7]" type="logic">
+         <obj_property name="ElementShortName">[7]</obj_property>
+         <obj_property name="ObjectShortName">[7]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb/dpd_0/q_total_o[6]" type="logic">
+         <obj_property name="ElementShortName">[6]</obj_property>
+         <obj_property name="ObjectShortName">[6]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb/dpd_0/q_total_o[5]" type="logic">
+         <obj_property name="ElementShortName">[5]</obj_property>
+         <obj_property name="ObjectShortName">[5]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb/dpd_0/q_total_o[4]" type="logic">
+         <obj_property name="ElementShortName">[4]</obj_property>
+         <obj_property name="ObjectShortName">[4]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb/dpd_0/q_total_o[3]" type="logic">
+         <obj_property name="ElementShortName">[3]</obj_property>
+         <obj_property name="ObjectShortName">[3]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb/dpd_0/q_total_o[2]" type="logic">
+         <obj_property name="ElementShortName">[2]</obj_property>
+         <obj_property name="ObjectShortName">[2]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb/dpd_0/q_total_o[1]" type="logic">
+         <obj_property name="ElementShortName">[1]</obj_property>
+         <obj_property name="ObjectShortName">[1]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb/dpd_0/q_total_o[0]" type="logic">
+         <obj_property name="ElementShortName">[0]</obj_property>
+         <obj_property name="ObjectShortName">[0]</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="vbus344" type="vbus">
+      <obj_property name="label">I</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <wvobject fp_name="/tb/dpd_0/m_axis_tdata[15]" type="logic">
+         <obj_property name="ElementShortName">[15]</obj_property>
+         <obj_property name="ObjectShortName">[15]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb/dpd_0/m_axis_tdata[14]" type="logic">
+         <obj_property name="ElementShortName">[14]</obj_property>
+         <obj_property name="ObjectShortName">[14]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb/dpd_0/m_axis_tdata[13]" type="logic">
+         <obj_property name="ElementShortName">[13]</obj_property>
+         <obj_property name="ObjectShortName">[13]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb/dpd_0/m_axis_tdata[12]" type="logic">
+         <obj_property name="ElementShortName">[12]</obj_property>
+         <obj_property name="ObjectShortName">[12]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb/dpd_0/m_axis_tdata[11]" type="logic">
+         <obj_property name="ElementShortName">[11]</obj_property>
+         <obj_property name="ObjectShortName">[11]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb/dpd_0/m_axis_tdata[10]" type="logic">
+         <obj_property name="ElementShortName">[10]</obj_property>
+         <obj_property name="ObjectShortName">[10]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb/dpd_0/m_axis_tdata[9]" type="logic">
+         <obj_property name="ElementShortName">[9]</obj_property>
+         <obj_property name="ObjectShortName">[9]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb/dpd_0/m_axis_tdata[8]" type="logic">
+         <obj_property name="ElementShortName">[8]</obj_property>
+         <obj_property name="ObjectShortName">[8]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb/dpd_0/m_axis_tdata[7]" type="logic">
+         <obj_property name="ElementShortName">[7]</obj_property>
+         <obj_property name="ObjectShortName">[7]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb/dpd_0/m_axis_tdata[6]" type="logic">
+         <obj_property name="ElementShortName">[6]</obj_property>
+         <obj_property name="ObjectShortName">[6]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb/dpd_0/m_axis_tdata[5]" type="logic">
+         <obj_property name="ElementShortName">[5]</obj_property>
+         <obj_property name="ObjectShortName">[5]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb/dpd_0/m_axis_tdata[4]" type="logic">
+         <obj_property name="ElementShortName">[4]</obj_property>
+         <obj_property name="ObjectShortName">[4]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb/dpd_0/m_axis_tdata[3]" type="logic">
+         <obj_property name="ElementShortName">[3]</obj_property>
+         <obj_property name="ObjectShortName">[3]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb/dpd_0/m_axis_tdata[2]" type="logic">
+         <obj_property name="ElementShortName">[2]</obj_property>
+         <obj_property name="ObjectShortName">[2]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb/dpd_0/m_axis_tdata[1]" type="logic">
+         <obj_property name="ElementShortName">[1]</obj_property>
+         <obj_property name="ObjectShortName">[1]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb/dpd_0/m_axis_tdata[0]" type="logic">
+         <obj_property name="ElementShortName">[0]</obj_property>
+         <obj_property name="ObjectShortName">[0]</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="vbus327" type="vbus">
+      <obj_property name="label">Q</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <wvobject fp_name="/tb/dpd_0/m_axis_tdata[31]" type="logic">
+         <obj_property name="ElementShortName">[31]</obj_property>
+         <obj_property name="ObjectShortName">[31]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb/dpd_0/m_axis_tdata[30]" type="logic">
+         <obj_property name="ElementShortName">[30]</obj_property>
+         <obj_property name="ObjectShortName">[30]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb/dpd_0/m_axis_tdata[29]" type="logic">
+         <obj_property name="ElementShortName">[29]</obj_property>
+         <obj_property name="ObjectShortName">[29]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb/dpd_0/m_axis_tdata[28]" type="logic">
+         <obj_property name="ElementShortName">[28]</obj_property>
+         <obj_property name="ObjectShortName">[28]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb/dpd_0/m_axis_tdata[27]" type="logic">
+         <obj_property name="ElementShortName">[27]</obj_property>
+         <obj_property name="ObjectShortName">[27]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb/dpd_0/m_axis_tdata[26]" type="logic">
+         <obj_property name="ElementShortName">[26]</obj_property>
+         <obj_property name="ObjectShortName">[26]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb/dpd_0/m_axis_tdata[25]" type="logic">
+         <obj_property name="ElementShortName">[25]</obj_property>
+         <obj_property name="ObjectShortName">[25]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb/dpd_0/m_axis_tdata[24]" type="logic">
+         <obj_property name="ElementShortName">[24]</obj_property>
+         <obj_property name="ObjectShortName">[24]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb/dpd_0/m_axis_tdata[23]" type="logic">
+         <obj_property name="ElementShortName">[23]</obj_property>
+         <obj_property name="ObjectShortName">[23]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb/dpd_0/m_axis_tdata[22]" type="logic">
+         <obj_property name="ElementShortName">[22]</obj_property>
+         <obj_property name="ObjectShortName">[22]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb/dpd_0/m_axis_tdata[21]" type="logic">
+         <obj_property name="ElementShortName">[21]</obj_property>
+         <obj_property name="ObjectShortName">[21]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb/dpd_0/m_axis_tdata[20]" type="logic">
+         <obj_property name="ElementShortName">[20]</obj_property>
+         <obj_property name="ObjectShortName">[20]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb/dpd_0/m_axis_tdata[19]" type="logic">
+         <obj_property name="ElementShortName">[19]</obj_property>
+         <obj_property name="ObjectShortName">[19]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb/dpd_0/m_axis_tdata[18]" type="logic">
+         <obj_property name="ElementShortName">[18]</obj_property>
+         <obj_property name="ObjectShortName">[18]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb/dpd_0/m_axis_tdata[17]" type="logic">
+         <obj_property name="ElementShortName">[17]</obj_property>
+         <obj_property name="ObjectShortName">[17]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb/dpd_0/m_axis_tdata[16]" type="logic">
+         <obj_property name="ElementShortName">[16]</obj_property>
+         <obj_property name="ObjectShortName">[16]</obj_property>
+      </wvobject>
    </wvobject>
    <wvobject fp_name="/tb/dpd_0/d_s_axis_tvalid" type="logic">
       <obj_property name="ElementShortName">d_s_axis_tvalid</obj_property>
@@ -848,5 +1053,163 @@
    <wvobject fp_name="/tb/dpd_0/\gen_basic_data[14].gen_basic_i /WIDTH" type="array">
       <obj_property name="ElementShortName">WIDTH[31:0]</obj_property>
       <obj_property name="ObjectShortName">WIDTH[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/aclk" type="logic">
+      <obj_property name="ElementShortName">aclk</obj_property>
+      <obj_property name="ObjectShortName">aclk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/aresetn" type="logic">
+      <obj_property name="ElementShortName">aresetn</obj_property>
+      <obj_property name="ObjectShortName">aresetn</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/s_axis_tdata" type="array">
+      <obj_property name="ElementShortName">s_axis_tdata[31:0]</obj_property>
+      <obj_property name="ObjectShortName">s_axis_tdata[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/s_axis_tkeep" type="array">
+      <obj_property name="ElementShortName">s_axis_tkeep[3:0]</obj_property>
+      <obj_property name="ObjectShortName">s_axis_tkeep[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/s_axis_tvalid" type="logic">
+      <obj_property name="ElementShortName">s_axis_tvalid</obj_property>
+      <obj_property name="ObjectShortName">s_axis_tvalid</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/s_axis_tready" type="logic">
+      <obj_property name="ElementShortName">s_axis_tready</obj_property>
+      <obj_property name="ObjectShortName">s_axis_tready</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/s_axis_tlast" type="logic">
+      <obj_property name="ElementShortName">s_axis_tlast</obj_property>
+      <obj_property name="ObjectShortName">s_axis_tlast</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/m_axis_tdata" type="array">
+      <obj_property name="ElementShortName">m_axis_tdata[31:0]</obj_property>
+      <obj_property name="ObjectShortName">m_axis_tdata[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/m_axis_tkeep" type="array">
+      <obj_property name="ElementShortName">m_axis_tkeep[3:0]</obj_property>
+      <obj_property name="ObjectShortName">m_axis_tkeep[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/m_axis_tvalid" type="logic">
+      <obj_property name="ElementShortName">m_axis_tvalid</obj_property>
+      <obj_property name="ObjectShortName">m_axis_tvalid</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/m_axis_tready" type="logic">
+      <obj_property name="ElementShortName">m_axis_tready</obj_property>
+      <obj_property name="ObjectShortName">m_axis_tready</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/m_axis_tlast" type="logic">
+      <obj_property name="ElementShortName">m_axis_tlast</obj_property>
+      <obj_property name="ObjectShortName">m_axis_tlast</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/i" type="array">
+      <obj_property name="ElementShortName">i[31:0]</obj_property>
+      <obj_property name="ObjectShortName">i[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/data_in" type="array">
+      <obj_property name="ElementShortName">data_in[9:0][31:0]</obj_property>
+      <obj_property name="ObjectShortName">data_in[9:0][31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/m_fifo_axis_tvalid" type="logic">
+      <obj_property name="ElementShortName">m_fifo_axis_tvalid</obj_property>
+      <obj_property name="ObjectShortName">m_fifo_axis_tvalid</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/m_fifo_axis_tready" type="logic">
+      <obj_property name="ElementShortName">m_fifo_axis_tready</obj_property>
+      <obj_property name="ObjectShortName">m_fifo_axis_tready</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/m_fifo_axis_tdata" type="array">
+      <obj_property name="ElementShortName">m_fifo_axis_tdata[31:0]</obj_property>
+      <obj_property name="ObjectShortName">m_fifo_axis_tdata[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/m_fifo_axis_tkeep" type="array">
+      <obj_property name="ElementShortName">m_fifo_axis_tkeep[3:0]</obj_property>
+      <obj_property name="ObjectShortName">m_fifo_axis_tkeep[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/m_fifo_axis_tlast" type="logic">
+      <obj_property name="ElementShortName">m_fifo_axis_tlast</obj_property>
+      <obj_property name="ObjectShortName">m_fifo_axis_tlast</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/m_upsample1_axis_tdata" type="array">
+      <obj_property name="ElementShortName">m_upsample1_axis_tdata[31:0]</obj_property>
+      <obj_property name="ObjectShortName">m_upsample1_axis_tdata[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/m_upsample1_axis_tkeep" type="array">
+      <obj_property name="ElementShortName">m_upsample1_axis_tkeep[3:0]</obj_property>
+      <obj_property name="ObjectShortName">m_upsample1_axis_tkeep[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/m_upsample1_axis_tvalid" type="logic">
+      <obj_property name="ElementShortName">m_upsample1_axis_tvalid</obj_property>
+      <obj_property name="ObjectShortName">m_upsample1_axis_tvalid</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/m_upsample1_axis_tready" type="logic">
+      <obj_property name="ElementShortName">m_upsample1_axis_tready</obj_property>
+      <obj_property name="ObjectShortName">m_upsample1_axis_tready</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/m_upsample1_axis_tlast" type="logic">
+      <obj_property name="ElementShortName">m_upsample1_axis_tlast</obj_property>
+      <obj_property name="ObjectShortName">m_upsample1_axis_tlast</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/m_fir1_axis_tdata" type="array">
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="ElementShortName">m_fir1_axis_tdata[31:0]</obj_property>
+      <obj_property name="ObjectShortName">m_fir1_axis_tdata[31:0]</obj_property>
+      <obj_property name="label">m_fir1_a/tb/m_fir1_axis_tdata /tb/m_fir1_axis_tkeep /tb/m_fir1_axis_tvalid /tb/m_fir1_axis_tready /tb/m_fir1_axis_tlastxis_tdata[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/m_fir1_axis_tkeep" type="array">
+      <obj_property name="ElementShortName">m_fir1_axis_tkeep[3:0]</obj_property>
+      <obj_property name="ObjectShortName">m_fir1_axis_tkeep[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/m_fir1_axis_tvalid" type="logic">
+      <obj_property name="ElementShortName">m_fir1_axis_tvalid</obj_property>
+      <obj_property name="ObjectShortName">m_fir1_axis_tvalid</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/m_fir1_axis_tready" type="logic">
+      <obj_property name="ElementShortName">m_fir1_axis_tready</obj_property>
+      <obj_property name="ObjectShortName">m_fir1_axis_tready</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/m_fir1_axis_tlast" type="logic">
+      <obj_property name="ElementShortName">m_fir1_axis_tlast</obj_property>
+      <obj_property name="ObjectShortName">m_fir1_axis_tlast</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/m_upsample2_axis_tdata" type="array">
+      <obj_property name="ElementShortName">m_upsample2_axis_tdata[31:0]</obj_property>
+      <obj_property name="ObjectShortName">m_upsample2_axis_tdata[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/m_upsample2_axis_tkeep" type="array">
+      <obj_property name="ElementShortName">m_upsample2_axis_tkeep[3:0]</obj_property>
+      <obj_property name="ObjectShortName">m_upsample2_axis_tkeep[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/m_upsample2_axis_tvalid" type="logic">
+      <obj_property name="ElementShortName">m_upsample2_axis_tvalid</obj_property>
+      <obj_property name="ObjectShortName">m_upsample2_axis_tvalid</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/m_upsample2_axis_tready" type="logic">
+      <obj_property name="ElementShortName">m_upsample2_axis_tready</obj_property>
+      <obj_property name="ObjectShortName">m_upsample2_axis_tready</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/m_upsample2_axis_tlast" type="logic">
+      <obj_property name="ElementShortName">m_upsample2_axis_tlast</obj_property>
+      <obj_property name="ObjectShortName">m_upsample2_axis_tlast</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/in_axis_tdata" type="array">
+      <obj_property name="ElementShortName">in_axis_tdata[31:0]</obj_property>
+      <obj_property name="ObjectShortName">in_axis_tdata[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/in_axis_tkeep" type="array">
+      <obj_property name="ElementShortName">in_axis_tkeep[3:0]</obj_property>
+      <obj_property name="ObjectShortName">in_axis_tkeep[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/in_axis_tvalid" type="logic">
+      <obj_property name="ElementShortName">in_axis_tvalid</obj_property>
+      <obj_property name="ObjectShortName">in_axis_tvalid</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/in_axis_tready" type="logic">
+      <obj_property name="ElementShortName">in_axis_tready</obj_property>
+      <obj_property name="ObjectShortName">in_axis_tready</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/in_axis_tlast" type="logic">
+      <obj_property name="ElementShortName">in_axis_tlast</obj_property>
+      <obj_property name="ObjectShortName">in_axis_tlast</obj_property>
    </wvobject>
 </wave_config>

@@ -24,9 +24,9 @@ module power2 #(parameter WIDTH=16)(
 	input aclk,
 	input aresetn,
 	input CE,
-	input [WIDTH-1:0] I,//unsigned 2.30
-	input [WIDTH-1:0] Q,//unsigned 2.30
-	input [2*WIDTH-1:0] power//unsigned 2.30
+	input [WIDTH-1:0] I,//signed 1.15
+	input [WIDTH-1:0] Q,//signed 1.15
+	output [2*WIDTH-1:0] power//unsigned 2.30
     );
 	//signals
 	wire [2*WIDTH-1:0] I2;
