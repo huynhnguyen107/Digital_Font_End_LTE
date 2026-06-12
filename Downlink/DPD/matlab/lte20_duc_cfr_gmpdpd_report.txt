@@ -15,8 +15,8 @@ Peak after CFR         : 0.600064
 RMS after CFR          : 0.266661
 PAPR after CFR         : 7.04 dB
 
-Peak after GMP-DPD     : 0.626381
-RMS after GMP-DPD      : 0.272563
+Peak after GMP-DPD     : 0.626267
+RMS after GMP-DPD      : 0.272524
 PAPR after GMP-DPD     : 7.23 dB
 
 PAPR reduction by CFR  : 2.47 dB

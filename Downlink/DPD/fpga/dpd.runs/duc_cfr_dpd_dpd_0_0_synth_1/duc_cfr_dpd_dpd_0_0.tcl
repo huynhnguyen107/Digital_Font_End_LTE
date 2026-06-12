@@ -70,12 +70,7 @@ proc create_report { reportName command } {
   }
 }
 OPTRACE "duc_cfr_dpd_dpd_0_0_synth_1" START { ROLLUP_AUTO }
-set_param power.BramSDPPropagationFix 1
 set_param chipscope.maxJobs 4
-set_param power.enableUnconnectedCarry8PinPower 1
-set_param power.enableCarry8RouteBelPower 1
-set_param power.enableLutRouteBelPower 1
-set_msg_config -id {Common 17-41} -limit 10000000
 set_msg_config -id {HDL-1065} -limit 10000
 set_param project.vivado.isBlockSynthRun true
 OPTRACE "Creating in-memory project" START { }

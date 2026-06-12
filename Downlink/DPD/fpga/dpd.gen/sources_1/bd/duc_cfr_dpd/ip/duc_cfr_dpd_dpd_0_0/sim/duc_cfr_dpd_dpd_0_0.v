@@ -66,7 +66,12 @@ module duc_cfr_dpd_dpd_0_0 (
   m_axis_tkeep,
   m_axis_tvalid,
   m_axis_tready,
-  m_axis_tlast
+  m_axis_tlast,
+  debug0,
+  debug1,
+  debug2,
+  debug3,
+  debug4
 );
 
 (* X_INTERFACE_PARAMETER = "XIL_INTERFACENAME aclk, ASSOCIATED_BUSIF m_axis:s_axis, ASSOCIATED_RESET aresetn, FREQ_HZ 96968727, FREQ_TOLERANCE_HZ 0, PHASE 0.0, CLK_DOMAIN duc_cfr_dpd_zynq_ultra_ps_e_0_0_pl_clk0, INSERT_VIP 0" *)
@@ -97,6 +102,11 @@ input wire m_axis_tready;
 (* X_INTERFACE_PARAMETER = "XIL_INTERFACENAME m_axis, TDATA_NUM_BYTES 4, TDEST_WIDTH 0, TID_WIDTH 0, TUSER_WIDTH 0, HAS_TREADY 1, HAS_TSTRB 0, HAS_TKEEP 1, HAS_TLAST 1, FREQ_HZ 96968727, PHASE 0.0, CLK_DOMAIN duc_cfr_dpd_zynq_ultra_ps_e_0_0_pl_clk0, LAYERED_METADATA undef, INSERT_VIP 0" *)
 (* X_INTERFACE_INFO = "xilinx.com:interface:axis:1.0 m_axis TLAST" *)
 output wire m_axis_tlast;
+output wire [31 : 0] debug0;
+output wire [31 : 0] debug1;
+output wire [31 : 0] debug2;
+output wire [31 : 0] debug3;
+output wire [31 : 0] debug4;
 
   dpd #(
     .WIDTH(32)
@@ -112,6 +122,11 @@ output wire m_axis_tlast;
     .m_axis_tkeep(m_axis_tkeep),
     .m_axis_tvalid(m_axis_tvalid),
     .m_axis_tready(m_axis_tready),
-    .m_axis_tlast(m_axis_tlast)
+    .m_axis_tlast(m_axis_tlast),
+    .debug0(debug0),
+    .debug1(debug1),
+    .debug2(debug2),
+    .debug3(debug3),
+    .debug4(debug4)
   );
 endmodule

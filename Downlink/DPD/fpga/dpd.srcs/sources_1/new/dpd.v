@@ -34,11 +34,19 @@ module dpd #(parameter WIDTH=32)(
 	output reg [WIDTH/8-1:0] m_axis_tkeep,
 	output reg			m_axis_tvalid,
 	input 				m_axis_tready,
-	output reg 			m_axis_tlast
+	output reg 			m_axis_tlast,
+	//debug
+	output [WIDTH-1:0]   debug0,
+	output [WIDTH-1:0]   debug1,
+	output [WIDTH-1:0]   debug2,
+	output [WIDTH-1:0]   debug3,
+	output [WIDTH-1:0]   debug4
     );
 	//AXI Stream staWIDTH/2;ll control
 	localparam TW=WIDTH/2;
 	wire pipe_en;
+	//clear delay input
+	reg start_clear;
 	//delay input 
 	wire [TW-1:0] i_in;
 	wire [TW-1:0] q_in;
@@ -95,9 +103,18 @@ module dpd #(parameter WIDTH=32)(
 			for (i=0;i<5;i=i+1) begin
 				i_nm[i] <=0;
 				q_nm[i] <=0;
+				start_clear <=0;
 			end
 		end
 		else if (pipe_en) begin
+			//stear clear delay input
+			if (m_axis_tlast) begin
+				start_clear <= 1;
+			end
+			else begin
+				start_clear <= 0;
+			end
+			
 			if (s_axis_tvalid&s_axis_tready) begin
 				i_nm[0] <= i_in;
 				q_nm[0] <= q_in;
@@ -106,6 +123,12 @@ module dpd #(parameter WIDTH=32)(
 					q_nm[i] <=q_nm[i-1];
 				end
 			
+			end
+			else if (start_clear) begin
+				for (i=0;i<5;i=i+1) begin
+				i_nm[i] <=0;
+				q_nm[i] <=0;
+			end
 			end
 
 		end
@@ -277,4 +300,10 @@ module dpd #(parameter WIDTH=32)(
 			m_axis_tlast <= d_s_axis_tlast; 
 		end
 	end
+	//debug
+	assign debug0 = i_nm[0];
+	assign debug1 = i_nm[1];
+	assign debug2 = i_nm[2];
+	assign debug3 = i_nm[3];
+	assign debug4 = i_nm[4];
 endmodule

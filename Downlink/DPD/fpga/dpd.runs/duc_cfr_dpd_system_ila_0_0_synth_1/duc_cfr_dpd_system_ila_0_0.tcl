@@ -70,12 +70,7 @@ proc create_report { reportName command } {
   }
 }
 OPTRACE "duc_cfr_dpd_system_ila_0_0_synth_1" START { ROLLUP_AUTO }
-set_param power.BramSDPPropagationFix 1
 set_param chipscope.maxJobs 4
-set_param power.enableUnconnectedCarry8PinPower 1
-set_param power.enableCarry8RouteBelPower 1
-set_param power.enableLutRouteBelPower 1
-set_msg_config -id {Common 17-41} -limit 10000000
 set_msg_config -id {HDL-1065} -limit 10000
 set_param project.vivado.isBlockSynthRun true
 set_msg_config -msgmgr_mode ooc_run
@@ -96,7 +91,7 @@ set_property ip_output_repo {d:/FPGA/Vivaldo Project/Digital_Font_End_LTE/Downli
 set_property ip_cache_permissions {read write} [current_project]
 OPTRACE "Creating in-memory project" END { }
 OPTRACE "Adding files" START { }
-read_ip -quiet {{d:/FPGA/Vivaldo Project/Digital_Font_End_LTE/Downlink/DPD/fpga/dpd.srcs/sources_1/bd/duc_cfr_dpd/ip/duc_cfr_dpd_system_ila_0_0/duc_cfr_dpd_system_ila_0_0.xci}}
+read_ip -quiet {{D:/FPGA/Vivaldo Project/Digital_Font_End_LTE/Downlink/DPD/fpga/dpd.srcs/sources_1/bd/duc_cfr_dpd/ip/duc_cfr_dpd_system_ila_0_0/duc_cfr_dpd_system_ila_0_0.xci}}
 set_property used_in_synthesis false [get_files -all {{d:/FPGA/Vivaldo Project/Digital_Font_End_LTE/Downlink/DPD/fpga/dpd.gen/sources_1/bd/duc_cfr_dpd/ip/duc_cfr_dpd_system_ila_0_0/bd_0/ip/ip_0/ila_v6_2/constraints/ila_impl.xdc}}]
 set_property used_in_implementation false [get_files -all {{d:/FPGA/Vivaldo Project/Digital_Font_End_LTE/Downlink/DPD/fpga/dpd.gen/sources_1/bd/duc_cfr_dpd/ip/duc_cfr_dpd_system_ila_0_0/bd_0/ip/ip_0/ila_v6_2/constraints/ila_impl.xdc}}]
 set_property used_in_implementation false [get_files -all {{d:/FPGA/Vivaldo Project/Digital_Font_End_LTE/Downlink/DPD/fpga/dpd.gen/sources_1/bd/duc_cfr_dpd/ip/duc_cfr_dpd_system_ila_0_0/bd_0/ip/ip_0/ila_v6_2/constraints/ila.xdc}}]

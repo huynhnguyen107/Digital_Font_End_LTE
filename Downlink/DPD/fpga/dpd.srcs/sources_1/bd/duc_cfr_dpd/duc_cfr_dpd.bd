@@ -4103,13 +4103,13 @@
         "inst_hier_path": "system_ila_0",
         "parameters": {
           "C_MON_TYPE": {
-            "value": "INTERFACE"
+            "value": "MIX"
           },
           "C_NUM_MONITOR_SLOTS": {
             "value": "1"
           },
           "C_NUM_OF_PROBES": {
-            "value": "1"
+            "value": "5"
           },
           "C_PROBE0_TYPE": {
             "value": "0"
@@ -4325,6 +4325,31 @@
                 "value_src": "constant"
               }
             }
+          },
+          "debug0": {
+            "direction": "O",
+            "left": "31",
+            "right": "0"
+          },
+          "debug1": {
+            "direction": "O",
+            "left": "31",
+            "right": "0"
+          },
+          "debug2": {
+            "direction": "O",
+            "left": "31",
+            "right": "0"
+          },
+          "debug3": {
+            "direction": "O",
+            "left": "31",
+            "right": "0"
+          },
+          "debug4": {
+            "direction": "O",
+            "left": "31",
+            "right": "0"
           }
         }
       }
@@ -4413,6 +4438,36 @@
       }
     },
     "nets": {
+      "dpd_0_debug0": {
+        "ports": [
+          "dpd_0/debug0",
+          "system_ila_0/probe0"
+        ]
+      },
+      "dpd_0_debug1": {
+        "ports": [
+          "dpd_0/debug1",
+          "system_ila_0/probe1"
+        ]
+      },
+      "dpd_0_debug2": {
+        "ports": [
+          "dpd_0/debug2",
+          "system_ila_0/probe2"
+        ]
+      },
+      "dpd_0_debug3": {
+        "ports": [
+          "dpd_0/debug3",
+          "system_ila_0/probe3"
+        ]
+      },
+      "dpd_0_debug4": {
+        "ports": [
+          "dpd_0/debug4",
+          "system_ila_0/probe4"
+        ]
+      },
       "proc_sys_reset_0_peripheral_aresetn": {
         "ports": [
           "proc_sys_reset_0/peripheral_aresetn",

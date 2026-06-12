@@ -1,7 +1,7 @@
 // Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
 // --------------------------------------------------------------------------------
 // Tool Version: Vivado v.2022.2 (win64) Build 3671981 Fri Oct 14 05:00:03 MDT 2022
-// Date        : Thu Jun 11 18:09:38 2026
+// Date        : Fri Jun 12 09:33:26 2026
 // Host        : LAPTOP-CHCSI1R5 running 64-bit major release  (build 9200)
 // Command     : write_verilog -force -mode synth_stub {d:/FPGA/Vivaldo
 //               Project/Digital_Font_End_LTE/Downlink/DPD/fpga/dpd.gen/sources_1/bd/duc_cfr_dpd/ip/duc_cfr_dpd_dpd_0_0/duc_cfr_dpd_dpd_0_0_stub.v}
@@ -16,8 +16,8 @@
 (* X_CORE_INFO = "dpd,Vivado 2022.2" *)
 module duc_cfr_dpd_dpd_0_0(aclk, aresetn, s_axis_tdata, s_axis_tkeep, 
   s_axis_tvalid, s_axis_tready, s_axis_tlast, m_axis_tdata, m_axis_tkeep, m_axis_tvalid, 
-  m_axis_tready, m_axis_tlast)
-/* synthesis syn_black_box black_box_pad_pin="aclk,aresetn,s_axis_tdata[31:0],s_axis_tkeep[3:0],s_axis_tvalid,s_axis_tready,s_axis_tlast,m_axis_tdata[31:0],m_axis_tkeep[3:0],m_axis_tvalid,m_axis_tready,m_axis_tlast" */;
+  m_axis_tready, m_axis_tlast, debug0, debug1, debug2, debug3, debug4)
+/* synthesis syn_black_box black_box_pad_pin="aclk,aresetn,s_axis_tdata[31:0],s_axis_tkeep[3:0],s_axis_tvalid,s_axis_tready,s_axis_tlast,m_axis_tdata[31:0],m_axis_tkeep[3:0],m_axis_tvalid,m_axis_tready,m_axis_tlast,debug0[31:0],debug1[31:0],debug2[31:0],debug3[31:0],debug4[31:0]" */;
   input aclk;
   input aresetn;
   input [31:0]s_axis_tdata;
@@ -30,4 +30,9 @@ module duc_cfr_dpd_dpd_0_0(aclk, aresetn, s_axis_tdata, s_axis_tkeep,
   output m_axis_tvalid;
   input m_axis_tready;
   output m_axis_tlast;
+  output [31:0]debug0;
+  output [31:0]debug1;
+  output [31:0]debug2;
+  output [31:0]debug3;
+  output [31:0]debug4;
 endmodule

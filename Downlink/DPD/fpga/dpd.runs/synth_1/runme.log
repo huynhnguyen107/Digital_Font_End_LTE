@@ -10,11 +10,11 @@
     ** Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
 
 source duc_cfr_dpd_wrapper.tcl -notrace
-create_project: Time (s): cpu = 00:00:07 ; elapsed = 00:00:07 . Memory (MB): peak = 378.781 ; gain = 64.504
+create_project: Time (s): cpu = 00:00:06 ; elapsed = 00:00:07 . Memory (MB): peak = 377.180 ; gain = 62.945
 INFO: [IP_Flow 19-234] Refreshing IP repositories
 INFO: [IP_Flow 19-1704] No user IP repositories specified
 INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/Xilinx/Vivado/2022.2/data/ip'.
-add_files: Time (s): cpu = 00:00:11 ; elapsed = 00:00:15 . Memory (MB): peak = 516.562 ; gain = 137.781
+add_files: Time (s): cpu = 00:00:12 ; elapsed = 00:00:17 . Memory (MB): peak = 516.719 ; gain = 139.539
 Command: read_checkpoint -auto_incremental -incremental {D:/FPGA/Vivaldo Project/Digital_Font_End_LTE/Downlink/CFR/fpga/CFR.srcs/utils_1/imports/synth_1/duc_cfr_wrapper.dcp}
 INFO: [Vivado 12-5825] Read reference checkpoint from D:/FPGA/Vivaldo Project/Digital_Font_End_LTE/Downlink/CFR/fpga/CFR.srcs/utils_1/imports/synth_1/duc_cfr_wrapper.dcp for incremental synthesis
 INFO: [Vivado 12-7989] Please ensure there are no constraint changes
@@ -27,94 +27,94 @@ INFO: [Designutils 20-5440] No compile time benefit to using incremental synthes
 INFO: [Designutils 20-4379] Flow is switching to default flow due to incremental criteria not met. If you would like to alter this behaviour and have the flow terminate instead, please set the following parameter config_implementation {autoIncr.Synth.RejectBehavior Terminate}
 INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 2 processes.
 INFO: [Synth 8-7078] Launching helper process for spawning children vivado processes
-INFO: [Synth 8-7075] Helper process launched with PID 51320
+INFO: [Synth 8-7075] Helper process launched with PID 74476
 INFO: [Synth 8-11241] undeclared symbol 'REGCCE', assumed default net type 'wire' [D:/Xilinx/Vivado/2022.2/data/verilog/src/unimacro/BRAM_SINGLE_MACRO.v:2170]
 ---------------------------------------------------------------------------------
-Starting RTL Elaboration : Time (s): cpu = 00:00:06 ; elapsed = 00:00:06 . Memory (MB): peak = 1866.266 ; gain = 332.930
+Starting RTL Elaboration : Time (s): cpu = 00:00:06 ; elapsed = 00:00:07 . Memory (MB): peak = 1869.602 ; gain = 333.227
 ---------------------------------------------------------------------------------
 INFO: [Synth 8-6157] synthesizing module 'duc_cfr_dpd_wrapper' [D:/FPGA/Vivaldo Project/Digital_Font_End_LTE/Downlink/DPD/fpga/dpd.gen/sources_1/bd/duc_cfr_dpd/hdl/duc_cfr_dpd_wrapper.v:12]
 INFO: [Synth 8-6157] synthesizing module 'duc_cfr_dpd' [d:/FPGA/Vivaldo Project/Digital_Font_End_LTE/Downlink/DPD/fpga/dpd.gen/sources_1/bd/duc_cfr_dpd/synth/duc_cfr_dpd.v:12]
-INFO: [Synth 8-6157] synthesizing module 'duc_cfr_dpd_axi_bram_ctrl_0_0' [D:/FPGA/Vivaldo Project/Digital_Font_End_LTE/Downlink/DPD/fpga/dpd.runs/synth_1/.Xil/Vivado-52408-LAPTOP-CHCSI1R5/realtime/duc_cfr_dpd_axi_bram_ctrl_0_0_stub.v:5]
-INFO: [Synth 8-6155] done synthesizing module 'duc_cfr_dpd_axi_bram_ctrl_0_0' (0#1) [D:/FPGA/Vivaldo Project/Digital_Font_End_LTE/Downlink/DPD/fpga/dpd.runs/synth_1/.Xil/Vivado-52408-LAPTOP-CHCSI1R5/realtime/duc_cfr_dpd_axi_bram_ctrl_0_0_stub.v:5]
-INFO: [Synth 8-6157] synthesizing module 'duc_cfr_dpd_axi_dma_0_0' [D:/FPGA/Vivaldo Project/Digital_Font_End_LTE/Downlink/DPD/fpga/dpd.runs/synth_1/.Xil/Vivado-52408-LAPTOP-CHCSI1R5/realtime/duc_cfr_dpd_axi_dma_0_0_stub.v:5]
-INFO: [Synth 8-6155] done synthesizing module 'duc_cfr_dpd_axi_dma_0_0' (0#1) [D:/FPGA/Vivaldo Project/Digital_Font_End_LTE/Downlink/DPD/fpga/dpd.runs/synth_1/.Xil/Vivado-52408-LAPTOP-CHCSI1R5/realtime/duc_cfr_dpd_axi_dma_0_0_stub.v:5]
-WARNING: [Synth 8-7071] port 'mm2s_prmry_reset_out_n' of module 'duc_cfr_dpd_axi_dma_0_0' is unconnected for instance 'axi_dma_0' [d:/FPGA/Vivaldo Project/Digital_Font_End_LTE/Downlink/DPD/fpga/dpd.gen/sources_1/bd/duc_cfr_dpd/synth/duc_cfr_dpd.v:218]
-WARNING: [Synth 8-7071] port 's2mm_prmry_reset_out_n' of module 'duc_cfr_dpd_axi_dma_0_0' is unconnected for instance 'axi_dma_0' [d:/FPGA/Vivaldo Project/Digital_Font_End_LTE/Downlink/DPD/fpga/dpd.gen/sources_1/bd/duc_cfr_dpd/synth/duc_cfr_dpd.v:218]
-WARNING: [Synth 8-7071] port 'mm2s_introut' of module 'duc_cfr_dpd_axi_dma_0_0' is unconnected for instance 'axi_dma_0' [d:/FPGA/Vivaldo Project/Digital_Font_End_LTE/Downlink/DPD/fpga/dpd.gen/sources_1/bd/duc_cfr_dpd/synth/duc_cfr_dpd.v:218]
-WARNING: [Synth 8-7071] port 's2mm_introut' of module 'duc_cfr_dpd_axi_dma_0_0' is unconnected for instance 'axi_dma_0' [d:/FPGA/Vivaldo Project/Digital_Font_End_LTE/Downlink/DPD/fpga/dpd.gen/sources_1/bd/duc_cfr_dpd/synth/duc_cfr_dpd.v:218]
-WARNING: [Synth 8-7071] port 'axi_dma_tstvec' of module 'duc_cfr_dpd_axi_dma_0_0' is unconnected for instance 'axi_dma_0' [d:/FPGA/Vivaldo Project/Digital_Font_End_LTE/Downlink/DPD/fpga/dpd.gen/sources_1/bd/duc_cfr_dpd/synth/duc_cfr_dpd.v:218]
-WARNING: [Synth 8-7023] instance 'axi_dma_0' of module 'duc_cfr_dpd_axi_dma_0_0' has 64 connections declared, but only 59 given [d:/FPGA/Vivaldo Project/Digital_Font_End_LTE/Downlink/DPD/fpga/dpd.gen/sources_1/bd/duc_cfr_dpd/synth/duc_cfr_dpd.v:218]
-INFO: [Synth 8-6157] synthesizing module 'duc_cfr_dpd_axis_upsample_0_0' [D:/FPGA/Vivaldo Project/Digital_Font_End_LTE/Downlink/DPD/fpga/dpd.runs/synth_1/.Xil/Vivado-52408-LAPTOP-CHCSI1R5/realtime/duc_cfr_dpd_axis_upsample_0_0_stub.v:5]
-INFO: [Synth 8-6155] done synthesizing module 'duc_cfr_dpd_axis_upsample_0_0' (0#1) [D:/FPGA/Vivaldo Project/Digital_Font_End_LTE/Downlink/DPD/fpga/dpd.runs/synth_1/.Xil/Vivado-52408-LAPTOP-CHCSI1R5/realtime/duc_cfr_dpd_axis_upsample_0_0_stub.v:5]
-INFO: [Synth 8-6157] synthesizing module 'duc_cfr_dpd_axis_upsample_1_0' [D:/FPGA/Vivaldo Project/Digital_Font_End_LTE/Downlink/DPD/fpga/dpd.runs/synth_1/.Xil/Vivado-52408-LAPTOP-CHCSI1R5/realtime/duc_cfr_dpd_axis_upsample_1_0_stub.v:5]
-INFO: [Synth 8-6155] done synthesizing module 'duc_cfr_dpd_axis_upsample_1_0' (0#1) [D:/FPGA/Vivaldo Project/Digital_Font_End_LTE/Downlink/DPD/fpga/dpd.runs/synth_1/.Xil/Vivado-52408-LAPTOP-CHCSI1R5/realtime/duc_cfr_dpd_axis_upsample_1_0_stub.v:5]
-INFO: [Synth 8-6157] synthesizing module 'duc_cfr_dpd_blk_mem_gen_0_0' [D:/FPGA/Vivaldo Project/Digital_Font_End_LTE/Downlink/DPD/fpga/dpd.runs/synth_1/.Xil/Vivado-52408-LAPTOP-CHCSI1R5/realtime/duc_cfr_dpd_blk_mem_gen_0_0_stub.v:5]
-INFO: [Synth 8-6155] done synthesizing module 'duc_cfr_dpd_blk_mem_gen_0_0' (0#1) [D:/FPGA/Vivaldo Project/Digital_Font_End_LTE/Downlink/DPD/fpga/dpd.runs/synth_1/.Xil/Vivado-52408-LAPTOP-CHCSI1R5/realtime/duc_cfr_dpd_blk_mem_gen_0_0_stub.v:5]
-WARNING: [Synth 8-7071] port 'rsta_busy' of module 'duc_cfr_dpd_blk_mem_gen_0_0' is unconnected for instance 'blk_mem_gen_0' [d:/FPGA/Vivaldo Project/Digital_Font_End_LTE/Downlink/DPD/fpga/dpd.gen/sources_1/bd/duc_cfr_dpd/synth/duc_cfr_dpd.v:304]
-WARNING: [Synth 8-7023] instance 'blk_mem_gen_0' of module 'duc_cfr_dpd_blk_mem_gen_0_0' has 8 connections declared, but only 7 given [d:/FPGA/Vivaldo Project/Digital_Font_End_LTE/Downlink/DPD/fpga/dpd.gen/sources_1/bd/duc_cfr_dpd/synth/duc_cfr_dpd.v:304]
-INFO: [Synth 8-6157] synthesizing module 'duc_cfr_dpd_cfr_0_0' [D:/FPGA/Vivaldo Project/Digital_Font_End_LTE/Downlink/DPD/fpga/dpd.runs/synth_1/.Xil/Vivado-52408-LAPTOP-CHCSI1R5/realtime/duc_cfr_dpd_cfr_0_0_stub.v:5]
-INFO: [Synth 8-6155] done synthesizing module 'duc_cfr_dpd_cfr_0_0' (0#1) [D:/FPGA/Vivaldo Project/Digital_Font_End_LTE/Downlink/DPD/fpga/dpd.runs/synth_1/.Xil/Vivado-52408-LAPTOP-CHCSI1R5/realtime/duc_cfr_dpd_cfr_0_0_stub.v:5]
-INFO: [Synth 8-6157] synthesizing module 'duc_cfr_dpd_dpd_0_0' [D:/FPGA/Vivaldo Project/Digital_Font_End_LTE/Downlink/DPD/fpga/dpd.runs/synth_1/.Xil/Vivado-52408-LAPTOP-CHCSI1R5/realtime/duc_cfr_dpd_dpd_0_0_stub.v:5]
-INFO: [Synth 8-6155] done synthesizing module 'duc_cfr_dpd_dpd_0_0' (0#1) [D:/FPGA/Vivaldo Project/Digital_Font_End_LTE/Downlink/DPD/fpga/dpd.runs/synth_1/.Xil/Vivado-52408-LAPTOP-CHCSI1R5/realtime/duc_cfr_dpd_dpd_0_0_stub.v:5]
-INFO: [Synth 8-6157] synthesizing module 'duc_cfr_dpd_halfband_fir_0_0' [D:/FPGA/Vivaldo Project/Digital_Font_End_LTE/Downlink/DPD/fpga/dpd.runs/synth_1/.Xil/Vivado-52408-LAPTOP-CHCSI1R5/realtime/duc_cfr_dpd_halfband_fir_0_0_stub.v:5]
-INFO: [Synth 8-6155] done synthesizing module 'duc_cfr_dpd_halfband_fir_0_0' (0#1) [D:/FPGA/Vivaldo Project/Digital_Font_End_LTE/Downlink/DPD/fpga/dpd.runs/synth_1/.Xil/Vivado-52408-LAPTOP-CHCSI1R5/realtime/duc_cfr_dpd_halfband_fir_0_0_stub.v:5]
-INFO: [Synth 8-6157] synthesizing module 'duc_cfr_dpd_halfband_fir_1_0' [D:/FPGA/Vivaldo Project/Digital_Font_End_LTE/Downlink/DPD/fpga/dpd.runs/synth_1/.Xil/Vivado-52408-LAPTOP-CHCSI1R5/realtime/duc_cfr_dpd_halfband_fir_1_0_stub.v:5]
-INFO: [Synth 8-6155] done synthesizing module 'duc_cfr_dpd_halfband_fir_1_0' (0#1) [D:/FPGA/Vivaldo Project/Digital_Font_End_LTE/Downlink/DPD/fpga/dpd.runs/synth_1/.Xil/Vivado-52408-LAPTOP-CHCSI1R5/realtime/duc_cfr_dpd_halfband_fir_1_0_stub.v:5]
-WARNING: [Synth 8-4446] all outputs are unconnected for this instance and logic may be removed [d:/FPGA/Vivaldo Project/Digital_Font_End_LTE/Downlink/DPD/fpga/dpd.gen/sources_1/bd/duc_cfr_dpd/synth/duc_cfr_dpd.v:364]
-INFO: [Synth 8-6157] synthesizing module 'duc_cfr_dpd_ila_0_0' [D:/FPGA/Vivaldo Project/Digital_Font_End_LTE/Downlink/DPD/fpga/dpd.runs/synth_1/.Xil/Vivado-52408-LAPTOP-CHCSI1R5/realtime/duc_cfr_dpd_ila_0_0_stub.v:5]
-INFO: [Synth 8-6155] done synthesizing module 'duc_cfr_dpd_ila_0_0' (0#1) [D:/FPGA/Vivaldo Project/Digital_Font_End_LTE/Downlink/DPD/fpga/dpd.runs/synth_1/.Xil/Vivado-52408-LAPTOP-CHCSI1R5/realtime/duc_cfr_dpd_ila_0_0_stub.v:5]
-WARNING: [Synth 8-4446] all outputs are unconnected for this instance and logic may be removed [d:/FPGA/Vivaldo Project/Digital_Font_End_LTE/Downlink/DPD/fpga/dpd.gen/sources_1/bd/duc_cfr_dpd/synth/duc_cfr_dpd.v:375]
-INFO: [Synth 8-6157] synthesizing module 'duc_cfr_dpd_ila_0_2' [D:/FPGA/Vivaldo Project/Digital_Font_End_LTE/Downlink/DPD/fpga/dpd.runs/synth_1/.Xil/Vivado-52408-LAPTOP-CHCSI1R5/realtime/duc_cfr_dpd_ila_0_2_stub.v:5]
-INFO: [Synth 8-6155] done synthesizing module 'duc_cfr_dpd_ila_0_2' (0#1) [D:/FPGA/Vivaldo Project/Digital_Font_End_LTE/Downlink/DPD/fpga/dpd.runs/synth_1/.Xil/Vivado-52408-LAPTOP-CHCSI1R5/realtime/duc_cfr_dpd_ila_0_2_stub.v:5]
-INFO: [Synth 8-6157] synthesizing module 'duc_cfr_dpd_proc_sys_reset_0_0' [D:/FPGA/Vivaldo Project/Digital_Font_End_LTE/Downlink/DPD/fpga/dpd.runs/synth_1/.Xil/Vivado-52408-LAPTOP-CHCSI1R5/realtime/duc_cfr_dpd_proc_sys_reset_0_0_stub.v:5]
-INFO: [Synth 8-6155] done synthesizing module 'duc_cfr_dpd_proc_sys_reset_0_0' (0#1) [D:/FPGA/Vivaldo Project/Digital_Font_End_LTE/Downlink/DPD/fpga/dpd.runs/synth_1/.Xil/Vivado-52408-LAPTOP-CHCSI1R5/realtime/duc_cfr_dpd_proc_sys_reset_0_0_stub.v:5]
-WARNING: [Synth 8-7071] port 'mb_reset' of module 'duc_cfr_dpd_proc_sys_reset_0_0' is unconnected for instance 'proc_sys_reset_0' [d:/FPGA/Vivaldo Project/Digital_Font_End_LTE/Downlink/DPD/fpga/dpd.gen/sources_1/bd/duc_cfr_dpd/synth/duc_cfr_dpd.v:386]
-WARNING: [Synth 8-7071] port 'bus_struct_reset' of module 'duc_cfr_dpd_proc_sys_reset_0_0' is unconnected for instance 'proc_sys_reset_0' [d:/FPGA/Vivaldo Project/Digital_Font_End_LTE/Downlink/DPD/fpga/dpd.gen/sources_1/bd/duc_cfr_dpd/synth/duc_cfr_dpd.v:386]
-WARNING: [Synth 8-7071] port 'peripheral_reset' of module 'duc_cfr_dpd_proc_sys_reset_0_0' is unconnected for instance 'proc_sys_reset_0' [d:/FPGA/Vivaldo Project/Digital_Font_End_LTE/Downlink/DPD/fpga/dpd.gen/sources_1/bd/duc_cfr_dpd/synth/duc_cfr_dpd.v:386]
-WARNING: [Synth 8-7071] port 'interconnect_aresetn' of module 'duc_cfr_dpd_proc_sys_reset_0_0' is unconnected for instance 'proc_sys_reset_0' [d:/FPGA/Vivaldo Project/Digital_Font_End_LTE/Downlink/DPD/fpga/dpd.gen/sources_1/bd/duc_cfr_dpd/synth/duc_cfr_dpd.v:386]
-WARNING: [Synth 8-7023] instance 'proc_sys_reset_0' of module 'duc_cfr_dpd_proc_sys_reset_0_0' has 10 connections declared, but only 6 given [d:/FPGA/Vivaldo Project/Digital_Font_End_LTE/Downlink/DPD/fpga/dpd.gen/sources_1/bd/duc_cfr_dpd/synth/duc_cfr_dpd.v:386]
-INFO: [Synth 8-6157] synthesizing module 'duc_cfr_dpd_smartconnect_0_0' [D:/FPGA/Vivaldo Project/Digital_Font_End_LTE/Downlink/DPD/fpga/dpd.runs/synth_1/.Xil/Vivado-52408-LAPTOP-CHCSI1R5/realtime/duc_cfr_dpd_smartconnect_0_0_stub.v:5]
-INFO: [Synth 8-6155] done synthesizing module 'duc_cfr_dpd_smartconnect_0_0' (0#1) [D:/FPGA/Vivaldo Project/Digital_Font_End_LTE/Downlink/DPD/fpga/dpd.runs/synth_1/.Xil/Vivado-52408-LAPTOP-CHCSI1R5/realtime/duc_cfr_dpd_smartconnect_0_0_stub.v:5]
-WARNING: [Synth 8-7071] port 'M00_AXI_awprot' of module 'duc_cfr_dpd_smartconnect_0_0' is unconnected for instance 'smartconnect_0' [d:/FPGA/Vivaldo Project/Digital_Font_End_LTE/Downlink/DPD/fpga/dpd.gen/sources_1/bd/duc_cfr_dpd/synth/duc_cfr_dpd.v:393]
-WARNING: [Synth 8-7071] port 'M00_AXI_wstrb' of module 'duc_cfr_dpd_smartconnect_0_0' is unconnected for instance 'smartconnect_0' [d:/FPGA/Vivaldo Project/Digital_Font_End_LTE/Downlink/DPD/fpga/dpd.gen/sources_1/bd/duc_cfr_dpd/synth/duc_cfr_dpd.v:393]
-WARNING: [Synth 8-7071] port 'M00_AXI_arprot' of module 'duc_cfr_dpd_smartconnect_0_0' is unconnected for instance 'smartconnect_0' [d:/FPGA/Vivaldo Project/Digital_Font_End_LTE/Downlink/DPD/fpga/dpd.gen/sources_1/bd/duc_cfr_dpd/synth/duc_cfr_dpd.v:393]
-WARNING: [Synth 8-7071] port 'M01_AXI_awqos' of module 'duc_cfr_dpd_smartconnect_0_0' is unconnected for instance 'smartconnect_0' [d:/FPGA/Vivaldo Project/Digital_Font_End_LTE/Downlink/DPD/fpga/dpd.gen/sources_1/bd/duc_cfr_dpd/synth/duc_cfr_dpd.v:393]
-WARNING: [Synth 8-7071] port 'M01_AXI_awuser' of module 'duc_cfr_dpd_smartconnect_0_0' is unconnected for instance 'smartconnect_0' [d:/FPGA/Vivaldo Project/Digital_Font_End_LTE/Downlink/DPD/fpga/dpd.gen/sources_1/bd/duc_cfr_dpd/synth/duc_cfr_dpd.v:393]
-WARNING: [Synth 8-7071] port 'M01_AXI_arqos' of module 'duc_cfr_dpd_smartconnect_0_0' is unconnected for instance 'smartconnect_0' [d:/FPGA/Vivaldo Project/Digital_Font_End_LTE/Downlink/DPD/fpga/dpd.gen/sources_1/bd/duc_cfr_dpd/synth/duc_cfr_dpd.v:393]
-WARNING: [Synth 8-7071] port 'M01_AXI_aruser' of module 'duc_cfr_dpd_smartconnect_0_0' is unconnected for instance 'smartconnect_0' [d:/FPGA/Vivaldo Project/Digital_Font_End_LTE/Downlink/DPD/fpga/dpd.gen/sources_1/bd/duc_cfr_dpd/synth/duc_cfr_dpd.v:393]
-WARNING: [Synth 8-7023] instance 'smartconnect_0' of module 'duc_cfr_dpd_smartconnect_0_0' has 128 connections declared, but only 121 given [d:/FPGA/Vivaldo Project/Digital_Font_End_LTE/Downlink/DPD/fpga/dpd.gen/sources_1/bd/duc_cfr_dpd/synth/duc_cfr_dpd.v:393]
-WARNING: [Synth 8-4446] all outputs are unconnected for this instance and logic may be removed [d:/FPGA/Vivaldo Project/Digital_Font_End_LTE/Downlink/DPD/fpga/dpd.gen/sources_1/bd/duc_cfr_dpd/synth/duc_cfr_dpd.v:515]
-INFO: [Synth 8-6157] synthesizing module 'duc_cfr_dpd_system_ila_0_0' [D:/FPGA/Vivaldo Project/Digital_Font_End_LTE/Downlink/DPD/fpga/dpd.runs/synth_1/.Xil/Vivado-52408-LAPTOP-CHCSI1R5/realtime/duc_cfr_dpd_system_ila_0_0_stub.v:5]
-INFO: [Synth 8-6155] done synthesizing module 'duc_cfr_dpd_system_ila_0_0' (0#1) [D:/FPGA/Vivaldo Project/Digital_Font_End_LTE/Downlink/DPD/fpga/dpd.runs/synth_1/.Xil/Vivado-52408-LAPTOP-CHCSI1R5/realtime/duc_cfr_dpd_system_ila_0_0_stub.v:5]
-INFO: [Synth 8-6157] synthesizing module 'duc_cfr_dpd_zynq_ultra_ps_e_0_0' [D:/FPGA/Vivaldo Project/Digital_Font_End_LTE/Downlink/DPD/fpga/dpd.runs/synth_1/.Xil/Vivado-52408-LAPTOP-CHCSI1R5/realtime/duc_cfr_dpd_zynq_ultra_ps_e_0_0_stub.v:5]
-INFO: [Synth 8-6155] done synthesizing module 'duc_cfr_dpd_zynq_ultra_ps_e_0_0' (0#1) [D:/FPGA/Vivaldo Project/Digital_Font_End_LTE/Downlink/DPD/fpga/dpd.runs/synth_1/.Xil/Vivado-52408-LAPTOP-CHCSI1R5/realtime/duc_cfr_dpd_zynq_ultra_ps_e_0_0_stub.v:5]
+INFO: [Synth 8-6157] synthesizing module 'duc_cfr_dpd_axi_bram_ctrl_0_0' [D:/FPGA/Vivaldo Project/Digital_Font_End_LTE/Downlink/DPD/fpga/dpd.runs/synth_1/.Xil/Vivado-72068-LAPTOP-CHCSI1R5/realtime/duc_cfr_dpd_axi_bram_ctrl_0_0_stub.v:5]
+INFO: [Synth 8-6155] done synthesizing module 'duc_cfr_dpd_axi_bram_ctrl_0_0' (0#1) [D:/FPGA/Vivaldo Project/Digital_Font_End_LTE/Downlink/DPD/fpga/dpd.runs/synth_1/.Xil/Vivado-72068-LAPTOP-CHCSI1R5/realtime/duc_cfr_dpd_axi_bram_ctrl_0_0_stub.v:5]
+INFO: [Synth 8-6157] synthesizing module 'duc_cfr_dpd_axi_dma_0_0' [D:/FPGA/Vivaldo Project/Digital_Font_End_LTE/Downlink/DPD/fpga/dpd.runs/synth_1/.Xil/Vivado-72068-LAPTOP-CHCSI1R5/realtime/duc_cfr_dpd_axi_dma_0_0_stub.v:5]
+INFO: [Synth 8-6155] done synthesizing module 'duc_cfr_dpd_axi_dma_0_0' (0#1) [D:/FPGA/Vivaldo Project/Digital_Font_End_LTE/Downlink/DPD/fpga/dpd.runs/synth_1/.Xil/Vivado-72068-LAPTOP-CHCSI1R5/realtime/duc_cfr_dpd_axi_dma_0_0_stub.v:5]
+WARNING: [Synth 8-7071] port 'mm2s_prmry_reset_out_n' of module 'duc_cfr_dpd_axi_dma_0_0' is unconnected for instance 'axi_dma_0' [d:/FPGA/Vivaldo Project/Digital_Font_End_LTE/Downlink/DPD/fpga/dpd.gen/sources_1/bd/duc_cfr_dpd/synth/duc_cfr_dpd.v:223]
+WARNING: [Synth 8-7071] port 's2mm_prmry_reset_out_n' of module 'duc_cfr_dpd_axi_dma_0_0' is unconnected for instance 'axi_dma_0' [d:/FPGA/Vivaldo Project/Digital_Font_End_LTE/Downlink/DPD/fpga/dpd.gen/sources_1/bd/duc_cfr_dpd/synth/duc_cfr_dpd.v:223]
+WARNING: [Synth 8-7071] port 'mm2s_introut' of module 'duc_cfr_dpd_axi_dma_0_0' is unconnected for instance 'axi_dma_0' [d:/FPGA/Vivaldo Project/Digital_Font_End_LTE/Downlink/DPD/fpga/dpd.gen/sources_1/bd/duc_cfr_dpd/synth/duc_cfr_dpd.v:223]
+WARNING: [Synth 8-7071] port 's2mm_introut' of module 'duc_cfr_dpd_axi_dma_0_0' is unconnected for instance 'axi_dma_0' [d:/FPGA/Vivaldo Project/Digital_Font_End_LTE/Downlink/DPD/fpga/dpd.gen/sources_1/bd/duc_cfr_dpd/synth/duc_cfr_dpd.v:223]
+WARNING: [Synth 8-7071] port 'axi_dma_tstvec' of module 'duc_cfr_dpd_axi_dma_0_0' is unconnected for instance 'axi_dma_0' [d:/FPGA/Vivaldo Project/Digital_Font_End_LTE/Downlink/DPD/fpga/dpd.gen/sources_1/bd/duc_cfr_dpd/synth/duc_cfr_dpd.v:223]
+WARNING: [Synth 8-7023] instance 'axi_dma_0' of module 'duc_cfr_dpd_axi_dma_0_0' has 64 connections declared, but only 59 given [d:/FPGA/Vivaldo Project/Digital_Font_End_LTE/Downlink/DPD/fpga/dpd.gen/sources_1/bd/duc_cfr_dpd/synth/duc_cfr_dpd.v:223]
+INFO: [Synth 8-6157] synthesizing module 'duc_cfr_dpd_axis_upsample_0_0' [D:/FPGA/Vivaldo Project/Digital_Font_End_LTE/Downlink/DPD/fpga/dpd.runs/synth_1/.Xil/Vivado-72068-LAPTOP-CHCSI1R5/realtime/duc_cfr_dpd_axis_upsample_0_0_stub.v:5]
+INFO: [Synth 8-6155] done synthesizing module 'duc_cfr_dpd_axis_upsample_0_0' (0#1) [D:/FPGA/Vivaldo Project/Digital_Font_End_LTE/Downlink/DPD/fpga/dpd.runs/synth_1/.Xil/Vivado-72068-LAPTOP-CHCSI1R5/realtime/duc_cfr_dpd_axis_upsample_0_0_stub.v:5]
+INFO: [Synth 8-6157] synthesizing module 'duc_cfr_dpd_axis_upsample_1_0' [D:/FPGA/Vivaldo Project/Digital_Font_End_LTE/Downlink/DPD/fpga/dpd.runs/synth_1/.Xil/Vivado-72068-LAPTOP-CHCSI1R5/realtime/duc_cfr_dpd_axis_upsample_1_0_stub.v:5]
+INFO: [Synth 8-6155] done synthesizing module 'duc_cfr_dpd_axis_upsample_1_0' (0#1) [D:/FPGA/Vivaldo Project/Digital_Font_End_LTE/Downlink/DPD/fpga/dpd.runs/synth_1/.Xil/Vivado-72068-LAPTOP-CHCSI1R5/realtime/duc_cfr_dpd_axis_upsample_1_0_stub.v:5]
+INFO: [Synth 8-6157] synthesizing module 'duc_cfr_dpd_blk_mem_gen_0_0' [D:/FPGA/Vivaldo Project/Digital_Font_End_LTE/Downlink/DPD/fpga/dpd.runs/synth_1/.Xil/Vivado-72068-LAPTOP-CHCSI1R5/realtime/duc_cfr_dpd_blk_mem_gen_0_0_stub.v:5]
+INFO: [Synth 8-6155] done synthesizing module 'duc_cfr_dpd_blk_mem_gen_0_0' (0#1) [D:/FPGA/Vivaldo Project/Digital_Font_End_LTE/Downlink/DPD/fpga/dpd.runs/synth_1/.Xil/Vivado-72068-LAPTOP-CHCSI1R5/realtime/duc_cfr_dpd_blk_mem_gen_0_0_stub.v:5]
+WARNING: [Synth 8-7071] port 'rsta_busy' of module 'duc_cfr_dpd_blk_mem_gen_0_0' is unconnected for instance 'blk_mem_gen_0' [d:/FPGA/Vivaldo Project/Digital_Font_End_LTE/Downlink/DPD/fpga/dpd.gen/sources_1/bd/duc_cfr_dpd/synth/duc_cfr_dpd.v:309]
+WARNING: [Synth 8-7023] instance 'blk_mem_gen_0' of module 'duc_cfr_dpd_blk_mem_gen_0_0' has 8 connections declared, but only 7 given [d:/FPGA/Vivaldo Project/Digital_Font_End_LTE/Downlink/DPD/fpga/dpd.gen/sources_1/bd/duc_cfr_dpd/synth/duc_cfr_dpd.v:309]
+INFO: [Synth 8-6157] synthesizing module 'duc_cfr_dpd_cfr_0_0' [D:/FPGA/Vivaldo Project/Digital_Font_End_LTE/Downlink/DPD/fpga/dpd.runs/synth_1/.Xil/Vivado-72068-LAPTOP-CHCSI1R5/realtime/duc_cfr_dpd_cfr_0_0_stub.v:5]
+INFO: [Synth 8-6155] done synthesizing module 'duc_cfr_dpd_cfr_0_0' (0#1) [D:/FPGA/Vivaldo Project/Digital_Font_End_LTE/Downlink/DPD/fpga/dpd.runs/synth_1/.Xil/Vivado-72068-LAPTOP-CHCSI1R5/realtime/duc_cfr_dpd_cfr_0_0_stub.v:5]
+INFO: [Synth 8-6157] synthesizing module 'duc_cfr_dpd_dpd_0_0' [D:/FPGA/Vivaldo Project/Digital_Font_End_LTE/Downlink/DPD/fpga/dpd.runs/synth_1/.Xil/Vivado-72068-LAPTOP-CHCSI1R5/realtime/duc_cfr_dpd_dpd_0_0_stub.v:5]
+INFO: [Synth 8-6155] done synthesizing module 'duc_cfr_dpd_dpd_0_0' (0#1) [D:/FPGA/Vivaldo Project/Digital_Font_End_LTE/Downlink/DPD/fpga/dpd.runs/synth_1/.Xil/Vivado-72068-LAPTOP-CHCSI1R5/realtime/duc_cfr_dpd_dpd_0_0_stub.v:5]
+INFO: [Synth 8-6157] synthesizing module 'duc_cfr_dpd_halfband_fir_0_0' [D:/FPGA/Vivaldo Project/Digital_Font_End_LTE/Downlink/DPD/fpga/dpd.runs/synth_1/.Xil/Vivado-72068-LAPTOP-CHCSI1R5/realtime/duc_cfr_dpd_halfband_fir_0_0_stub.v:5]
+INFO: [Synth 8-6155] done synthesizing module 'duc_cfr_dpd_halfband_fir_0_0' (0#1) [D:/FPGA/Vivaldo Project/Digital_Font_End_LTE/Downlink/DPD/fpga/dpd.runs/synth_1/.Xil/Vivado-72068-LAPTOP-CHCSI1R5/realtime/duc_cfr_dpd_halfband_fir_0_0_stub.v:5]
+INFO: [Synth 8-6157] synthesizing module 'duc_cfr_dpd_halfband_fir_1_0' [D:/FPGA/Vivaldo Project/Digital_Font_End_LTE/Downlink/DPD/fpga/dpd.runs/synth_1/.Xil/Vivado-72068-LAPTOP-CHCSI1R5/realtime/duc_cfr_dpd_halfband_fir_1_0_stub.v:5]
+INFO: [Synth 8-6155] done synthesizing module 'duc_cfr_dpd_halfband_fir_1_0' (0#1) [D:/FPGA/Vivaldo Project/Digital_Font_End_LTE/Downlink/DPD/fpga/dpd.runs/synth_1/.Xil/Vivado-72068-LAPTOP-CHCSI1R5/realtime/duc_cfr_dpd_halfband_fir_1_0_stub.v:5]
+WARNING: [Synth 8-4446] all outputs are unconnected for this instance and logic may be removed [d:/FPGA/Vivaldo Project/Digital_Font_End_LTE/Downlink/DPD/fpga/dpd.gen/sources_1/bd/duc_cfr_dpd/synth/duc_cfr_dpd.v:374]
+INFO: [Synth 8-6157] synthesizing module 'duc_cfr_dpd_ila_0_0' [D:/FPGA/Vivaldo Project/Digital_Font_End_LTE/Downlink/DPD/fpga/dpd.runs/synth_1/.Xil/Vivado-72068-LAPTOP-CHCSI1R5/realtime/duc_cfr_dpd_ila_0_0_stub.v:5]
+INFO: [Synth 8-6155] done synthesizing module 'duc_cfr_dpd_ila_0_0' (0#1) [D:/FPGA/Vivaldo Project/Digital_Font_End_LTE/Downlink/DPD/fpga/dpd.runs/synth_1/.Xil/Vivado-72068-LAPTOP-CHCSI1R5/realtime/duc_cfr_dpd_ila_0_0_stub.v:5]
+WARNING: [Synth 8-4446] all outputs are unconnected for this instance and logic may be removed [d:/FPGA/Vivaldo Project/Digital_Font_End_LTE/Downlink/DPD/fpga/dpd.gen/sources_1/bd/duc_cfr_dpd/synth/duc_cfr_dpd.v:385]
+INFO: [Synth 8-6157] synthesizing module 'duc_cfr_dpd_ila_0_2' [D:/FPGA/Vivaldo Project/Digital_Font_End_LTE/Downlink/DPD/fpga/dpd.runs/synth_1/.Xil/Vivado-72068-LAPTOP-CHCSI1R5/realtime/duc_cfr_dpd_ila_0_2_stub.v:5]
+INFO: [Synth 8-6155] done synthesizing module 'duc_cfr_dpd_ila_0_2' (0#1) [D:/FPGA/Vivaldo Project/Digital_Font_End_LTE/Downlink/DPD/fpga/dpd.runs/synth_1/.Xil/Vivado-72068-LAPTOP-CHCSI1R5/realtime/duc_cfr_dpd_ila_0_2_stub.v:5]
+INFO: [Synth 8-6157] synthesizing module 'duc_cfr_dpd_proc_sys_reset_0_0' [D:/FPGA/Vivaldo Project/Digital_Font_End_LTE/Downlink/DPD/fpga/dpd.runs/synth_1/.Xil/Vivado-72068-LAPTOP-CHCSI1R5/realtime/duc_cfr_dpd_proc_sys_reset_0_0_stub.v:5]
+INFO: [Synth 8-6155] done synthesizing module 'duc_cfr_dpd_proc_sys_reset_0_0' (0#1) [D:/FPGA/Vivaldo Project/Digital_Font_End_LTE/Downlink/DPD/fpga/dpd.runs/synth_1/.Xil/Vivado-72068-LAPTOP-CHCSI1R5/realtime/duc_cfr_dpd_proc_sys_reset_0_0_stub.v:5]
+WARNING: [Synth 8-7071] port 'mb_reset' of module 'duc_cfr_dpd_proc_sys_reset_0_0' is unconnected for instance 'proc_sys_reset_0' [d:/FPGA/Vivaldo Project/Digital_Font_End_LTE/Downlink/DPD/fpga/dpd.gen/sources_1/bd/duc_cfr_dpd/synth/duc_cfr_dpd.v:396]
+WARNING: [Synth 8-7071] port 'bus_struct_reset' of module 'duc_cfr_dpd_proc_sys_reset_0_0' is unconnected for instance 'proc_sys_reset_0' [d:/FPGA/Vivaldo Project/Digital_Font_End_LTE/Downlink/DPD/fpga/dpd.gen/sources_1/bd/duc_cfr_dpd/synth/duc_cfr_dpd.v:396]
+WARNING: [Synth 8-7071] port 'peripheral_reset' of module 'duc_cfr_dpd_proc_sys_reset_0_0' is unconnected for instance 'proc_sys_reset_0' [d:/FPGA/Vivaldo Project/Digital_Font_End_LTE/Downlink/DPD/fpga/dpd.gen/sources_1/bd/duc_cfr_dpd/synth/duc_cfr_dpd.v:396]
+WARNING: [Synth 8-7071] port 'interconnect_aresetn' of module 'duc_cfr_dpd_proc_sys_reset_0_0' is unconnected for instance 'proc_sys_reset_0' [d:/FPGA/Vivaldo Project/Digital_Font_End_LTE/Downlink/DPD/fpga/dpd.gen/sources_1/bd/duc_cfr_dpd/synth/duc_cfr_dpd.v:396]
+WARNING: [Synth 8-7023] instance 'proc_sys_reset_0' of module 'duc_cfr_dpd_proc_sys_reset_0_0' has 10 connections declared, but only 6 given [d:/FPGA/Vivaldo Project/Digital_Font_End_LTE/Downlink/DPD/fpga/dpd.gen/sources_1/bd/duc_cfr_dpd/synth/duc_cfr_dpd.v:396]
+INFO: [Synth 8-6157] synthesizing module 'duc_cfr_dpd_smartconnect_0_0' [D:/FPGA/Vivaldo Project/Digital_Font_End_LTE/Downlink/DPD/fpga/dpd.runs/synth_1/.Xil/Vivado-72068-LAPTOP-CHCSI1R5/realtime/duc_cfr_dpd_smartconnect_0_0_stub.v:5]
+INFO: [Synth 8-6155] done synthesizing module 'duc_cfr_dpd_smartconnect_0_0' (0#1) [D:/FPGA/Vivaldo Project/Digital_Font_End_LTE/Downlink/DPD/fpga/dpd.runs/synth_1/.Xil/Vivado-72068-LAPTOP-CHCSI1R5/realtime/duc_cfr_dpd_smartconnect_0_0_stub.v:5]
+WARNING: [Synth 8-7071] port 'M00_AXI_awprot' of module 'duc_cfr_dpd_smartconnect_0_0' is unconnected for instance 'smartconnect_0' [d:/FPGA/Vivaldo Project/Digital_Font_End_LTE/Downlink/DPD/fpga/dpd.gen/sources_1/bd/duc_cfr_dpd/synth/duc_cfr_dpd.v:403]
+WARNING: [Synth 8-7071] port 'M00_AXI_wstrb' of module 'duc_cfr_dpd_smartconnect_0_0' is unconnected for instance 'smartconnect_0' [d:/FPGA/Vivaldo Project/Digital_Font_End_LTE/Downlink/DPD/fpga/dpd.gen/sources_1/bd/duc_cfr_dpd/synth/duc_cfr_dpd.v:403]
+WARNING: [Synth 8-7071] port 'M00_AXI_arprot' of module 'duc_cfr_dpd_smartconnect_0_0' is unconnected for instance 'smartconnect_0' [d:/FPGA/Vivaldo Project/Digital_Font_End_LTE/Downlink/DPD/fpga/dpd.gen/sources_1/bd/duc_cfr_dpd/synth/duc_cfr_dpd.v:403]
+WARNING: [Synth 8-7071] port 'M01_AXI_awqos' of module 'duc_cfr_dpd_smartconnect_0_0' is unconnected for instance 'smartconnect_0' [d:/FPGA/Vivaldo Project/Digital_Font_End_LTE/Downlink/DPD/fpga/dpd.gen/sources_1/bd/duc_cfr_dpd/synth/duc_cfr_dpd.v:403]
+WARNING: [Synth 8-7071] port 'M01_AXI_awuser' of module 'duc_cfr_dpd_smartconnect_0_0' is unconnected for instance 'smartconnect_0' [d:/FPGA/Vivaldo Project/Digital_Font_End_LTE/Downlink/DPD/fpga/dpd.gen/sources_1/bd/duc_cfr_dpd/synth/duc_cfr_dpd.v:403]
+WARNING: [Synth 8-7071] port 'M01_AXI_arqos' of module 'duc_cfr_dpd_smartconnect_0_0' is unconnected for instance 'smartconnect_0' [d:/FPGA/Vivaldo Project/Digital_Font_End_LTE/Downlink/DPD/fpga/dpd.gen/sources_1/bd/duc_cfr_dpd/synth/duc_cfr_dpd.v:403]
+WARNING: [Synth 8-7071] port 'M01_AXI_aruser' of module 'duc_cfr_dpd_smartconnect_0_0' is unconnected for instance 'smartconnect_0' [d:/FPGA/Vivaldo Project/Digital_Font_End_LTE/Downlink/DPD/fpga/dpd.gen/sources_1/bd/duc_cfr_dpd/synth/duc_cfr_dpd.v:403]
+WARNING: [Synth 8-7023] instance 'smartconnect_0' of module 'duc_cfr_dpd_smartconnect_0_0' has 128 connections declared, but only 121 given [d:/FPGA/Vivaldo Project/Digital_Font_End_LTE/Downlink/DPD/fpga/dpd.gen/sources_1/bd/duc_cfr_dpd/synth/duc_cfr_dpd.v:403]
+WARNING: [Synth 8-4446] all outputs are unconnected for this instance and logic may be removed [d:/FPGA/Vivaldo Project/Digital_Font_End_LTE/Downlink/DPD/fpga/dpd.gen/sources_1/bd/duc_cfr_dpd/synth/duc_cfr_dpd.v:525]
+INFO: [Synth 8-6157] synthesizing module 'duc_cfr_dpd_system_ila_0_0' [D:/FPGA/Vivaldo Project/Digital_Font_End_LTE/Downlink/DPD/fpga/dpd.runs/synth_1/.Xil/Vivado-72068-LAPTOP-CHCSI1R5/realtime/duc_cfr_dpd_system_ila_0_0_stub.v:5]
+INFO: [Synth 8-6155] done synthesizing module 'duc_cfr_dpd_system_ila_0_0' (0#1) [D:/FPGA/Vivaldo Project/Digital_Font_End_LTE/Downlink/DPD/fpga/dpd.runs/synth_1/.Xil/Vivado-72068-LAPTOP-CHCSI1R5/realtime/duc_cfr_dpd_system_ila_0_0_stub.v:5]
+INFO: [Synth 8-6157] synthesizing module 'duc_cfr_dpd_zynq_ultra_ps_e_0_0' [D:/FPGA/Vivaldo Project/Digital_Font_End_LTE/Downlink/DPD/fpga/dpd.runs/synth_1/.Xil/Vivado-72068-LAPTOP-CHCSI1R5/realtime/duc_cfr_dpd_zynq_ultra_ps_e_0_0_stub.v:5]
+INFO: [Synth 8-6155] done synthesizing module 'duc_cfr_dpd_zynq_ultra_ps_e_0_0' (0#1) [D:/FPGA/Vivaldo Project/Digital_Font_End_LTE/Downlink/DPD/fpga/dpd.runs/synth_1/.Xil/Vivado-72068-LAPTOP-CHCSI1R5/realtime/duc_cfr_dpd_zynq_ultra_ps_e_0_0_stub.v:5]
 INFO: [Synth 8-6155] done synthesizing module 'duc_cfr_dpd' (0#1) [d:/FPGA/Vivaldo Project/Digital_Font_End_LTE/Downlink/DPD/fpga/dpd.gen/sources_1/bd/duc_cfr_dpd/synth/duc_cfr_dpd.v:12]
 INFO: [Synth 8-6155] done synthesizing module 'duc_cfr_dpd_wrapper' (0#1) [D:/FPGA/Vivaldo Project/Digital_Font_End_LTE/Downlink/DPD/fpga/dpd.gen/sources_1/bd/duc_cfr_dpd/hdl/duc_cfr_dpd_wrapper.v:12]
-INFO: [Synth 8-6071] Mark debug on the nets applies keep_hierarchy on instance 'dpd_0'. This will prevent further optimization [d:/FPGA/Vivaldo Project/Digital_Font_End_LTE/Downlink/DPD/fpga/dpd.gen/sources_1/bd/duc_cfr_dpd/synth/duc_cfr_dpd.v:325]
-INFO: [Synth 8-6071] Mark debug on the nets applies keep_hierarchy on instance 'ila_0'. This will prevent further optimization [d:/FPGA/Vivaldo Project/Digital_Font_End_LTE/Downlink/DPD/fpga/dpd.gen/sources_1/bd/duc_cfr_dpd/synth/duc_cfr_dpd.v:364]
-INFO: [Synth 8-6071] Mark debug on the nets applies keep_hierarchy on instance 'cfr_0'. This will prevent further optimization [d:/FPGA/Vivaldo Project/Digital_Font_End_LTE/Downlink/DPD/fpga/dpd.gen/sources_1/bd/duc_cfr_dpd/synth/duc_cfr_dpd.v:312]
-INFO: [Synth 8-6071] Mark debug on the nets applies keep_hierarchy on instance 'axis_upsample_0'. This will prevent further optimization [d:/FPGA/Vivaldo Project/Digital_Font_End_LTE/Downlink/DPD/fpga/dpd.gen/sources_1/bd/duc_cfr_dpd/synth/duc_cfr_dpd.v:278]
-INFO: [Synth 8-6071] Mark debug on the nets applies keep_hierarchy on instance 'ila_2'. This will prevent further optimization [d:/FPGA/Vivaldo Project/Digital_Font_End_LTE/Downlink/DPD/fpga/dpd.gen/sources_1/bd/duc_cfr_dpd/synth/duc_cfr_dpd.v:375]
-INFO: [Synth 8-6071] Mark debug on the nets applies keep_hierarchy on instance 'axi_dma_0'. This will prevent further optimization [d:/FPGA/Vivaldo Project/Digital_Font_End_LTE/Downlink/DPD/fpga/dpd.gen/sources_1/bd/duc_cfr_dpd/synth/duc_cfr_dpd.v:218]
+INFO: [Synth 8-6071] Mark debug on the nets applies keep_hierarchy on instance 'dpd_0'. This will prevent further optimization [d:/FPGA/Vivaldo Project/Digital_Font_End_LTE/Downlink/DPD/fpga/dpd.gen/sources_1/bd/duc_cfr_dpd/synth/duc_cfr_dpd.v:330]
+INFO: [Synth 8-6071] Mark debug on the nets applies keep_hierarchy on instance 'ila_0'. This will prevent further optimization [d:/FPGA/Vivaldo Project/Digital_Font_End_LTE/Downlink/DPD/fpga/dpd.gen/sources_1/bd/duc_cfr_dpd/synth/duc_cfr_dpd.v:374]
+INFO: [Synth 8-6071] Mark debug on the nets applies keep_hierarchy on instance 'cfr_0'. This will prevent further optimization [d:/FPGA/Vivaldo Project/Digital_Font_End_LTE/Downlink/DPD/fpga/dpd.gen/sources_1/bd/duc_cfr_dpd/synth/duc_cfr_dpd.v:317]
+INFO: [Synth 8-6071] Mark debug on the nets applies keep_hierarchy on instance 'axis_upsample_0'. This will prevent further optimization [d:/FPGA/Vivaldo Project/Digital_Font_End_LTE/Downlink/DPD/fpga/dpd.gen/sources_1/bd/duc_cfr_dpd/synth/duc_cfr_dpd.v:283]
+INFO: [Synth 8-6071] Mark debug on the nets applies keep_hierarchy on instance 'ila_2'. This will prevent further optimization [d:/FPGA/Vivaldo Project/Digital_Font_End_LTE/Downlink/DPD/fpga/dpd.gen/sources_1/bd/duc_cfr_dpd/synth/duc_cfr_dpd.v:385]
+INFO: [Synth 8-6071] Mark debug on the nets applies keep_hierarchy on instance 'axi_dma_0'. This will prevent further optimization [d:/FPGA/Vivaldo Project/Digital_Font_End_LTE/Downlink/DPD/fpga/dpd.gen/sources_1/bd/duc_cfr_dpd/synth/duc_cfr_dpd.v:223]
 ---------------------------------------------------------------------------------
-Finished RTL Elaboration : Time (s): cpu = 00:00:08 ; elapsed = 00:00:09 . Memory (MB): peak = 1963.379 ; gain = 430.043
+Finished RTL Elaboration : Time (s): cpu = 00:00:09 ; elapsed = 00:00:09 . Memory (MB): peak = 1965.270 ; gain = 428.895
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Handling Custom Attributes
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Handling Custom Attributes : Time (s): cpu = 00:00:08 ; elapsed = 00:00:09 . Memory (MB): peak = 1963.379 ; gain = 430.043
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:09 ; elapsed = 00:00:09 . Memory (MB): peak = 1965.270 ; gain = 428.895
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:08 ; elapsed = 00:00:09 . Memory (MB): peak = 1963.379 ; gain = 430.043
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:09 ; elapsed = 00:00:09 . Memory (MB): peak = 1965.270 ; gain = 428.895
 ---------------------------------------------------------------------------------
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.008 . Memory (MB): peak = 1963.379 ; gain = 0.000
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.017 . Memory (MB): peak = 1965.270 ; gain = 0.000
 INFO: [Project 1-570] Preparing netlist for logic optimization
 
 Processing XDC Constraints
 Initializing timing engine
 Parsing XDC File [d:/FPGA/Vivaldo Project/Digital_Font_End_LTE/Downlink/DPD/fpga/dpd.gen/sources_1/bd/duc_cfr_dpd/ip/duc_cfr_dpd_axi_bram_ctrl_0_0/duc_cfr_dpd_axi_bram_ctrl_0_0/duc_cfr_dpd_axi_bram_ctrl_0_0_in_context.xdc] for cell 'duc_cfr_dpd_i/axi_bram_ctrl_0'
-create_clock: Time (s): cpu = 00:00:05 ; elapsed = 00:00:05 . Memory (MB): peak = 1963.379 ; gain = 0.000
+create_clock: Time (s): cpu = 00:00:05 ; elapsed = 00:00:05 . Memory (MB): peak = 1967.535 ; gain = 2.266
 Finished Parsing XDC File [d:/FPGA/Vivaldo Project/Digital_Font_End_LTE/Downlink/DPD/fpga/dpd.gen/sources_1/bd/duc_cfr_dpd/ip/duc_cfr_dpd_axi_bram_ctrl_0_0/duc_cfr_dpd_axi_bram_ctrl_0_0/duc_cfr_dpd_axi_bram_ctrl_0_0_in_context.xdc] for cell 'duc_cfr_dpd_i/axi_bram_ctrl_0'
 Parsing XDC File [d:/FPGA/Vivaldo Project/Digital_Font_End_LTE/Downlink/DPD/fpga/dpd.gen/sources_1/bd/duc_cfr_dpd/ip/duc_cfr_dpd_axi_dma_0_0/duc_cfr_dpd_axi_dma_0_0/duc_cfr_dpd_axi_dma_0_0_in_context.xdc] for cell 'duc_cfr_dpd_i/axi_dma_0'
 Finished Parsing XDC File [d:/FPGA/Vivaldo Project/Digital_Font_End_LTE/Downlink/DPD/fpga/dpd.gen/sources_1/bd/duc_cfr_dpd/ip/duc_cfr_dpd_axi_dma_0_0/duc_cfr_dpd_axi_dma_0_0/duc_cfr_dpd_axi_dma_0_0_in_context.xdc] for cell 'duc_cfr_dpd_i/axi_dma_0'
@@ -148,17 +148,17 @@ Parsing XDC File [D:/FPGA/Vivaldo Project/Digital_Font_End_LTE/Downlink/DPD/fpga
 Finished Parsing XDC File [D:/FPGA/Vivaldo Project/Digital_Font_End_LTE/Downlink/DPD/fpga/dpd.runs/synth_1/dont_touch.xdc]
 Completed Processing XDC Constraints
 
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1963.379 ; gain = 0.000
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1967.535 ; gain = 0.000
 INFO: [Project 1-111] Unisim Transformation Summary:
 No Unisim elements were transformed.
 
-Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.010 . Memory (MB): peak = 1963.379 ; gain = 0.000
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.008 . Memory (MB): peak = 1967.535 ; gain = 0.000
 WARNING: [Timing 38-316] Clock period '20.000' specified during out-of-context synthesis of instance 'duc_cfr_dpd_i/blk_mem_gen_0' at clock pin 'clka' is different from the actual clock period '10.313', this can lead to different synthesis results.
 INFO: [Designutils 20-5440] No compile time benefit to using incremental synthesis; A full resynthesis will be run
 INFO: [Designutils 20-4379] Flow is switching to default flow due to incremental criteria not met. If you would like to alter this behaviour and have the flow terminate instead, please set the following parameter config_implementation {autoIncr.Synth.RejectBehavior Terminate}
 INFO: [Synth 8-11241] undeclared symbol 'REGCCE', assumed default net type 'wire' [D:/Xilinx/Vivado/2022.2/data/verilog/src/unimacro/BRAM_SINGLE_MACRO.v:2170]
 ---------------------------------------------------------------------------------
-Finished Constraint Validation : Time (s): cpu = 00:00:22 ; elapsed = 00:00:23 . Memory (MB): peak = 1963.379 ; gain = 430.043
+Finished Constraint Validation : Time (s): cpu = 00:00:24 ; elapsed = 00:00:26 . Memory (MB): peak = 1967.652 ; gain = 431.277
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Loading Part and Timing Information
@@ -166,7 +166,7 @@ Start Loading Part and Timing Information
 Loading part: xck26-sfvc784-2LV-c
 INFO: [Synth 8-6742] Reading net delay rules and data
 ---------------------------------------------------------------------------------
-Finished Loading Part and Timing Information : Time (s): cpu = 00:00:22 ; elapsed = 00:00:24 . Memory (MB): peak = 1963.379 ; gain = 430.043
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:24 ; elapsed = 00:00:26 . Memory (MB): peak = 1967.652 ; gain = 431.277
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Applying 'set_property' XDC Constraints
@@ -188,10 +188,10 @@ Applied set_property KEEP_HIERARCHY = SOFT for duc_cfr_dpd_i/ila_2. (constraint 
 Applied set_property KEEP_HIERARCHY = SOFT for duc_cfr_dpd_i/system_ila_0. (constraint file  auto generated constraint).
 Applied set_property KEEP_HIERARCHY = SOFT for duc_cfr_dpd_i/dpd_0. (constraint file  auto generated constraint).
 ---------------------------------------------------------------------------------
-Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:22 ; elapsed = 00:00:24 . Memory (MB): peak = 1963.379 ; gain = 430.043
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:25 ; elapsed = 00:00:26 . Memory (MB): peak = 1967.652 ; gain = 431.277
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:23 ; elapsed = 00:00:24 . Memory (MB): peak = 1963.379 ; gain = 430.043
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:25 ; elapsed = 00:00:26 . Memory (MB): peak = 1967.652 ; gain = 431.277
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start RTL Component Statistics 
@@ -214,25 +214,25 @@ Start Cross Boundary and Area Optimization
 ---------------------------------------------------------------------------------
 WARNING: [Synth 8-7080] Parallel synthesis criteria is not met
 ---------------------------------------------------------------------------------
-Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:25 ; elapsed = 00:00:26 . Memory (MB): peak = 1963.379 ; gain = 430.043
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:27 ; elapsed = 00:00:28 . Memory (MB): peak = 1967.652 ; gain = 431.277
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Applying XDC Timing Constraints
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:38 ; elapsed = 00:00:41 . Memory (MB): peak = 2514.727 ; gain = 981.391
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:43 ; elapsed = 00:00:46 . Memory (MB): peak = 2522.105 ; gain = 985.730
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Timing Optimization
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Timing Optimization : Time (s): cpu = 00:00:38 ; elapsed = 00:00:41 . Memory (MB): peak = 2514.727 ; gain = 981.391
+Finished Timing Optimization : Time (s): cpu = 00:00:43 ; elapsed = 00:00:46 . Memory (MB): peak = 2522.105 ; gain = 985.730
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Technology Mapping
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Technology Mapping : Time (s): cpu = 00:00:38 ; elapsed = 00:00:41 . Memory (MB): peak = 2534.316 ; gain = 1000.980
+Finished Technology Mapping : Time (s): cpu = 00:00:44 ; elapsed = 00:00:46 . Memory (MB): peak = 2541.535 ; gain = 1005.160
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start IO Insertion
@@ -250,37 +250,37 @@ Start Final Netlist Cleanup
 Finished Final Netlist Cleanup
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished IO Insertion : Time (s): cpu = 00:00:44 ; elapsed = 00:00:46 . Memory (MB): peak = 2540.133 ; gain = 1006.797
+Finished IO Insertion : Time (s): cpu = 00:00:50 ; elapsed = 00:00:52 . Memory (MB): peak = 2548.348 ; gain = 1011.973
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Renaming Generated Instances
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Renaming Generated Instances : Time (s): cpu = 00:00:44 ; elapsed = 00:00:46 . Memory (MB): peak = 2540.133 ; gain = 1006.797
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:50 ; elapsed = 00:00:52 . Memory (MB): peak = 2548.348 ; gain = 1011.973
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Rebuilding User Hierarchy
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:44 ; elapsed = 00:00:46 . Memory (MB): peak = 2540.133 ; gain = 1006.797
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:50 ; elapsed = 00:00:52 . Memory (MB): peak = 2548.348 ; gain = 1011.973
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Renaming Generated Ports
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Renaming Generated Ports : Time (s): cpu = 00:00:44 ; elapsed = 00:00:46 . Memory (MB): peak = 2540.133 ; gain = 1006.797
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:50 ; elapsed = 00:00:52 . Memory (MB): peak = 2548.348 ; gain = 1011.973
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Handling Custom Attributes
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Handling Custom Attributes : Time (s): cpu = 00:00:44 ; elapsed = 00:00:46 . Memory (MB): peak = 2540.133 ; gain = 1006.797
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:50 ; elapsed = 00:00:52 . Memory (MB): peak = 2548.348 ; gain = 1011.973
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Renaming Generated Nets
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Renaming Generated Nets : Time (s): cpu = 00:00:44 ; elapsed = 00:00:46 . Memory (MB): peak = 2540.133 ; gain = 1006.797
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:50 ; elapsed = 00:00:52 . Memory (MB): peak = 2548.348 ; gain = 1011.973
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Writing Synthesis Report
@@ -327,24 +327,24 @@ Report Cell Usage:
 |15    |duc_cfr_dpd_zynq_ultra_ps_e_0 |     1|
 +------+------------------------------+------+
 ---------------------------------------------------------------------------------
-Finished Writing Synthesis Report : Time (s): cpu = 00:00:44 ; elapsed = 00:00:46 . Memory (MB): peak = 2540.133 ; gain = 1006.797
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:50 ; elapsed = 00:00:52 . Memory (MB): peak = 2548.348 ; gain = 1011.973
 ---------------------------------------------------------------------------------
 Synthesis finished with 0 errors, 0 critical warnings and 1 warnings.
-Synthesis Optimization Runtime : Time (s): cpu = 00:00:29 ; elapsed = 00:00:39 . Memory (MB): peak = 2540.133 ; gain = 1006.797
-Synthesis Optimization Complete : Time (s): cpu = 00:00:44 ; elapsed = 00:00:46 . Memory (MB): peak = 2540.133 ; gain = 1006.797
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:34 ; elapsed = 00:00:44 . Memory (MB): peak = 2548.348 ; gain = 1009.590
+Synthesis Optimization Complete : Time (s): cpu = 00:00:50 ; elapsed = 00:00:52 . Memory (MB): peak = 2548.348 ; gain = 1011.973
 INFO: [Project 1-571] Translating synthesized netlist
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.010 . Memory (MB): peak = 2540.133 ; gain = 0.000
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.013 . Memory (MB): peak = 2548.348 ; gain = 0.000
 INFO: [Project 1-570] Preparing netlist for logic optimization
 INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2585.574 ; gain = 0.000
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2591.652 ; gain = 0.000
 INFO: [Project 1-111] Unisim Transformation Summary:
 No Unisim elements were transformed.
 
-Synth Design complete, checksum: a3921a9d
+Synth Design complete, checksum: fd803196
 INFO: [Common 17-83] Releasing license: Synthesis
 64 Infos, 26 Warnings, 0 Critical Warnings and 0 Errors encountered.
 synth_design completed successfully
-synth_design: Time (s): cpu = 00:00:53 ; elapsed = 00:00:57 . Memory (MB): peak = 2590.617 ; gain = 2063.320
+synth_design: Time (s): cpu = 00:01:00 ; elapsed = 00:01:04 . Memory (MB): peak = 2596.688 ; gain = 2069.375
 INFO: [Common 17-1381] The checkpoint 'D:/FPGA/Vivaldo Project/Digital_Font_End_LTE/Downlink/DPD/fpga/dpd.runs/synth_1/duc_cfr_dpd_wrapper.dcp' has been generated.
 INFO: [runtcl-4] Executing : report_utilization -file duc_cfr_dpd_wrapper_utilization_synth.rpt -pb duc_cfr_dpd_wrapper_utilization_synth.pb
-INFO: [Common 17-206] Exiting Vivado at Thu Jun 11 18:11:16 2026...
+INFO: [Common 17-206] Exiting Vivado at Fri Jun 12 09:35:13 2026...

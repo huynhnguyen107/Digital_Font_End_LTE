@@ -1,7 +1,7 @@
 Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
 ---------------------------------------------------------------------------------------------------------------------------------
 | Tool Version : Vivado v.2022.2 (win64) Build 3671981 Fri Oct 14 05:00:03 MDT 2022
-| Date         : Thu Jun 11 18:09:38 2026
+| Date         : Fri Jun 12 09:33:26 2026
 | Host         : LAPTOP-CHCSI1R5 running 64-bit major release  (build 9200)
 | Command      : report_utilization -file duc_cfr_dpd_dpd_0_0_utilization_synth.rpt -pb duc_cfr_dpd_dpd_0_0_utilization_synth.pb
 | Design       : duc_cfr_dpd_dpd_0_0
@@ -32,13 +32,13 @@ Table of Contents
 +----------------------------+-------+-------+------------+-----------+-------+
 |          Site Type         |  Used | Fixed | Prohibited | Available | Util% |
 +----------------------------+-------+-------+------------+-----------+-------+
-| CLB LUTs*                  | 30280 |     0 |          0 |    117120 | 25.85 |
-|   LUT as Logic             | 30274 |     0 |          0 |    117120 | 25.85 |
+| CLB LUTs*                  | 30298 |     0 |          0 |    117120 | 25.87 |
+|   LUT as Logic             | 30292 |     0 |          0 |    117120 | 25.86 |
 |   LUT as Memory            |     6 |     0 |          0 |     57600 |  0.01 |
 |     LUT as Distributed RAM |     0 |     0 |            |           |       |
 |     LUT as Shift Register  |     6 |     0 |            |           |       |
-| CLB Registers              |  3298 |     0 |          0 |    234240 |  1.41 |
-|   Register as Flip Flop    |  3298 |     0 |          0 |    234240 |  1.41 |
+| CLB Registers              |  3299 |     0 |          0 |    234240 |  1.41 |
+|   Register as Flip Flop    |  3299 |     0 |          0 |    234240 |  1.41 |
 |   Register as Latch        |     0 |     0 |          0 |    234240 |  0.00 |
 | CARRY8                     |  4803 |     0 |          0 |     14640 | 32.81 |
 | F7 Muxes                   |     0 |     0 |          0 |     58560 |  0.00 |
@@ -64,7 +64,7 @@ Warning! LUT value is adjusted to account for LUT combining.
 | 0     |          Yes |           - |          Set |
 | 0     |          Yes |           - |        Reset |
 | 0     |          Yes |         Set |            - |
-| 3298  |          Yes |       Reset |            - |
+| 3299  |          Yes |       Reset |            - |
 +-------+--------------+-------------+--------------+
 
 
@@ -160,13 +160,13 @@ Warning! LUT value is adjusted to account for LUT combining.
 +----------+-------+---------------------+
 | Ref Name |  Used | Functional Category |
 +----------+-------+---------------------+
-| LUT2     | 30164 |                 CLB |
-| LUT4     | 13292 |                 CLB |
+| LUT2     | 30196 |                 CLB |
+| LUT4     | 13293 |                 CLB |
 | CARRY8   |  4803 |                 CLB |
-| FDRE     |  3298 |            Register |
+| FDRE     |  3299 |            Register |
 | LUT3     |   753 |                 CLB |
 | LUT6     |   182 |                 CLB |
-| LUT5     |   150 |                 CLB |
+| LUT5     |   151 |                 CLB |
 | LUT1     |   126 |                 CLB |
 | DSP48E2  |    72 |          Arithmetic |
 | SRL16E   |     6 |                 CLB |

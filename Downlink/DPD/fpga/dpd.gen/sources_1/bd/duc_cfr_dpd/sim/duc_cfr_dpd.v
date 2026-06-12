@@ -1,7 +1,7 @@
 //Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
 //--------------------------------------------------------------------------------
 //Tool Version: Vivado v.2022.2 (win64) Build 3671981 Fri Oct 14 05:00:03 MDT 2022
-//Date        : Thu Jun 11 18:05:10 2026
+//Date        : Fri Jun 12 09:28:50 2026
 //Host        : LAPTOP-CHCSI1R5 running 64-bit major release  (build 9200)
 //Command     : generate_target duc_cfr_dpd.bd
 //Design      : duc_cfr_dpd
@@ -69,6 +69,11 @@ module duc_cfr_dpd
   wire cfr_0_m_axis_TLAST;
   wire cfr_0_m_axis_TREADY;
   wire cfr_0_m_axis_TVALID;
+  wire [31:0]dpd_0_debug0;
+  wire [31:0]dpd_0_debug1;
+  wire [31:0]dpd_0_debug2;
+  wire [31:0]dpd_0_debug3;
+  wire [31:0]dpd_0_debug4;
   (* CONN_BUS_INFO = "dpd_0_m_axis xilinx.com:interface:axis:1.0 None TDATA" *) (* DONT_TOUCH *) wire [31:0]dpd_0_m_axis_TDATA;
   (* CONN_BUS_INFO = "dpd_0_m_axis xilinx.com:interface:axis:1.0 None TKEEP" *) (* DONT_TOUCH *) wire [3:0]dpd_0_m_axis_TKEEP;
   (* CONN_BUS_INFO = "dpd_0_m_axis xilinx.com:interface:axis:1.0 None TLAST" *) (* DONT_TOUCH *) wire dpd_0_m_axis_TLAST;
@@ -325,6 +330,11 @@ module duc_cfr_dpd
   duc_cfr_dpd_dpd_0_0 dpd_0
        (.aclk(zynq_ultra_ps_e_0_pl_clk0),
         .aresetn(proc_sys_reset_0_peripheral_aresetn),
+        .debug0(dpd_0_debug0),
+        .debug1(dpd_0_debug1),
+        .debug2(dpd_0_debug2),
+        .debug3(dpd_0_debug3),
+        .debug4(dpd_0_debug4),
         .m_axis_tdata(dpd_0_m_axis_TDATA),
         .m_axis_tkeep(dpd_0_m_axis_TKEEP),
         .m_axis_tlast(dpd_0_m_axis_TLAST),
@@ -519,6 +529,11 @@ module duc_cfr_dpd
         .SLOT_0_AXIS_tready(dpd_0_m_axis_TREADY),
         .SLOT_0_AXIS_tvalid(dpd_0_m_axis_TVALID),
         .clk(zynq_ultra_ps_e_0_pl_clk0),
+        .probe0(dpd_0_debug0),
+        .probe1(dpd_0_debug1),
+        .probe2(dpd_0_debug2),
+        .probe3(dpd_0_debug3),
+        .probe4(dpd_0_debug4),
         .resetn(proc_sys_reset_0_peripheral_aresetn));
   duc_cfr_dpd_zynq_ultra_ps_e_0_0 zynq_ultra_ps_e_0
        (.maxigp0_araddr(zynq_ultra_ps_e_0_M_AXI_HPM0_FPD_ARADDR),

@@ -141,7 +141,7 @@ module tb(
 	initial begin
 		aresetn =0;
 		aclk =0;
-		s_axis_tdata =0;
+		s_axis_tdata =data_in[1];
 		s_axis_tkeep =0;
 		s_axis_tvalid =0;
 		s_axis_tlast =0;
@@ -154,18 +154,18 @@ module tb(
 	initial begin
 		wait(aresetn)
 		@(posedge aclk) begin
-			s_axis_tdata  <=0;
+			s_axis_tdata  <=data_in[0];
 			s_axis_tkeep  <=0;
 			s_axis_tvalid <=0;
 			s_axis_tlast  <=0;
 			m_axis_tready <=1;
 		end
-		for (i=0;i<1000;i=i+1) begin
+		for (i=0;i<10;i=i+1) begin
 			@(posedge aclk) begin
 				s_axis_tdata  <=data_in[i%9];
 				s_axis_tkeep  <=4'hf;
 				s_axis_tvalid <=1;
-				s_axis_tlast  <= i==999;
+				s_axis_tlast  <= i==9;
 				m_axis_tready <=1;
 			end
 		end

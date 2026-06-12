@@ -91,6 +91,12 @@ set_property KEEP_HIERARCHY SOFT [get_cells -hier -filter {REF_NAME==duc_cfr_dpd
 # IP: bd/duc_cfr_dpd/ip/duc_cfr_dpd_ila_0_0/duc_cfr_dpd_ila_0_0.xci
 set_property KEEP_HIERARCHY SOFT [get_cells -hier -filter {REF_NAME==duc_cfr_dpd_ila_0_0 || ORIG_REF_NAME==duc_cfr_dpd_ila_0_0} -quiet] -quiet
 
+# IP: bd/duc_cfr_dpd/ip/duc_cfr_dpd_ila_0_2/duc_cfr_dpd_ila_0_2.xci
+set_property KEEP_HIERARCHY SOFT [get_cells -hier -filter {REF_NAME==duc_cfr_dpd_ila_0_2 || ORIG_REF_NAME==duc_cfr_dpd_ila_0_2} -quiet] -quiet
+
+# IP: bd/duc_cfr_dpd/ip/duc_cfr_dpd_system_ila_0_0/duc_cfr_dpd_system_ila_0_0.xci
+set_property KEEP_HIERARCHY SOFT [get_cells -hier -filter {REF_NAME==duc_cfr_dpd_system_ila_0_0 || ORIG_REF_NAME==duc_cfr_dpd_system_ila_0_0} -quiet] -quiet
+
 # IP: bd/duc_cfr_dpd/ip/duc_cfr_dpd_dpd_0_0/duc_cfr_dpd_dpd_0_0.xci
 set_property KEEP_HIERARCHY SOFT [get_cells -hier -filter {REF_NAME==duc_cfr_dpd_dpd_0_0 || ORIG_REF_NAME==duc_cfr_dpd_dpd_0_0} -quiet] -quiet
 
@@ -108,11 +114,5 @@ set_property KEEP_HIERARCHY SOFT [get_cells -hier -filter {REF_NAME==duc_cfr_dpd
 
 # IP: ip/power_mult/power_mult.xci
 #dup# set_property KEEP_HIERARCHY SOFT [get_cells -hier -filter {REF_NAME==power_mult || ORIG_REF_NAME==power_mult} -quiet] -quiet
-
-# IP: bd/duc_cfr_dpd/ip/duc_cfr_dpd_ila_0_2/duc_cfr_dpd_ila_0_2.xci
-set_property KEEP_HIERARCHY SOFT [get_cells -hier -filter {REF_NAME==duc_cfr_dpd_ila_0_2 || ORIG_REF_NAME==duc_cfr_dpd_ila_0_2} -quiet] -quiet
-
-# IP: bd/duc_cfr_dpd/ip/duc_cfr_dpd_system_ila_0_0/duc_cfr_dpd_system_ila_0_0.xci
-set_property KEEP_HIERARCHY SOFT [get_cells -hier -filter {REF_NAME==duc_cfr_dpd_system_ila_0_0 || ORIG_REF_NAME==duc_cfr_dpd_system_ila_0_0} -quiet] -quiet
 
 # XDC: d:/FPGA/Vivaldo Project/Digital_Font_End_LTE/Downlink/DPD/fpga/dpd.gen/sources_1/bd/duc_cfr_dpd/duc_cfr_dpd_ooc.xdc

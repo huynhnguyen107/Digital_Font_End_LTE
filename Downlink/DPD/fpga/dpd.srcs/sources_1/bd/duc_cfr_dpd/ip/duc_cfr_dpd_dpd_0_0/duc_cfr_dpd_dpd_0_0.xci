@@ -53,7 +53,12 @@
         "m_axis_tkeep": [ { "direction": "out", "size_left": "3", "size_right": "0" } ],
         "m_axis_tvalid": [ { "direction": "out" } ],
         "m_axis_tready": [ { "direction": "in", "driver_value": "1" } ],
-        "m_axis_tlast": [ { "direction": "out" } ]
+        "m_axis_tlast": [ { "direction": "out" } ],
+        "debug0": [ { "direction": "out", "size_left": "31", "size_right": "0" } ],
+        "debug1": [ { "direction": "out", "size_left": "31", "size_right": "0" } ],
+        "debug2": [ { "direction": "out", "size_left": "31", "size_right": "0" } ],
+        "debug3": [ { "direction": "out", "size_left": "31", "size_right": "0" } ],
+        "debug4": [ { "direction": "out", "size_left": "31", "size_right": "0" } ]
       },
       "interfaces": {
         "m_axis": {

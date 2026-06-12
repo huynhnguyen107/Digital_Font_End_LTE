@@ -55,6 +55,11 @@
 (* DowngradeIPIdentifiedWarnings = "yes" *)
 module duc_cfr_dpd_system_ila_0_0 (
   clk,
+  probe0,
+  probe1,
+  probe2,
+  probe3,
+  probe4,
   SLOT_0_AXIS_tdata,
   SLOT_0_AXIS_tkeep,
   SLOT_0_AXIS_tlast,
@@ -66,6 +71,11 @@ module duc_cfr_dpd_system_ila_0_0 (
 (* X_INTERFACE_PARAMETER = "XIL_INTERFACENAME CLK.clk, FREQ_HZ 96968727, FREQ_TOLERANCE_HZ 0, PHASE 0.0, CLK_DOMAIN duc_cfr_dpd_zynq_ultra_ps_e_0_0_pl_clk0, ASSOCIATED_BUSIF SLOT_0_AXIS, ASSOCIATED_RESET resetn, INSERT_VIP 0" *)
 (* X_INTERFACE_INFO = "xilinx.com:signal:clock:1.0 CLK.clk CLK" *)
 input wire clk;
+input wire [31 : 0] probe0;
+input wire [31 : 0] probe1;
+input wire [31 : 0] probe2;
+input wire [31 : 0] probe3;
+input wire [31 : 0] probe4;
 (* X_INTERFACE_INFO = "xilinx.com:interface:axis:1.0 SLOT_0_AXIS TDATA" *)
 input wire [31 : 0] SLOT_0_AXIS_tdata;
 (* X_INTERFACE_INFO = "xilinx.com:interface:axis:1.0 SLOT_0_AXIS TKEEP" *)
@@ -83,6 +93,11 @@ input wire resetn;
 
   bd_458f inst (
     .clk(clk),
+    .probe0(probe0),
+    .probe1(probe1),
+    .probe2(probe2),
+    .probe3(probe3),
+    .probe4(probe4),
     .SLOT_0_AXIS_tdata(SLOT_0_AXIS_tdata),
     .SLOT_0_AXIS_tkeep(SLOT_0_AXIS_tkeep),
     .SLOT_0_AXIS_tlast(SLOT_0_AXIS_tlast),

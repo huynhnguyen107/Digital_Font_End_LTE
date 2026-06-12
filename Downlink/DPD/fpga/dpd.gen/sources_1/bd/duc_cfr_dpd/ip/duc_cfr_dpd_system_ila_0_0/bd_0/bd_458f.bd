@@ -1,7 +1,7 @@
 {
   "design": {
     "design_info": {
-      "boundary_crc": "0xA8FD5AB9E4471FFB",
+      "boundary_crc": "0x59363D99A8245793",
       "design_src": "SBD",
       "device": "xck26-sfvc784-2LV-c",
       "name": "bd_458f",
@@ -109,6 +109,31 @@
           }
         }
       },
+      "probe0": {
+        "direction": "I",
+        "left": "31",
+        "right": "0"
+      },
+      "probe1": {
+        "direction": "I",
+        "left": "31",
+        "right": "0"
+      },
+      "probe2": {
+        "direction": "I",
+        "left": "31",
+        "right": "0"
+      },
+      "probe3": {
+        "direction": "I",
+        "left": "31",
+        "right": "0"
+      },
+      "probe4": {
+        "direction": "I",
+        "left": "31",
+        "right": "0"
+      },
       "resetn": {
         "type": "rst",
         "direction": "I",
@@ -159,7 +184,10 @@
             "value": "Native"
           },
           "C_NUM_OF_PROBES": {
-            "value": "5"
+            "value": "10"
+          },
+          "C_PROBE0_MU_CNT": {
+            "value": "1"
           },
           "C_PROBE0_TYPE": {
             "value": "0"
@@ -167,28 +195,70 @@
           "C_PROBE0_WIDTH": {
             "value": "32"
           },
+          "C_PROBE1_MU_CNT": {
+            "value": "1"
+          },
           "C_PROBE1_TYPE": {
             "value": "0"
           },
           "C_PROBE1_WIDTH": {
-            "value": "4"
+            "value": "32"
+          },
+          "C_PROBE2_MU_CNT": {
+            "value": "1"
           },
           "C_PROBE2_TYPE": {
             "value": "0"
           },
           "C_PROBE2_WIDTH": {
+            "value": "32"
+          },
+          "C_PROBE3_MU_CNT": {
             "value": "1"
           },
           "C_PROBE3_TYPE": {
             "value": "0"
           },
           "C_PROBE3_WIDTH": {
+            "value": "32"
+          },
+          "C_PROBE4_MU_CNT": {
             "value": "1"
           },
           "C_PROBE4_TYPE": {
             "value": "0"
           },
           "C_PROBE4_WIDTH": {
+            "value": "32"
+          },
+          "C_PROBE5_TYPE": {
+            "value": "0"
+          },
+          "C_PROBE5_WIDTH": {
+            "value": "32"
+          },
+          "C_PROBE6_TYPE": {
+            "value": "0"
+          },
+          "C_PROBE6_WIDTH": {
+            "value": "4"
+          },
+          "C_PROBE7_TYPE": {
+            "value": "0"
+          },
+          "C_PROBE7_WIDTH": {
+            "value": "1"
+          },
+          "C_PROBE8_TYPE": {
+            "value": "0"
+          },
+          "C_PROBE8_WIDTH": {
+            "value": "1"
+          },
+          "C_PROBE9_TYPE": {
+            "value": "0"
+          },
+          "C_PROBE9_WIDTH": {
             "value": "1"
           },
           "C_TIME_TAG_WIDTH": {
@@ -269,31 +339,61 @@
       "net_slot_0_axis_tdata": {
         "ports": [
           "g_inst/m_slot_0_axis_tdata",
-          "ila_lib/probe0"
+          "ila_lib/probe5"
         ]
       },
       "net_slot_0_axis_tkeep": {
         "ports": [
           "g_inst/m_slot_0_axis_tkeep",
-          "ila_lib/probe1"
+          "ila_lib/probe6"
         ]
       },
       "net_slot_0_axis_tlast": {
         "ports": [
           "g_inst/m_slot_0_axis_tlast",
-          "ila_lib/probe4"
+          "ila_lib/probe9"
         ]
       },
       "net_slot_0_axis_tready": {
         "ports": [
           "g_inst/m_slot_0_axis_tready",
-          "ila_lib/probe3"
+          "ila_lib/probe8"
         ]
       },
       "net_slot_0_axis_tvalid": {
         "ports": [
           "g_inst/m_slot_0_axis_tvalid",
+          "ila_lib/probe7"
+        ]
+      },
+      "probe0_1": {
+        "ports": [
+          "probe0",
+          "ila_lib/probe0"
+        ]
+      },
+      "probe1_1": {
+        "ports": [
+          "probe1",
+          "ila_lib/probe1"
+        ]
+      },
+      "probe2_1": {
+        "ports": [
+          "probe2",
           "ila_lib/probe2"
+        ]
+      },
+      "probe3_1": {
+        "ports": [
+          "probe3",
+          "ila_lib/probe3"
+        ]
+      },
+      "probe4_1": {
+        "ports": [
+          "probe4",
+          "ila_lib/probe4"
         ]
       },
       "resetn_1": {
