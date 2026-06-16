@@ -1,0 +1,6 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  \
+"../../../../mixer_down.gen/sources_1/ip/mixer_cmpy_0/sim/mixer_cmpy_0.vhd" \
+
+# Do not sort compile order
+nosort

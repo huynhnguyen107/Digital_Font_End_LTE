@@ -1,0 +1,39 @@
+{
+   "ActiveEmotionalView":"Default View",
+   "Default View_ScaleFactor":"0.550877",
+   "Default View_TopLeft":"-11,-261",
+   "ExpandedHierarchyInLayout":"",
+   "guistr":"# # String gsaved with Nlview 7.0r6  2020-01-29 bk=1.5227 VDI=41 GEI=36 GUI=JA:10.0 non-TLS
+#  -string -flagsOSRD
+preplace inst axi_bram_ctrl_0 -pg 1 -lvl 8 -x 2430 -y 120 -defaultsOSRD
+preplace inst axi_dma_0 -pg 1 -lvl 6 -x 1630 -y 150 -defaultsOSRD
+preplace inst axis_decimate2_0 -pg 1 -lvl 3 -x 740 -y 130 -defaultsOSRD
+preplace inst axis_decimate2_1 -pg 1 -lvl 5 -x 1200 -y 170 -defaultsOSRD
+preplace inst axis_halfband_fir_0 -pg 1 -lvl 2 -x 490 -y 110 -defaultsOSRD
+preplace inst axis_halfband_fir_1 -pg 1 -lvl 4 -x 970 -y 150 -defaultsOSRD
+preplace inst blk_mem_gen_0 -pg 1 -lvl 9 -x 2710 -y 120 -defaultsOSRD
+preplace inst proc_sys_reset_0 -pg 1 -lvl 1 -x 190 -y 210 -defaultsOSRD
+preplace inst smartconnect_0 -pg 1 -lvl 7 -x 2120 -y 30 -defaultsOSRD
+preplace inst zynq_ultra_ps_e_0 -pg 1 -lvl 6 -x 1630 -y 370 -defaultsOSRD
+preplace inst axis_mixer_down_0 -pg 1 -lvl 8 -x 2430 -y 340 -defaultsOSRD
+preplace inst system_ila_0 -pg 1 -lvl 9 -x 2710 -y 770 -defaultsOSRD
+preplace inst system_ila_1 -pg 1 -lvl 7 -x 2120 -y 190 -defaultsOSRD
+preplace netloc proc_sys_reset_0_peripheral_aresetn 1 1 8 370 200 610 210 860 70 1080 70 1310 0 1930 -110 2290J 250 2570
+preplace netloc zynq_ultra_ps_e_0_pl_clk0 1 0 9 20 110 360 190 600 50 850 60 1090 60 1320 10 1940 -100 2280J 240 2590
+preplace netloc zynq_ultra_ps_e_0_pl_resetn0 1 0 7 10 20 NJ 20 NJ 20 NJ 20 NJ 20 NJ 20 1920
+preplace netloc axi_bram_ctrl_0_BRAM_PORTA 1 8 1 N 120
+preplace netloc axi_dma_0_M_AXI_MM2S 1 6 1 1960 10n
+preplace netloc axi_dma_0_M_AXI_S2MM 1 6 1 1990 30n
+preplace netloc axis_decimate2_0_m_axis 1 3 1 N 130
+preplace netloc axis_halfband_fir_0_m_axis 1 2 1 N 110
+preplace netloc axis_halfband_fir_1_m_axis 1 4 1 N 150
+preplace netloc smartconnect_0_M00_AXI 1 7 1 2260 20n
+preplace netloc smartconnect_0_M01_AXI 1 5 3 1330 -80 NJ -80 2250
+preplace netloc zynq_ultra_ps_e_0_M_AXI_HPM0_FPD 1 6 1 1970 -10n
+preplace netloc axi_dma_0_M_AXIS_MM2S 1 6 3 1950 -70 2270 260 2580
+preplace netloc axis_mixer_down_0_m_axis 1 5 4 1340 30 1980 -90 N -90 2560
+levelinfo -pg 1 -10 190 490 740 970 1200 1630 2120 2430 2710 2840
+pagesize -pg 1 -db -bbox -sgen -10 -150 2840 1300
+"
+}
+0

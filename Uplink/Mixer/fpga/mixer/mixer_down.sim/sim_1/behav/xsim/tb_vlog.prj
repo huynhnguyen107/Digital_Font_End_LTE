@@ -1,0 +1,11 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  --include "../../../../ddc.gen/sources_1/ip/ddc_axis_data_fifo_0/hdl" --include "../../../../mixer_down.ip_user_files/ipstatic/hdl" \
+"../../../../mixer_down.gen/sources_1/ip/mixer_axis_data_fifo_0/sim/mixer_axis_data_fifo_0.v" \
+"../../../../mixer_down.srcs/sources_1/new/axis_mixer_down.v" \
+"../../../../mixer_down.srcs/sim_1/new/tb.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

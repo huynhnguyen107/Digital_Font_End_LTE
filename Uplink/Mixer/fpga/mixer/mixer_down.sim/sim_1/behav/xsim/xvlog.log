@@ -1,0 +1,7 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/FPGA/Vivaldo Project/Digital_Font_End_LTE/Uplink/Mixer/fpga/mixer/mixer_down.gen/sources_1/ip/mixer_axis_data_fifo_0/sim/mixer_axis_data_fifo_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mixer_axis_data_fifo_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/FPGA/Vivaldo Project/Digital_Font_End_LTE/Uplink/Mixer/fpga/mixer/mixer_down.srcs/sources_1/new/axis_mixer_down.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module axis_mixer_down
+INFO: [VRFC 10-311] analyzing module timming
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/FPGA/Vivaldo Project/Digital_Font_End_LTE/Uplink/Mixer/fpga/mixer/mixer_down.srcs/sim_1/new/tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module tb

@@ -1,0 +1,14 @@
+#ifndef LTE20_DDC_GOLDEN_Q15_H
+#define LTE20_DDC_GOLDEN_Q15_H
+
+#include <stdint.h>
+
+#define LTE20_DDC_OUT_SAMPLES 10
+#define LTE20_DDC_OUT_BYTES   (LTE20_DDC_OUT_SAMPLES * 4)
+
+static const uint32_t lte20_ddc_golden_q15[LTE20_DDC_OUT_SAMPLES] = {
+    0x00010004, 0xFFE6FF8B, 0x01D00897, 0xF713D36F, 
+    0xDD938770, 0x1770FFAF, 0x7FFF45C8, 0x4CD7FC8D, 
+    0xCED8FCF3, 0xE43F3963};
+
+#endif

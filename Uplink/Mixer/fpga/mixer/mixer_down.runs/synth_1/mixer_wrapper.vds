@@ -1,0 +1,352 @@
+#-----------------------------------------------------------
+# Vivado v2022.2 (64-bit)
+# SW Build 3671981 on Fri Oct 14 05:00:03 MDT 2022
+# IP Build 3669848 on Fri Oct 14 08:30:02 MDT 2022
+# Start of session at: Mon Jun 15 11:12:31 2026
+# Process ID: 29044
+# Current directory: D:/FPGA/Vivaldo Project/Digital_Font_End_LTE/Uplink/Mixer/fpga/mixer/mixer_down.runs/synth_1
+# Command line: vivado.exe -log mixer_wrapper.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source mixer_wrapper.tcl
+# Log file: D:/FPGA/Vivaldo Project/Digital_Font_End_LTE/Uplink/Mixer/fpga/mixer/mixer_down.runs/synth_1/mixer_wrapper.vds
+# Journal file: D:/FPGA/Vivaldo Project/Digital_Font_End_LTE/Uplink/Mixer/fpga/mixer/mixer_down.runs/synth_1\vivado.jou
+# Running On: LAPTOP-CHCSI1R5, OS: Windows, CPU Frequency: 3194 MHz, CPU Physical cores: 16, Host memory: 21319 MB
+#-----------------------------------------------------------
+source mixer_wrapper.tcl -notrace
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/Xilinx/Vivado/2022.2/data/ip'.
+Command: read_checkpoint -auto_incremental -incremental {D:/FPGA/Vivaldo Project/Digital_Font_End_LTE/Uplink/Mixer/fpga/mixer/mixer_down.srcs/utils_1/imports/synth_1/ddc_wrapper.dcp}
+INFO: [Vivado 12-5825] Read reference checkpoint from D:/FPGA/Vivaldo Project/Digital_Font_End_LTE/Uplink/Mixer/fpga/mixer/mixer_down.srcs/utils_1/imports/synth_1/ddc_wrapper.dcp for incremental synthesis
+INFO: [Vivado 12-7989] Please ensure there are no constraint changes
+Command: synth_design -top mixer_wrapper -part xck26-sfvc784-2LV-c
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xck26'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xck26'
+INFO: [Device 21-403] Loading part xck26-sfvc784-2LV-c
+INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 2 processes.
+INFO: [Synth 8-7078] Launching helper process for spawning children vivado processes
+INFO: [Synth 8-7075] Helper process launched with PID 20224
+INFO: [Synth 8-11241] undeclared symbol 'REGCCE', assumed default net type 'wire' [D:/Xilinx/Vivado/2022.2/data/verilog/src/unimacro/BRAM_SINGLE_MACRO.v:2170]
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:06 ; elapsed = 00:00:06 . Memory (MB): peak = 1870.934 ; gain = 331.617
+---------------------------------------------------------------------------------
+INFO: [Synth 8-6157] synthesizing module 'mixer_wrapper' [d:/FPGA/Vivaldo Project/Digital_Font_End_LTE/Uplink/Mixer/fpga/mixer/mixer_down.gen/sources_1/bd/mixer/hdl/mixer_wrapper.v:12]
+INFO: [Synth 8-6157] synthesizing module 'mixer' [d:/FPGA/Vivaldo Project/Digital_Font_End_LTE/Uplink/Mixer/fpga/mixer/mixer_down.gen/sources_1/bd/mixer/synth/mixer.v:12]
+INFO: [Synth 8-6157] synthesizing module 'mixer_axi_bram_ctrl_0_0' [D:/FPGA/Vivaldo Project/Digital_Font_End_LTE/Uplink/Mixer/fpga/mixer/mixer_down.runs/synth_1/.Xil/Vivado-29044-LAPTOP-CHCSI1R5/realtime/mixer_axi_bram_ctrl_0_0_stub.v:5]
+INFO: [Synth 8-6155] done synthesizing module 'mixer_axi_bram_ctrl_0_0' (0#1) [D:/FPGA/Vivaldo Project/Digital_Font_End_LTE/Uplink/Mixer/fpga/mixer/mixer_down.runs/synth_1/.Xil/Vivado-29044-LAPTOP-CHCSI1R5/realtime/mixer_axi_bram_ctrl_0_0_stub.v:5]
+INFO: [Synth 8-6157] synthesizing module 'mixer_axi_dma_0_0' [D:/FPGA/Vivaldo Project/Digital_Font_End_LTE/Uplink/Mixer/fpga/mixer/mixer_down.runs/synth_1/.Xil/Vivado-29044-LAPTOP-CHCSI1R5/realtime/mixer_axi_dma_0_0_stub.v:5]
+INFO: [Synth 8-6155] done synthesizing module 'mixer_axi_dma_0_0' (0#1) [D:/FPGA/Vivaldo Project/Digital_Font_End_LTE/Uplink/Mixer/fpga/mixer/mixer_down.runs/synth_1/.Xil/Vivado-29044-LAPTOP-CHCSI1R5/realtime/mixer_axi_dma_0_0_stub.v:5]
+WARNING: [Synth 8-7071] port 'mm2s_prmry_reset_out_n' of module 'mixer_axi_dma_0_0' is unconnected for instance 'axi_dma_0' [d:/FPGA/Vivaldo Project/Digital_Font_End_LTE/Uplink/Mixer/fpga/mixer/mixer_down.gen/sources_1/bd/mixer/synth/mixer.v:208]
+WARNING: [Synth 8-7071] port 's2mm_prmry_reset_out_n' of module 'mixer_axi_dma_0_0' is unconnected for instance 'axi_dma_0' [d:/FPGA/Vivaldo Project/Digital_Font_End_LTE/Uplink/Mixer/fpga/mixer/mixer_down.gen/sources_1/bd/mixer/synth/mixer.v:208]
+WARNING: [Synth 8-7071] port 'mm2s_introut' of module 'mixer_axi_dma_0_0' is unconnected for instance 'axi_dma_0' [d:/FPGA/Vivaldo Project/Digital_Font_End_LTE/Uplink/Mixer/fpga/mixer/mixer_down.gen/sources_1/bd/mixer/synth/mixer.v:208]
+WARNING: [Synth 8-7071] port 's2mm_introut' of module 'mixer_axi_dma_0_0' is unconnected for instance 'axi_dma_0' [d:/FPGA/Vivaldo Project/Digital_Font_End_LTE/Uplink/Mixer/fpga/mixer/mixer_down.gen/sources_1/bd/mixer/synth/mixer.v:208]
+WARNING: [Synth 8-7071] port 'axi_dma_tstvec' of module 'mixer_axi_dma_0_0' is unconnected for instance 'axi_dma_0' [d:/FPGA/Vivaldo Project/Digital_Font_End_LTE/Uplink/Mixer/fpga/mixer/mixer_down.gen/sources_1/bd/mixer/synth/mixer.v:208]
+WARNING: [Synth 8-7023] instance 'axi_dma_0' of module 'mixer_axi_dma_0_0' has 64 connections declared, but only 59 given [d:/FPGA/Vivaldo Project/Digital_Font_End_LTE/Uplink/Mixer/fpga/mixer/mixer_down.gen/sources_1/bd/mixer/synth/mixer.v:208]
+INFO: [Synth 8-6157] synthesizing module 'mixer_axis_decimate2_0_0' [D:/FPGA/Vivaldo Project/Digital_Font_End_LTE/Uplink/Mixer/fpga/mixer/mixer_down.runs/synth_1/.Xil/Vivado-29044-LAPTOP-CHCSI1R5/realtime/mixer_axis_decimate2_0_0_stub.v:5]
+INFO: [Synth 8-6155] done synthesizing module 'mixer_axis_decimate2_0_0' (0#1) [D:/FPGA/Vivaldo Project/Digital_Font_End_LTE/Uplink/Mixer/fpga/mixer/mixer_down.runs/synth_1/.Xil/Vivado-29044-LAPTOP-CHCSI1R5/realtime/mixer_axis_decimate2_0_0_stub.v:5]
+INFO: [Synth 8-6157] synthesizing module 'mixer_axis_decimate2_1_0' [D:/FPGA/Vivaldo Project/Digital_Font_End_LTE/Uplink/Mixer/fpga/mixer/mixer_down.runs/synth_1/.Xil/Vivado-29044-LAPTOP-CHCSI1R5/realtime/mixer_axis_decimate2_1_0_stub.v:5]
+INFO: [Synth 8-6155] done synthesizing module 'mixer_axis_decimate2_1_0' (0#1) [D:/FPGA/Vivaldo Project/Digital_Font_End_LTE/Uplink/Mixer/fpga/mixer/mixer_down.runs/synth_1/.Xil/Vivado-29044-LAPTOP-CHCSI1R5/realtime/mixer_axis_decimate2_1_0_stub.v:5]
+WARNING: [Synth 8-7071] port 'm_axis_tdata' of module 'mixer_axis_decimate2_1_0' is unconnected for instance 'axis_decimate2_1' [d:/FPGA/Vivaldo Project/Digital_Font_End_LTE/Uplink/Mixer/fpga/mixer/mixer_down.gen/sources_1/bd/mixer/synth/mixer.v:281]
+WARNING: [Synth 8-7071] port 'm_axis_tkeep' of module 'mixer_axis_decimate2_1_0' is unconnected for instance 'axis_decimate2_1' [d:/FPGA/Vivaldo Project/Digital_Font_End_LTE/Uplink/Mixer/fpga/mixer/mixer_down.gen/sources_1/bd/mixer/synth/mixer.v:281]
+WARNING: [Synth 8-7071] port 'm_axis_tvalid' of module 'mixer_axis_decimate2_1_0' is unconnected for instance 'axis_decimate2_1' [d:/FPGA/Vivaldo Project/Digital_Font_End_LTE/Uplink/Mixer/fpga/mixer/mixer_down.gen/sources_1/bd/mixer/synth/mixer.v:281]
+WARNING: [Synth 8-7071] port 'm_axis_tlast' of module 'mixer_axis_decimate2_1_0' is unconnected for instance 'axis_decimate2_1' [d:/FPGA/Vivaldo Project/Digital_Font_End_LTE/Uplink/Mixer/fpga/mixer/mixer_down.gen/sources_1/bd/mixer/synth/mixer.v:281]
+WARNING: [Synth 8-7023] instance 'axis_decimate2_1' of module 'mixer_axis_decimate2_1_0' has 12 connections declared, but only 8 given [d:/FPGA/Vivaldo Project/Digital_Font_End_LTE/Uplink/Mixer/fpga/mixer/mixer_down.gen/sources_1/bd/mixer/synth/mixer.v:281]
+INFO: [Synth 8-6157] synthesizing module 'mixer_axis_halfband_fir_0_0' [D:/FPGA/Vivaldo Project/Digital_Font_End_LTE/Uplink/Mixer/fpga/mixer/mixer_down.runs/synth_1/.Xil/Vivado-29044-LAPTOP-CHCSI1R5/realtime/mixer_axis_halfband_fir_0_0_stub.v:5]
+INFO: [Synth 8-6155] done synthesizing module 'mixer_axis_halfband_fir_0_0' (0#1) [D:/FPGA/Vivaldo Project/Digital_Font_End_LTE/Uplink/Mixer/fpga/mixer/mixer_down.runs/synth_1/.Xil/Vivado-29044-LAPTOP-CHCSI1R5/realtime/mixer_axis_halfband_fir_0_0_stub.v:5]
+WARNING: [Synth 8-7071] port 's_axis_tready' of module 'mixer_axis_halfband_fir_0_0' is unconnected for instance 'axis_halfband_fir_0' [d:/FPGA/Vivaldo Project/Digital_Font_End_LTE/Uplink/Mixer/fpga/mixer/mixer_down.gen/sources_1/bd/mixer/synth/mixer.v:290]
+WARNING: [Synth 8-7023] instance 'axis_halfband_fir_0' of module 'mixer_axis_halfband_fir_0_0' has 12 connections declared, but only 11 given [d:/FPGA/Vivaldo Project/Digital_Font_End_LTE/Uplink/Mixer/fpga/mixer/mixer_down.gen/sources_1/bd/mixer/synth/mixer.v:290]
+INFO: [Synth 8-6157] synthesizing module 'mixer_axis_halfband_fir_1_0' [D:/FPGA/Vivaldo Project/Digital_Font_End_LTE/Uplink/Mixer/fpga/mixer/mixer_down.runs/synth_1/.Xil/Vivado-29044-LAPTOP-CHCSI1R5/realtime/mixer_axis_halfband_fir_1_0_stub.v:5]
+INFO: [Synth 8-6155] done synthesizing module 'mixer_axis_halfband_fir_1_0' (0#1) [D:/FPGA/Vivaldo Project/Digital_Font_End_LTE/Uplink/Mixer/fpga/mixer/mixer_down.runs/synth_1/.Xil/Vivado-29044-LAPTOP-CHCSI1R5/realtime/mixer_axis_halfband_fir_1_0_stub.v:5]
+INFO: [Synth 8-6157] synthesizing module 'mixer_axis_mixer_down_0_0' [D:/FPGA/Vivaldo Project/Digital_Font_End_LTE/Uplink/Mixer/fpga/mixer/mixer_down.runs/synth_1/.Xil/Vivado-29044-LAPTOP-CHCSI1R5/realtime/mixer_axis_mixer_down_0_0_stub.v:5]
+INFO: [Synth 8-6155] done synthesizing module 'mixer_axis_mixer_down_0_0' (0#1) [D:/FPGA/Vivaldo Project/Digital_Font_End_LTE/Uplink/Mixer/fpga/mixer/mixer_down.runs/synth_1/.Xil/Vivado-29044-LAPTOP-CHCSI1R5/realtime/mixer_axis_mixer_down_0_0_stub.v:5]
+INFO: [Synth 8-6157] synthesizing module 'mixer_blk_mem_gen_0_0' [D:/FPGA/Vivaldo Project/Digital_Font_End_LTE/Uplink/Mixer/fpga/mixer/mixer_down.runs/synth_1/.Xil/Vivado-29044-LAPTOP-CHCSI1R5/realtime/mixer_blk_mem_gen_0_0_stub.v:5]
+INFO: [Synth 8-6155] done synthesizing module 'mixer_blk_mem_gen_0_0' (0#1) [D:/FPGA/Vivaldo Project/Digital_Font_End_LTE/Uplink/Mixer/fpga/mixer/mixer_down.runs/synth_1/.Xil/Vivado-29044-LAPTOP-CHCSI1R5/realtime/mixer_blk_mem_gen_0_0_stub.v:5]
+WARNING: [Synth 8-7071] port 'rsta_busy' of module 'mixer_blk_mem_gen_0_0' is unconnected for instance 'blk_mem_gen_0' [d:/FPGA/Vivaldo Project/Digital_Font_End_LTE/Uplink/Mixer/fpga/mixer/mixer_down.gen/sources_1/bd/mixer/synth/mixer.v:328]
+WARNING: [Synth 8-7023] instance 'blk_mem_gen_0' of module 'mixer_blk_mem_gen_0_0' has 8 connections declared, but only 7 given [d:/FPGA/Vivaldo Project/Digital_Font_End_LTE/Uplink/Mixer/fpga/mixer/mixer_down.gen/sources_1/bd/mixer/synth/mixer.v:328]
+INFO: [Synth 8-6157] synthesizing module 'mixer_proc_sys_reset_0_0' [D:/FPGA/Vivaldo Project/Digital_Font_End_LTE/Uplink/Mixer/fpga/mixer/mixer_down.runs/synth_1/.Xil/Vivado-29044-LAPTOP-CHCSI1R5/realtime/mixer_proc_sys_reset_0_0_stub.v:5]
+INFO: [Synth 8-6155] done synthesizing module 'mixer_proc_sys_reset_0_0' (0#1) [D:/FPGA/Vivaldo Project/Digital_Font_End_LTE/Uplink/Mixer/fpga/mixer/mixer_down.runs/synth_1/.Xil/Vivado-29044-LAPTOP-CHCSI1R5/realtime/mixer_proc_sys_reset_0_0_stub.v:5]
+WARNING: [Synth 8-7071] port 'mb_reset' of module 'mixer_proc_sys_reset_0_0' is unconnected for instance 'proc_sys_reset_0' [d:/FPGA/Vivaldo Project/Digital_Font_End_LTE/Uplink/Mixer/fpga/mixer/mixer_down.gen/sources_1/bd/mixer/synth/mixer.v:336]
+WARNING: [Synth 8-7071] port 'bus_struct_reset' of module 'mixer_proc_sys_reset_0_0' is unconnected for instance 'proc_sys_reset_0' [d:/FPGA/Vivaldo Project/Digital_Font_End_LTE/Uplink/Mixer/fpga/mixer/mixer_down.gen/sources_1/bd/mixer/synth/mixer.v:336]
+WARNING: [Synth 8-7071] port 'peripheral_reset' of module 'mixer_proc_sys_reset_0_0' is unconnected for instance 'proc_sys_reset_0' [d:/FPGA/Vivaldo Project/Digital_Font_End_LTE/Uplink/Mixer/fpga/mixer/mixer_down.gen/sources_1/bd/mixer/synth/mixer.v:336]
+WARNING: [Synth 8-7071] port 'interconnect_aresetn' of module 'mixer_proc_sys_reset_0_0' is unconnected for instance 'proc_sys_reset_0' [d:/FPGA/Vivaldo Project/Digital_Font_End_LTE/Uplink/Mixer/fpga/mixer/mixer_down.gen/sources_1/bd/mixer/synth/mixer.v:336]
+WARNING: [Synth 8-7023] instance 'proc_sys_reset_0' of module 'mixer_proc_sys_reset_0_0' has 10 connections declared, but only 6 given [d:/FPGA/Vivaldo Project/Digital_Font_End_LTE/Uplink/Mixer/fpga/mixer/mixer_down.gen/sources_1/bd/mixer/synth/mixer.v:336]
+INFO: [Synth 8-6157] synthesizing module 'mixer_smartconnect_0_0' [D:/FPGA/Vivaldo Project/Digital_Font_End_LTE/Uplink/Mixer/fpga/mixer/mixer_down.runs/synth_1/.Xil/Vivado-29044-LAPTOP-CHCSI1R5/realtime/mixer_smartconnect_0_0_stub.v:5]
+INFO: [Synth 8-6155] done synthesizing module 'mixer_smartconnect_0_0' (0#1) [D:/FPGA/Vivaldo Project/Digital_Font_End_LTE/Uplink/Mixer/fpga/mixer/mixer_down.runs/synth_1/.Xil/Vivado-29044-LAPTOP-CHCSI1R5/realtime/mixer_smartconnect_0_0_stub.v:5]
+WARNING: [Synth 8-7071] port 'M00_AXI_awqos' of module 'mixer_smartconnect_0_0' is unconnected for instance 'smartconnect_0' [d:/FPGA/Vivaldo Project/Digital_Font_End_LTE/Uplink/Mixer/fpga/mixer/mixer_down.gen/sources_1/bd/mixer/synth/mixer.v:343]
+WARNING: [Synth 8-7071] port 'M00_AXI_awuser' of module 'mixer_smartconnect_0_0' is unconnected for instance 'smartconnect_0' [d:/FPGA/Vivaldo Project/Digital_Font_End_LTE/Uplink/Mixer/fpga/mixer/mixer_down.gen/sources_1/bd/mixer/synth/mixer.v:343]
+WARNING: [Synth 8-7071] port 'M00_AXI_arqos' of module 'mixer_smartconnect_0_0' is unconnected for instance 'smartconnect_0' [d:/FPGA/Vivaldo Project/Digital_Font_End_LTE/Uplink/Mixer/fpga/mixer/mixer_down.gen/sources_1/bd/mixer/synth/mixer.v:343]
+WARNING: [Synth 8-7071] port 'M00_AXI_aruser' of module 'mixer_smartconnect_0_0' is unconnected for instance 'smartconnect_0' [d:/FPGA/Vivaldo Project/Digital_Font_End_LTE/Uplink/Mixer/fpga/mixer/mixer_down.gen/sources_1/bd/mixer/synth/mixer.v:343]
+WARNING: [Synth 8-7071] port 'M01_AXI_awprot' of module 'mixer_smartconnect_0_0' is unconnected for instance 'smartconnect_0' [d:/FPGA/Vivaldo Project/Digital_Font_End_LTE/Uplink/Mixer/fpga/mixer/mixer_down.gen/sources_1/bd/mixer/synth/mixer.v:343]
+WARNING: [Synth 8-7071] port 'M01_AXI_wstrb' of module 'mixer_smartconnect_0_0' is unconnected for instance 'smartconnect_0' [d:/FPGA/Vivaldo Project/Digital_Font_End_LTE/Uplink/Mixer/fpga/mixer/mixer_down.gen/sources_1/bd/mixer/synth/mixer.v:343]
+WARNING: [Synth 8-7071] port 'M01_AXI_arprot' of module 'mixer_smartconnect_0_0' is unconnected for instance 'smartconnect_0' [d:/FPGA/Vivaldo Project/Digital_Font_End_LTE/Uplink/Mixer/fpga/mixer/mixer_down.gen/sources_1/bd/mixer/synth/mixer.v:343]
+WARNING: [Synth 8-7023] instance 'smartconnect_0' of module 'mixer_smartconnect_0_0' has 128 connections declared, but only 121 given [d:/FPGA/Vivaldo Project/Digital_Font_End_LTE/Uplink/Mixer/fpga/mixer/mixer_down.gen/sources_1/bd/mixer/synth/mixer.v:343]
+WARNING: [Synth 8-4446] all outputs are unconnected for this instance and logic may be removed [d:/FPGA/Vivaldo Project/Digital_Font_End_LTE/Uplink/Mixer/fpga/mixer/mixer_down.gen/sources_1/bd/mixer/synth/mixer.v:465]
+INFO: [Synth 8-6157] synthesizing module 'mixer_system_ila_0_0' [D:/FPGA/Vivaldo Project/Digital_Font_End_LTE/Uplink/Mixer/fpga/mixer/mixer_down.runs/synth_1/.Xil/Vivado-29044-LAPTOP-CHCSI1R5/realtime/mixer_system_ila_0_0_stub.v:5]
+INFO: [Synth 8-6155] done synthesizing module 'mixer_system_ila_0_0' (0#1) [D:/FPGA/Vivaldo Project/Digital_Font_End_LTE/Uplink/Mixer/fpga/mixer/mixer_down.runs/synth_1/.Xil/Vivado-29044-LAPTOP-CHCSI1R5/realtime/mixer_system_ila_0_0_stub.v:5]
+WARNING: [Synth 8-4446] all outputs are unconnected for this instance and logic may be removed [d:/FPGA/Vivaldo Project/Digital_Font_End_LTE/Uplink/Mixer/fpga/mixer/mixer_down.gen/sources_1/bd/mixer/synth/mixer.v:473]
+INFO: [Synth 8-6157] synthesizing module 'mixer_system_ila_0_1' [D:/FPGA/Vivaldo Project/Digital_Font_End_LTE/Uplink/Mixer/fpga/mixer/mixer_down.runs/synth_1/.Xil/Vivado-29044-LAPTOP-CHCSI1R5/realtime/mixer_system_ila_0_1_stub.v:5]
+INFO: [Synth 8-6155] done synthesizing module 'mixer_system_ila_0_1' (0#1) [D:/FPGA/Vivaldo Project/Digital_Font_End_LTE/Uplink/Mixer/fpga/mixer/mixer_down.runs/synth_1/.Xil/Vivado-29044-LAPTOP-CHCSI1R5/realtime/mixer_system_ila_0_1_stub.v:5]
+INFO: [Synth 8-6157] synthesizing module 'mixer_zynq_ultra_ps_e_0_0' [D:/FPGA/Vivaldo Project/Digital_Font_End_LTE/Uplink/Mixer/fpga/mixer/mixer_down.runs/synth_1/.Xil/Vivado-29044-LAPTOP-CHCSI1R5/realtime/mixer_zynq_ultra_ps_e_0_0_stub.v:5]
+INFO: [Synth 8-6155] done synthesizing module 'mixer_zynq_ultra_ps_e_0_0' (0#1) [D:/FPGA/Vivaldo Project/Digital_Font_End_LTE/Uplink/Mixer/fpga/mixer/mixer_down.runs/synth_1/.Xil/Vivado-29044-LAPTOP-CHCSI1R5/realtime/mixer_zynq_ultra_ps_e_0_0_stub.v:5]
+INFO: [Synth 8-6155] done synthesizing module 'mixer' (0#1) [d:/FPGA/Vivaldo Project/Digital_Font_End_LTE/Uplink/Mixer/fpga/mixer/mixer_down.gen/sources_1/bd/mixer/synth/mixer.v:12]
+INFO: [Synth 8-6155] done synthesizing module 'mixer_wrapper' (0#1) [d:/FPGA/Vivaldo Project/Digital_Font_End_LTE/Uplink/Mixer/fpga/mixer/mixer_down.gen/sources_1/bd/mixer/hdl/mixer_wrapper.v:12]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:08 ; elapsed = 00:00:07 . Memory (MB): peak = 1967.520 ; gain = 428.203
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:08 ; elapsed = 00:00:08 . Memory (MB): peak = 1985.426 ; gain = 446.109
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:08 ; elapsed = 00:00:08 . Memory (MB): peak = 1985.426 ; gain = 446.109
+---------------------------------------------------------------------------------
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.015 . Memory (MB): peak = 1985.426 ; gain = 0.000
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [d:/FPGA/Vivaldo Project/Digital_Font_End_LTE/Uplink/Mixer/fpga/mixer/mixer_down.gen/sources_1/bd/mixer/ip/mixer_axi_bram_ctrl_0_0/mixer_axi_bram_ctrl_0_0/mixer_axi_bram_ctrl_0_0_in_context.xdc] for cell 'mixer_i/axi_bram_ctrl_0'
+Finished Parsing XDC File [d:/FPGA/Vivaldo Project/Digital_Font_End_LTE/Uplink/Mixer/fpga/mixer/mixer_down.gen/sources_1/bd/mixer/ip/mixer_axi_bram_ctrl_0_0/mixer_axi_bram_ctrl_0_0/mixer_axi_bram_ctrl_0_0_in_context.xdc] for cell 'mixer_i/axi_bram_ctrl_0'
+Parsing XDC File [d:/FPGA/Vivaldo Project/Digital_Font_End_LTE/Uplink/Mixer/fpga/mixer/mixer_down.gen/sources_1/bd/mixer/ip/mixer_axi_dma_0_0/mixer_axi_dma_0_0/mixer_axi_dma_0_0_in_context.xdc] for cell 'mixer_i/axi_dma_0'
+Finished Parsing XDC File [d:/FPGA/Vivaldo Project/Digital_Font_End_LTE/Uplink/Mixer/fpga/mixer/mixer_down.gen/sources_1/bd/mixer/ip/mixer_axi_dma_0_0/mixer_axi_dma_0_0/mixer_axi_dma_0_0_in_context.xdc] for cell 'mixer_i/axi_dma_0'
+Parsing XDC File [d:/FPGA/Vivaldo Project/Digital_Font_End_LTE/Uplink/Mixer/fpga/mixer/mixer_down.gen/sources_1/bd/mixer/ip/mixer_axis_decimate2_0_0/mixer_axis_decimate2_0_0/mixer_axis_decimate2_0_0_in_context.xdc] for cell 'mixer_i/axis_decimate2_0'
+Finished Parsing XDC File [d:/FPGA/Vivaldo Project/Digital_Font_End_LTE/Uplink/Mixer/fpga/mixer/mixer_down.gen/sources_1/bd/mixer/ip/mixer_axis_decimate2_0_0/mixer_axis_decimate2_0_0/mixer_axis_decimate2_0_0_in_context.xdc] for cell 'mixer_i/axis_decimate2_0'
+Parsing XDC File [d:/FPGA/Vivaldo Project/Digital_Font_End_LTE/Uplink/Mixer/fpga/mixer/mixer_down.gen/sources_1/bd/mixer/ip/mixer_axis_decimate2_1_0/mixer_axis_decimate2_1_0/mixer_axis_decimate2_1_0_in_context.xdc] for cell 'mixer_i/axis_decimate2_1'
+Finished Parsing XDC File [d:/FPGA/Vivaldo Project/Digital_Font_End_LTE/Uplink/Mixer/fpga/mixer/mixer_down.gen/sources_1/bd/mixer/ip/mixer_axis_decimate2_1_0/mixer_axis_decimate2_1_0/mixer_axis_decimate2_1_0_in_context.xdc] for cell 'mixer_i/axis_decimate2_1'
+Parsing XDC File [d:/FPGA/Vivaldo Project/Digital_Font_End_LTE/Uplink/Mixer/fpga/mixer/mixer_down.gen/sources_1/bd/mixer/ip/mixer_axis_halfband_fir_0_0/mixer_axis_halfband_fir_0_0/mixer_axis_halfband_fir_0_0_in_context.xdc] for cell 'mixer_i/axis_halfband_fir_0'
+Finished Parsing XDC File [d:/FPGA/Vivaldo Project/Digital_Font_End_LTE/Uplink/Mixer/fpga/mixer/mixer_down.gen/sources_1/bd/mixer/ip/mixer_axis_halfband_fir_0_0/mixer_axis_halfband_fir_0_0/mixer_axis_halfband_fir_0_0_in_context.xdc] for cell 'mixer_i/axis_halfband_fir_0'
+Parsing XDC File [d:/FPGA/Vivaldo Project/Digital_Font_End_LTE/Uplink/Mixer/fpga/mixer/mixer_down.gen/sources_1/bd/mixer/ip/mixer_axis_halfband_fir_1_0/mixer_axis_halfband_fir_1_0/mixer_axis_halfband_fir_1_0_in_context.xdc] for cell 'mixer_i/axis_halfband_fir_1'
+Finished Parsing XDC File [d:/FPGA/Vivaldo Project/Digital_Font_End_LTE/Uplink/Mixer/fpga/mixer/mixer_down.gen/sources_1/bd/mixer/ip/mixer_axis_halfband_fir_1_0/mixer_axis_halfband_fir_1_0/mixer_axis_halfband_fir_1_0_in_context.xdc] for cell 'mixer_i/axis_halfband_fir_1'
+Parsing XDC File [d:/FPGA/Vivaldo Project/Digital_Font_End_LTE/Uplink/Mixer/fpga/mixer/mixer_down.gen/sources_1/bd/mixer/ip/mixer_blk_mem_gen_0_0/mixer_blk_mem_gen_0_0/mixer_blk_mem_gen_0_0_in_context.xdc] for cell 'mixer_i/blk_mem_gen_0'
+Finished Parsing XDC File [d:/FPGA/Vivaldo Project/Digital_Font_End_LTE/Uplink/Mixer/fpga/mixer/mixer_down.gen/sources_1/bd/mixer/ip/mixer_blk_mem_gen_0_0/mixer_blk_mem_gen_0_0/mixer_blk_mem_gen_0_0_in_context.xdc] for cell 'mixer_i/blk_mem_gen_0'
+Parsing XDC File [d:/FPGA/Vivaldo Project/Digital_Font_End_LTE/Uplink/Mixer/fpga/mixer/mixer_down.gen/sources_1/bd/mixer/ip/mixer_proc_sys_reset_0_0/mixer_proc_sys_reset_0_0/mixer_proc_sys_reset_0_0_in_context.xdc] for cell 'mixer_i/proc_sys_reset_0'
+Finished Parsing XDC File [d:/FPGA/Vivaldo Project/Digital_Font_End_LTE/Uplink/Mixer/fpga/mixer/mixer_down.gen/sources_1/bd/mixer/ip/mixer_proc_sys_reset_0_0/mixer_proc_sys_reset_0_0/mixer_proc_sys_reset_0_0_in_context.xdc] for cell 'mixer_i/proc_sys_reset_0'
+Parsing XDC File [d:/FPGA/Vivaldo Project/Digital_Font_End_LTE/Uplink/Mixer/fpga/mixer/mixer_down.gen/sources_1/bd/mixer/ip/mixer_smartconnect_0_0/mixer_smartconnect_0_0/mixer_smartconnect_0_0_in_context.xdc] for cell 'mixer_i/smartconnect_0'
+Finished Parsing XDC File [d:/FPGA/Vivaldo Project/Digital_Font_End_LTE/Uplink/Mixer/fpga/mixer/mixer_down.gen/sources_1/bd/mixer/ip/mixer_smartconnect_0_0/mixer_smartconnect_0_0/mixer_smartconnect_0_0_in_context.xdc] for cell 'mixer_i/smartconnect_0'
+Parsing XDC File [d:/FPGA/Vivaldo Project/Digital_Font_End_LTE/Uplink/Mixer/fpga/mixer/mixer_down.gen/sources_1/bd/mixer/ip/mixer_zynq_ultra_ps_e_0_0/mixer_zynq_ultra_ps_e_0_0/mixer_zynq_ultra_ps_e_0_0_in_context.xdc] for cell 'mixer_i/zynq_ultra_ps_e_0'
+Finished Parsing XDC File [d:/FPGA/Vivaldo Project/Digital_Font_End_LTE/Uplink/Mixer/fpga/mixer/mixer_down.gen/sources_1/bd/mixer/ip/mixer_zynq_ultra_ps_e_0_0/mixer_zynq_ultra_ps_e_0_0/mixer_zynq_ultra_ps_e_0_0_in_context.xdc] for cell 'mixer_i/zynq_ultra_ps_e_0'
+Parsing XDC File [d:/FPGA/Vivaldo Project/Digital_Font_End_LTE/Uplink/Mixer/fpga/mixer/mixer_down.gen/sources_1/bd/mixer/ip/mixer_axis_mixer_down_0_0/mixer_axis_mixer_down_0_0/mixer_axis_mixer_down_0_0_in_context.xdc] for cell 'mixer_i/axis_mixer_down_0'
+Finished Parsing XDC File [d:/FPGA/Vivaldo Project/Digital_Font_End_LTE/Uplink/Mixer/fpga/mixer/mixer_down.gen/sources_1/bd/mixer/ip/mixer_axis_mixer_down_0_0/mixer_axis_mixer_down_0_0/mixer_axis_mixer_down_0_0_in_context.xdc] for cell 'mixer_i/axis_mixer_down_0'
+Parsing XDC File [d:/FPGA/Vivaldo Project/Digital_Font_End_LTE/Uplink/Mixer/fpga/mixer/mixer_down.gen/sources_1/bd/mixer/ip/mixer_system_ila_0_0/mixer_system_ila_0_0/mixer_system_ila_0_0_in_context.xdc] for cell 'mixer_i/system_ila_0'
+Finished Parsing XDC File [d:/FPGA/Vivaldo Project/Digital_Font_End_LTE/Uplink/Mixer/fpga/mixer/mixer_down.gen/sources_1/bd/mixer/ip/mixer_system_ila_0_0/mixer_system_ila_0_0/mixer_system_ila_0_0_in_context.xdc] for cell 'mixer_i/system_ila_0'
+Parsing XDC File [d:/FPGA/Vivaldo Project/Digital_Font_End_LTE/Uplink/Mixer/fpga/mixer/mixer_down.gen/sources_1/bd/mixer/ip/mixer_system_ila_0_1/mixer_system_ila_0_1/mixer_system_ila_0_1_in_context.xdc] for cell 'mixer_i/system_ila_1'
+Finished Parsing XDC File [d:/FPGA/Vivaldo Project/Digital_Font_End_LTE/Uplink/Mixer/fpga/mixer/mixer_down.gen/sources_1/bd/mixer/ip/mixer_system_ila_0_1/mixer_system_ila_0_1/mixer_system_ila_0_1_in_context.xdc] for cell 'mixer_i/system_ila_1'
+Parsing XDC File [D:/FPGA/Vivaldo Project/Digital_Font_End_LTE/Uplink/Mixer/fpga/mixer/mixer_down.runs/synth_1/dont_touch.xdc]
+Finished Parsing XDC File [D:/FPGA/Vivaldo Project/Digital_Font_End_LTE/Uplink/Mixer/fpga/mixer/mixer_down.runs/synth_1/dont_touch.xdc]
+Completed Processing XDC Constraints
+
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2015.855 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.010 . Memory (MB): peak = 2015.855 ; gain = 0.000
+WARNING: [Timing 38-316] Clock period '20.000' specified during out-of-context synthesis of instance 'mixer_i/blk_mem_gen_0' at clock pin 'clka' is different from the actual clock period '10.313', this can lead to different synthesis results.
+INFO: [Synth 8-11241] undeclared symbol 'REGCCE', assumed default net type 'wire' [D:/Xilinx/Vivado/2022.2/data/verilog/src/unimacro/BRAM_SINGLE_MACRO.v:2170]
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:20 ; elapsed = 00:00:21 . Memory (MB): peak = 2015.855 ; gain = 476.539
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xck26-sfvc784-2LV-c
+INFO: [Synth 8-6742] Reading net delay rules and data
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:20 ; elapsed = 00:00:21 . Memory (MB): peak = 2015.855 ; gain = 476.539
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+Applied set_property KEEP_HIERARCHY = SOFT for mixer_i. (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for mixer_i/axi_bram_ctrl_0. (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for mixer_i/axi_dma_0. (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for mixer_i/axis_decimate2_0. (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for mixer_i/axis_decimate2_1. (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for mixer_i/axis_halfband_fir_0. (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for mixer_i/axis_halfband_fir_1. (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for mixer_i/blk_mem_gen_0. (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for mixer_i/proc_sys_reset_0. (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for mixer_i/smartconnect_0. (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for mixer_i/zynq_ultra_ps_e_0. (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for mixer_i/axis_mixer_down_0. (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for mixer_i/system_ila_0. (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for mixer_i/system_ila_1. (constraint file  auto generated constraint).
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:20 ; elapsed = 00:00:21 . Memory (MB): peak = 2015.855 ; gain = 476.539
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Preparing Guide Design
+---------------------------------------------------------------------------------
+CRITICAL WARNING: [Synth 8-6895] The reference checkpoint D:/FPGA/Vivaldo Project/Digital_Font_End_LTE/Uplink/Mixer/fpga/mixer/mixer_down.srcs/utils_1/imports/synth_1/ddc_wrapper.dcp is not suitable for use with incremental synthesis for this design. Please regenerate the checkpoint for this design with -incremental_synth switch in the same Vivado session that synth_design has been run. Synthesis will continue with the default flow
+---------------------------------------------------------------------------------
+Finished Doing Graph Differ : Time (s): cpu = 00:00:21 ; elapsed = 00:00:21 . Memory (MB): peak = 2015.855 ; gain = 476.539
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Preparing Guide Design : Time (s): cpu = 00:00:21 ; elapsed = 00:00:21 . Memory (MB): peak = 2015.855 ; gain = 476.539
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:21 ; elapsed = 00:00:21 . Memory (MB): peak = 2015.855 ; gain = 476.539
+---------------------------------------------------------------------------------
+
+
+Incremental Synthesis Report Summary:
+
+1. Incremental synthesis run: no
+
+   Reason for not running incremental synthesis : 
+
+
+INFO: [Synth 8-7130] Flow is switching to default flow due to incremental criteria not met. If you would like to alter this behaviour and have the flow terminate instead, please set the following parameter config_implementation {autoIncr.Synth.RejectBehavior Terminate}
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 1248 (col length:96)
+BRAMs: 288 (col length: RAMB18 96 RAMB36 48)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+WARNING: [Synth 8-7080] Parallel synthesis criteria is not met
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:23 ; elapsed = 00:00:23 . Memory (MB): peak = 2015.855 ; gain = 476.539
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:35 ; elapsed = 00:00:36 . Memory (MB): peak = 2527.418 ; gain = 988.102
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:35 ; elapsed = 00:00:36 . Memory (MB): peak = 2527.418 ; gain = 988.102
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:35 ; elapsed = 00:00:36 . Memory (MB): peak = 2547.344 ; gain = 1008.027
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:39 ; elapsed = 00:00:41 . Memory (MB): peak = 2553.094 ; gain = 1013.777
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:39 ; elapsed = 00:00:41 . Memory (MB): peak = 2553.094 ; gain = 1013.777
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:39 ; elapsed = 00:00:41 . Memory (MB): peak = 2553.094 ; gain = 1013.777
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:39 ; elapsed = 00:00:41 . Memory (MB): peak = 2553.094 ; gain = 1013.777
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:39 ; elapsed = 00:00:41 . Memory (MB): peak = 2553.094 ; gain = 1013.777
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:39 ; elapsed = 00:00:41 . Memory (MB): peak = 2553.094 ; gain = 1013.777
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++------+----------------------------+----------+
+|      |BlackBox name               |Instances |
++------+----------------------------+----------+
+|1     |mixer_axi_bram_ctrl_0_0     |         1|
+|2     |mixer_axi_dma_0_0           |         1|
+|3     |mixer_axis_decimate2_0_0    |         1|
+|4     |mixer_axis_decimate2_1_0    |         1|
+|5     |mixer_axis_halfband_fir_0_0 |         1|
+|6     |mixer_axis_halfband_fir_1_0 |         1|
+|7     |mixer_axis_mixer_down_0_0   |         1|
+|8     |mixer_blk_mem_gen_0_0       |         1|
+|9     |mixer_proc_sys_reset_0_0    |         1|
+|10    |mixer_smartconnect_0_0      |         1|
+|11    |mixer_system_ila_0_0        |         1|
+|12    |mixer_system_ila_0_1        |         1|
+|13    |mixer_zynq_ultra_ps_e_0_0   |         1|
++------+----------------------------+----------+
+
+Report Cell Usage: 
++------+--------------------------+------+
+|      |Cell                      |Count |
++------+--------------------------+------+
+|1     |mixer_axi_bram_ctrl_0     |     1|
+|2     |mixer_axi_dma_0           |     1|
+|3     |mixer_axis_decimate2_0    |     1|
+|4     |mixer_axis_decimate2_1    |     1|
+|5     |mixer_axis_halfband_fir_0 |     1|
+|6     |mixer_axis_halfband_fir_1 |     1|
+|7     |mixer_axis_mixer_down_0   |     1|
+|8     |mixer_blk_mem_gen_0       |     1|
+|9     |mixer_proc_sys_reset_0    |     1|
+|10    |mixer_smartconnect_0      |     1|
+|11    |mixer_system_ila_0        |     2|
+|13    |mixer_zynq_ultra_ps_e_0   |     1|
++------+--------------------------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:39 ; elapsed = 00:00:41 . Memory (MB): peak = 2553.094 ; gain = 1013.777
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 1 critical warnings and 1 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:25 ; elapsed = 00:00:34 . Memory (MB): peak = 2553.094 ; gain = 983.348
+Synthesis Optimization Complete : Time (s): cpu = 00:00:39 ; elapsed = 00:00:41 . Memory (MB): peak = 2553.094 ; gain = 1013.777
+INFO: [Project 1-571] Translating synthesized netlist
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.008 . Memory (MB): peak = 2553.094 ; gain = 0.000
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 2597.535 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Synth Design complete, checksum: 96b12c92
+INFO: [Common 17-83] Releasing license: Synthesis
+51 Infos, 32 Warnings, 1 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+INFO: [Common 17-600] The following parameters have non-default value.
+tcl.statsThreshold
+INFO: [runtcl-6] Synthesis results are not added to the cache due to CRITICAL_WARNING
+INFO: [Common 17-1381] The checkpoint 'D:/FPGA/Vivaldo Project/Digital_Font_End_LTE/Uplink/Mixer/fpga/mixer/mixer_down.runs/synth_1/mixer_wrapper.dcp' has been generated.
+INFO: [runtcl-4] Executing : report_utilization -file mixer_wrapper_utilization_synth.rpt -pb mixer_wrapper_utilization_synth.pb
+INFO: [Common 17-206] Exiting Vivado at Mon Jun 15 11:13:46 2026...
