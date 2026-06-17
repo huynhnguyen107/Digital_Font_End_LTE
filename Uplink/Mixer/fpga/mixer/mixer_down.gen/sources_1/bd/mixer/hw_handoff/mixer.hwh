@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
-<EDKSYSTEM EDWVERSION="1.2" TIMESTAMP="Mon Jun 15 11:02:42 2026" VIVADOVERSION="2022.2">
+<EDKSYSTEM EDWVERSION="1.2" TIMESTAMP="Wed Jun 17 09:52:44 2026" VIVADOVERSION="2022.2">
 
   <SYSTEMINFO ARCH="zynquplus" BOARD="xilinx.com:kr260_som:part0:1.1" DEVICE="xck26" NAME="mixer" PACKAGE="sfvc784" SPEEDGRADE="-2LV"/>
 
@@ -3138,9 +3138,9 @@
             <CONNECTION INSTANCE="axis_decimate2_1" PORT="aresetn"/>
             <CONNECTION INSTANCE="axis_halfband_fir_0" PORT="aresetn"/>
             <CONNECTION INSTANCE="axis_halfband_fir_1" PORT="aresetn"/>
-            <CONNECTION INSTANCE="axis_mixer_down_0" PORT="aresetn"/>
             <CONNECTION INSTANCE="system_ila_0" PORT="resetn"/>
             <CONNECTION INSTANCE="system_ila_1" PORT="resetn"/>
+            <CONNECTION INSTANCE="axis_mixer_down_0" PORT="aresetn"/>
           </CONNECTIONS>
         </PORT>
       </PORTS>
@@ -13774,9 +13774,9 @@
             <CONNECTION INSTANCE="axis_decimate2_1" PORT="aclk"/>
             <CONNECTION INSTANCE="axis_halfband_fir_0" PORT="aclk"/>
             <CONNECTION INSTANCE="axis_halfband_fir_1" PORT="aclk"/>
-            <CONNECTION INSTANCE="axis_mixer_down_0" PORT="aclk"/>
             <CONNECTION INSTANCE="system_ila_0" PORT="clk"/>
             <CONNECTION INSTANCE="system_ila_1" PORT="clk"/>
+            <CONNECTION INSTANCE="axis_mixer_down_0" PORT="aclk"/>
           </CONNECTIONS>
         </PORT>
       </PORTS>

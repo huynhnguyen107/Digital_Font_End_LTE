@@ -26,6 +26,12 @@ IF_TXT = 'lte20_ul_if_q15.txt';          % input to RTL DDC
 IF_BIN = 'lte20_ul_if_q15.bin';
 IF_H   = 'lte20_ul_if_q15.h';
 
+%MIXER
+OUT_TXT_MIXER = 'lte20_ul_mixer_golden_q15.txt';
+OUT_BIN_MIXER = 'lte20_ul_mixer_golden_q15.bin';
+OUT_H_MIXER   = 'lte20_ul_mixer_golden_q15.h';
+
+%DDC
 OUT_TXT = 'lte20_ul_ddc_golden_q15.txt';
 OUT_BIN = 'lte20_ul_ddc_golden_q15.bin';
 OUT_H   = 'lte20_ul_ddc_golden_q15.h';
@@ -112,7 +118,7 @@ write_header(IF_H, 'lte20_ul_if_q15', words_if, ...
 
 %% Down-mixer Fs/4
 [i_mix, q_mix] = mixer_fs4_down_q15(i_if, q_if, MIXER_PHASE0);
-
+words_out_mixer = pack_qi(q_mix, i_mix);
 %% Stage 1: 122.88 -> 61.44 MHz
 [i_fir1, q_fir1] = hb7_fir_q15(i_mix, q_mix);
 [i_dec1, q_dec1] = decimate2_q15(i_fir1, q_fir1, DECIM1_PHASE);
@@ -132,8 +138,18 @@ fprintf('DDC output bytes       : %d\n', length(words_out) * 4);
 if length(words_out) ~= 15360
     error('DDC output must be 15360 samples, but got %d', length(words_out));
 end
+if length(words_out_mixer) ~= 61440
+    error('Mixer output must be 61440 samples, but got %d', length(words_out));
+end
 
-%% Write DDC golden output files
+%% Write Mixer and DDC golden output files
+%mixer
+write_txt(OUT_TXT_MIXER, words_out_mixer);
+write_bin(OUT_BIN_MIXER, words_out_mixer);
+write_header(OUT_H_MIXER, 'lte20_ul_mixer_golden_q15', words_out_mixer, ...
+             'LTE20_UL_MIXER_OUT_SAMPLES', 'LTE20_UL_MIXER_OUT_BYTES');
+
+%ddc
 write_txt(OUT_TXT, words_out);
 write_bin(OUT_BIN, words_out);
 write_header(OUT_H, 'lte20_ul_ddc_golden_q15', words_out, ...

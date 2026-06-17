@@ -90,15 +90,15 @@ module tb(
 	initial begin
 		data_in[0] = 32'hFFF8FFDD; 
 		data_in[1] = 32'h00000000; 
-		data_in[2] = 32'h00430139; 
-		data_in[3] = 32'h0078022E;
+		data_in[2] = 32'hFFBDFEC7; 
+		data_in[3] = 32'hFDD20078;
 		data_in[4] = 32'h0083026A; 
 		data_in[5] = 32'h00000000; 
-		data_in[6] = 32'hFE2EF756; 
-		data_in[7] = 32'hFBFBECF8;
+		data_in[6] = 32'h01D208AA; 
+		data_in[7] = 32'h1308FBFB;
 		data_in[8] = 32'hFA01E350; 
-		data_in[9] = 32'hF874DD1F; 
-		data_in[10] = 32'hF79DDF65; 
+		data_in[9] = 32'hDD1F078C; 
+		data_in[10] = 32'h0863209B; 
 		data_in[11] = 32'hF7CAE5C0;
 		data_in[12] = 32'hF8F0ED91; 
 		data_in[13] = 32'hFC5CF68E; 
@@ -139,12 +139,48 @@ module tb(
 			s_axis_tlast <= 0;
 			m_axis_tready <= 0;
 		end
-		for (i=0;i<40;i=i+1) begin
+		for (i=0;i<16;i=i+1) begin
 			@(posedge aclk) begin
 				s_axis_tdata <= data_in[i];
 				s_axis_tkeep <= 4'b1111;
 				s_axis_tvalid <= 1;
 				s_axis_tlast <= i==39;
+				m_axis_tready <= 1;
+			end
+		end
+		for (i=0;i<2;i=i+1) begin
+			@(posedge aclk) begin
+				s_axis_tdata <= 0;
+				s_axis_tkeep <= 4'b1111;
+				s_axis_tvalid <= 0;
+				s_axis_tlast <= i==39;
+				m_axis_tready <= 1;
+			end
+		end
+		for (i=16;i<16+16;i=i+1) begin
+			@(posedge aclk) begin
+				s_axis_tdata <= data_in[i];
+				s_axis_tkeep <= 4'b1111;
+				s_axis_tvalid <= 1;
+				s_axis_tlast <= i==39;
+				m_axis_tready <= 1;
+			end
+		end
+		for (i=0;i<2;i=i+1) begin
+			@(posedge aclk) begin
+				s_axis_tdata <= 0;
+				s_axis_tkeep <= 4'b1111;
+				s_axis_tvalid <= 0;
+				s_axis_tlast <= i==39;
+				m_axis_tready <= 1;
+			end
+		end
+		for (i=32;i<32+16;i=i+1) begin
+			@(posedge aclk) begin
+				s_axis_tdata <= data_in[39];
+				s_axis_tkeep <= 4'b1111;
+				s_axis_tvalid <= 1;
+				s_axis_tlast <= i==47;
 				m_axis_tready <= 1;
 			end
 		end

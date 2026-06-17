@@ -90,12 +90,12 @@ module axis_mixer_down #(parameter WIDTH=32)(
 	  .m_axis_dout_tdata(data_80)    // output wire [79 : 0] m_axis_dout_tdata
 	);
 	//delay
-	timming #(1,7) timming1 (aclk, aclken, hs_en, pipe_en, d_s_axis_tvalid);
-	timming #(WIDTH/8,7) timming2 (aclk, aclken, (hs_en ? s_axis_tkeep:4'd0), pipe_en, d_s_axis_tkeep);
-	timming #(1,7) timming3 (aclk, aclken, s_axis_tlast&hs_en, pipe_en, d_s_axis_tlast);
+	timming #(1,7) timming1 (aclk, aresetn, pipe_en, s_axis_tvalid, d_s_axis_tvalid);
+	timming #(WIDTH/8,7) timming2 (aclk, aresetn, pipe_en, (hs_en ? s_axis_tkeep:4'd0), d_s_axis_tkeep);
+	timming #(1,7) timming3 (aclk, aresetn, pipe_en, s_axis_tlast&hs_en, d_s_axis_tlast);
 	//output
 	always @(posedge aclk) begin
-		if (!aclken) begin
+		if (!aresetn) begin
 			m_axis_tdata <=0;
 			m_axis_tkeep <=0;
 			m_axis_tvalid <=0;
@@ -114,15 +114,15 @@ endmodule
 
 module timming #(parameter WIDTH=1, DELAY=6)(
 	input aclk,
-	input aclken,
-	input [WIDTH-1:0] a,
+	input aresetn,
 	input CE,
+	input [WIDTH-1:0] a,
 	output [WIDTH-1:0] b
 	);
 	reg [WIDTH-1:0] mem [DELAY-1:0];
 	integer i;
 	always @(posedge aclk) begin
-		if (!aclken) begin
+		if (!aresetn) begin
 			for (i=0;i<DELAY;i=i+1) begin
 				mem[i] <=0;
 			end

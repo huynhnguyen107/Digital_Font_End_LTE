@@ -1,7 +1,7 @@
 Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
 -------------------------------------------------------------------------------------------------------------------------------------------------------------
 | Tool Version     : Vivado v.2022.2 (win64) Build 3671981 Fri Oct 14 05:00:03 MDT 2022
-| Date             : Mon Jun 15 11:22:48 2026
+| Date             : Wed Jun 17 10:02:35 2026
 | Host             : LAPTOP-CHCSI1R5 running 64-bit major release  (build 9200)
 | Command          : report_power -file mixer_wrapper_power_routed.rpt -pb mixer_wrapper_power_summary_routed.pb -rpx mixer_wrapper_power_routed.rpx
 | Design           : mixer_wrapper
@@ -30,10 +30,10 @@ Table of Contents
 ----------
 
 +--------------------------+--------------+
-| Total On-Chip Power (W)  | 2.655        |
+| Total On-Chip Power (W)  | 2.657        |
 | Design Power Budget (W)  | Unspecified* |
 | Power Budget Margin (W)  | NA           |
-| Dynamic (W)              | 2.354        |
+| Dynamic (W)              | 2.356        |
 | Device Static (W)        | 0.301        |
 | Effective TJA (C/W)      | 2.3          |
 | Max Ambient (C)          | 78.8         |
@@ -53,21 +53,22 @@ Table of Contents
 | On-Chip                  | Power (W) | Used     | Available | Utilization (%) |
 +--------------------------+-----------+----------+-----------+-----------------+
 | Clocks                   |     0.031 |        4 |       --- |             --- |
-| CLB Logic                |     0.040 |    32520 |       --- |             --- |
+| CLB Logic                |     0.041 |    33051 |       --- |             --- |
 |   LUT as Distributed RAM |     0.022 |     1042 |     57600 |            1.81 |
-|   LUT as Logic           |     0.013 |     9239 |    117120 |            7.89 |
-|   LUT as Shift Register  |     0.004 |     1275 |     57600 |            2.21 |
-|   Register               |     0.002 |    15606 |    234240 |            6.66 |
+|   LUT as Logic           |     0.013 |     9348 |    117120 |            7.98 |
+|   LUT as Shift Register  |     0.005 |     1281 |     57600 |            2.22 |
+|   Register               |     0.002 |    15992 |    234240 |            6.83 |
 |   CARRY8                 |    <0.001 |       64 |     14640 |            0.44 |
-|   Others                 |     0.000 |     1252 |       --- |             --- |
+|   Others                 |     0.000 |     1267 |       --- |             --- |
 |   F7/F8 Muxes            |     0.000 |        8 |    117120 |           <0.01 |
-| Signals                  |     0.024 |    24488 |       --- |             --- |
-| Block RAM                |     0.050 |      133 |       144 |           92.36 |
+| Signals                  |     0.025 |    24970 |       --- |             --- |
+| Block RAM                |     0.049 |      133 |       144 |           92.36 |
+| DSPs                     |    <0.001 |        3 |      1248 |            0.24 |
 | PS8                      |     2.210 |        1 |       --- |             --- |
 | Static Power             |     0.301 |          |           |                 |
 |   PS Static              |     0.000 |          |           |                 |
 |   PL Static              |     0.301 |          |           |                 |
-| Total                    |     2.655 |          |           |                 |
+| Total                    |     2.657 |          |           |                 |
 +--------------------------+-----------+----------+-----------+-----------------+
 
 
@@ -77,9 +78,9 @@ Table of Contents
 +-----------------+-------------+-----------+-------------+------------+-------------+-------------+------------+
 | Source          | Voltage (V) | Total (A) | Dynamic (A) | Static (A) | Powerup (A) | Budget (A)  | Margin (A) |
 +-----------------+-------------+-----------+-------------+------------+-------------+-------------+------------+
-| Vccint          |       0.720 |     0.280 |       0.193 |      0.087 |       NA    | Unspecified | NA         |
+| Vccint          |       0.720 |     0.283 |       0.196 |      0.087 |       NA    | Unspecified | NA         |
 | Vccint_io       |       0.850 |     0.036 |       0.000 |      0.036 |       NA    | Unspecified | NA         |
-| Vccbram         |       0.850 |     0.008 |       0.007 |      0.001 |       NA    | Unspecified | NA         |
+| Vccbram         |       0.850 |     0.008 |       0.006 |      0.001 |       NA    | Unspecified | NA         |
 | Vccaux          |       1.800 |     0.075 |       0.000 |      0.075 |       NA    | Unspecified | NA         |
 | Vccaux_io       |       1.800 |     0.031 |       0.000 |      0.031 |       NA    | Unspecified | NA         |
 | Vcco33          |       3.300 |     0.000 |       0.000 |      0.000 |       NA    | Unspecified | NA         |
@@ -165,23 +166,25 @@ Table of Contents
 +--------------------------+-----------+
 | Name                     | Power (W) |
 +--------------------------+-----------+
-| mixer_wrapper            |     2.354 |
+| mixer_wrapper            |     2.356 |
 |   dbg_hub                |     0.002 |
 |     inst                 |     0.002 |
 |       BSCANID.u_xsdbm_id |     0.002 |
-|   mixer_i                |     2.353 |
+|   mixer_i                |     2.355 |
 |     axi_bram_ctrl_0      |     0.004 |
 |       U0                 |     0.004 |
-|     axi_dma_0            |     0.004 |
-|       U0                 |     0.004 |
-|     blk_mem_gen_0        |     0.049 |
-|       U0                 |     0.049 |
+|     axi_dma_0            |     0.005 |
+|       U0                 |     0.005 |
+|     axis_mixer_down_0    |     0.002 |
+|       inst               |     0.002 |
+|     blk_mem_gen_0        |     0.048 |
+|       U0                 |     0.048 |
 |     smartconnect_0       |     0.075 |
 |       inst               |     0.075 |
 |     system_ila_0         |     0.005 |
 |       inst               |     0.005 |
-|     system_ila_1         |     0.005 |
-|       inst               |     0.005 |
+|     system_ila_1         |     0.006 |
+|       inst               |     0.006 |
 |     zynq_ultra_ps_e_0    |     2.210 |
 |       inst               |     2.210 |
 +--------------------------+-----------+
