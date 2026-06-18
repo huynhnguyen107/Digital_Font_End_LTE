@@ -1,0 +1,976 @@
+#-----------------------------------------------------------
+# Vivado v2022.2 (64-bit)
+# SW Build 3671981 on Fri Oct 14 05:00:03 MDT 2022
+# IP Build 3669848 on Fri Oct 14 08:30:02 MDT 2022
+# Start of session at: Wed Jun 17 12:46:20 2026
+# Process ID: 52844
+# Current directory: D:/FPGA/Vivaldo Project/Digital_Font_End_LTE/Uplink/Mixer_DDC/fpga
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent44368 D:\FPGA\Vivaldo Project\Digital_Font_End_LTE\Uplink\Mixer_DDC\fpga\mixer_ddc.xpr
+# Log file: D:/FPGA/Vivaldo Project/Digital_Font_End_LTE/Uplink/Mixer_DDC/fpga/vivado.log
+# Journal file: D:/FPGA/Vivaldo Project/Digital_Font_End_LTE/Uplink/Mixer_DDC/fpga\vivado.jou
+# Running On: LAPTOP-CHCSI1R5, OS: Windows, CPU Frequency: 3194 MHz, CPU Physical cores: 16, Host memory: 21319 MB
+#-----------------------------------------------------------
+start_gui
+open_project {D:/FPGA/Vivaldo Project/Digital_Font_End_LTE/Uplink/Mixer_DDC/fpga/mixer_ddc.xpr}
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:ac701:part0:1.4 available at D:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/ac701/1.4/board.xml as part xc7a200tfbg676-2 specified in board_part file is either invalid or not available
+INFO: [Project 1-313] Project file moved from 'D:/FPGA/Vivaldo Project/Digital_Font_End_LTE/Uplink/Mixer/fpga/mixer' since last save.
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:kc705:part0:1.6 available at D:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/kc705/1.6/board.xml as part xc7k325tffg900-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:kcu105:part0:1.6 available at D:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/kcu105/1.6/board.xml as part xcku040-ffva1156-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:kcu105:part0:1.7 available at D:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/kcu105/1.7/board.xml as part xcku040-ffva1156-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:kcu116:part0:1.4 available at D:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/kcu116/1.4/board.xml as part xcku5p-ffvb676-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:kcu116:part0:1.5 available at D:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/kcu116/1.5/board.xml as part xcku5p-ffvb676-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:kcu1500:part0:1.2 available at D:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/kcu1500/1.2/board.xml as part xcku115-flvb2104-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:sp701:part0:1.0 available at D:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/sp701/1.0/board.xml as part xc7s100fgga676-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:sp701:part0:1.1 available at D:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/sp701/1.1/board.xml as part xc7s100fgga676-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vc707:part0:1.4 available at D:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vc707/1.4/board.xml as part xc7vx485tffg1761-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vc709:part0:1.8 available at D:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vc709/1.8/board.xml as part xc7vx690tffg1761-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190:part0:2.2 available at D:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vck190/production/2.2/board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190:part0:3.0 available at D:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vck190/production/3.0/board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190:part0:3.1 available at D:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vck190/production/3.1/board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190_newl:part0:1.0 available at D:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vck190_newl/production/1.0/board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu108:part0:1.6 available at D:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu108/1.6/board.xml as part xcvu095-ffva2104-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu108:part0:1.7 available at D:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu108/1.7/board.xml as part xcvu095-ffva2104-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu110:part0:1.4 available at D:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu110/1.4/board.xml as part xcvu190-flgc2104-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu118:part0:2.0 available at D:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu118/2.0/board.xml as part xcvu9p-flga2104-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu118:part0:2.3 available at D:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu118/2.3/board.xml as part xcvu9p-flga2104-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu118:part0:2.4 available at D:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu118/2.4/board.xml as part xcvu9p-flga2104-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu128:part0:1.0 available at D:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu128/production/1.0/board.xml as part xcvu37p-fsvh2892-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu129:part0:1.0 available at D:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu129/production/1.0/board.xml as part xcvu29p-fsga2577-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu1525:part0:1.3 available at D:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu1525/1.3/board.xml as part xcvu9p-fsgd2104-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280_es:part0:1.0 available at D:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek280/es/1.0/board.xml as part xcve2802-vsvh1760-2lp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vermeo_t1_rfsoc:part0:1.0 available at D:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vermeo_t1_rfsoc/1.0/board.xml as part xczu21dr-ffvd1156-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vhk158_es:part0:1.0 available at D:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vhk158/es/1.0/board.xml as part xcvh1582-vsva3697-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vmk180:part0:2.2 available at D:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vmk180/production/2.2/board.xml as part xcvm1802-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vmk180:part0:3.0 available at D:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vmk180/production/3.0/board.xml as part xcvm1802-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vmk180:part0:3.1 available at D:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vmk180/production/3.1/board.xml as part xcvm1802-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vmk180_newl:part0:1.0 available at D:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vmk180_newl/production/1.0/board.xml as part xcvm1802-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk120:part0:1.0 available at D:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk120/production/1.0/board.xml as part xcvp1202-vsva2785-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk120_es:part0:1.2 available at D:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk120/es/1.2/board.xml as part xcvp1202-vsva2785-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk120_es_revb:part0:1.0 available at D:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk120_revb/es/1.0/board.xml as part xcvp1202-vsva2785-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk180_es:part0:1.0 available at D:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk180/es/1.0/board.xml as part xcvp1802-lsvc4072-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zc702:part0:1.4 available at D:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zc702/1.4/board.xml as part xc7z020clg484-1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zc706:part0:1.4 available at D:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zc706/1.4/board.xml as part xc7z045ffg900-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu111:part0:1.2 available at D:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu111/1.2/board.xml as part xczu28dr-ffvg1517-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu111:part0:1.3 available at D:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu111/1.3/board.xml as part xczu28dr-ffvg1517-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu111:part0:1.4 available at D:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu111/1.4/board.xml as part xczu28dr-ffvg1517-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu1275:part0:1.0 available at D:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu1275/1.0/board.xml as part xczu29dr-ffvf1760-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu1285:part0:1.0 available at D:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu1285/1.0/board.xml as part xczu39dr-ffvf1760-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu208:part0:2.0 available at D:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu208/production/2.0/board.xml as part xczu48dr-fsvg1517-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu208ld:part0:2.0 available at D:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu208ld/production/2.0/board.xml as part xczu58dr-fsvg1517-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu216:part0:2.0 available at D:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu216/production/2.0/board.xml as part xczu49dr-ffvf1760-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu216ld:part0:2.0 available at D:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu216ld/production/2.0/board.xml as part xczu59dr-ffvf1760-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu670:part0:2.0 available at D:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu670/2.0/board.xml as part xczu67dr-fsve1156-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu670ld:part0:1.0 available at D:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu670ld/1.0/board.xml as part xczu57dr-fsve1156-2-i specified in board_part file is either invalid or not available
+INFO: [filemgmt 56-3] Default IP Output Path : Could not find the directory 'D:/FPGA/Vivaldo Project/Digital_Font_End_LTE/Uplink/Mixer_DDC/fpga/mixer_ddc.gen/sources_1'.
+WARNING: [filemgmt 56-3] IPUserFilesDir: Could not find the directory 'D:/FPGA/Vivaldo Project/Digital_Font_End_LTE/Uplink/Mixer_DDC/fpga/mixer_ddc.ip_user_files'.
+WARNING: [Project 1-312] File not found as 'D:/FPGA/Vivaldo Project/Digital_Font_End_LTE/Uplink/Mixer_DDC/fpga/tb_behav.wcfg'; using path 'D:/FPGA/Vivaldo Project/Digital_Font_End_LTE/Uplink/Mixer/fpga/mixer/tb_behav.wcfg' instead.
+Scanning sources...
+Finished scanning sources
+WARNING: [Project 1-509] GeneratedRun file for 'synth_1' not found
+WARNING: [Project 1-509] GeneratedRun file for 'mixer_axis_decimate2_1_0_synth_1' not found
+WARNING: [Project 1-509] GeneratedRun file for 'mixer_blk_mem_gen_0_0_synth_1' not found
+WARNING: [Project 1-509] GeneratedRun file for 'mixer_zynq_ultra_ps_e_0_0_synth_1' not found
+WARNING: [Project 1-509] GeneratedRun file for 'mixer_axi_dma_0_0_synth_1' not found
+WARNING: [Project 1-509] GeneratedRun file for 'mixer_axis_decimate2_0_0_synth_1' not found
+WARNING: [Project 1-509] GeneratedRun file for 'mixer_axis_halfband_fir_0_0_synth_1' not found
+WARNING: [Project 1-509] GeneratedRun file for 'mixer_proc_sys_reset_0_0_synth_1' not found
+WARNING: [Project 1-509] GeneratedRun file for 'mixer_axis_halfband_fir_1_0_synth_1' not found
+WARNING: [Project 1-509] GeneratedRun file for 'mixer_axi_bram_ctrl_0_0_synth_1' not found
+WARNING: [Project 1-509] GeneratedRun file for 'mixer_axis_mixer_down_0_0_synth_1' not found
+WARNING: [Project 1-509] GeneratedRun file for 'impl_1' not found
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/Xilinx/Vivado/2022.2/data/ip'.
+INFO: [PSU-0] Address Range of DDR (0x7ff00000 to 0x7fffffff) is reserved by PMU for internal purpose.
+INFO: [Ipptcl 7-1463] No Compatible Board Interface found. Board Tab not created in customize GUI
+INFO: [xilinx.com:ip:axi_bram_ctrl:4.1-2] mixer_axi_bram_ctrl_0_0: In IP Integrator, please note that memory depth value gets calculated based on the Data Width of the IP and Address range selected in the Address Editor.Incase a validation error occured on the range of this parameter, please check if the selected Data width and the Address Range are valid. For valid Data width and memory depth values, please refer to the AXI BRAM Controller Product Guide.
+INFO: [xilinx.com:ip:axi_bram_ctrl:4.1-1] mixer_axi_bram_ctrl_0_0: In IP Integrator, The Maximum address range supported is 2G. Selecting the address range more than 2G in the address editor may resets the value of Memory depth to default value (1024). please refer to the AXI BRAM Controller Product Guide.
+INFO: [xilinx.com:ip:axi_bram_ctrl:4.1-2] mixer_axi_bram_ctrl_0_0: In IP Integrator, please note that memory depth value gets calculated based on the Data Width of the IP and Address range selected in the Address Editor.Incase a validation error occured on the range of this parameter, please check if the selected Data width and the Address Range are valid. For valid Data width and memory depth values, please refer to the AXI BRAM Controller Product Guide.
+INFO: [xilinx.com:ip:axi_bram_ctrl:4.1-1] mixer_axi_bram_ctrl_0_0: In IP Integrator, The Maximum address range supported is 2G. Selecting the address range more than 2G in the address editor may resets the value of Memory depth to default value (1024). please refer to the AXI BRAM Controller Product Guide.
+INFO: [xilinx.com:ip:axi_bram_ctrl:4.1-2] mixer_axi_bram_ctrl_0_0: In IP Integrator, please note that memory depth value gets calculated based on the Data Width of the IP and Address range selected in the Address Editor.Incase a validation error occured on the range of this parameter, please check if the selected Data width and the Address Range are valid. For valid Data width and memory depth values, please refer to the AXI BRAM Controller Product Guide.
+INFO: [xilinx.com:ip:axi_bram_ctrl:4.1-1] mixer_axi_bram_ctrl_0_0: In IP Integrator, The Maximum address range supported is 2G. Selecting the address range more than 2G in the address editor may resets the value of Memory depth to default value (1024). please refer to the AXI BRAM Controller Product Guide.
+INFO: [xilinx.com:ip:axi_bram_ctrl:4.1-2] mixer_axi_bram_ctrl_0_0: In IP Integrator, please note that memory depth value gets calculated based on the Data Width of the IP and Address range selected in the Address Editor.Incase a validation error occured on the range of this parameter, please check if the selected Data width and the Address Range are valid. For valid Data width and memory depth values, please refer to the AXI BRAM Controller Product Guide.
+INFO: [xilinx.com:ip:axi_bram_ctrl:4.1-1] mixer_axi_bram_ctrl_0_0: In IP Integrator, The Maximum address range supported is 2G. Selecting the address range more than 2G in the address editor may resets the value of Memory depth to default value (1024). please refer to the AXI BRAM Controller Product Guide.
+open_project: Time (s): cpu = 00:01:02 ; elapsed = 00:00:54 . Memory (MB): peak = 1396.852 ; gain = 599.031
+INFO: [IP_Flow 19-5107] Inferred bus interface 'm_axis' of definition 'xilinx.com:interface:axis:1.0' (from Xilinx Repository).
+INFO: [IP_Flow 19-5107] Inferred bus interface 's_axis' of definition 'xilinx.com:interface:axis:1.0' (from Xilinx Repository).
+INFO: [IP_Flow 19-5107] Inferred bus interface 'aresetn' of definition 'xilinx.com:signal:reset:1.0' (from Xilinx Repository).
+INFO: [IP_Flow 19-5107] Inferred bus interface 'aclk' of definition 'xilinx.com:signal:clock:1.0' (from Xilinx Repository).
+INFO: [IP_Flow 19-4728] Bus Interface 'aresetn': Added interface parameter 'POLARITY' with value 'ACTIVE_LOW'.
+INFO: [IP_Flow 19-4728] Bus Interface 'aclk': Added interface parameter 'ASSOCIATED_BUSIF' with value 'm_axis'.
+INFO: [IP_Flow 19-4728] Bus Interface 'aclk': Added interface parameter 'ASSOCIATED_RESET' with value 'aresetn'.
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-5107] Inferred bus interface 'm_axis' of definition 'xilinx.com:interface:axis:1.0' (from Xilinx Repository).
+INFO: [IP_Flow 19-5107] Inferred bus interface 's_axis' of definition 'xilinx.com:interface:axis:1.0' (from Xilinx Repository).
+INFO: [IP_Flow 19-5107] Inferred bus interface 'aresetn' of definition 'xilinx.com:signal:reset:1.0' (from Xilinx Repository).
+INFO: [IP_Flow 19-5107] Inferred bus interface 'aclk' of definition 'xilinx.com:signal:clock:1.0' (from Xilinx Repository).
+INFO: [IP_Flow 19-4728] Bus Interface 'aresetn': Added interface parameter 'POLARITY' with value 'ACTIVE_LOW'.
+INFO: [IP_Flow 19-4728] Bus Interface 'aclk': Added interface parameter 'ASSOCIATED_BUSIF' with value 'm_axis'.
+INFO: [IP_Flow 19-4728] Bus Interface 'aclk': Added interface parameter 'ASSOCIATED_RESET' with value 'aresetn'.
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-5107] Inferred bus interface 'm_axis' of definition 'xilinx.com:interface:axis:1.0' (from Xilinx Repository).
+INFO: [IP_Flow 19-5107] Inferred bus interface 's_axis' of definition 'xilinx.com:interface:axis:1.0' (from Xilinx Repository).
+INFO: [IP_Flow 19-5107] Inferred bus interface 'aresetn' of definition 'xilinx.com:signal:reset:1.0' (from Xilinx Repository).
+INFO: [IP_Flow 19-5107] Inferred bus interface 'aclk' of definition 'xilinx.com:signal:clock:1.0' (from Xilinx Repository).
+INFO: [IP_Flow 19-4728] Bus Interface 'aresetn': Added interface parameter 'POLARITY' with value 'ACTIVE_LOW'.
+INFO: [IP_Flow 19-4728] Bus Interface 'aclk': Added interface parameter 'ASSOCIATED_BUSIF' with value 'm_axis'.
+INFO: [IP_Flow 19-4728] Bus Interface 'aclk': Added interface parameter 'ASSOCIATED_RESET' with value 'aresetn'.
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+update_compile_order -fileset sources_1
+create_bd_design "mixer_ddc"
+Wrote  : <D:\FPGA\Vivaldo Project\Digital_Font_End_LTE\Uplink\Mixer_DDC\fpga\mixer_ddc.srcs\sources_1\bd\mixer_ddc\mixer_ddc.bd> 
+create_bd_design: Time (s): cpu = 00:00:07 ; elapsed = 00:00:08 . Memory (MB): peak = 1505.293 ; gain = 24.148
+open_bd_design {D:/FPGA/Vivaldo Project/Digital_Font_End_LTE/Uplink/Mixer_DDC/fpga/mixer_ddc.srcs/sources_1/bd/mixer/mixer.bd}
+Reading block design file <D:/FPGA/Vivaldo Project/Digital_Font_End_LTE/Uplink/Mixer_DDC/fpga/mixer_ddc.srcs/sources_1/bd/mixer/mixer.bd>...
+Adding component instance block -- xilinx.com:ip:axi_bram_ctrl:4.1 - axi_bram_ctrl_0
+Adding component instance block -- xilinx.com:ip:axi_dma:7.1 - axi_dma_0
+WARNING: [BD 41-1282] Ignoring parameter HAS_BURST
+WARNING: [BD 41-1281] Parameter HAS_BURST is not defined on /axi_dma_0/M_AXIS_MM2S. Setting parameter on /axi_dma_0/M_AXIS_MM2S failed
+Adding component instance block -- xilinx.com:module_ref:axis_decimate2:1.0 - axis_decimate2_0
+INFO: [IP_Flow 19-5107] Inferred bus interface 'm_axis' of definition 'xilinx.com:interface:axis:1.0' (from Xilinx Repository).
+INFO: [IP_Flow 19-5107] Inferred bus interface 's_axis' of definition 'xilinx.com:interface:axis:1.0' (from Xilinx Repository).
+INFO: [IP_Flow 19-5107] Inferred bus interface 'aresetn' of definition 'xilinx.com:signal:reset:1.0' (from Xilinx Repository).
+INFO: [IP_Flow 19-5107] Inferred bus interface 'aclk' of definition 'xilinx.com:signal:clock:1.0' (from Xilinx Repository).
+INFO: [IP_Flow 19-4728] Bus Interface 'aresetn': Added interface parameter 'POLARITY' with value 'ACTIVE_LOW'.
+INFO: [IP_Flow 19-4728] Bus Interface 'aclk': Added interface parameter 'ASSOCIATED_BUSIF' with value 'm_axis'.
+INFO: [IP_Flow 19-4728] Bus Interface 'aclk': Added interface parameter 'ASSOCIATED_RESET' with value 'aresetn'.
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-3420] Updated mixer_axis_decimate2_0_0 to use current project options
+Adding component instance block -- xilinx.com:module_ref:axis_decimate2:1.0 - axis_decimate2_1
+INFO: [IP_Flow 19-5107] Inferred bus interface 'm_axis' of definition 'xilinx.com:interface:axis:1.0' (from Xilinx Repository).
+INFO: [IP_Flow 19-5107] Inferred bus interface 's_axis' of definition 'xilinx.com:interface:axis:1.0' (from Xilinx Repository).
+INFO: [IP_Flow 19-5107] Inferred bus interface 'aresetn' of definition 'xilinx.com:signal:reset:1.0' (from Xilinx Repository).
+INFO: [IP_Flow 19-5107] Inferred bus interface 'aclk' of definition 'xilinx.com:signal:clock:1.0' (from Xilinx Repository).
+INFO: [IP_Flow 19-4728] Bus Interface 'aresetn': Added interface parameter 'POLARITY' with value 'ACTIVE_LOW'.
+INFO: [IP_Flow 19-4728] Bus Interface 'aclk': Added interface parameter 'ASSOCIATED_BUSIF' with value 'm_axis'.
+INFO: [IP_Flow 19-4728] Bus Interface 'aclk': Added interface parameter 'ASSOCIATED_RESET' with value 'aresetn'.
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-3420] Updated mixer_axis_decimate2_1_0 to use current project options
+Adding component instance block -- xilinx.com:module_ref:axis_halfband_fir:1.0 - axis_halfband_fir_0
+INFO: [IP_Flow 19-5107] Inferred bus interface 'm_axis' of definition 'xilinx.com:interface:axis:1.0' (from Xilinx Repository).
+INFO: [IP_Flow 19-5107] Inferred bus interface 's_axis' of definition 'xilinx.com:interface:axis:1.0' (from Xilinx Repository).
+INFO: [IP_Flow 19-5107] Inferred bus interface 'aresetn' of definition 'xilinx.com:signal:reset:1.0' (from Xilinx Repository).
+INFO: [IP_Flow 19-5107] Inferred bus interface 'aclk' of definition 'xilinx.com:signal:clock:1.0' (from Xilinx Repository).
+INFO: [IP_Flow 19-4728] Bus Interface 'aresetn': Added interface parameter 'POLARITY' with value 'ACTIVE_LOW'.
+INFO: [IP_Flow 19-4728] Bus Interface 'aclk': Added interface parameter 'ASSOCIATED_BUSIF' with value 'm_axis'.
+INFO: [IP_Flow 19-4728] Bus Interface 'aclk': Added interface parameter 'ASSOCIATED_RESET' with value 'aresetn'.
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-3420] Updated mixer_axis_halfband_fir_0_0 to use current project options
+Adding component instance block -- xilinx.com:module_ref:axis_halfband_fir:1.0 - axis_halfband_fir_1
+INFO: [IP_Flow 19-5107] Inferred bus interface 'm_axis' of definition 'xilinx.com:interface:axis:1.0' (from Xilinx Repository).
+INFO: [IP_Flow 19-5107] Inferred bus interface 's_axis' of definition 'xilinx.com:interface:axis:1.0' (from Xilinx Repository).
+INFO: [IP_Flow 19-5107] Inferred bus interface 'aresetn' of definition 'xilinx.com:signal:reset:1.0' (from Xilinx Repository).
+INFO: [IP_Flow 19-5107] Inferred bus interface 'aclk' of definition 'xilinx.com:signal:clock:1.0' (from Xilinx Repository).
+INFO: [IP_Flow 19-4728] Bus Interface 'aresetn': Added interface parameter 'POLARITY' with value 'ACTIVE_LOW'.
+INFO: [IP_Flow 19-4728] Bus Interface 'aclk': Added interface parameter 'ASSOCIATED_BUSIF' with value 'm_axis'.
+INFO: [IP_Flow 19-4728] Bus Interface 'aclk': Added interface parameter 'ASSOCIATED_RESET' with value 'aresetn'.
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-3420] Updated mixer_axis_halfband_fir_1_0 to use current project options
+Adding component instance block -- xilinx.com:ip:blk_mem_gen:8.4 - blk_mem_gen_0
+Adding component instance block -- xilinx.com:ip:proc_sys_reset:5.0 - proc_sys_reset_0
+Adding component instance block -- xilinx.com:ip:smartconnect:1.0 - smartconnect_0
+Adding component instance block -- xilinx.com:ip:zynq_ultra_ps_e:3.4 - zynq_ultra_ps_e_0
+INFO: [PSU-0] Address Range of DDR (0x7ff00000 to 0x7fffffff) is reserved by PMU for internal purpose.
+Adding component instance block -- xilinx.com:ip:system_ila:1.1 - system_ila_0
+Adding component instance block -- xilinx.com:ip:system_ila:1.1 - system_ila_1
+Adding component instance block -- xilinx.com:module_ref:axis_mixer_down:1.0 - axis_mixer_down_0
+INFO: [IP_Flow 19-5107] Inferred bus interface 'm_axis' of definition 'xilinx.com:interface:axis:1.0' (from Xilinx Repository).
+INFO: [IP_Flow 19-5107] Inferred bus interface 's_axis' of definition 'xilinx.com:interface:axis:1.0' (from Xilinx Repository).
+INFO: [IP_Flow 19-5107] Inferred bus interface 'aresetn' of definition 'xilinx.com:signal:reset:1.0' (from Xilinx Repository).
+INFO: [IP_Flow 19-5107] Inferred bus interface 'aclk' of definition 'xilinx.com:signal:clock:1.0' (from Xilinx Repository).
+INFO: [IP_Flow 19-4728] Bus Interface 'aresetn': Added interface parameter 'POLARITY' with value 'ACTIVE_LOW'.
+INFO: [IP_Flow 19-4728] Bus Interface 'aclk': Added interface parameter 'ASSOCIATED_BUSIF' with value 'm_axis'.
+INFO: [IP_Flow 19-4728] Bus Interface 'aclk': Added interface parameter 'ASSOCIATED_RESET' with value 'aresetn'.
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-3420] Updated mixer_axis_mixer_down_0_0 to use current project options
+Excluding slave segment /axi_dma_0/S_AXI_LITE/Reg from address space /axi_dma_0/Data_MM2S.
+Excluding slave segment /axi_dma_0/S_AXI_LITE/Reg from address space /axi_dma_0/Data_S2MM.
+Successfully read diagram <mixer> from block design file <D:/FPGA/Vivaldo Project/Digital_Font_End_LTE/Uplink/Mixer_DDC/fpga/mixer_ddc.srcs/sources_1/bd/mixer/mixer.bd>
+open_bd_design: Time (s): cpu = 00:00:14 ; elapsed = 00:00:11 . Memory (MB): peak = 1566.188 ; gain = 1.137
+update_compile_order -fileset sources_1
+set_property source_mgmt_mode DisplayOnly [current_project]
+open_bd_design {D:/FPGA/Vivaldo Project/Digital_Font_End_LTE/Uplink/Mixer_DDC/fpga/mixer_ddc.srcs/sources_1/bd/mixer_ddc/mixer_ddc.bd}
+CRITICAL WARNING: [filemgmt 56-176] Module references are not supported in manual compile order mode and will be ignored.
+CRITICAL WARNING: [filemgmt 56-176] Module references are not supported in manual compile order mode and will be ignored.
+CRITICAL WARNING: [filemgmt 56-176] Module references are not supported in manual compile order mode and will be ignored.
+CRITICAL WARNING: [filemgmt 56-176] Module references are not supported in manual compile order mode and will be ignored.
+CRITICAL WARNING: [filemgmt 56-176] Module references are not supported in manual compile order mode and will be ignored.
+open_bd_design {D:/FPGA/Vivaldo Project/Digital_Font_End_LTE/Uplink/Mixer_DDC/fpga/mixer_ddc.srcs/sources_1/bd/mixer/mixer.bd}
+open_bd_design {D:/FPGA/Vivaldo Project/Digital_Font_End_LTE/Uplink/Mixer_DDC/fpga/mixer_ddc.srcs/sources_1/bd/mixer_ddc/mixer_ddc.bd}
+current_bd_design mixer
+set tmpCopyObjs [concat  [get_bd_cells {axi_bram_ctrl_0 axi_dma_0 smartconnect_0 zynq_ultra_ps_e_0 axis_decimate2_0 axis_decimate2_1 axis_halfband_fir_0 axis_halfband_fir_1 proc_sys_reset_0 system_ila_0 blk_mem_gen_0 system_ila_1 axis_mixer_down_0}] [get_bd_intf_nets {smartconnect_0_M01_AXI axi_dma_0_M_AXI_MM2S axi_bram_ctrl_0_BRAM_PORTA axi_dma_0_M_AXI_S2MM axis_halfband_fir_1_m_axis smartconnect_0_M00_AXI axis_halfband_fir_0_m_axis axis_decimate2_0_m_axis axis_mixer_down_0_m_axis zynq_ultra_ps_e_0_M_AXI_HPM0_FPD axi_dma_0_M_AXIS_MM2S}] [get_bd_nets {zynq_ultra_ps_e_0_pl_resetn0 proc_sys_reset_0_peripheral_aresetn zynq_ultra_ps_e_0_pl_clk0}]]
+current_bd_design mixer_ddc
+copy_bd_objs -from_design mixer / $tmpCopyObjs
+INFO: [xilinx.com:ip:axi_bram_ctrl:4.1-2] mixer_ddc_axi_bram_ctrl_0_0: In IP Integrator, please note that memory depth value gets calculated based on the Data Width of the IP and Address range selected in the Address Editor.Incase a validation error occured on the range of this parameter, please check if the selected Data width and the Address Range are valid. For valid Data width and memory depth values, please refer to the AXI BRAM Controller Product Guide.
+INFO: [xilinx.com:ip:axi_bram_ctrl:4.1-1] mixer_ddc_axi_bram_ctrl_0_0: In IP Integrator, The Maximum address range supported is 2G. Selecting the address range more than 2G in the address editor may resets the value of Memory depth to default value (1024). please refer to the AXI BRAM Controller Product Guide.
+WARNING: [BD 41-1282] Ignoring parameter HAS_BURST
+WARNING: [BD 41-1281] Parameter HAS_BURST is not defined on /axi_dma_0/M_AXIS_MM2S. Setting parameter on /axi_dma_0/M_AXIS_MM2S failed
+CRITICAL WARNING: [filemgmt 56-176] Module references are not supported in manual compile order mode and will be ignored.
+CRITICAL WARNING: [filemgmt 56-176] Module references are not supported in manual compile order mode and will be ignored.
+CRITICAL WARNING: [filemgmt 56-176] Module references are not supported in manual compile order mode and will be ignored.
+CRITICAL WARNING: [filemgmt 56-176] Module references are not supported in manual compile order mode and will be ignored.
+CRITICAL WARNING: [filemgmt 56-176] Module references are not supported in manual compile order mode and will be ignored.
+INFO: [Ipptcl 7-1463] No Compatible Board Interface found. Board Tab not created in customize GUI
+INFO: [PSU-0] Address Range of DDR (0x7ff00000 to 0x7fffffff) is reserved by PMU for internal purpose.
+Slave segment '/axi_bram_ctrl_0/S_AXI/Mem0' is being assigned into address space '/axi_dma_0/Data_MM2S' at <0xA000_0000 [ 512K ]>.
+Slave segment '/axi_bram_ctrl_0/S_AXI/Mem0' is being assigned into address space '/axi_dma_0/Data_S2MM' at <0xA000_0000 [ 512K ]>.
+Slave segment '/axi_bram_ctrl_0/S_AXI/Mem0' is being assigned into address space '/zynq_ultra_ps_e_0/Data' at <0xA000_0000 [ 512K ]>.
+Slave segment '/axi_dma_0/S_AXI_LITE/Reg' is being assigned into address space '/zynq_ultra_ps_e_0/Data' at <0xA008_0000 [ 64K ]>.
+Excluding slave segment /axi_dma_0/S_AXI_LITE/Reg from address space /axi_dma_0/Data_MM2S.
+Slave segment '/axi_dma_0/S_AXI_LITE/Reg' is being assigned into address space '/axi_dma_0/Data_MM2S' at <0xA008_0000 [ 64K ]>.
+Excluding slave segment /axi_dma_0/S_AXI_LITE/Reg from address space /axi_dma_0/Data_S2MM.
+Slave segment '/axi_dma_0/S_AXI_LITE/Reg' is being assigned into address space '/axi_dma_0/Data_S2MM' at <0xA008_0000 [ 64K ]>.
+copy_bd_objs: Time (s): cpu = 00:00:14 ; elapsed = 00:00:13 . Memory (MB): peak = 1872.129 ; gain = 165.934
+CRITICAL WARNING: [filemgmt 56-176] Module references are not supported in manual compile order mode and will be ignored.
+CRITICAL WARNING: [filemgmt 56-176] Module references are not supported in manual compile order mode and will be ignored.
+CRITICAL WARNING: [filemgmt 56-176] Module references are not supported in manual compile order mode and will be ignored.
+CRITICAL WARNING: [filemgmt 56-176] Module references are not supported in manual compile order mode and will be ignored.
+CRITICAL WARNING: [filemgmt 56-176] Module references are not supported in manual compile order mode and will be ignored.
+CRITICAL WARNING: [filemgmt 56-176] Module references are not supported in manual compile order mode and will be ignored.
+CRITICAL WARNING: [filemgmt 56-176] Module references are not supported in manual compile order mode and will be ignored.
+CRITICAL WARNING: [filemgmt 56-176] Module references are not supported in manual compile order mode and will be ignored.
+CRITICAL WARNING: [filemgmt 56-176] Module references are not supported in manual compile order mode and will be ignored.
+CRITICAL WARNING: [filemgmt 56-176] Module references are not supported in manual compile order mode and will be ignored.
+startgroup
+delete_bd_objs [get_bd_intf_nets axi_bram_ctrl_0_BRAM_PORTA] [get_bd_intf_nets axi_dma_0_M_AXIS_MM2S] [get_bd_intf_nets axi_dma_0_M_AXI_MM2S] [get_bd_intf_nets axi_dma_0_M_AXI_S2MM] [get_bd_intf_nets axis_decimate2_0_m_axis] [get_bd_intf_nets axis_halfband_fir_0_m_axis] [get_bd_intf_nets axis_halfband_fir_1_m_axis] [get_bd_intf_nets axis_mixer_down_0_m_axis] [get_bd_intf_nets smartconnect_0_M00_AXI] [get_bd_intf_nets smartconnect_0_M01_AXI] [get_bd_intf_nets zynq_ultra_ps_e_0_M_AXI_HPM0_FPD]
+delete_bd_objs [get_bd_nets proc_sys_reset_0_peripheral_aresetn] [get_bd_nets zynq_ultra_ps_e_0_pl_clk0] [get_bd_nets zynq_ultra_ps_e_0_pl_resetn0]
+delete_bd_objs [get_bd_cells axi_bram_ctrl_0] [get_bd_cells axi_dma_0] [get_bd_cells axis_decimate2_0] [get_bd_cells axis_decimate2_1] [get_bd_cells axis_halfband_fir_0] [get_bd_cells axis_halfband_fir_1] [get_bd_cells axis_mixer_down_0] [get_bd_cells blk_mem_gen_0] [get_bd_cells proc_sys_reset_0] [get_bd_cells smartconnect_0] [get_bd_cells system_ila_0] [get_bd_cells system_ila_1] [get_bd_cells zynq_ultra_ps_e_0]
+endgroup
+CRITICAL WARNING: [filemgmt 56-176] Module references are not supported in manual compile order mode and will be ignored.
+CRITICAL WARNING: [filemgmt 56-176] Module references are not supported in manual compile order mode and will be ignored.
+CRITICAL WARNING: [filemgmt 56-176] Module references are not supported in manual compile order mode and will be ignored.
+CRITICAL WARNING: [filemgmt 56-176] Module references are not supported in manual compile order mode and will be ignored.
+CRITICAL WARNING: [filemgmt 56-176] Module references are not supported in manual compile order mode and will be ignored.
+CRITICAL WARNING: [filemgmt 56-176] Module references are not supported in manual compile order mode and will be ignored.
+CRITICAL WARNING: [filemgmt 56-176] Module references are not supported in manual compile order mode and will be ignored.
+CRITICAL WARNING: [filemgmt 56-176] Module references are not supported in manual compile order mode and will be ignored.
+CRITICAL WARNING: [filemgmt 56-176] Module references are not supported in manual compile order mode and will be ignored.
+CRITICAL WARNING: [filemgmt 56-176] Module references are not supported in manual compile order mode and will be ignored.
+open_bd_design {D:/FPGA/Vivaldo Project/Digital_Font_End_LTE/Uplink/Mixer_DDC/fpga/mixer_ddc.srcs/sources_1/bd/mixer_ddc/mixer_ddc.bd}
+open_bd_design {D:/FPGA/Vivaldo Project/Digital_Font_End_LTE/Uplink/Mixer_DDC/fpga/mixer_ddc.srcs/sources_1/bd/mixer_ddc/mixer_ddc.bd}
+open_bd_design {D:/FPGA/Vivaldo Project/Digital_Font_End_LTE/Uplink/Mixer_DDC/fpga/mixer_ddc.srcs/sources_1/bd/mixer_ddc/mixer_ddc.bd}
+open_bd_design {D:/FPGA/Vivaldo Project/Digital_Font_End_LTE/Uplink/Mixer_DDC/fpga/mixer_ddc.srcs/sources_1/bd/mixer/mixer.bd}
+open_bd_design {D:/FPGA/Vivaldo Project/Digital_Font_End_LTE/Uplink/Mixer_DDC/fpga/mixer_ddc.srcs/sources_1/bd/mixer_ddc/mixer_ddc.bd}
+current_bd_design mixer
+set tmpCopyObjs [concat  [get_bd_cells {axi_bram_ctrl_0 axi_dma_0 smartconnect_0 zynq_ultra_ps_e_0 axis_decimate2_0 axis_decimate2_1 axis_halfband_fir_0 axis_halfband_fir_1 proc_sys_reset_0 system_ila_0 blk_mem_gen_0 system_ila_1 axis_mixer_down_0}] [get_bd_intf_nets {smartconnect_0_M01_AXI axi_dma_0_M_AXI_MM2S axi_bram_ctrl_0_BRAM_PORTA axi_dma_0_M_AXI_S2MM axis_halfband_fir_1_m_axis smartconnect_0_M00_AXI axis_halfband_fir_0_m_axis axis_decimate2_0_m_axis axis_mixer_down_0_m_axis zynq_ultra_ps_e_0_M_AXI_HPM0_FPD axi_dma_0_M_AXIS_MM2S}] [get_bd_nets {zynq_ultra_ps_e_0_pl_resetn0 proc_sys_reset_0_peripheral_aresetn zynq_ultra_ps_e_0_pl_clk0}]]
+current_bd_design mixer_ddc
+copy_bd_objs -from_design mixer / $tmpCopyObjs
+INFO: [xilinx.com:ip:axi_bram_ctrl:4.1-2] mixer_ddc_axi_bram_ctrl_0_1: In IP Integrator, please note that memory depth value gets calculated based on the Data Width of the IP and Address range selected in the Address Editor.Incase a validation error occured on the range of this parameter, please check if the selected Data width and the Address Range are valid. For valid Data width and memory depth values, please refer to the AXI BRAM Controller Product Guide.
+INFO: [xilinx.com:ip:axi_bram_ctrl:4.1-1] mixer_ddc_axi_bram_ctrl_0_1: In IP Integrator, The Maximum address range supported is 2G. Selecting the address range more than 2G in the address editor may resets the value of Memory depth to default value (1024). please refer to the AXI BRAM Controller Product Guide.
+WARNING: [BD 41-1282] Ignoring parameter HAS_BURST
+WARNING: [BD 41-1281] Parameter HAS_BURST is not defined on /axi_dma_0/M_AXIS_MM2S. Setting parameter on /axi_dma_0/M_AXIS_MM2S failed
+CRITICAL WARNING: [filemgmt 56-176] Module references are not supported in manual compile order mode and will be ignored.
+CRITICAL WARNING: [filemgmt 56-176] Module references are not supported in manual compile order mode and will be ignored.
+CRITICAL WARNING: [filemgmt 56-176] Module references are not supported in manual compile order mode and will be ignored.
+CRITICAL WARNING: [filemgmt 56-176] Module references are not supported in manual compile order mode and will be ignored.
+CRITICAL WARNING: [filemgmt 56-176] Module references are not supported in manual compile order mode and will be ignored.
+INFO: [Ipptcl 7-1463] No Compatible Board Interface found. Board Tab not created in customize GUI
+INFO: [PSU-0] Address Range of DDR (0x7ff00000 to 0x7fffffff) is reserved by PMU for internal purpose.
+Slave segment '/axi_bram_ctrl_0/S_AXI/Mem0' is being assigned into address space '/axi_dma_0/Data_MM2S' at <0xA000_0000 [ 512K ]>.
+Slave segment '/axi_bram_ctrl_0/S_AXI/Mem0' is being assigned into address space '/axi_dma_0/Data_S2MM' at <0xA000_0000 [ 512K ]>.
+Slave segment '/axi_bram_ctrl_0/S_AXI/Mem0' is being assigned into address space '/zynq_ultra_ps_e_0/Data' at <0xA000_0000 [ 512K ]>.
+Slave segment '/axi_dma_0/S_AXI_LITE/Reg' is being assigned into address space '/zynq_ultra_ps_e_0/Data' at <0xA008_0000 [ 64K ]>.
+Excluding slave segment /axi_dma_0/S_AXI_LITE/Reg from address space /axi_dma_0/Data_MM2S.
+Slave segment '/axi_dma_0/S_AXI_LITE/Reg' is being assigned into address space '/axi_dma_0/Data_MM2S' at <0xA008_0000 [ 64K ]>.
+Excluding slave segment /axi_dma_0/S_AXI_LITE/Reg from address space /axi_dma_0/Data_S2MM.
+Slave segment '/axi_dma_0/S_AXI_LITE/Reg' is being assigned into address space '/axi_dma_0/Data_S2MM' at <0xA008_0000 [ 64K ]>.
+copy_bd_objs: Time (s): cpu = 00:00:12 ; elapsed = 00:00:11 . Memory (MB): peak = 2013.387 ; gain = 141.258
+save_bd_design
+Wrote  : <D:\FPGA\Vivaldo Project\Digital_Font_End_LTE\Uplink\Mixer_DDC\fpga\mixer_ddc.srcs\sources_1\bd\mixer_ddc\mixer_ddc.bd> 
+Wrote  : <D:/FPGA/Vivaldo Project/Digital_Font_End_LTE/Uplink/Mixer_DDC/fpga/mixer_ddc.srcs/sources_1/bd/mixer_ddc/ui/bd_35355a0d.ui> 
+CRITICAL WARNING: [filemgmt 56-176] Module references are not supported in manual compile order mode and will be ignored.
+CRITICAL WARNING: [filemgmt 56-176] Module references are not supported in manual compile order mode and will be ignored.
+CRITICAL WARNING: [filemgmt 56-176] Module references are not supported in manual compile order mode and will be ignored.
+CRITICAL WARNING: [filemgmt 56-176] Module references are not supported in manual compile order mode and will be ignored.
+CRITICAL WARNING: [filemgmt 56-176] Module references are not supported in manual compile order mode and will be ignored.
+CRITICAL WARNING: [filemgmt 56-176] Module references are not supported in manual compile order mode and will be ignored.
+CRITICAL WARNING: [filemgmt 56-176] Module references are not supported in manual compile order mode and will be ignored.
+CRITICAL WARNING: [filemgmt 56-176] Module references are not supported in manual compile order mode and will be ignored.
+CRITICAL WARNING: [filemgmt 56-176] Module references are not supported in manual compile order mode and will be ignored.
+CRITICAL WARNING: [filemgmt 56-176] Module references are not supported in manual compile order mode and will be ignored.
+CRITICAL WARNING: [filemgmt 56-176] Module references are not supported in manual compile order mode and will be ignored.
+CRITICAL WARNING: [filemgmt 56-176] Module references are not supported in manual compile order mode and will be ignored.
+CRITICAL WARNING: [filemgmt 56-176] Module references are not supported in manual compile order mode and will be ignored.
+CRITICAL WARNING: [filemgmt 56-176] Module references are not supported in manual compile order mode and will be ignored.
+CRITICAL WARNING: [filemgmt 56-176] Module references are not supported in manual compile order mode and will be ignored.
+export_ip_user_files -of_objects  [get_files {{D:/FPGA/Vivaldo Project/Digital_Font_End_LTE/Uplink/Mixer_DDC/fpga/mixer_ddc.srcs/sources_1/bd/mixer/mixer.bd}}] -no_script -reset -force -quiet
+remove_files  {{D:/FPGA/Vivaldo Project/Digital_Font_End_LTE/Uplink/Mixer_DDC/fpga/mixer_ddc.srcs/sources_1/bd/mixer/mixer.bd}}
+Wrote  : <D:/FPGA/Vivaldo Project/Digital_Font_End_LTE/Uplink/Mixer_DDC/fpga/mixer_ddc.srcs/sources_1/bd/mixer/ui/bd_b2ca46c9.ui> 
+file delete -force {D:/FPGA/Vivaldo Project/Digital_Font_End_LTE/Uplink/Mixer_DDC/fpga/mixer_ddc.srcs/sources_1/bd/mixer}
+file delete -force {d:/FPGA/Vivaldo Project/Digital_Font_End_LTE/Uplink/Mixer_DDC/fpga/mixer_down.gen/sources_1/bd/mixer}
+CRITICAL WARNING: [filemgmt 56-176] Module references are not supported in manual compile order mode and will be ignored.
+CRITICAL WARNING: [filemgmt 56-176] Module references are not supported in manual compile order mode and will be ignored.
+CRITICAL WARNING: [filemgmt 56-176] Module references are not supported in manual compile order mode and will be ignored.
+CRITICAL WARNING: [filemgmt 56-176] Module references are not supported in manual compile order mode and will be ignored.
+CRITICAL WARNING: [filemgmt 56-176] Module references are not supported in manual compile order mode and will be ignored.
+CRITICAL WARNING: [filemgmt 56-176] Module references are not supported in manual compile order mode and will be ignored.
+CRITICAL WARNING: [filemgmt 56-176] Module references are not supported in manual compile order mode and will be ignored.
+CRITICAL WARNING: [filemgmt 56-176] Module references are not supported in manual compile order mode and will be ignored.
+CRITICAL WARNING: [filemgmt 56-176] Module references are not supported in manual compile order mode and will be ignored.
+CRITICAL WARNING: [filemgmt 56-176] Module references are not supported in manual compile order mode and will be ignored.
+CRITICAL WARNING: [filemgmt 56-176] Module references are not supported in manual compile order mode and will be ignored.
+CRITICAL WARNING: [filemgmt 56-176] Module references are not supported in manual compile order mode and will be ignored.
+CRITICAL WARNING: [filemgmt 56-176] Module references are not supported in manual compile order mode and will be ignored.
+CRITICAL WARNING: [filemgmt 56-176] Module references are not supported in manual compile order mode and will be ignored.
+CRITICAL WARNING: [filemgmt 56-176] Module references are not supported in manual compile order mode and will be ignored.
+regenerate_bd_layout
+delete_bd_objs [get_bd_intf_nets axi_dma_0_M_AXIS_MM2S]
+validate_bd_design
+Excluding slave segment /axi_dma_0/S_AXI_LITE/Reg from address space /axi_dma_0/Data_MM2S.
+Excluding slave segment /axi_dma_0/S_AXI_LITE/Reg from address space /axi_dma_0/Data_S2MM.
+INFO: [xilinx.com:ip:smartconnect:1.0-1] mixer_ddc_smartconnect_0_1: SmartConnect mixer_ddc_smartconnect_0_1 is in High-performance Mode.
+INFO: [Ipptcl 7-1463] No Compatible Board Interface found. Board Tab not created in customize GUI
+WARNING: [BD 41-237] Bus Interface property AWUSER_WIDTH does not match between /axi_bram_ctrl_0/S_AXI(0) and /smartconnect_0/M00_AXI(16)
+WARNING: [BD 41-237] Bus Interface property ARUSER_WIDTH does not match between /axi_bram_ctrl_0/S_AXI(0) and /smartconnect_0/M00_AXI(16)
+CRITICAL WARNING: [BD 41-759] The input pins (listed below) are either not connected or do not have a source port, and they don't have a tie-off specified. These pins are tied-off to all 0's to avoid error in Implementation flow.
+Please check your design and connect them as needed: 
+/axis_halfband_fir_0/s_axis_tvalid
+/axis_mixer_down_0/s_axis_tvalid
+
+delete_bd_objs [get_bd_intf_nets axis_mixer_down_0_m_axis]
+connect_bd_intf_net [get_bd_intf_pins axi_dma_0/M_AXIS_MM2S] [get_bd_intf_pins axis_mixer_down_0/s_axis]
+connect_bd_intf_net [get_bd_intf_pins axis_halfband_fir_0/s_axis] [get_bd_intf_pins axis_mixer_down_0/m_axis]
+connect_bd_intf_net [get_bd_intf_pins system_ila_1/SLOT_0_AXIS] [get_bd_intf_pins axis_mixer_down_0/m_axis]
+connect_bd_intf_net [get_bd_intf_pins axis_decimate2_1/m_axis] [get_bd_intf_pins axi_dma_0/S_AXIS_S2MM]
+connect_bd_intf_net [get_bd_intf_pins system_ila_0/SLOT_0_AXIS] [get_bd_intf_pins axi_dma_0/S_AXIS_S2MM]
+save_bd_design
+Wrote  : <D:\FPGA\Vivaldo Project\Digital_Font_End_LTE\Uplink\Mixer_DDC\fpga\mixer_ddc.srcs\sources_1\bd\mixer_ddc\mixer_ddc.bd> 
+Wrote  : <D:/FPGA/Vivaldo Project/Digital_Font_End_LTE/Uplink/Mixer_DDC/fpga/mixer_ddc.srcs/sources_1/bd/mixer_ddc/ui/bd_35355a0d.ui> 
+CRITICAL WARNING: [filemgmt 56-176] Module references are not supported in manual compile order mode and will be ignored.
+CRITICAL WARNING: [filemgmt 56-176] Module references are not supported in manual compile order mode and will be ignored.
+CRITICAL WARNING: [filemgmt 56-176] Module references are not supported in manual compile order mode and will be ignored.
+CRITICAL WARNING: [filemgmt 56-176] Module references are not supported in manual compile order mode and will be ignored.
+CRITICAL WARNING: [filemgmt 56-176] Module references are not supported in manual compile order mode and will be ignored.
+CRITICAL WARNING: [filemgmt 56-176] Module references are not supported in manual compile order mode and will be ignored.
+CRITICAL WARNING: [filemgmt 56-176] Module references are not supported in manual compile order mode and will be ignored.
+CRITICAL WARNING: [filemgmt 56-176] Module references are not supported in manual compile order mode and will be ignored.
+CRITICAL WARNING: [filemgmt 56-176] Module references are not supported in manual compile order mode and will be ignored.
+CRITICAL WARNING: [filemgmt 56-176] Module references are not supported in manual compile order mode and will be ignored.
+CRITICAL WARNING: [filemgmt 56-176] Module references are not supported in manual compile order mode and will be ignored.
+CRITICAL WARNING: [filemgmt 56-176] Module references are not supported in manual compile order mode and will be ignored.
+CRITICAL WARNING: [filemgmt 56-176] Module references are not supported in manual compile order mode and will be ignored.
+CRITICAL WARNING: [filemgmt 56-176] Module references are not supported in manual compile order mode and will be ignored.
+CRITICAL WARNING: [filemgmt 56-176] Module references are not supported in manual compile order mode and will be ignored.
+make_wrapper -files [get_files {{D:/FPGA/Vivaldo Project/Digital_Font_End_LTE/Uplink/Mixer_DDC/fpga/mixer_ddc.srcs/sources_1/bd/mixer_ddc/mixer_ddc.bd}}] -top
+Excluding slave segment /axi_dma_0/S_AXI_LITE/Reg from address space /axi_dma_0/Data_MM2S.
+Excluding slave segment /axi_dma_0/S_AXI_LITE/Reg from address space /axi_dma_0/Data_S2MM.
+Excluding slave segment /axi_dma_0/S_AXI_LITE/Reg from address space /axi_dma_0/Data_MM2S.
+Excluding slave segment /axi_dma_0/S_AXI_LITE/Reg from address space /axi_dma_0/Data_S2MM.
+INFO: [xilinx.com:ip:smartconnect:1.0-1] mixer_ddc_smartconnect_0_1: SmartConnect mixer_ddc_smartconnect_0_1 is in High-performance Mode.
+INFO: [Ipptcl 7-1463] No Compatible Board Interface found. Board Tab not created in customize GUI
+Excluding slave segment /axi_dma_0/S_AXI_LITE/Reg from address space /axi_dma_0/Data_MM2S.
+Excluding slave segment /axi_dma_0/S_AXI_LITE/Reg from address space /axi_dma_0/Data_S2MM.
+WARNING: [BD 41-237] Bus Interface property AWUSER_WIDTH does not match between /axi_bram_ctrl_0/S_AXI(0) and /smartconnect_0/M00_AXI(16)
+WARNING: [BD 41-237] Bus Interface property ARUSER_WIDTH does not match between /axi_bram_ctrl_0/S_AXI(0) and /smartconnect_0/M00_AXI(16)
+Wrote  : <D:\FPGA\Vivaldo Project\Digital_Font_End_LTE\Uplink\Mixer_DDC\fpga\mixer_ddc.srcs\sources_1\bd\mixer_ddc\mixer_ddc.bd> 
+WARNING: [BD 41-2384] Width mismatch when connecting pin: '/blk_mem_gen_0/addra'(32) to pin: '/axi_bram_ctrl_0/bram_addr_a'(19) - Only lower order bits will be connected.
+Verilog Output written to : D:/FPGA/Vivaldo Project/Digital_Font_End_LTE/Uplink/Mixer_DDC/fpga/mixer_ddc.gen/sources_1/bd/mixer_ddc/synth/mixer_ddc.v
+WARNING: [BD 41-2384] Width mismatch when connecting pin: '/blk_mem_gen_0/addra'(32) to pin: '/axi_bram_ctrl_0/bram_addr_a'(19) - Only lower order bits will be connected.
+Verilog Output written to : D:/FPGA/Vivaldo Project/Digital_Font_End_LTE/Uplink/Mixer_DDC/fpga/mixer_ddc.gen/sources_1/bd/mixer_ddc/sim/mixer_ddc.v
+Verilog Output written to : D:/FPGA/Vivaldo Project/Digital_Font_End_LTE/Uplink/Mixer_DDC/fpga/mixer_ddc.gen/sources_1/bd/mixer_ddc/hdl/mixer_ddc_wrapper.v
+add_files -norecurse {{d:/FPGA/Vivaldo Project/Digital_Font_End_LTE/Uplink/Mixer_DDC/fpga/mixer_ddc.gen/sources_1/bd/mixer_ddc/hdl/mixer_ddc_wrapper.v}}
+CRITICAL WARNING: [filemgmt 56-176] Module references are not supported in manual compile order mode and will be ignored.
+CRITICAL WARNING: [filemgmt 56-176] Module references are not supported in manual compile order mode and will be ignored.
+CRITICAL WARNING: [filemgmt 56-176] Module references are not supported in manual compile order mode and will be ignored.
+CRITICAL WARNING: [filemgmt 56-176] Module references are not supported in manual compile order mode and will be ignored.
+CRITICAL WARNING: [filemgmt 56-176] Module references are not supported in manual compile order mode and will be ignored.
+CRITICAL WARNING: [filemgmt 56-176] Module references are not supported in manual compile order mode and will be ignored.
+CRITICAL WARNING: [filemgmt 56-176] Module references are not supported in manual compile order mode and will be ignored.
+CRITICAL WARNING: [filemgmt 56-176] Module references are not supported in manual compile order mode and will be ignored.
+CRITICAL WARNING: [filemgmt 56-176] Module references are not supported in manual compile order mode and will be ignored.
+CRITICAL WARNING: [filemgmt 56-176] Module references are not supported in manual compile order mode and will be ignored.
+CRITICAL WARNING: [filemgmt 56-176] Module references are not supported in manual compile order mode and will be ignored.
+CRITICAL WARNING: [filemgmt 56-176] Module references are not supported in manual compile order mode and will be ignored.
+CRITICAL WARNING: [filemgmt 56-176] Module references are not supported in manual compile order mode and will be ignored.
+CRITICAL WARNING: [filemgmt 56-176] Module references are not supported in manual compile order mode and will be ignored.
+CRITICAL WARNING: [filemgmt 56-176] Module references are not supported in manual compile order mode and will be ignored.
+set_property top mixer_ddc_wrapper [current_fileset]
+CRITICAL WARNING: [filemgmt 56-176] Module references are not supported in manual compile order mode and will be ignored.
+CRITICAL WARNING: [filemgmt 56-176] Module references are not supported in manual compile order mode and will be ignored.
+CRITICAL WARNING: [filemgmt 56-176] Module references are not supported in manual compile order mode and will be ignored.
+CRITICAL WARNING: [filemgmt 56-176] Module references are not supported in manual compile order mode and will be ignored.
+CRITICAL WARNING: [filemgmt 56-176] Module references are not supported in manual compile order mode and will be ignored.
+CRITICAL WARNING: [filemgmt 56-176] Module references are not supported in manual compile order mode and will be ignored.
+CRITICAL WARNING: [filemgmt 56-176] Module references are not supported in manual compile order mode and will be ignored.
+CRITICAL WARNING: [filemgmt 56-176] Module references are not supported in manual compile order mode and will be ignored.
+CRITICAL WARNING: [filemgmt 56-176] Module references are not supported in manual compile order mode and will be ignored.
+CRITICAL WARNING: [filemgmt 56-176] Module references are not supported in manual compile order mode and will be ignored.
+CRITICAL WARNING: [filemgmt 56-176] Module references are not supported in manual compile order mode and will be ignored.
+CRITICAL WARNING: [filemgmt 56-176] Module references are not supported in manual compile order mode and will be ignored.
+CRITICAL WARNING: [filemgmt 56-176] Module references are not supported in manual compile order mode and will be ignored.
+CRITICAL WARNING: [filemgmt 56-176] Module references are not supported in manual compile order mode and will be ignored.
+CRITICAL WARNING: [filemgmt 56-176] Module references are not supported in manual compile order mode and will be ignored.
+launch_runs impl_1 -to_step write_bitstream -jobs 8
+INFO: [IP_Flow 19-1686] Generating 'Synthesis' target for IP 'mixer_cmpy_0'...
+INFO: [IP_Flow 19-1686] Generating 'Synthesis' target for IP 'mixer_axis_data_fifo_0'...
+INFO: [IP_Flow 19-1686] Generating 'Synthesis' target for IP 'ddc_axis_data_fifo_0'...
+INFO: [BD 41-1662] The design 'mixer_ddc.bd' is already validated. Therefore parameter propagation will not be re-run.
+Wrote  : <D:/FPGA/Vivaldo Project/Digital_Font_End_LTE/Uplink/Mixer_DDC/fpga/mixer_ddc.srcs/sources_1/bd/mixer_ddc/ui/bd_35355a0d.ui> 
+WARNING: [BD 41-2384] Width mismatch when connecting pin: '/blk_mem_gen_0/addra'(32) to pin: '/axi_bram_ctrl_0/bram_addr_a'(19) - Only lower order bits will be connected.
+Verilog Output written to : D:/FPGA/Vivaldo Project/Digital_Font_End_LTE/Uplink/Mixer_DDC/fpga/mixer_ddc.gen/sources_1/bd/mixer_ddc/synth/mixer_ddc.v
+WARNING: [BD 41-2384] Width mismatch when connecting pin: '/blk_mem_gen_0/addra'(32) to pin: '/axi_bram_ctrl_0/bram_addr_a'(19) - Only lower order bits will be connected.
+Verilog Output written to : D:/FPGA/Vivaldo Project/Digital_Font_End_LTE/Uplink/Mixer_DDC/fpga/mixer_ddc.gen/sources_1/bd/mixer_ddc/sim/mixer_ddc.v
+Verilog Output written to : D:/FPGA/Vivaldo Project/Digital_Font_End_LTE/Uplink/Mixer_DDC/fpga/mixer_ddc.gen/sources_1/bd/mixer_ddc/hdl/mixer_ddc_wrapper.v
+INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_bram_ctrl_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_dma_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block axis_decimate2_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block axis_decimate2_1 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block axis_halfband_fir_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block axis_halfband_fir_1 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block axis_mixer_down_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block blk_mem_gen_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block proc_sys_reset_0 .
+Exporting to file d:/FPGA/Vivaldo Project/Digital_Font_End_LTE/Uplink/Mixer_DDC/fpga/mixer_ddc.gen/sources_1/bd/mixer_ddc/ip/mixer_ddc_smartconnect_0_1/bd_0/hw_handoff/mixer_ddc_smartconnect_0_1.hwh
+Generated Hardware Definition File d:/FPGA/Vivaldo Project/Digital_Font_End_LTE/Uplink/Mixer_DDC/fpga/mixer_ddc.gen/sources_1/bd/mixer_ddc/ip/mixer_ddc_smartconnect_0_1/bd_0/synth/mixer_ddc_smartconnect_0_1.hwdef
+INFO: [BD 41-1029] Generation completed for the IP Integrator block smartconnect_0 .
+WARNING: [IP_Flow 19-4994] Overwriting existing constraint file 'd:/FPGA/Vivaldo Project/Digital_Font_End_LTE/Uplink/Mixer_DDC/fpga/mixer_ddc.gen/sources_1/bd/mixer_ddc/ip/mixer_ddc_system_ila_0_1/mixer_ddc_system_ila_0_1_ooc.xdc'
+Exporting to file d:/FPGA/Vivaldo Project/Digital_Font_End_LTE/Uplink/Mixer_DDC/fpga/mixer_ddc.gen/sources_1/bd/mixer_ddc/ip/mixer_ddc_system_ila_0_1/bd_0/hw_handoff/mixer_ddc_system_ila_0_1.hwh
+Generated Hardware Definition File d:/FPGA/Vivaldo Project/Digital_Font_End_LTE/Uplink/Mixer_DDC/fpga/mixer_ddc.gen/sources_1/bd/mixer_ddc/ip/mixer_ddc_system_ila_0_1/bd_0/synth/mixer_ddc_system_ila_0_1.hwdef
+INFO: [BD 41-1029] Generation completed for the IP Integrator block system_ila_0 .
+WARNING: [IP_Flow 19-4994] Overwriting existing constraint file 'd:/FPGA/Vivaldo Project/Digital_Font_End_LTE/Uplink/Mixer_DDC/fpga/mixer_ddc.gen/sources_1/bd/mixer_ddc/ip/mixer_ddc_system_ila_1_1/mixer_ddc_system_ila_1_1_ooc.xdc'
+Exporting to file d:/FPGA/Vivaldo Project/Digital_Font_End_LTE/Uplink/Mixer_DDC/fpga/mixer_ddc.gen/sources_1/bd/mixer_ddc/ip/mixer_ddc_system_ila_1_1/bd_0/hw_handoff/mixer_ddc_system_ila_1_1.hwh
+Generated Hardware Definition File d:/FPGA/Vivaldo Project/Digital_Font_End_LTE/Uplink/Mixer_DDC/fpga/mixer_ddc.gen/sources_1/bd/mixer_ddc/ip/mixer_ddc_system_ila_1_1/bd_0/synth/mixer_ddc_system_ila_1_1.hwdef
+INFO: [BD 41-1029] Generation completed for the IP Integrator block system_ila_1 .
+INFO: [xilinx.com:ip:zynq_ultra_ps_e:3.4-0] mixer_ddc_zynq_ultra_ps_e_0_1: 
+Changes in your design (including the PCW configuration settings) are not automatically exported from Vivado to Xilinx's SDK, Petalinux or Yocto.
+This is by design to avoid disrupting existing embedded development efforts. To have any changes of your design taking effect in the embedded software flow please export your
+design by going through Vivado's main menu, click on File, then Export finally select Export Hardware, please ensure you click on the Include BitStream option.
+The auto-generated HDF file is all you need to import in Xilinx's SDK, Petalinux or Yocto for your changes to be reflected in the Embedded Software Flow.
+For more information, please consult PG201, section: Exporting PCW Settings to Embedded Software Flows
+INFO: [PSU-0] Address Range of DDR (0x7ff00000 to 0x7fffffff) is reserved by PMU for internal purpose.
+INFO: [IP_Flow 19-5611] Unable to find an associated reset port for the interface 'M_AXI_HPM0_FPD'. A default connection has been created.
+INFO: [BD 41-1029] Generation completed for the IP Integrator block zynq_ultra_ps_e_0 .
+Exporting to file D:/FPGA/Vivaldo Project/Digital_Font_End_LTE/Uplink/Mixer_DDC/fpga/mixer_ddc.gen/sources_1/bd/mixer_ddc/hw_handoff/mixer_ddc.hwh
+Generated Hardware Definition File D:/FPGA/Vivaldo Project/Digital_Font_End_LTE/Uplink/Mixer_DDC/fpga/mixer_ddc.gen/sources_1/bd/mixer_ddc/synth/mixer_ddc.hwdef
+INFO: [IP_Flow 19-6930] IPCACHE: runCacheChecks() number of threads = 8
+INFO: [IP_Flow 19-6921] IPCACHE: Adding cache check func to thread queue for IP mixer_ddc_axi_bram_ctrl_0_1
+INFO: [IP_Flow 19-6921] IPCACHE: Adding cache check func to thread queue for IP mixer_ddc_axi_dma_0_1
+INFO: [IP_Flow 19-6921] IPCACHE: Adding cache check func to thread queue for IP mixer_ddc_axis_decimate2_0_1
+INFO: [IP_Flow 19-6921] IPCACHE: Adding cache check func to thread queue for IP mixer_ddc_axis_decimate2_1_1
+INFO: [IP_Flow 19-6921] IPCACHE: Adding cache check func to thread queue for IP mixer_ddc_axis_halfband_fir_0_1
+INFO: [IP_Flow 19-6921] IPCACHE: Adding cache check func to thread queue for IP mixer_ddc_axis_halfband_fir_1_1
+INFO: [IP_Flow 19-6921] IPCACHE: Adding cache check func to thread queue for IP mixer_ddc_axis_mixer_down_0_1
+INFO: [IP_Flow 19-6921] IPCACHE: Adding cache check func to thread queue for IP mixer_ddc_blk_mem_gen_0_1
+INFO: [IP_Flow 19-6921] IPCACHE: Adding cache check func to thread queue for IP mixer_ddc_proc_sys_reset_0_1
+INFO: [IP_Flow 19-6921] IPCACHE: Adding cache check func to thread queue for IP mixer_ddc_smartconnect_0_1
+INFO: [IP_Flow 19-6921] IPCACHE: Adding cache check func to thread queue for IP mixer_ddc_system_ila_0_1
+INFO: [IP_Flow 19-6921] IPCACHE: Adding cache check func to thread queue for IP mixer_ddc_system_ila_1_1
+INFO: [IP_Flow 19-6921] IPCACHE: Adding cache check func to thread queue for IP mixer_ddc_zynq_ultra_ps_e_0_1
+INFO: [IP_Flow 19-8020] IPCACHE: runCacheChecks() calling threadPool finishWork()
+INFO: [IP_Flow 19-6924] IPCACHE: Running cache check for IP inst: mixer_ddc_axi_bram_ctrl_0_1
+INFO: [IP_Flow 19-6924] IPCACHE: Running cache check for IP inst: mixer_ddc_axi_dma_0_1
+INFO: [IP_Flow 19-6924] IPCACHE: Running cache check for IP inst: mixer_ddc_system_ila_1_1
+INFO: [IP_Flow 19-6924] IPCACHE: Running cache check for IP inst: mixer_ddc_zynq_ultra_ps_e_0_1
+INFO: [IP_Flow 19-6924] IPCACHE: Running cache check for IP inst: mixer_ddc_axis_decimate2_0_1
+INFO: [IP_Flow 19-6924] IPCACHE: Running cache check for IP inst: mixer_ddc_axis_decimate2_1_1
+INFO: [IP_Flow 19-6924] IPCACHE: Running cache check for IP inst: mixer_ddc_axis_halfband_fir_0_1
+INFO: [IP_Flow 19-6924] IPCACHE: Running cache check for IP inst: mixer_ddc_axis_halfband_fir_1_1
+INFO: [IP_Flow 19-6924] IPCACHE: Running cache check for IP inst: mixer_ddc_axis_mixer_down_0_1
+INFO: [IP_Flow 19-6924] IPCACHE: Running cache check for IP inst: mixer_ddc_blk_mem_gen_0_1
+INFO: [IP_Flow 19-6924] IPCACHE: Running cache check for IP inst: mixer_ddc_proc_sys_reset_0_1
+INFO: [IP_Flow 19-6924] IPCACHE: Running cache check for IP inst: mixer_ddc_smartconnect_0_1
+INFO: [IP_Flow 19-6924] IPCACHE: Running cache check for IP inst: mixer_ddc_system_ila_0_1
+CRITICAL WARNING: [filemgmt 56-176] Module references are not supported in manual compile order mode and will be ignored.
+CRITICAL WARNING: [filemgmt 56-176] Module references are not supported in manual compile order mode and will be ignored.
+CRITICAL WARNING: [filemgmt 56-176] Module references are not supported in manual compile order mode and will be ignored.
+CRITICAL WARNING: [filemgmt 56-176] Module references are not supported in manual compile order mode and will be ignored.
+CRITICAL WARNING: [filemgmt 56-176] Module references are not supported in manual compile order mode and will be ignored.
+CRITICAL WARNING: [filemgmt 56-176] Module references are not supported in manual compile order mode and will be ignored.
+CRITICAL WARNING: [filemgmt 56-176] Module references are not supported in manual compile order mode and will be ignored.
+CRITICAL WARNING: [filemgmt 56-176] Module references are not supported in manual compile order mode and will be ignored.
+CRITICAL WARNING: [filemgmt 56-176] Module references are not supported in manual compile order mode and will be ignored.
+CRITICAL WARNING: [filemgmt 56-176] Module references are not supported in manual compile order mode and will be ignored.
+CRITICAL WARNING: [filemgmt 56-176] Module references are not supported in manual compile order mode and will be ignored.
+CRITICAL WARNING: [filemgmt 56-176] Module references are not supported in manual compile order mode and will be ignored.
+CRITICAL WARNING: [filemgmt 56-176] Module references are not supported in manual compile order mode and will be ignored.
+CRITICAL WARNING: [filemgmt 56-176] Module references are not supported in manual compile order mode and will be ignored.
+CRITICAL WARNING: [filemgmt 56-176] Module references are not supported in manual compile order mode and will be ignored.
+ERROR: [filemgmt 56-587] Failed to resolve reference. Nothing was found in the project to match the name axis_decimate2 Try changing the compile order from manual to automatic. 
+ERROR: [Runs 36-346] File 'd:/FPGA/Vivaldo Project/Digital_Font_End_LTE/Uplink/Mixer_DDC/fpga/mixer_ddc.srcs/sources_1/bd/mixer_ddc/ip/mixer_ddc_axis_decimate2_0_1/mixer_ddc_axis_decimate2_0_1.xci' needed for run contains invalid reference(s).
+export_ip_user_files -of_objects  [get_files {{D:/FPGA/Vivaldo Project/Digital_Font_End_LTE/Uplink/Mixer_DDC/fpga/mixer_ddc.gen/sources_1/bd/mixer/hdl/mixer_wrapper.v}}] -no_script -reset -force -quiet
+remove_files  {{D:/FPGA/Vivaldo Project/Digital_Font_End_LTE/Uplink/Mixer_DDC/fpga/mixer_ddc.gen/sources_1/bd/mixer/hdl/mixer_wrapper.v}}
+validate_bd_design -force
+Excluding slave segment /axi_dma_0/S_AXI_LITE/Reg from address space /axi_dma_0/Data_MM2S.
+Excluding slave segment /axi_dma_0/S_AXI_LITE/Reg from address space /axi_dma_0/Data_S2MM.
+CRITICAL WARNING: [filemgmt 56-176] Module references are not supported in manual compile order mode and will be ignored.
+INFO: [xilinx.com:ip:smartconnect:1.0-1] mixer_ddc_smartconnect_0_1: SmartConnect mixer_ddc_smartconnect_0_1 is in High-performance Mode.
+INFO: [Ipptcl 7-1463] No Compatible Board Interface found. Board Tab not created in customize GUI
+WARNING: [BD 41-237] Bus Interface property AWUSER_WIDTH does not match between /axi_bram_ctrl_0/S_AXI(0) and /smartconnect_0/M00_AXI(16)
+WARNING: [BD 41-237] Bus Interface property ARUSER_WIDTH does not match between /axi_bram_ctrl_0/S_AXI(0) and /smartconnect_0/M00_AXI(16)
+save_bd_design
+Wrote  : <D:\FPGA\Vivaldo Project\Digital_Font_End_LTE\Uplink\Mixer_DDC\fpga\mixer_ddc.srcs\sources_1\bd\mixer_ddc\mixer_ddc.bd> 
+CRITICAL WARNING: [filemgmt 56-176] Module references are not supported in manual compile order mode and will be ignored.
+CRITICAL WARNING: [filemgmt 56-176] Module references are not supported in manual compile order mode and will be ignored.
+CRITICAL WARNING: [filemgmt 56-176] Module references are not supported in manual compile order mode and will be ignored.
+CRITICAL WARNING: [filemgmt 56-176] Module references are not supported in manual compile order mode and will be ignored.
+CRITICAL WARNING: [filemgmt 56-176] Module references are not supported in manual compile order mode and will be ignored.
+CRITICAL WARNING: [filemgmt 56-176] Module references are not supported in manual compile order mode and will be ignored.
+CRITICAL WARNING: [filemgmt 56-176] Module references are not supported in manual compile order mode and will be ignored.
+CRITICAL WARNING: [filemgmt 56-176] Module references are not supported in manual compile order mode and will be ignored.
+CRITICAL WARNING: [filemgmt 56-176] Module references are not supported in manual compile order mode and will be ignored.
+CRITICAL WARNING: [filemgmt 56-176] Module references are not supported in manual compile order mode and will be ignored.
+CRITICAL WARNING: [filemgmt 56-176] Module references are not supported in manual compile order mode and will be ignored.
+CRITICAL WARNING: [filemgmt 56-176] Module references are not supported in manual compile order mode and will be ignored.
+CRITICAL WARNING: [filemgmt 56-176] Module references are not supported in manual compile order mode and will be ignored.
+CRITICAL WARNING: [filemgmt 56-176] Module references are not supported in manual compile order mode and will be ignored.
+CRITICAL WARNING: [filemgmt 56-176] Module references are not supported in manual compile order mode and will be ignored.
+launch_runs impl_1 -to_step write_bitstream -jobs 8
+INFO: [BD 41-1662] The design 'mixer_ddc.bd' is already validated. Therefore parameter propagation will not be re-run.
+WARNING: [BD 41-2384] Width mismatch when connecting pin: '/blk_mem_gen_0/addra'(32) to pin: '/axi_bram_ctrl_0/bram_addr_a'(19) - Only lower order bits will be connected.
+Verilog Output written to : D:/FPGA/Vivaldo Project/Digital_Font_End_LTE/Uplink/Mixer_DDC/fpga/mixer_ddc.gen/sources_1/bd/mixer_ddc/synth/mixer_ddc.v
+WARNING: [BD 41-2384] Width mismatch when connecting pin: '/blk_mem_gen_0/addra'(32) to pin: '/axi_bram_ctrl_0/bram_addr_a'(19) - Only lower order bits will be connected.
+Verilog Output written to : D:/FPGA/Vivaldo Project/Digital_Font_End_LTE/Uplink/Mixer_DDC/fpga/mixer_ddc.gen/sources_1/bd/mixer_ddc/sim/mixer_ddc.v
+Verilog Output written to : D:/FPGA/Vivaldo Project/Digital_Font_End_LTE/Uplink/Mixer_DDC/fpga/mixer_ddc.gen/sources_1/bd/mixer_ddc/hdl/mixer_ddc_wrapper.v
+Exporting to file d:/FPGA/Vivaldo Project/Digital_Font_End_LTE/Uplink/Mixer_DDC/fpga/mixer_ddc.gen/sources_1/bd/mixer_ddc/ip/mixer_ddc_smartconnect_0_1/bd_0/hw_handoff/mixer_ddc_smartconnect_0_1.hwh
+Generated Hardware Definition File d:/FPGA/Vivaldo Project/Digital_Font_End_LTE/Uplink/Mixer_DDC/fpga/mixer_ddc.gen/sources_1/bd/mixer_ddc/ip/mixer_ddc_smartconnect_0_1/bd_0/synth/mixer_ddc_smartconnect_0_1.hwdef
+INFO: [BD 41-1029] Generation completed for the IP Integrator block smartconnect_0 .
+WARNING: [IP_Flow 19-4994] Overwriting existing constraint file 'd:/FPGA/Vivaldo Project/Digital_Font_End_LTE/Uplink/Mixer_DDC/fpga/mixer_ddc.gen/sources_1/bd/mixer_ddc/ip/mixer_ddc_system_ila_0_1/mixer_ddc_system_ila_0_1_ooc.xdc'
+Exporting to file d:/FPGA/Vivaldo Project/Digital_Font_End_LTE/Uplink/Mixer_DDC/fpga/mixer_ddc.gen/sources_1/bd/mixer_ddc/ip/mixer_ddc_system_ila_0_1/bd_0/hw_handoff/mixer_ddc_system_ila_0_1.hwh
+Generated Hardware Definition File d:/FPGA/Vivaldo Project/Digital_Font_End_LTE/Uplink/Mixer_DDC/fpga/mixer_ddc.gen/sources_1/bd/mixer_ddc/ip/mixer_ddc_system_ila_0_1/bd_0/synth/mixer_ddc_system_ila_0_1.hwdef
+INFO: [BD 41-1029] Generation completed for the IP Integrator block system_ila_0 .
+WARNING: [IP_Flow 19-4994] Overwriting existing constraint file 'd:/FPGA/Vivaldo Project/Digital_Font_End_LTE/Uplink/Mixer_DDC/fpga/mixer_ddc.gen/sources_1/bd/mixer_ddc/ip/mixer_ddc_system_ila_1_1/mixer_ddc_system_ila_1_1_ooc.xdc'
+Exporting to file d:/FPGA/Vivaldo Project/Digital_Font_End_LTE/Uplink/Mixer_DDC/fpga/mixer_ddc.gen/sources_1/bd/mixer_ddc/ip/mixer_ddc_system_ila_1_1/bd_0/hw_handoff/mixer_ddc_system_ila_1_1.hwh
+Generated Hardware Definition File d:/FPGA/Vivaldo Project/Digital_Font_End_LTE/Uplink/Mixer_DDC/fpga/mixer_ddc.gen/sources_1/bd/mixer_ddc/ip/mixer_ddc_system_ila_1_1/bd_0/synth/mixer_ddc_system_ila_1_1.hwdef
+INFO: [BD 41-1029] Generation completed for the IP Integrator block system_ila_1 .
+Exporting to file D:/FPGA/Vivaldo Project/Digital_Font_End_LTE/Uplink/Mixer_DDC/fpga/mixer_ddc.gen/sources_1/bd/mixer_ddc/hw_handoff/mixer_ddc.hwh
+Generated Hardware Definition File D:/FPGA/Vivaldo Project/Digital_Font_End_LTE/Uplink/Mixer_DDC/fpga/mixer_ddc.gen/sources_1/bd/mixer_ddc/synth/mixer_ddc.hwdef
+INFO: [IP_Flow 19-6930] IPCACHE: runCacheChecks() number of threads = 8
+INFO: [IP_Flow 19-6921] IPCACHE: Adding cache check func to thread queue for IP mixer_ddc_axi_bram_ctrl_0_1
+INFO: [IP_Flow 19-6921] IPCACHE: Adding cache check func to thread queue for IP mixer_ddc_axi_dma_0_1
+INFO: [IP_Flow 19-6921] IPCACHE: Adding cache check func to thread queue for IP mixer_ddc_axis_decimate2_0_1
+INFO: [IP_Flow 19-6921] IPCACHE: Adding cache check func to thread queue for IP mixer_ddc_axis_decimate2_1_1
+INFO: [IP_Flow 19-6921] IPCACHE: Adding cache check func to thread queue for IP mixer_ddc_axis_halfband_fir_0_1
+INFO: [IP_Flow 19-6921] IPCACHE: Adding cache check func to thread queue for IP mixer_ddc_axis_halfband_fir_1_1
+INFO: [IP_Flow 19-6921] IPCACHE: Adding cache check func to thread queue for IP mixer_ddc_axis_mixer_down_0_1
+INFO: [IP_Flow 19-6921] IPCACHE: Adding cache check func to thread queue for IP mixer_ddc_blk_mem_gen_0_1
+INFO: [IP_Flow 19-6921] IPCACHE: Adding cache check func to thread queue for IP mixer_ddc_proc_sys_reset_0_1
+INFO: [IP_Flow 19-6921] IPCACHE: Adding cache check func to thread queue for IP mixer_ddc_smartconnect_0_1
+INFO: [IP_Flow 19-6921] IPCACHE: Adding cache check func to thread queue for IP mixer_ddc_system_ila_0_1
+INFO: [IP_Flow 19-6921] IPCACHE: Adding cache check func to thread queue for IP mixer_ddc_system_ila_1_1
+INFO: [IP_Flow 19-6921] IPCACHE: Adding cache check func to thread queue for IP mixer_ddc_zynq_ultra_ps_e_0_1
+INFO: [IP_Flow 19-8020] IPCACHE: runCacheChecks() calling threadPool finishWork()
+INFO: [IP_Flow 19-6924] IPCACHE: Running cache check for IP inst: mixer_ddc_axi_bram_ctrl_0_1
+INFO: [IP_Flow 19-6924] IPCACHE: Running cache check for IP inst: mixer_ddc_axi_dma_0_1
+INFO: [IP_Flow 19-6924] IPCACHE: Running cache check for IP inst: mixer_ddc_system_ila_1_1
+INFO: [IP_Flow 19-6924] IPCACHE: Running cache check for IP inst: mixer_ddc_zynq_ultra_ps_e_0_1
+INFO: [IP_Flow 19-6924] IPCACHE: Running cache check for IP inst: mixer_ddc_axis_decimate2_0_1
+INFO: [IP_Flow 19-6924] IPCACHE: Running cache check for IP inst: mixer_ddc_axis_decimate2_1_1
+INFO: [IP_Flow 19-6924] IPCACHE: Running cache check for IP inst: mixer_ddc_axis_halfband_fir_0_1
+INFO: [IP_Flow 19-6924] IPCACHE: Running cache check for IP inst: mixer_ddc_axis_halfband_fir_1_1
+INFO: [IP_Flow 19-6924] IPCACHE: Running cache check for IP inst: mixer_ddc_axis_mixer_down_0_1
+INFO: [IP_Flow 19-6924] IPCACHE: Running cache check for IP inst: mixer_ddc_blk_mem_gen_0_1
+INFO: [IP_Flow 19-6924] IPCACHE: Running cache check for IP inst: mixer_ddc_proc_sys_reset_0_1
+INFO: [IP_Flow 19-6924] IPCACHE: Running cache check for IP inst: mixer_ddc_smartconnect_0_1
+INFO: [IP_Flow 19-6924] IPCACHE: Running cache check for IP inst: mixer_ddc_system_ila_0_1
+CRITICAL WARNING: [filemgmt 56-176] Module references are not supported in manual compile order mode and will be ignored.
+CRITICAL WARNING: [filemgmt 56-176] Module references are not supported in manual compile order mode and will be ignored.
+CRITICAL WARNING: [filemgmt 56-176] Module references are not supported in manual compile order mode and will be ignored.
+CRITICAL WARNING: [filemgmt 56-176] Module references are not supported in manual compile order mode and will be ignored.
+CRITICAL WARNING: [filemgmt 56-176] Module references are not supported in manual compile order mode and will be ignored.
+CRITICAL WARNING: [filemgmt 56-176] Module references are not supported in manual compile order mode and will be ignored.
+CRITICAL WARNING: [filemgmt 56-176] Module references are not supported in manual compile order mode and will be ignored.
+CRITICAL WARNING: [filemgmt 56-176] Module references are not supported in manual compile order mode and will be ignored.
+CRITICAL WARNING: [filemgmt 56-176] Module references are not supported in manual compile order mode and will be ignored.
+CRITICAL WARNING: [filemgmt 56-176] Module references are not supported in manual compile order mode and will be ignored.
+CRITICAL WARNING: [filemgmt 56-176] Module references are not supported in manual compile order mode and will be ignored.
+CRITICAL WARNING: [filemgmt 56-176] Module references are not supported in manual compile order mode and will be ignored.
+CRITICAL WARNING: [filemgmt 56-176] Module references are not supported in manual compile order mode and will be ignored.
+CRITICAL WARNING: [filemgmt 56-176] Module references are not supported in manual compile order mode and will be ignored.
+CRITICAL WARNING: [filemgmt 56-176] Module references are not supported in manual compile order mode and will be ignored.
+ERROR: [filemgmt 56-587] Failed to resolve reference. Nothing was found in the project to match the name axis_decimate2 Try changing the compile order from manual to automatic. 
+ERROR: [Runs 36-346] File 'd:/FPGA/Vivaldo Project/Digital_Font_End_LTE/Uplink/Mixer_DDC/fpga/mixer_ddc.srcs/sources_1/bd/mixer_ddc/ip/mixer_ddc_axis_decimate2_0_1/mixer_ddc_axis_decimate2_0_1.xci' needed for run contains invalid reference(s).
+add_files -norecurse {{D:/FPGA/Vivaldo Project/Digital_Font_End_LTE/Uplink/DDC/fpga/ddc/ddc.srcs/sources_1/new/axis_decimate2.v}}
+CRITICAL WARNING: [filemgmt 56-176] Module references are not supported in manual compile order mode and will be ignored.
+CRITICAL WARNING: [filemgmt 56-176] Module references are not supported in manual compile order mode and will be ignored.
+CRITICAL WARNING: [filemgmt 56-176] Module references are not supported in manual compile order mode and will be ignored.
+CRITICAL WARNING: [filemgmt 56-176] Module references are not supported in manual compile order mode and will be ignored.
+CRITICAL WARNING: [filemgmt 56-176] Module references are not supported in manual compile order mode and will be ignored.
+CRITICAL WARNING: [filemgmt 56-176] Module references are not supported in manual compile order mode and will be ignored.
+CRITICAL WARNING: [filemgmt 56-176] Module references are not supported in manual compile order mode and will be ignored.
+CRITICAL WARNING: [filemgmt 56-176] Module references are not supported in manual compile order mode and will be ignored.
+CRITICAL WARNING: [filemgmt 56-176] Module references are not supported in manual compile order mode and will be ignored.
+CRITICAL WARNING: [filemgmt 56-176] Module references are not supported in manual compile order mode and will be ignored.
+CRITICAL WARNING: [filemgmt 56-176] Module references are not supported in manual compile order mode and will be ignored.
+CRITICAL WARNING: [filemgmt 56-176] Module references are not supported in manual compile order mode and will be ignored.
+CRITICAL WARNING: [filemgmt 56-176] Module references are not supported in manual compile order mode and will be ignored.
+CRITICAL WARNING: [filemgmt 56-176] Module references are not supported in manual compile order mode and will be ignored.
+CRITICAL WARNING: [filemgmt 56-176] Module references are not supported in manual compile order mode and will be ignored.
+open_bd_design {D:/FPGA/Vivaldo Project/Digital_Font_End_LTE/Uplink/Mixer_DDC/fpga/mixer_ddc.srcs/sources_1/bd/mixer_ddc/mixer_ddc.bd}
+reset_target all [get_files  {{D:/FPGA/Vivaldo Project/Digital_Font_End_LTE/Uplink/Mixer_DDC/fpga/mixer_ddc.srcs/sources_1/bd/mixer_ddc/mixer_ddc.bd}}]
+export_ip_user_files -of_objects  [get_files  {{D:/FPGA/Vivaldo Project/Digital_Font_End_LTE/Uplink/Mixer_DDC/fpga/mixer_ddc.srcs/sources_1/bd/mixer_ddc/mixer_ddc.bd}}] -sync -no_script -force -quiet
+delete_ip_run [get_files -of_objects [get_fileset sources_1] {{D:/FPGA/Vivaldo Project/Digital_Font_End_LTE/Uplink/Mixer_DDC/fpga/mixer_ddc.srcs/sources_1/bd/mixer_ddc/mixer_ddc.bd}}]
+CRITICAL WARNING: [filemgmt 56-176] Module references are not supported in manual compile order mode and will be ignored.
+CRITICAL WARNING: [filemgmt 56-176] Module references are not supported in manual compile order mode and will be ignored.
+CRITICAL WARNING: [filemgmt 56-176] Module references are not supported in manual compile order mode and will be ignored.
+CRITICAL WARNING: [filemgmt 56-176] Module references are not supported in manual compile order mode and will be ignored.
+CRITICAL WARNING: [filemgmt 56-176] Module references are not supported in manual compile order mode and will be ignored.
+CRITICAL WARNING: [filemgmt 56-176] Module references are not supported in manual compile order mode and will be ignored.
+CRITICAL WARNING: [filemgmt 56-176] Module references are not supported in manual compile order mode and will be ignored.
+CRITICAL WARNING: [filemgmt 56-176] Module references are not supported in manual compile order mode and will be ignored.
+CRITICAL WARNING: [filemgmt 56-176] Module references are not supported in manual compile order mode and will be ignored.
+CRITICAL WARNING: [filemgmt 56-176] Module references are not supported in manual compile order mode and will be ignored.
+CRITICAL WARNING: [filemgmt 56-176] Module references are not supported in manual compile order mode and will be ignored.
+CRITICAL WARNING: [filemgmt 56-176] Module references are not supported in manual compile order mode and will be ignored.
+CRITICAL WARNING: [filemgmt 56-176] Module references are not supported in manual compile order mode and will be ignored.
+CRITICAL WARNING: [filemgmt 56-176] Module references are not supported in manual compile order mode and will be ignored.
+CRITICAL WARNING: [filemgmt 56-176] Module references are not supported in manual compile order mode and will be ignored.
+launch_runs impl_1 -to_step write_bitstream -jobs 8
+INFO: [BD 41-1662] The design 'mixer_ddc.bd' is already validated. Therefore parameter propagation will not be re-run.
+WARNING: [BD 41-2384] Width mismatch when connecting pin: '/blk_mem_gen_0/addra'(32) to pin: '/axi_bram_ctrl_0/bram_addr_a'(19) - Only lower order bits will be connected.
+Verilog Output written to : D:/FPGA/Vivaldo Project/Digital_Font_End_LTE/Uplink/Mixer_DDC/fpga/mixer_ddc.gen/sources_1/bd/mixer_ddc/synth/mixer_ddc.v
+WARNING: [BD 41-2384] Width mismatch when connecting pin: '/blk_mem_gen_0/addra'(32) to pin: '/axi_bram_ctrl_0/bram_addr_a'(19) - Only lower order bits will be connected.
+Verilog Output written to : D:/FPGA/Vivaldo Project/Digital_Font_End_LTE/Uplink/Mixer_DDC/fpga/mixer_ddc.gen/sources_1/bd/mixer_ddc/sim/mixer_ddc.v
+Verilog Output written to : D:/FPGA/Vivaldo Project/Digital_Font_End_LTE/Uplink/Mixer_DDC/fpga/mixer_ddc.gen/sources_1/bd/mixer_ddc/hdl/mixer_ddc_wrapper.v
+INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_bram_ctrl_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_dma_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block axis_decimate2_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block axis_decimate2_1 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block axis_halfband_fir_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block axis_halfband_fir_1 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block axis_mixer_down_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block blk_mem_gen_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block proc_sys_reset_0 .
+Exporting to file d:/FPGA/Vivaldo Project/Digital_Font_End_LTE/Uplink/Mixer_DDC/fpga/mixer_ddc.gen/sources_1/bd/mixer_ddc/ip/mixer_ddc_smartconnect_0_1/bd_0/hw_handoff/mixer_ddc_smartconnect_0_1.hwh
+Generated Hardware Definition File d:/FPGA/Vivaldo Project/Digital_Font_End_LTE/Uplink/Mixer_DDC/fpga/mixer_ddc.gen/sources_1/bd/mixer_ddc/ip/mixer_ddc_smartconnect_0_1/bd_0/synth/mixer_ddc_smartconnect_0_1.hwdef
+INFO: [BD 41-1029] Generation completed for the IP Integrator block smartconnect_0 .
+WARNING: [IP_Flow 19-4994] Overwriting existing constraint file 'd:/FPGA/Vivaldo Project/Digital_Font_End_LTE/Uplink/Mixer_DDC/fpga/mixer_ddc.gen/sources_1/bd/mixer_ddc/ip/mixer_ddc_system_ila_0_1/mixer_ddc_system_ila_0_1_ooc.xdc'
+Exporting to file d:/FPGA/Vivaldo Project/Digital_Font_End_LTE/Uplink/Mixer_DDC/fpga/mixer_ddc.gen/sources_1/bd/mixer_ddc/ip/mixer_ddc_system_ila_0_1/bd_0/hw_handoff/mixer_ddc_system_ila_0_1.hwh
+Generated Hardware Definition File d:/FPGA/Vivaldo Project/Digital_Font_End_LTE/Uplink/Mixer_DDC/fpga/mixer_ddc.gen/sources_1/bd/mixer_ddc/ip/mixer_ddc_system_ila_0_1/bd_0/synth/mixer_ddc_system_ila_0_1.hwdef
+INFO: [BD 41-1029] Generation completed for the IP Integrator block system_ila_0 .
+WARNING: [IP_Flow 19-4994] Overwriting existing constraint file 'd:/FPGA/Vivaldo Project/Digital_Font_End_LTE/Uplink/Mixer_DDC/fpga/mixer_ddc.gen/sources_1/bd/mixer_ddc/ip/mixer_ddc_system_ila_1_1/mixer_ddc_system_ila_1_1_ooc.xdc'
+Exporting to file d:/FPGA/Vivaldo Project/Digital_Font_End_LTE/Uplink/Mixer_DDC/fpga/mixer_ddc.gen/sources_1/bd/mixer_ddc/ip/mixer_ddc_system_ila_1_1/bd_0/hw_handoff/mixer_ddc_system_ila_1_1.hwh
+Generated Hardware Definition File d:/FPGA/Vivaldo Project/Digital_Font_End_LTE/Uplink/Mixer_DDC/fpga/mixer_ddc.gen/sources_1/bd/mixer_ddc/ip/mixer_ddc_system_ila_1_1/bd_0/synth/mixer_ddc_system_ila_1_1.hwdef
+INFO: [BD 41-1029] Generation completed for the IP Integrator block system_ila_1 .
+INFO: [xilinx.com:ip:zynq_ultra_ps_e:3.4-0] mixer_ddc_zynq_ultra_ps_e_0_1: 
+Changes in your design (including the PCW configuration settings) are not automatically exported from Vivado to Xilinx's SDK, Petalinux or Yocto.
+This is by design to avoid disrupting existing embedded development efforts. To have any changes of your design taking effect in the embedded software flow please export your
+design by going through Vivado's main menu, click on File, then Export finally select Export Hardware, please ensure you click on the Include BitStream option.
+The auto-generated HDF file is all you need to import in Xilinx's SDK, Petalinux or Yocto for your changes to be reflected in the Embedded Software Flow.
+For more information, please consult PG201, section: Exporting PCW Settings to Embedded Software Flows
+INFO: [PSU-0] Address Range of DDR (0x7ff00000 to 0x7fffffff) is reserved by PMU for internal purpose.
+INFO: [IP_Flow 19-5611] Unable to find an associated reset port for the interface 'M_AXI_HPM0_FPD'. A default connection has been created.
+INFO: [BD 41-1029] Generation completed for the IP Integrator block zynq_ultra_ps_e_0 .
+Exporting to file D:/FPGA/Vivaldo Project/Digital_Font_End_LTE/Uplink/Mixer_DDC/fpga/mixer_ddc.gen/sources_1/bd/mixer_ddc/hw_handoff/mixer_ddc.hwh
+Generated Hardware Definition File D:/FPGA/Vivaldo Project/Digital_Font_End_LTE/Uplink/Mixer_DDC/fpga/mixer_ddc.gen/sources_1/bd/mixer_ddc/synth/mixer_ddc.hwdef
+INFO: [IP_Flow 19-6930] IPCACHE: runCacheChecks() number of threads = 8
+INFO: [IP_Flow 19-6921] IPCACHE: Adding cache check func to thread queue for IP mixer_ddc_axi_bram_ctrl_0_1
+INFO: [IP_Flow 19-6921] IPCACHE: Adding cache check func to thread queue for IP mixer_ddc_axi_dma_0_1
+INFO: [IP_Flow 19-6921] IPCACHE: Adding cache check func to thread queue for IP mixer_ddc_axis_decimate2_0_1
+INFO: [IP_Flow 19-6921] IPCACHE: Adding cache check func to thread queue for IP mixer_ddc_axis_decimate2_1_1
+INFO: [IP_Flow 19-6921] IPCACHE: Adding cache check func to thread queue for IP mixer_ddc_axis_halfband_fir_0_1
+INFO: [IP_Flow 19-6921] IPCACHE: Adding cache check func to thread queue for IP mixer_ddc_axis_halfband_fir_1_1
+INFO: [IP_Flow 19-6921] IPCACHE: Adding cache check func to thread queue for IP mixer_ddc_axis_mixer_down_0_1
+INFO: [IP_Flow 19-6921] IPCACHE: Adding cache check func to thread queue for IP mixer_ddc_blk_mem_gen_0_1
+INFO: [IP_Flow 19-6921] IPCACHE: Adding cache check func to thread queue for IP mixer_ddc_proc_sys_reset_0_1
+INFO: [IP_Flow 19-6921] IPCACHE: Adding cache check func to thread queue for IP mixer_ddc_smartconnect_0_1
+INFO: [IP_Flow 19-6921] IPCACHE: Adding cache check func to thread queue for IP mixer_ddc_system_ila_0_1
+INFO: [IP_Flow 19-6921] IPCACHE: Adding cache check func to thread queue for IP mixer_ddc_system_ila_1_1
+INFO: [IP_Flow 19-6921] IPCACHE: Adding cache check func to thread queue for IP mixer_ddc_zynq_ultra_ps_e_0_1
+INFO: [IP_Flow 19-8020] IPCACHE: runCacheChecks() calling threadPool finishWork()
+INFO: [IP_Flow 19-6924] IPCACHE: Running cache check for IP inst: mixer_ddc_axi_bram_ctrl_0_1
+INFO: [IP_Flow 19-6924] IPCACHE: Running cache check for IP inst: mixer_ddc_axi_dma_0_1
+INFO: [IP_Flow 19-6924] IPCACHE: Running cache check for IP inst: mixer_ddc_system_ila_1_1
+INFO: [IP_Flow 19-6924] IPCACHE: Running cache check for IP inst: mixer_ddc_zynq_ultra_ps_e_0_1
+INFO: [IP_Flow 19-6924] IPCACHE: Running cache check for IP inst: mixer_ddc_axis_decimate2_0_1
+INFO: [IP_Flow 19-6924] IPCACHE: Running cache check for IP inst: mixer_ddc_axis_decimate2_1_1
+INFO: [IP_Flow 19-6924] IPCACHE: Running cache check for IP inst: mixer_ddc_axis_halfband_fir_0_1
+INFO: [IP_Flow 19-6924] IPCACHE: Running cache check for IP inst: mixer_ddc_axis_halfband_fir_1_1
+INFO: [IP_Flow 19-6924] IPCACHE: Running cache check for IP inst: mixer_ddc_axis_mixer_down_0_1
+INFO: [IP_Flow 19-6924] IPCACHE: Running cache check for IP inst: mixer_ddc_blk_mem_gen_0_1
+INFO: [IP_Flow 19-6924] IPCACHE: Running cache check for IP inst: mixer_ddc_proc_sys_reset_0_1
+INFO: [IP_Flow 19-6924] IPCACHE: Running cache check for IP inst: mixer_ddc_smartconnect_0_1
+INFO: [IP_Flow 19-6924] IPCACHE: Running cache check for IP inst: mixer_ddc_system_ila_0_1
+CRITICAL WARNING: [filemgmt 56-176] Module references are not supported in manual compile order mode and will be ignored.
+CRITICAL WARNING: [filemgmt 56-176] Module references are not supported in manual compile order mode and will be ignored.
+CRITICAL WARNING: [filemgmt 56-176] Module references are not supported in manual compile order mode and will be ignored.
+CRITICAL WARNING: [filemgmt 56-176] Module references are not supported in manual compile order mode and will be ignored.
+CRITICAL WARNING: [filemgmt 56-176] Module references are not supported in manual compile order mode and will be ignored.
+CRITICAL WARNING: [filemgmt 56-176] Module references are not supported in manual compile order mode and will be ignored.
+CRITICAL WARNING: [filemgmt 56-176] Module references are not supported in manual compile order mode and will be ignored.
+CRITICAL WARNING: [filemgmt 56-176] Module references are not supported in manual compile order mode and will be ignored.
+CRITICAL WARNING: [filemgmt 56-176] Module references are not supported in manual compile order mode and will be ignored.
+CRITICAL WARNING: [filemgmt 56-176] Module references are not supported in manual compile order mode and will be ignored.
+CRITICAL WARNING: [filemgmt 56-176] Module references are not supported in manual compile order mode and will be ignored.
+CRITICAL WARNING: [filemgmt 56-176] Module references are not supported in manual compile order mode and will be ignored.
+CRITICAL WARNING: [filemgmt 56-176] Module references are not supported in manual compile order mode and will be ignored.
+CRITICAL WARNING: [filemgmt 56-176] Module references are not supported in manual compile order mode and will be ignored.
+CRITICAL WARNING: [filemgmt 56-176] Module references are not supported in manual compile order mode and will be ignored.
+ERROR: [filemgmt 56-587] Failed to resolve reference. Nothing was found in the project to match the name axis_decimate2 Try changing the compile order from manual to automatic. 
+ERROR: [Runs 36-346] File 'd:/FPGA/Vivaldo Project/Digital_Font_End_LTE/Uplink/Mixer_DDC/fpga/mixer_ddc.srcs/sources_1/bd/mixer_ddc/ip/mixer_ddc_axis_decimate2_0_1/mixer_ddc_axis_decimate2_0_1.xci' needed for run contains invalid reference(s).
+validate_bd_design -force
+Excluding slave segment /axi_dma_0/S_AXI_LITE/Reg from address space /axi_dma_0/Data_MM2S.
+Excluding slave segment /axi_dma_0/S_AXI_LITE/Reg from address space /axi_dma_0/Data_S2MM.
+INFO: [xilinx.com:ip:smartconnect:1.0-1] mixer_ddc_smartconnect_0_1: SmartConnect mixer_ddc_smartconnect_0_1 is in High-performance Mode.
+INFO: [Ipptcl 7-1463] No Compatible Board Interface found. Board Tab not created in customize GUI
+WARNING: [BD 41-237] Bus Interface property AWUSER_WIDTH does not match between /axi_bram_ctrl_0/S_AXI(0) and /smartconnect_0/M00_AXI(16)
+WARNING: [BD 41-237] Bus Interface property ARUSER_WIDTH does not match between /axi_bram_ctrl_0/S_AXI(0) and /smartconnect_0/M00_AXI(16)
+CRITICAL WARNING: [filemgmt 56-176] Module references are not supported in manual compile order mode and will be ignored.
+CRITICAL WARNING: [filemgmt 56-176] Module references are not supported in manual compile order mode and will be ignored.
+CRITICAL WARNING: [filemgmt 56-176] Module references are not supported in manual compile order mode and will be ignored.
+CRITICAL WARNING: [filemgmt 56-176] Module references are not supported in manual compile order mode and will be ignored.
+CRITICAL WARNING: [filemgmt 56-176] Module references are not supported in manual compile order mode and will be ignored.
+CRITICAL WARNING: [filemgmt 56-176] Module references are not supported in manual compile order mode and will be ignored.
+CRITICAL WARNING: [filemgmt 56-176] Module references are not supported in manual compile order mode and will be ignored.
+CRITICAL WARNING: [filemgmt 56-176] Module references are not supported in manual compile order mode and will be ignored.
+CRITICAL WARNING: [filemgmt 56-176] Module references are not supported in manual compile order mode and will be ignored.
+CRITICAL WARNING: [filemgmt 56-176] Module references are not supported in manual compile order mode and will be ignored.
+CRITICAL WARNING: [filemgmt 56-176] Module references are not supported in manual compile order mode and will be ignored.
+CRITICAL WARNING: [filemgmt 56-176] Module references are not supported in manual compile order mode and will be ignored.
+CRITICAL WARNING: [filemgmt 56-176] Module references are not supported in manual compile order mode and will be ignored.
+CRITICAL WARNING: [filemgmt 56-176] Module references are not supported in manual compile order mode and will be ignored.
+CRITICAL WARNING: [filemgmt 56-176] Module references are not supported in manual compile order mode and will be ignored.
+delete_bd_objs [get_bd_intf_nets axis_decimate2_0_m_axis] [get_bd_intf_nets axis_halfband_fir_0_m_axis] [get_bd_cells axis_decimate2_0]
+delete_bd_objs [get_bd_intf_nets axis_halfband_fir_1_m_axis] [get_bd_cells axis_halfband_fir_1]
+CRITICAL WARNING: [filemgmt 56-176] Module references are not supported in manual compile order mode and will be ignored.
+CRITICAL WARNING: [filemgmt 56-176] Module references are not supported in manual compile order mode and will be ignored.
+CRITICAL WARNING: [filemgmt 56-176] Module references are not supported in manual compile order mode and will be ignored.
+CRITICAL WARNING: [filemgmt 56-176] Module references are not supported in manual compile order mode and will be ignored.
+CRITICAL WARNING: [filemgmt 56-176] Module references are not supported in manual compile order mode and will be ignored.
+CRITICAL WARNING: [filemgmt 56-176] Module references are not supported in manual compile order mode and will be ignored.
+CRITICAL WARNING: [filemgmt 56-176] Module references are not supported in manual compile order mode and will be ignored.
+CRITICAL WARNING: [filemgmt 56-176] Module references are not supported in manual compile order mode and will be ignored.
+CRITICAL WARNING: [filemgmt 56-176] Module references are not supported in manual compile order mode and will be ignored.
+CRITICAL WARNING: [filemgmt 56-176] Module references are not supported in manual compile order mode and will be ignored.
+CRITICAL WARNING: [filemgmt 56-176] Module references are not supported in manual compile order mode and will be ignored.
+CRITICAL WARNING: [filemgmt 56-176] Module references are not supported in manual compile order mode and will be ignored.
+CRITICAL WARNING: [filemgmt 56-176] Module references are not supported in manual compile order mode and will be ignored.
+CRITICAL WARNING: [filemgmt 56-176] Module references are not supported in manual compile order mode and will be ignored.
+CRITICAL WARNING: [filemgmt 56-176] Module references are not supported in manual compile order mode and will be ignored.
+CRITICAL WARNING: [filemgmt 56-176] Module references are not supported in manual compile order mode and will be ignored.
+CRITICAL WARNING: [filemgmt 56-176] Module references are not supported in manual compile order mode and will be ignored.
+CRITICAL WARNING: [filemgmt 56-176] Module references are not supported in manual compile order mode and will be ignored.
+CRITICAL WARNING: [filemgmt 56-176] Module references are not supported in manual compile order mode and will be ignored.
+CRITICAL WARNING: [filemgmt 56-176] Module references are not supported in manual compile order mode and will be ignored.
+CRITICAL WARNING: [filemgmt 56-176] Module references are not supported in manual compile order mode and will be ignored.
+CRITICAL WARNING: [filemgmt 56-176] Module references are not supported in manual compile order mode and will be ignored.
+CRITICAL WARNING: [filemgmt 56-176] Module references are not supported in manual compile order mode and will be ignored.
+CRITICAL WARNING: [filemgmt 56-176] Module references are not supported in manual compile order mode and will be ignored.
+CRITICAL WARNING: [filemgmt 56-176] Module references are not supported in manual compile order mode and will be ignored.
+CRITICAL WARNING: [filemgmt 56-176] Module references are not supported in manual compile order mode and will be ignored.
+CRITICAL WARNING: [filemgmt 56-176] Module references are not supported in manual compile order mode and will be ignored.
+CRITICAL WARNING: [filemgmt 56-176] Module references are not supported in manual compile order mode and will be ignored.
+CRITICAL WARNING: [filemgmt 56-176] Module references are not supported in manual compile order mode and will be ignored.
+CRITICAL WARNING: [filemgmt 56-176] Module references are not supported in manual compile order mode and will be ignored.
+delete_bd_objs [get_bd_cells axis_decimate2_1]
+CRITICAL WARNING: [filemgmt 56-176] Module references are not supported in manual compile order mode and will be ignored.
+CRITICAL WARNING: [filemgmt 56-176] Module references are not supported in manual compile order mode and will be ignored.
+CRITICAL WARNING: [filemgmt 56-176] Module references are not supported in manual compile order mode and will be ignored.
+CRITICAL WARNING: [filemgmt 56-176] Module references are not supported in manual compile order mode and will be ignored.
+CRITICAL WARNING: [filemgmt 56-176] Module references are not supported in manual compile order mode and will be ignored.
+CRITICAL WARNING: [filemgmt 56-176] Module references are not supported in manual compile order mode and will be ignored.
+CRITICAL WARNING: [filemgmt 56-176] Module references are not supported in manual compile order mode and will be ignored.
+CRITICAL WARNING: [filemgmt 56-176] Module references are not supported in manual compile order mode and will be ignored.
+CRITICAL WARNING: [filemgmt 56-176] Module references are not supported in manual compile order mode and will be ignored.
+CRITICAL WARNING: [filemgmt 56-176] Module references are not supported in manual compile order mode and will be ignored.
+CRITICAL WARNING: [filemgmt 56-176] Module references are not supported in manual compile order mode and will be ignored.
+CRITICAL WARNING: [filemgmt 56-176] Module references are not supported in manual compile order mode and will be ignored.
+CRITICAL WARNING: [filemgmt 56-176] Module references are not supported in manual compile order mode and will be ignored.
+CRITICAL WARNING: [filemgmt 56-176] Module references are not supported in manual compile order mode and will be ignored.
+CRITICAL WARNING: [filemgmt 56-176] Module references are not supported in manual compile order mode and will be ignored.
+delete_bd_objs [get_bd_cells axis_halfband_fir_0]
+CRITICAL WARNING: [filemgmt 56-176] Module references are not supported in manual compile order mode and will be ignored.
+CRITICAL WARNING: [filemgmt 56-176] Module references are not supported in manual compile order mode and will be ignored.
+CRITICAL WARNING: [filemgmt 56-176] Module references are not supported in manual compile order mode and will be ignored.
+CRITICAL WARNING: [filemgmt 56-176] Module references are not supported in manual compile order mode and will be ignored.
+CRITICAL WARNING: [filemgmt 56-176] Module references are not supported in manual compile order mode and will be ignored.
+CRITICAL WARNING: [filemgmt 56-176] Module references are not supported in manual compile order mode and will be ignored.
+CRITICAL WARNING: [filemgmt 56-176] Module references are not supported in manual compile order mode and will be ignored.
+CRITICAL WARNING: [filemgmt 56-176] Module references are not supported in manual compile order mode and will be ignored.
+CRITICAL WARNING: [filemgmt 56-176] Module references are not supported in manual compile order mode and will be ignored.
+CRITICAL WARNING: [filemgmt 56-176] Module references are not supported in manual compile order mode and will be ignored.
+CRITICAL WARNING: [filemgmt 56-176] Module references are not supported in manual compile order mode and will be ignored.
+CRITICAL WARNING: [filemgmt 56-176] Module references are not supported in manual compile order mode and will be ignored.
+CRITICAL WARNING: [filemgmt 56-176] Module references are not supported in manual compile order mode and will be ignored.
+CRITICAL WARNING: [filemgmt 56-176] Module references are not supported in manual compile order mode and will be ignored.
+CRITICAL WARNING: [filemgmt 56-176] Module references are not supported in manual compile order mode and will be ignored.
+set_property source_mgmt_mode All [current_project]
+update_compile_order -fileset sources_1
+create_bd_cell -type module -reference axis_halfband_fir axis_halfband_fir_0
+add_files -norecurse {{D:/FPGA/Vivaldo Project/Digital_Font_End_LTE/Uplink/DDC/fpga/ddc/ddc.srcs/sources_1/new/axis_decimate2.v}}
+WARNING: [filemgmt 56-12] File 'D:/FPGA/Vivaldo Project/Digital_Font_End_LTE/Uplink/DDC/fpga/ddc/ddc.srcs/sources_1/new/axis_decimate2.v' cannot be added to the project because it already exists in the project, skipping this file
+export_ip_user_files -of_objects  [get_files {{D:/FPGA/Vivaldo Project/Digital_Font_End_LTE/Uplink/DDC/fpga/ddc/ddc.srcs/sources_1/new/axis_decimate2.v}}] -no_script -reset -force -quiet
+remove_files  {{D:/FPGA/Vivaldo Project/Digital_Font_End_LTE/Uplink/DDC/fpga/ddc/ddc.srcs/sources_1/new/axis_decimate2.v}}
+export_ip_user_files -of_objects  [get_files {{D:/FPGA/Vivaldo Project/Digital_Font_End_LTE/Uplink/Mixer_DDC/fpga/mixer_ddc.srcs/sources_1/new/axis_decimate2.v}}] -no_script -reset -force -quiet
+remove_files  {{D:/FPGA/Vivaldo Project/Digital_Font_End_LTE/Uplink/Mixer_DDC/fpga/mixer_ddc.srcs/sources_1/new/axis_decimate2.v}}
+file delete -force {D:/FPGA/Vivaldo Project/Digital_Font_End_LTE/Uplink/Mixer_DDC/fpga/mixer_ddc.srcs/sources_1/new/axis_decimate2.v}
+add_files -norecurse {{D:/FPGA/Vivaldo Project/Digital_Font_End_LTE/Uplink/DDC/fpga/ddc/ddc.srcs/sources_1/new/axis_decimate2.v}}
+open_bd_design {D:/FPGA/Vivaldo Project/Digital_Font_End_LTE/Uplink/Mixer_DDC/fpga/mixer_ddc.srcs/sources_1/bd/mixer_ddc/mixer_ddc.bd}
+update_compile_order -fileset sources_1
+delete_bd_objs [get_bd_cells axis_halfband_fir_0]
+create_bd_cell -type module -reference axis_halfband_fir axis_halfband_fir_0
+create_bd_cell -type module -reference axis_decimate2 axis_decimate2_0
+create_bd_cell -type module -reference axis_halfband_fir axis_halfband_fir_1
+create_bd_cell -type module -reference axis_halfband_fir axis_halfband_fir_2
+connect_bd_net [get_bd_pins axis_halfband_fir_2/aclk] [get_bd_pins zynq_ultra_ps_e_0/pl_clk0]
+connect_bd_net [get_bd_pins axis_decimate2_0/aclk] [get_bd_pins zynq_ultra_ps_e_0/pl_clk0]
+connect_bd_net [get_bd_pins axis_halfband_fir_1/aclk] [get_bd_pins zynq_ultra_ps_e_0/pl_clk0]
+connect_bd_net [get_bd_pins axis_halfband_fir_0/aclk] [get_bd_pins zynq_ultra_ps_e_0/pl_clk0]
+connect_bd_net [get_bd_pins axis_halfband_fir_2/aresetn] [get_bd_pins proc_sys_reset_0/peripheral_aresetn]
+connect_bd_net [get_bd_pins axis_decimate2_0/aresetn] [get_bd_pins proc_sys_reset_0/peripheral_aresetn]
+connect_bd_net [get_bd_pins axis_halfband_fir_1/aresetn] [get_bd_pins proc_sys_reset_0/peripheral_aresetn]
+connect_bd_net [get_bd_pins axis_halfband_fir_0/aresetn] [get_bd_pins proc_sys_reset_0/peripheral_aresetn]
+connect_bd_intf_net [get_bd_intf_pins axis_halfband_fir_2/s_axis] [get_bd_intf_pins axis_mixer_down_0/m_axis]
+undo
+INFO: [Common 17-17] undo 'connect_bd_intf_net [get_bd_intf_pins axis_halfband_fir_2/s_axis] [get_bd_intf_pins axis_mixer_down_0/m_axis]'
+delete_bd_objs [get_bd_cells axis_halfband_fir_2]
+set_property location {3 865 488} [get_bd_cells axis_halfband_fir_0]
+connect_bd_intf_net [get_bd_intf_pins axis_halfband_fir_0/s_axis] [get_bd_intf_pins axis_mixer_down_0/m_axis]
+connect_bd_intf_net [get_bd_intf_pins axis_halfband_fir_0/m_axis] [get_bd_intf_pins axis_decimate2_0/s_axis]
+connect_bd_intf_net [get_bd_intf_pins axis_decimate2_0/m_axis] [get_bd_intf_pins axis_halfband_fir_1/s_axis]
+create_bd_cell -type module -reference axis_decimate2 axis_decimate2_1
+connect_bd_net [get_bd_pins axis_decimate2_1/aclk] [get_bd_pins zynq_ultra_ps_e_0/pl_clk0]
+connect_bd_net [get_bd_pins axis_decimate2_1/aresetn] [get_bd_pins proc_sys_reset_0/peripheral_aresetn]
+connect_bd_intf_net [get_bd_intf_pins axis_halfband_fir_1/m_axis] [get_bd_intf_pins axis_decimate2_1/s_axis]
+connect_bd_intf_net [get_bd_intf_pins axis_decimate2_1/m_axis] [get_bd_intf_pins axi_dma_0/S_AXIS_S2MM]
+save_bd_design
+Wrote  : <D:\FPGA\Vivaldo Project\Digital_Font_End_LTE\Uplink\Mixer_DDC\fpga\mixer_ddc.srcs\sources_1\bd\mixer_ddc\mixer_ddc.bd> 
+Wrote  : <D:/FPGA/Vivaldo Project/Digital_Font_End_LTE/Uplink/Mixer_DDC/fpga/mixer_ddc.srcs/sources_1/bd/mixer_ddc/ui/bd_35355a0d.ui> 
+update_compile_order -fileset sources_1
+launch_runs impl_1 -to_step write_bitstream -jobs 8
+Excluding slave segment /axi_dma_0/S_AXI_LITE/Reg from address space /axi_dma_0/Data_MM2S.
+Excluding slave segment /axi_dma_0/S_AXI_LITE/Reg from address space /axi_dma_0/Data_S2MM.
+Excluding slave segment /axi_dma_0/S_AXI_LITE/Reg from address space /axi_dma_0/Data_MM2S.
+Excluding slave segment /axi_dma_0/S_AXI_LITE/Reg from address space /axi_dma_0/Data_S2MM.
+INFO: [xilinx.com:ip:smartconnect:1.0-1] mixer_ddc_smartconnect_0_1: SmartConnect mixer_ddc_smartconnect_0_1 is in High-performance Mode.
+INFO: [Ipptcl 7-1463] No Compatible Board Interface found. Board Tab not created in customize GUI
+Excluding slave segment /axi_dma_0/S_AXI_LITE/Reg from address space /axi_dma_0/Data_MM2S.
+Excluding slave segment /axi_dma_0/S_AXI_LITE/Reg from address space /axi_dma_0/Data_S2MM.
+WARNING: [BD 41-237] Bus Interface property AWUSER_WIDTH does not match between /axi_bram_ctrl_0/S_AXI(0) and /smartconnect_0/M00_AXI(16)
+WARNING: [BD 41-237] Bus Interface property ARUSER_WIDTH does not match between /axi_bram_ctrl_0/S_AXI(0) and /smartconnect_0/M00_AXI(16)
+Wrote  : <D:\FPGA\Vivaldo Project\Digital_Font_End_LTE\Uplink\Mixer_DDC\fpga\mixer_ddc.srcs\sources_1\bd\mixer_ddc\mixer_ddc.bd> 
+WARNING: [BD 41-2384] Width mismatch when connecting pin: '/blk_mem_gen_0/addra'(32) to pin: '/axi_bram_ctrl_0/bram_addr_a'(19) - Only lower order bits will be connected.
+Verilog Output written to : D:/FPGA/Vivaldo Project/Digital_Font_End_LTE/Uplink/Mixer_DDC/fpga/mixer_ddc.gen/sources_1/bd/mixer_ddc/synth/mixer_ddc.v
+WARNING: [BD 41-2384] Width mismatch when connecting pin: '/blk_mem_gen_0/addra'(32) to pin: '/axi_bram_ctrl_0/bram_addr_a'(19) - Only lower order bits will be connected.
+Verilog Output written to : D:/FPGA/Vivaldo Project/Digital_Font_End_LTE/Uplink/Mixer_DDC/fpga/mixer_ddc.gen/sources_1/bd/mixer_ddc/sim/mixer_ddc.v
+Verilog Output written to : D:/FPGA/Vivaldo Project/Digital_Font_End_LTE/Uplink/Mixer_DDC/fpga/mixer_ddc.gen/sources_1/bd/mixer_ddc/hdl/mixer_ddc_wrapper.v
+Exporting to file d:/FPGA/Vivaldo Project/Digital_Font_End_LTE/Uplink/Mixer_DDC/fpga/mixer_ddc.gen/sources_1/bd/mixer_ddc/ip/mixer_ddc_smartconnect_0_1/bd_0/hw_handoff/mixer_ddc_smartconnect_0_1.hwh
+Generated Hardware Definition File d:/FPGA/Vivaldo Project/Digital_Font_End_LTE/Uplink/Mixer_DDC/fpga/mixer_ddc.gen/sources_1/bd/mixer_ddc/ip/mixer_ddc_smartconnect_0_1/bd_0/synth/mixer_ddc_smartconnect_0_1.hwdef
+INFO: [BD 41-1029] Generation completed for the IP Integrator block smartconnect_0 .
+WARNING: [IP_Flow 19-4994] Overwriting existing constraint file 'd:/FPGA/Vivaldo Project/Digital_Font_End_LTE/Uplink/Mixer_DDC/fpga/mixer_ddc.gen/sources_1/bd/mixer_ddc/ip/mixer_ddc_system_ila_0_1/mixer_ddc_system_ila_0_1_ooc.xdc'
+Exporting to file d:/FPGA/Vivaldo Project/Digital_Font_End_LTE/Uplink/Mixer_DDC/fpga/mixer_ddc.gen/sources_1/bd/mixer_ddc/ip/mixer_ddc_system_ila_0_1/bd_0/hw_handoff/mixer_ddc_system_ila_0_1.hwh
+Generated Hardware Definition File d:/FPGA/Vivaldo Project/Digital_Font_End_LTE/Uplink/Mixer_DDC/fpga/mixer_ddc.gen/sources_1/bd/mixer_ddc/ip/mixer_ddc_system_ila_0_1/bd_0/synth/mixer_ddc_system_ila_0_1.hwdef
+INFO: [BD 41-1029] Generation completed for the IP Integrator block system_ila_0 .
+WARNING: [IP_Flow 19-4994] Overwriting existing constraint file 'd:/FPGA/Vivaldo Project/Digital_Font_End_LTE/Uplink/Mixer_DDC/fpga/mixer_ddc.gen/sources_1/bd/mixer_ddc/ip/mixer_ddc_system_ila_1_1/mixer_ddc_system_ila_1_1_ooc.xdc'
+Exporting to file d:/FPGA/Vivaldo Project/Digital_Font_End_LTE/Uplink/Mixer_DDC/fpga/mixer_ddc.gen/sources_1/bd/mixer_ddc/ip/mixer_ddc_system_ila_1_1/bd_0/hw_handoff/mixer_ddc_system_ila_1_1.hwh
+Generated Hardware Definition File d:/FPGA/Vivaldo Project/Digital_Font_End_LTE/Uplink/Mixer_DDC/fpga/mixer_ddc.gen/sources_1/bd/mixer_ddc/ip/mixer_ddc_system_ila_1_1/bd_0/synth/mixer_ddc_system_ila_1_1.hwdef
+INFO: [BD 41-1029] Generation completed for the IP Integrator block system_ila_1 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block axis_halfband_fir_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block axis_decimate2_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block axis_halfband_fir_1 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block axis_decimate2_1 .
+Exporting to file D:/FPGA/Vivaldo Project/Digital_Font_End_LTE/Uplink/Mixer_DDC/fpga/mixer_ddc.gen/sources_1/bd/mixer_ddc/hw_handoff/mixer_ddc.hwh
+Generated Hardware Definition File D:/FPGA/Vivaldo Project/Digital_Font_End_LTE/Uplink/Mixer_DDC/fpga/mixer_ddc.gen/sources_1/bd/mixer_ddc/synth/mixer_ddc.hwdef
+INFO: [IP_Flow 19-6930] IPCACHE: runCacheChecks() number of threads = 8
+INFO: [IP_Flow 19-6921] IPCACHE: Adding cache check func to thread queue for IP mixer_ddc_axi_bram_ctrl_0_1
+INFO: [IP_Flow 19-6921] IPCACHE: Adding cache check func to thread queue for IP mixer_ddc_axi_dma_0_1
+INFO: [IP_Flow 19-6921] IPCACHE: Adding cache check func to thread queue for IP mixer_ddc_axis_decimate2_0_2
+INFO: [IP_Flow 19-6921] IPCACHE: Adding cache check func to thread queue for IP mixer_ddc_axis_decimate2_1_2
+INFO: [IP_Flow 19-6921] IPCACHE: Adding cache check func to thread queue for IP mixer_ddc_axis_halfband_fir_0_3
+INFO: [IP_Flow 19-6921] IPCACHE: Adding cache check func to thread queue for IP mixer_ddc_axis_halfband_fir_1_2
+INFO: [IP_Flow 19-6921] IPCACHE: Adding cache check func to thread queue for IP mixer_ddc_blk_mem_gen_0_1
+INFO: [IP_Flow 19-6921] IPCACHE: Adding cache check func to thread queue for IP mixer_ddc_proc_sys_reset_0_1
+INFO: [IP_Flow 19-6921] IPCACHE: Adding cache check func to thread queue for IP mixer_ddc_smartconnect_0_1
+INFO: [IP_Flow 19-6921] IPCACHE: Adding cache check func to thread queue for IP mixer_ddc_system_ila_0_1
+INFO: [IP_Flow 19-6921] IPCACHE: Adding cache check func to thread queue for IP mixer_ddc_system_ila_1_1
+INFO: [IP_Flow 19-6921] IPCACHE: Adding cache check func to thread queue for IP mixer_ddc_zynq_ultra_ps_e_0_1
+INFO: [IP_Flow 19-8020] IPCACHE: runCacheChecks() calling threadPool finishWork()
+INFO: [IP_Flow 19-6924] IPCACHE: Running cache check for IP inst: mixer_ddc_axi_bram_ctrl_0_1
+INFO: [IP_Flow 19-6924] IPCACHE: Running cache check for IP inst: mixer_ddc_axi_dma_0_1
+INFO: [IP_Flow 19-6924] IPCACHE: Running cache check for IP inst: mixer_ddc_zynq_ultra_ps_e_0_1
+INFO: [IP_Flow 19-6924] IPCACHE: Running cache check for IP inst: mixer_ddc_axis_decimate2_0_2
+INFO: [IP_Flow 19-6924] IPCACHE: Running cache check for IP inst: mixer_ddc_axis_decimate2_1_2
+INFO: [IP_Flow 19-6924] IPCACHE: Running cache check for IP inst: mixer_ddc_axis_halfband_fir_0_3
+INFO: [IP_Flow 19-6924] IPCACHE: Running cache check for IP inst: mixer_ddc_axis_halfband_fir_1_2
+INFO: [IP_Flow 19-6924] IPCACHE: Running cache check for IP inst: mixer_ddc_blk_mem_gen_0_1
+INFO: [IP_Flow 19-6924] IPCACHE: Running cache check for IP inst: mixer_ddc_proc_sys_reset_0_1
+INFO: [IP_Flow 19-6924] IPCACHE: Running cache check for IP inst: mixer_ddc_smartconnect_0_1
+INFO: [IP_Flow 19-6924] IPCACHE: Running cache check for IP inst: mixer_ddc_system_ila_0_1
+INFO: [IP_Flow 19-6924] IPCACHE: Running cache check for IP inst: mixer_ddc_system_ila_1_1
+[Wed Jun 17 13:27:20 2026] Launched mixer_ddc_axi_dma_0_1_synth_1, mixer_ddc_axi_bram_ctrl_0_1_synth_1, mixer_ddc_system_ila_0_1_synth_1, mixer_ddc_axis_mixer_down_0_1_synth_1, mixer_ddc_blk_mem_gen_0_1_synth_1, mixer_ddc_proc_sys_reset_0_1_synth_1, mixer_ddc_smartconnect_0_1_synth_1, mixer_ddc_zynq_ultra_ps_e_0_1_synth_1, mixer_ddc_system_ila_1_1_synth_1, mixer_ddc_axis_decimate2_1_2_synth_1, mixer_ddc_axis_halfband_fir_0_3_synth_1, mixer_ddc_axis_decimate2_0_2_synth_1, mixer_ddc_axis_halfband_fir_1_2_synth_1, synth_1...
+Run output will be captured here:
+mixer_ddc_axi_dma_0_1_synth_1: D:/FPGA/Vivaldo Project/Digital_Font_End_LTE/Uplink/Mixer_DDC/fpga/mixer_ddc.runs/mixer_ddc_axi_dma_0_1_synth_1/runme.log
+mixer_ddc_axi_bram_ctrl_0_1_synth_1: D:/FPGA/Vivaldo Project/Digital_Font_End_LTE/Uplink/Mixer_DDC/fpga/mixer_ddc.runs/mixer_ddc_axi_bram_ctrl_0_1_synth_1/runme.log
+mixer_ddc_system_ila_0_1_synth_1: D:/FPGA/Vivaldo Project/Digital_Font_End_LTE/Uplink/Mixer_DDC/fpga/mixer_ddc.runs/mixer_ddc_system_ila_0_1_synth_1/runme.log
+mixer_ddc_axis_mixer_down_0_1_synth_1: D:/FPGA/Vivaldo Project/Digital_Font_End_LTE/Uplink/Mixer_DDC/fpga/mixer_ddc.runs/mixer_ddc_axis_mixer_down_0_1_synth_1/runme.log
+mixer_ddc_blk_mem_gen_0_1_synth_1: D:/FPGA/Vivaldo Project/Digital_Font_End_LTE/Uplink/Mixer_DDC/fpga/mixer_ddc.runs/mixer_ddc_blk_mem_gen_0_1_synth_1/runme.log
+mixer_ddc_proc_sys_reset_0_1_synth_1: D:/FPGA/Vivaldo Project/Digital_Font_End_LTE/Uplink/Mixer_DDC/fpga/mixer_ddc.runs/mixer_ddc_proc_sys_reset_0_1_synth_1/runme.log
+mixer_ddc_smartconnect_0_1_synth_1: D:/FPGA/Vivaldo Project/Digital_Font_End_LTE/Uplink/Mixer_DDC/fpga/mixer_ddc.runs/mixer_ddc_smartconnect_0_1_synth_1/runme.log
+mixer_ddc_zynq_ultra_ps_e_0_1_synth_1: D:/FPGA/Vivaldo Project/Digital_Font_End_LTE/Uplink/Mixer_DDC/fpga/mixer_ddc.runs/mixer_ddc_zynq_ultra_ps_e_0_1_synth_1/runme.log
+mixer_ddc_system_ila_1_1_synth_1: D:/FPGA/Vivaldo Project/Digital_Font_End_LTE/Uplink/Mixer_DDC/fpga/mixer_ddc.runs/mixer_ddc_system_ila_1_1_synth_1/runme.log
+mixer_ddc_axis_decimate2_1_2_synth_1: D:/FPGA/Vivaldo Project/Digital_Font_End_LTE/Uplink/Mixer_DDC/fpga/mixer_ddc.runs/mixer_ddc_axis_decimate2_1_2_synth_1/runme.log
+mixer_ddc_axis_halfband_fir_0_3_synth_1: D:/FPGA/Vivaldo Project/Digital_Font_End_LTE/Uplink/Mixer_DDC/fpga/mixer_ddc.runs/mixer_ddc_axis_halfband_fir_0_3_synth_1/runme.log
+mixer_ddc_axis_decimate2_0_2_synth_1: D:/FPGA/Vivaldo Project/Digital_Font_End_LTE/Uplink/Mixer_DDC/fpga/mixer_ddc.runs/mixer_ddc_axis_decimate2_0_2_synth_1/runme.log
+mixer_ddc_axis_halfband_fir_1_2_synth_1: D:/FPGA/Vivaldo Project/Digital_Font_End_LTE/Uplink/Mixer_DDC/fpga/mixer_ddc.runs/mixer_ddc_axis_halfband_fir_1_2_synth_1/runme.log
+synth_1: D:/FPGA/Vivaldo Project/Digital_Font_End_LTE/Uplink/Mixer_DDC/fpga/mixer_ddc.runs/synth_1/runme.log
+[Wed Jun 17 13:27:20 2026] Launched impl_1...
+Run output will be captured here: D:/FPGA/Vivaldo Project/Digital_Font_End_LTE/Uplink/Mixer_DDC/fpga/mixer_ddc.runs/impl_1/runme.log
+reset_target all [get_files  {{D:/FPGA/Vivaldo Project/Digital_Font_End_LTE/Uplink/Mixer_DDC/fpga/mixer_ddc.srcs/sources_1/bd/mixer_ddc/mixer_ddc.bd}}]
+export_ip_user_files -of_objects  [get_files  {{D:/FPGA/Vivaldo Project/Digital_Font_End_LTE/Uplink/Mixer_DDC/fpga/mixer_ddc.srcs/sources_1/bd/mixer_ddc/mixer_ddc.bd}}] -sync -no_script -force -quiet
+delete_ip_run [get_files -of_objects [get_fileset sources_1] {{D:/FPGA/Vivaldo Project/Digital_Font_End_LTE/Uplink/Mixer_DDC/fpga/mixer_ddc.srcs/sources_1/bd/mixer_ddc/mixer_ddc.bd}}]
+WARNING: [Vivado 12-1017] Problems encountered:
+1. Failed to delete one or more files in run directory D:/FPGA/Vivaldo Project/Digital_Font_End_LTE/Uplink/Mixer_DDC/fpga/mixer_ddc.runs/mixer_ddc_axi_bram_ctrl_0_1_synth_1
+
+WARNING: [Vivado 12-1017] Problems encountered:
+1. Failed to delete one or more files in run directory D:/FPGA/Vivaldo Project/Digital_Font_End_LTE/Uplink/Mixer_DDC/fpga/mixer_ddc.runs/mixer_ddc_axi_dma_0_1_synth_1
+
+WARNING: [Vivado 12-1017] Problems encountered:
+1. Failed to delete one or more files in run directory D:/FPGA/Vivaldo Project/Digital_Font_End_LTE/Uplink/Mixer_DDC/fpga/mixer_ddc.runs/mixer_ddc_axis_mixer_down_0_1_synth_1
+
+WARNING: [Vivado 12-1017] Problems encountered:
+1. Failed to delete one or more files in run directory D:/FPGA/Vivaldo Project/Digital_Font_End_LTE/Uplink/Mixer_DDC/fpga/mixer_ddc.runs/mixer_ddc_blk_mem_gen_0_1_synth_1
+
+set_property synth_checkpoint_mode None [get_files  {{D:/FPGA/Vivaldo Project/Digital_Font_End_LTE/Uplink/Mixer_DDC/fpga/mixer_ddc.srcs/sources_1/bd/mixer_ddc/mixer_ddc.bd}}]
+generate_target all [get_files  {{D:/FPGA/Vivaldo Project/Digital_Font_End_LTE/Uplink/Mixer_DDC/fpga/mixer_ddc.srcs/sources_1/bd/mixer_ddc/mixer_ddc.bd}}]
+INFO: [BD 41-1662] The design 'mixer_ddc.bd' is already validated. Therefore parameter propagation will not be re-run.
+WARNING: [BD 41-2384] Width mismatch when connecting pin: '/blk_mem_gen_0/addra'(32) to pin: '/axi_bram_ctrl_0/bram_addr_a'(19) - Only lower order bits will be connected.
+Verilog Output written to : D:/FPGA/Vivaldo Project/Digital_Font_End_LTE/Uplink/Mixer_DDC/fpga/mixer_ddc.gen/sources_1/bd/mixer_ddc/synth/mixer_ddc.v
+WARNING: [BD 41-2384] Width mismatch when connecting pin: '/blk_mem_gen_0/addra'(32) to pin: '/axi_bram_ctrl_0/bram_addr_a'(19) - Only lower order bits will be connected.
+Verilog Output written to : D:/FPGA/Vivaldo Project/Digital_Font_End_LTE/Uplink/Mixer_DDC/fpga/mixer_ddc.gen/sources_1/bd/mixer_ddc/sim/mixer_ddc.v
+Verilog Output written to : D:/FPGA/Vivaldo Project/Digital_Font_End_LTE/Uplink/Mixer_DDC/fpga/mixer_ddc.gen/sources_1/bd/mixer_ddc/hdl/mixer_ddc_wrapper.v
+INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_bram_ctrl_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_dma_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block axis_mixer_down_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block blk_mem_gen_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block proc_sys_reset_0 .
+Exporting to file d:/FPGA/Vivaldo Project/Digital_Font_End_LTE/Uplink/Mixer_DDC/fpga/mixer_ddc.gen/sources_1/bd/mixer_ddc/ip/mixer_ddc_smartconnect_0_1/bd_0/hw_handoff/mixer_ddc_smartconnect_0_1.hwh
+Generated Hardware Definition File d:/FPGA/Vivaldo Project/Digital_Font_End_LTE/Uplink/Mixer_DDC/fpga/mixer_ddc.gen/sources_1/bd/mixer_ddc/ip/mixer_ddc_smartconnect_0_1/bd_0/synth/mixer_ddc_smartconnect_0_1.hwdef
+INFO: [BD 41-1029] Generation completed for the IP Integrator block smartconnect_0 .
+Exporting to file d:/FPGA/Vivaldo Project/Digital_Font_End_LTE/Uplink/Mixer_DDC/fpga/mixer_ddc.gen/sources_1/bd/mixer_ddc/ip/mixer_ddc_system_ila_0_1/bd_0/hw_handoff/mixer_ddc_system_ila_0_1.hwh
+Generated Hardware Definition File d:/FPGA/Vivaldo Project/Digital_Font_End_LTE/Uplink/Mixer_DDC/fpga/mixer_ddc.gen/sources_1/bd/mixer_ddc/ip/mixer_ddc_system_ila_0_1/bd_0/synth/mixer_ddc_system_ila_0_1.hwdef
+INFO: [BD 41-1029] Generation completed for the IP Integrator block system_ila_0 .
+Exporting to file d:/FPGA/Vivaldo Project/Digital_Font_End_LTE/Uplink/Mixer_DDC/fpga/mixer_ddc.gen/sources_1/bd/mixer_ddc/ip/mixer_ddc_system_ila_1_1/bd_0/hw_handoff/mixer_ddc_system_ila_1_1.hwh
+Generated Hardware Definition File d:/FPGA/Vivaldo Project/Digital_Font_End_LTE/Uplink/Mixer_DDC/fpga/mixer_ddc.gen/sources_1/bd/mixer_ddc/ip/mixer_ddc_system_ila_1_1/bd_0/synth/mixer_ddc_system_ila_1_1.hwdef
+INFO: [BD 41-1029] Generation completed for the IP Integrator block system_ila_1 .
+INFO: [xilinx.com:ip:zynq_ultra_ps_e:3.4-0] mixer_ddc_zynq_ultra_ps_e_0_1: 
+Changes in your design (including the PCW configuration settings) are not automatically exported from Vivado to Xilinx's SDK, Petalinux or Yocto.
+This is by design to avoid disrupting existing embedded development efforts. To have any changes of your design taking effect in the embedded software flow please export your
+design by going through Vivado's main menu, click on File, then Export finally select Export Hardware, please ensure you click on the Include BitStream option.
+The auto-generated HDF file is all you need to import in Xilinx's SDK, Petalinux or Yocto for your changes to be reflected in the Embedded Software Flow.
+For more information, please consult PG201, section: Exporting PCW Settings to Embedded Software Flows
+INFO: [PSU-0] Address Range of DDR (0x7ff00000 to 0x7fffffff) is reserved by PMU for internal purpose.
+INFO: [IP_Flow 19-5611] Unable to find an associated reset port for the interface 'M_AXI_HPM0_FPD'. A default connection has been created.
+INFO: [BD 41-1029] Generation completed for the IP Integrator block zynq_ultra_ps_e_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block axis_halfband_fir_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block axis_decimate2_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block axis_halfband_fir_1 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block axis_decimate2_1 .
+Exporting to file D:/FPGA/Vivaldo Project/Digital_Font_End_LTE/Uplink/Mixer_DDC/fpga/mixer_ddc.gen/sources_1/bd/mixer_ddc/hw_handoff/mixer_ddc.hwh
+Generated Hardware Definition File D:/FPGA/Vivaldo Project/Digital_Font_End_LTE/Uplink/Mixer_DDC/fpga/mixer_ddc.gen/sources_1/bd/mixer_ddc/synth/mixer_ddc.hwdef
+export_ip_user_files -of_objects [get_files {{D:/FPGA/Vivaldo Project/Digital_Font_End_LTE/Uplink/Mixer_DDC/fpga/mixer_ddc.srcs/sources_1/bd/mixer_ddc/mixer_ddc.bd}}] -no_script -sync -force -quiet
+export_simulation -of_objects [get_files {{D:/FPGA/Vivaldo Project/Digital_Font_End_LTE/Uplink/Mixer_DDC/fpga/mixer_ddc.srcs/sources_1/bd/mixer_ddc/mixer_ddc.bd}}] -directory {D:/FPGA/Vivaldo Project/Digital_Font_End_LTE/Uplink/Mixer_DDC/fpga/mixer_ddc.ip_user_files/sim_scripts} -ip_user_files_dir {D:/FPGA/Vivaldo Project/Digital_Font_End_LTE/Uplink/Mixer_DDC/fpga/mixer_ddc.ip_user_files} -ipstatic_source_dir {D:/FPGA/Vivaldo Project/Digital_Font_End_LTE/Uplink/Mixer_DDC/fpga/mixer_ddc.ip_user_files/ipstatic} -lib_map_path [list {modelsim=D:/FPGA/Vivaldo Project/Digital_Font_End_LTE/Uplink/Mixer_DDC/fpga/mixer_ddc.cache/compile_simlib/modelsim} {questa=D:/FPGA/Vivaldo Project/Digital_Font_End_LTE/Uplink/Mixer_DDC/fpga/mixer_ddc.cache/compile_simlib/questa} {riviera=D:/FPGA/Vivaldo Project/Digital_Font_End_LTE/Uplink/Mixer_DDC/fpga/mixer_ddc.cache/compile_simlib/riviera} {activehdl=D:/FPGA/Vivaldo Project/Digital_Font_End_LTE/Uplink/Mixer_DDC/fpga/mixer_ddc.cache/compile_simlib/activehdl}] -use_ip_compiled_libs -force -quiet
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 8
+[Wed Jun 17 13:40:02 2026] Launched synth_1...
+Run output will be captured here: D:/FPGA/Vivaldo Project/Digital_Font_End_LTE/Uplink/Mixer_DDC/fpga/mixer_ddc.runs/synth_1/runme.log
+[Wed Jun 17 13:40:02 2026] Launched impl_1...
+Run output will be captured here: D:/FPGA/Vivaldo Project/Digital_Font_End_LTE/Uplink/Mixer_DDC/fpga/mixer_ddc.runs/impl_1/runme.log
+exit
+INFO: [Common 17-206] Exiting Vivado at Thu Jun 18 09:32:00 2026...
